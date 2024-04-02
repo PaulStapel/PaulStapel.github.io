@@ -1,0 +1,19 @@
+{{ define "main"}}
+<div class="single">
+   <div class="singleHead">
+      <div class="singleHeadText">
+        <h1 class="singleHeadTitle">{{.Title}}</h1> 
+        <p class="singleHeadDesc">{{.Params.description}}</p>
+        <time>{{ dateFormat .Site.Params.dateFormat .Date }}</time>
+        <div class="singleCategories">
+            {{ range (.GetTerms "categories")}}
+            <a class="singleCategory" href="/about/about">{{ .Name}}</a> 
+            {{end}}
+        </div>
+      </div>
+   </div>
+   <div class="singleBottom">
+    <div class="singleContent">{{.Content}}</div>
+   </div>
+</div>
+{{ end }}
