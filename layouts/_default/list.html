@@ -1,0 +1,25 @@
+{{ define "main" }}
+{{ if eq .RelPermalink "/categories/"}}
+{{ range $.Site.Taxonomies.categories.ByCount }}
+<a href="/categories/{{ .Name }}">
+  # {{ .Name }} <small>({{.Count}})</small>
+</a>
+{{ end }}
+{{ else }}
+<div class="list">
+    {{ range .Paginator.Pages}}
+    {{ if not (in .Params.categories "recipe") }}
+      <div class="listItem">
+          <div class="listItemTexts">
+            <h1 class="listItemTitle">
+                <a href="{{.Permalink}}" class="hoverlink">{{.Title}}</a>
+            </h1>
+            <p class="listItemDesc"> <time><em>{{ dateFormat .Site.Params.dateFormat .Date}}</em></time>  || {{.Params.description}} </p>
+        </div>
+      </div>
+    {{ end }}
+    {{ end }}
+    <!-- {{ template "_internal/pagination.html" . }} -->
+</div>
+{{ end }}
+{{ end }}

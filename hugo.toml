@@ -1,0 +1,12 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = "Paul's Particles"
+
+paginate = inf
+
+[params]
+    dateFormat = "Jan 2, 2006" 
+
+[taxonomies]
+    category = "categories"
+    
