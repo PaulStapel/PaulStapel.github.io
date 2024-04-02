@@ -2,13 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2024-04-02T21:55:47+02:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/categories/</loc>
     <lastmod>2024-04-02T17:59:38+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/recipes/garlic-beans/</loc>
-    <lastmod>2024-04-02T17:59:38+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
     <lastmod>2024-04-02T17:59:38+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/recipe/</loc>
@@ -22,9 +22,6 @@
   </url><url>
     <loc>http://localhost:1313/hello-world/</loc>
     <lastmod>2024-04-02T17:59:14+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/about-me/</loc>
-    <lastmod>2024-04-02T17:53:18+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/setup/</loc>
     <lastmod>2024-04-02T17:51:24+02:00</lastmod>
