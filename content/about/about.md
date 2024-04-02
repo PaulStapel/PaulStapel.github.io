@@ -1,9 +1,7 @@
 +++
 title = 'About me'
-date = 2024-04-02T17:53:18+02:00
+date = 2024-04-02T21:55:47+02:00
 draft = true
-description = "These are some factoids about me."
+description = "This is a page about me <:"
 categories = []
 +++
-
-### Hi, i'm Paul!
