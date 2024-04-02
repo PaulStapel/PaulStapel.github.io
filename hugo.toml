@@ -2,7 +2,7 @@ baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = "Paul's Particles"
 
-paginate = inf
+paginate = 100
 
 [params]
     dateFormat = "Jan 2, 2006" 
