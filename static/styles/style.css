@@ -87,6 +87,8 @@ a{
     border: 0.5px solid #0c0c0c;
     padding: 5px;
     position: relative;
+    margin-left: 10px;
+    margin-right:-5px;
 }
   
 .ball {
@@ -308,28 +310,30 @@ a{
     }
 }
 @media (max-width: 768px) {
+    .site-name{
+        font-size: 15px;
+    }
+
+    .bi{
+        margin-left: 2px;
+        margin-right: 7px;
+    }
     .container{
         max-width: 640px;
-        width: 90%;
     }
 
     .navbar{
-        font-size: 14px;
-
+        font-size: 10px;
     }
+
     .links{
         display: flex;
         align-items: center;
         gap: 20px;
-        font-size: 14px;
+        font-size: 10px;
     }
 }
 @media (max-width: 640px) {
-    .navbar{
-        font-size: 14px;
-
-    }
-    
     .container{
         max-width: 475px;
         width: 90%;
