@@ -11,9 +11,9 @@
     {{ if not (in .Params.categories "recipe") }}
       <div class="listItem">
           <div class="listItemTexts">
-            <h1 class="listItemTitle">
+            <gh1 class="listItemTitle">
                 <a href="{{.Permalink}}" class="hoverlink">{{.Title}}</a>
-            </h1>
+            </gh1>
             <p class="listItemDesc"> <time><em>{{ dateFormat .Site.Params.dateFormat .Date}}</em></time>  || {{.Params.description}} </p>
         </div>
       </div>
