@@ -311,7 +311,7 @@ a{
 }
 @media (max-width: 768px) {
     .site-name{
-        font-size: 15px;
+        font-size: 20px;
     }
 
     .bi{
@@ -330,10 +330,17 @@ a{
         display: flex;
         align-items: center;
         gap: 20px;
-        font-size: 10px;
+        font-size: 15px;
     }
 }
 @media (max-width: 640px) {
+    .links{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        font-size: 10px;
+    }
+
     .container{
         max-width: 475px;
         width: 90%;
