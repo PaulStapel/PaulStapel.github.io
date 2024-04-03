@@ -4,7 +4,7 @@
       <div class="singleHeadText">
         <h1 class="singleHeadTitle">{{.Title}}</h1> 
         <p class="singleHeadDesc">{{.Params.description}}</p>
-        <time>{{ dateFormat .Site.Params.dateFormat .Date }}</time>
+        <time><em>{{ dateFormat .Site.Params.dateFormat .Date }}</em></time>
         <div class="singleCategories">
             {{ range (.GetTerms "categories")}}
             <a class="singleCategory" href={{ .Permalink }}>{{ .Name}}</a> 
