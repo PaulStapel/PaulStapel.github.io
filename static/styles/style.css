@@ -310,6 +310,12 @@ a{
 @media (max-width: 768px) {
     .container{
         max-width: 640px;
+        width: 90%;
+    }
+
+    .navbar{
+        font-size: 14px;
+
     }
     .links{
         display: flex;
@@ -319,8 +325,14 @@ a{
     }
 }
 @media (max-width: 640px) {
+    .navbar{
+        font-size: 14px;
+
+    }
+    
     .container{
         max-width: 475px;
+        width: 90%;
     }
 }
 
