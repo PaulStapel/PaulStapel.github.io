@@ -338,6 +338,10 @@ a{
     }
 }
 @media (max-width: 640px) {
+    .site-name{
+        font-size: 15px;
+    }
+
     .links{
         display: flex;
         align-items: center;
