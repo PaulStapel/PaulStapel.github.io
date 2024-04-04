@@ -261,14 +261,21 @@ a{
 .singleContent h2,
 .singleContent h3{
     margin: 10px 0px;
+    margin-top: 20px;
 }
 
 .singleContent p{
     margin-bottom: 30px;
+    margin-top: 5px;
 }
 
 .singleContent h3{
-    color: var(--bgSoft)
+    color: var(--bgSoft);
+    margin-bottom: 0px;
+}
+
+.singleContent h4{
+    margin: 10px 0px; 
 }
 
 .singleContent a{
