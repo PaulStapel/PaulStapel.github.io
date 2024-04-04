@@ -2,7 +2,7 @@
 title = 'Rice Pudding'
 date = 2024-04-04T15:09:19+02:00
 draft = false
-description = A creamy and sweet rice-pudding recipe"
+description = "A creamy and sweet rice-pudding recipe"
 categories = ["recipe"]
 +++
 

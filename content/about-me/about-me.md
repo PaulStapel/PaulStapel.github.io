@@ -6,4 +6,4 @@ description = "Everthing you need to know about me"
 categories = ["about"]
 +++
 
-### WIP
+Hi there, I'm Paul Stapel.
