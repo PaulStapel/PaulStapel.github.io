@@ -9,6 +9,8 @@
 <div class="list">
     {{ range .Paginator.Pages}}
     {{ if not (in .Params.categories "recipe") }}
+    {{ if not (in .Params.categories "about") }}
+    {{ if not (in .Params.categories "setup") }}
       <div class="listItem">
           <div class="listItemTexts">
             <gh1 class="listItemTitle">
@@ -17,6 +19,8 @@
             <p class="listItemDesc"> <time><em>{{ dateFormat .Site.Params.dateFormat .Date}}</em></time>  || {{.Params.description}} </p>
         </div>
       </div>
+    {{ end }}
+    {{ end }}
     {{ end }}
     {{ end }}
     <!-- {{ template "_internal/pagination.html" . }} -->
