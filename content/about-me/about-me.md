@@ -6,7 +6,7 @@ description = "Bachelor Student in Physics, Mathematics & Computer Science"
 categories = ["about"]
 +++
 
-Hiya, I'm Paul! I'm a student-writer-tutor-programmer hybrid specializing in science. This website is my first public project, and I look forward to sharing more of my work in the future. Nonetheless, you can find a lot of information about me on this page. 
+Hiya, I'm Paul! I'm a student-writer-tutor-programmer hybrid specializing in science. This website is my first public project, and I look forward to sharing more of my work in the future. Nonetheless, you can find everything you need to know about me on this page. 
 
 ### Currently working on
 I'm currently following four courses at Utrecht University: 
@@ -54,6 +54,6 @@ The skills one invests their time in can tell you a lot about someone.
  Soft-skills always sounds very subjective to me. If I had asses myself however, I would say that I'm organized, articulate and astute. 
 
 ### Reach out
-If you want to reach out, you can currently contact me at <dndpaul88@gmail.com>. I will be making myself easier to reach in the future, so stay tuned. 
+If you want to reach out, you can currently contact me at <contact@phyzards.com>. I will be making myself easier to reach in the future, so stay tuned. 
 
 Me and my brother also have a wordpress site about Physics. If you want to check it out, [here's the link!](https://phyzards.com). You can also reach me there. 
