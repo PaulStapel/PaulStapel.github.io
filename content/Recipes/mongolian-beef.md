@@ -33,7 +33,7 @@ This recipe makes for a delicious and saucy beef dish. It takes some time to pre
 * Spring onion
 * Onion
 * Bell pepper
-* Dried chili pepper
+* Dried chili pepper (you can remove this if you don't like spicy food)
 
 ### Cooking plan
 * Cut the beef into strips and mix it with the marinade (add the cornstarch at the end) Let it sit for at least 15 minutes, but preferably a few hours. 
