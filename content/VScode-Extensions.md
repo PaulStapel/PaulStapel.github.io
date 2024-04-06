@@ -44,5 +44,4 @@ This is the theme I use for VScode. Theme really does not matter much if you ask
 \
 VScode really is like a Swiss army knife when it comes to text-editors. It has many themes, shortcuts you can customize, and extensions to tailor it to your needs. Besides all of that, it supports almost all major programming languages, making it usable for nearly all my work. Because of all of this, I see myself using it for the forseeable future. 
 
-\
 Signing off, have a lovely day!
