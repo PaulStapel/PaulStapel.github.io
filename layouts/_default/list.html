@@ -16,7 +16,7 @@
             <gh1 class="listItemTitle">
                 <a href="{{.Permalink}}" class="hoverlink">{{.Title}}</a>
             </gh1>
-            <p class="listItemDesc"> <time><em>{{ dateFormat .Site.Params.dateFormat .Date}}</em></time>  || {{.Params.description}} </p>
+            <a class="listItemDesc" href="{{.Permalink}}"> <time><em>{{ dateFormat .Site.Params.dateFormat .Date}}</em></time>  || {{.Params.description}} </a>
         </div>
       </div>
     {{ end }}
