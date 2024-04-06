@@ -6,8 +6,22 @@
     <description>Recent content on Paul&#39;s Particles</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 04 Apr 2024 15:09:19 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 06 Apr 2024 14:03:15 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tzatziki</title>
+      <link>http://localhost:1313/recipes/tzatziki/</link>
+      <pubDate>Sat, 06 Apr 2024 14:03:15 +0200</pubDate>
+      <guid>http://localhost:1313/recipes/tzatziki/</guid>
+      <description>After a trip to Greece, I fell in love with greek cuisine. Of course, you cant say Greek without Tzatziki, and so I will share this easy recipe for this beloved sauce.&#xA;Ingredients Greek yoghurt Garlic Vinegar Olive oil (I like extra virgin) Dill Cucumber Some salt Preparation Finely grate a cucumber and wring out the moisture using a towel. Finely press the garlic, and add it to the yoghurt along with the other ingredients.</description>
+    </item>
+    <item>
+      <title>Mongolian Beef</title>
+      <link>http://localhost:1313/recipes/mongolian-beef/</link>
+      <pubDate>Sat, 06 Apr 2024 10:01:01 +0200</pubDate>
+      <guid>http://localhost:1313/recipes/mongolian-beef/</guid>
+      <description>This recipe makes for a delicious and saucy beef dish. It takes some time to prepare, but is well worth it.&#xA;Ingredients Marinade Beef (I like using cheap steak for this) Shaoxing (Cooking Wine) (Dark) Soy Sauce Oyster sauce Some white pepper A little cooking oil Baking Soda (To tenderize the meat) Cornstarch (To keep the beef moist) Sauce Soy Sauce (light or dark) Sugar Oyster Sauce Shaoxing (To deglaze) A little cornstarch + water to thicken Veggies (for stir-fry) Garlic Ginger Spring onion Onion Bell pepper Dried chili pepper Cooking plan Cut the beef into strips and mix it with the marinade (add the cornstarch at the end) Let it sit for at least 15 minutes, but preferably a few hours.</description>
+    </item>
     <item>
       <title>Rice Pudding</title>
       <link>http://localhost:1313/recipes/rice-pudding/</link>
@@ -23,7 +37,7 @@
       <description>Hiya, I&amp;rsquo;m Paul! I&amp;rsquo;m a student-writer-tutor-programmer hybrid specializing in science. This website is my first public project, and I look forward to sharing more of my work in the future. Nonetheless, you can find everything you need to know about me on this page.&#xA;Currently working on I&amp;rsquo;m currently following four courses at Utrecht University:&#xA;Databases Fluid dynamics Structure of Matter Real Analysis. On the side, I work on this blog and write articles for our student society in de Vakidioot (BEWARE: Dutch!</description>
     </item>
     <item>
-      <title>Set Up</title>
+      <title>Setup</title>
       <link>http://localhost:1313/set-up/set-up/</link>
       <pubDate>Wed, 03 Apr 2024 20:56:45 +0200</pubDate>
       <guid>http://localhost:1313/set-up/set-up/</guid>

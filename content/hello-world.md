@@ -22,6 +22,7 @@ Here are some of the best reasons to blog I can think off.
 * It helps you become more findable online. 
 * It's a place to establish your expertise and authority on a subject. 
 * It's good practice for both your writing and your coding. 
+
 \
 To help with the daunting task of starting a blog, I will write some posts about how I created this website in the future, so stay posted. 
 

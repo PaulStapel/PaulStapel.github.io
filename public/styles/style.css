@@ -1,8 +1,8 @@
 :root{
-    --bg: #0c0c0c;
-    --bgSoft : #720e9e;
-    --text : #3B945E;
-    --textSoft : white;
+    --bg: #101820FF;
+    --bgSoft : #e5e5e5;
+    --text : #EAA823;
+    --textSoft :#088bfc;
 }
 
 *{
@@ -17,10 +17,10 @@ body{
 }
 
 body.light{
-    --bg: #dee4eb;
+    --bg: #e5e5e5;
     --bgSoft : #EAA823;
-    --text: #2C3531;
-    --textSoft : #1557DC;
+    --text: #101820FF;
+    --textSoft : #088bfc;
 }
   
 
