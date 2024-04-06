@@ -5,7 +5,7 @@ draft = false
 description = "My recommendations for VS-code extensions"
 categories = ["Productivity"]
 +++
-As I have stated in my setup-page, I use VScode as my main text editor. I especially like the ability to customize your coding environment with extensions. That's why I will be sharing some of the extension I have found most useful thus far. 
+As I have stated in my setup-page, I use VScode as my main text editor. I especially like the ability to customize your coding environment with extensions. Today, I will share the extensions that really give a boost to my work. 
 
 ### Better Comments
 This first extension allows me to better manage and organize my annotations while coding. When starting comments with alerts (!), questions (?), TODO's (TODO), or important tags (*), this extension automatically colors them to make them stand out more. This makes it so I can more easily find the information I'm looking for, and it has saved me more time than I initially expected. 
