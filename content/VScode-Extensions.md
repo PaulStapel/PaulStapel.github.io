@@ -40,7 +40,8 @@ I hear quite a few people complain about how VScode looks to cluttered to them. 
 ### One Dark Pro
 This is the theme I use for VScode. Theme really does not matter much if you ask me, but people kind of make a big deal out of it sometimes. I find this one to be easy on the eyes, but any theme (yes, even if it's a light theme) is fine as long as you like how it looks. 
 
----
+--- 
+\
 VScode really is like a Swiss army knife when it comes to text-editors. It has many themes, shortcuts you can customize, and extensions to tailor it to your needs. Besides all of that, it supports almost all major programming languages, making it usable for nearly all my work. Because of all of this, I see myself using it for the forseeable future. 
 
 \
