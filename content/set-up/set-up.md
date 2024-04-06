@@ -19,7 +19,7 @@ For my workspace, I sit at an Ikea Lagkapten desk, which I like to keep clean an
 ### Software
 These are software I use on a regular basis. I may write a blog about af few of these, as I've put quite some thought into choosing them. 
 * Apple mail, notes, and Safari (I enjoy the simplicity of these apps)
-* VScode (My favorite IDE because of the ease of customization it provides)
+* VScode (My favorite text editor because of the ease of customization it provides)
 * Github (Because I have to share my code with fellow students quite often) 
 * Google Calendar (I really like the UI of this calendar-app)
 * Overleaf (For LaTeX collaboration, this is the most intuitive option)
