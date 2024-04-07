@@ -12,12 +12,12 @@ categories = ["recipe"]
 * Garlic
 * Ginger
 * Soy Sauce
-* Oil with a high smoking point (vegetable, peanut, etc.)
+* Butter
 
 ### Cooking plan: 
 
 * First, fry the beans in the oil till they become shriveled and you begin to see some yellow. 
-* Next, in a new pan, heat up the garlic, ginger and soy sauce. Go easy on the soy sauce. 
+* Next, in a new pan, add the butter and heat up the garlic, ginger and soy sauce on medium heat. Go easy on the soy sauce. 
 * Finally, add the beans back in and mix them with the sauce.
 
 ### ENJOY!
