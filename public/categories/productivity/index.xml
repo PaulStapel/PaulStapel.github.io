@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Productivity on Paul&#39;s Particles</title>
+    <link>http://localhost:1313/categories/productivity/</link>
+    <description>Recent content in Productivity on Paul&#39;s Particles</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 06 Apr 2024 20:57:18 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/productivity/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>VScode extensions that boost my productivity</title>
+      <link>http://localhost:1313/vscode-extensions/</link>
+      <pubDate>Sat, 06 Apr 2024 20:57:18 +0200</pubDate>
+      <guid>http://localhost:1313/vscode-extensions/</guid>
+      <description>As I have stated in my setup-page, I use VScode as my main text editor. I especially like the ability to customize your coding environment with extensions. Today, I will share the extensions that really give a boost to my work.&#xA;Better Comments This first extension allows me to better manage and organize my annotations while coding. When starting comments with alerts (!), questions (?), TODO&amp;rsquo;s (TODO), or important tags (*), this extension automatically colors them to make them stand out more.</description>
+    </item>
+  </channel>
+</rss>

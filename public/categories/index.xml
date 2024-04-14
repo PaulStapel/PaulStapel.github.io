@@ -6,12 +6,19 @@
     <description>Recent content in Categories on Paul&#39;s Particles</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 06 Apr 2024 14:03:15 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 06 Apr 2024 20:57:18 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Productivity</title>
+      <link>http://localhost:1313/categories/productivity/</link>
+      <pubDate>Sat, 06 Apr 2024 20:57:18 +0200</pubDate>
+      <guid>http://localhost:1313/categories/productivity/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Recipe</title>
       <link>http://localhost:1313/categories/recipe/</link>
-      <pubDate>Sat, 06 Apr 2024 14:03:15 +0200</pubDate>
+      <pubDate>Sat, 06 Apr 2024 18:57:14 +0200</pubDate>
       <guid>http://localhost:1313/categories/recipe/</guid>
       <description></description>
     </item>

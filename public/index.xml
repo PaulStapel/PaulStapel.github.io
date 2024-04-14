@@ -6,8 +6,29 @@
     <description>Recent content on Paul&#39;s Particles</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 06 Apr 2024 14:03:15 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 06 Apr 2024 20:57:18 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>VScode extensions that boost my productivity</title>
+      <link>http://localhost:1313/vscode-extensions/</link>
+      <pubDate>Sat, 06 Apr 2024 20:57:18 +0200</pubDate>
+      <guid>http://localhost:1313/vscode-extensions/</guid>
+      <description>As I have stated in my setup-page, I use VScode as my main text editor. I especially like the ability to customize your coding environment with extensions. Today, I will share the extensions that really give a boost to my work.&#xA;Better Comments This first extension allows me to better manage and organize my annotations while coding. When starting comments with alerts (!), questions (?), TODO&amp;rsquo;s (TODO), or important tags (*), this extension automatically colors them to make them stand out more.</description>
+    </item>
+    <item>
+      <title>Bbq Sauce</title>
+      <link>http://localhost:1313/recipes/bbq-sauce/</link>
+      <pubDate>Sat, 06 Apr 2024 18:57:14 +0200</pubDate>
+      <guid>http://localhost:1313/recipes/bbq-sauce/</guid>
+      <description>I really enjoy this bbq-sauce with pulled pork or as a glaze for spare-ribs.&#xA;Ingredients: Ketchup Worcester Sauce Mustard Vinegar Garlic powder Onion powder Salt, pepper and sugar to taste Cooking plan: Put it all into a pan and stir over low heat. Go easy on the mustard and vinegar. </description>
+    </item>
+    <item>
+      <title>Teriyaki Sauce</title>
+      <link>http://localhost:1313/recipes/teriyaki-sauce/</link>
+      <pubDate>Sat, 06 Apr 2024 18:50:31 +0200</pubDate>
+      <guid>http://localhost:1313/recipes/teriyaki-sauce/</guid>
+      <description>I love eating this sauce with, for example, chicken and noodles.&#xA;Ingredients Sesame seeds (optional, adds flavour and thickens sauce) Soy Sauce Honey Sugar (only a little if you like it less sweet) Garlic powder Grated ginger Sesame oil (optional, ads nice sesame flavours) Mirin cooking wine (optional, ads extra complexity) Some water Cornstarch (Add if you like a thicker sauce) Cooking plan Add all ingredients to a pan, and stir over medium heat until desired taste and texture is achieved.</description>
+    </item>
     <item>
       <title>Tzatziki</title>
       <link>http://localhost:1313/recipes/tzatziki/</link>
@@ -20,7 +41,7 @@
       <link>http://localhost:1313/recipes/mongolian-beef/</link>
       <pubDate>Sat, 06 Apr 2024 10:01:01 +0200</pubDate>
       <guid>http://localhost:1313/recipes/mongolian-beef/</guid>
-      <description>This recipe makes for a delicious and saucy beef dish. It takes some time to prepare, but is well worth it.&#xA;Ingredients Marinade Beef (I like using cheap steak for this) Shaoxing (Cooking Wine) (Dark) Soy Sauce Oyster sauce Some white pepper A little cooking oil Baking Soda (To tenderize the meat) Cornstarch (To keep the beef moist) Sauce Soy Sauce (light or dark) Sugar Oyster Sauce Shaoxing (To deglaze) A little cornstarch + water to thicken Veggies (for stir-fry) Garlic Ginger Spring onion Onion Bell pepper Dried chili pepper Cooking plan Cut the beef into strips and mix it with the marinade (add the cornstarch at the end) Let it sit for at least 15 minutes, but preferably a few hours.</description>
+      <description>This recipe makes for a delicious and saucy beef dish. It takes some time to prepare, but is well worth it.&#xA;Ingredients Marinade Beef (I like using cheap steak for this) Shaoxing (Cooking Wine) (Dark) Soy Sauce Oyster sauce Some white pepper A little cooking oil Baking Soda (To tenderize the meat) Cornstarch (To keep the beef moist) Sauce Soy Sauce (light or dark) Sugar Oyster Sauce Shaoxing (To deglaze) A little cornstarch + water to thicken Veggies (for stir-fry) Garlic Ginger Spring onion Onion Bell pepper Dried chili pepper (you can remove this if you don&amp;rsquo;t like spicy food) Cooking plan Cut the beef into strips and mix it with the marinade (add the cornstarch at the end) Let it sit for at least 15 minutes, but preferably a few hours.</description>
     </item>
     <item>
       <title>Rice Pudding</title>
@@ -34,7 +55,7 @@
       <link>http://localhost:1313/about-me/about-me/</link>
       <pubDate>Wed, 03 Apr 2024 20:59:30 +0200</pubDate>
       <guid>http://localhost:1313/about-me/about-me/</guid>
-      <description>Hiya, I&amp;rsquo;m Paul! I&amp;rsquo;m a student-writer-tutor-programmer hybrid specializing in science. This website is my first public project, and I look forward to sharing more of my work in the future. Nonetheless, you can find everything you need to know about me on this page.&#xA;Currently working on I&amp;rsquo;m currently following four courses at Utrecht University:&#xA;Databases Fluid dynamics Structure of Matter Real Analysis. On the side, I work on this blog and write articles for our student society in de Vakidioot (BEWARE: Dutch!</description>
+      <description>Hiya, I&amp;rsquo;m Paul! I&amp;rsquo;m a student-writer-tutor-programmer hybrid specializing in science. This website is my first public project, and I look forward to sharing more of my work in the future. Nonetheless, you can find everything you need to know about me on this page.&#xA;Currently working on I&amp;rsquo;m currently following four courses at Utrecht University:&#xA;Data structures Electrodynamics Groups and Rings Probability theory On the side, I work on this blog and write articles for our student society in de Vakidioot (BEWARE: Dutch!</description>
     </item>
     <item>
       <title>Setup</title>
@@ -48,7 +69,7 @@
       <link>http://localhost:1313/recipes/garlic-beans/</link>
       <pubDate>Tue, 02 Apr 2024 17:59:38 +0200</pubDate>
       <guid>http://localhost:1313/recipes/garlic-beans/</guid>
-      <description>Ingredients: Green beans Garlic Ginger Soy Sauce Oil with a high smoking point (vegetable, peanut, etc.) Cooking plan: First, fry the beans in the oil till they become shriveled and you begin to see some yellow. Next, in a new pan, heat up the garlic, ginger and soy sauce. Finally, add the beans back in and mix them with the suace. ENJOY! </description>
+      <description>Ingredients: Green beans Garlic Ginger Soy Sauce Butter Cooking plan: First, fry the beans in the oil till they become shriveled and you begin to see some yellow. Next, in a new pan, add the butter and heat up the garlic, ginger and soy sauce on medium heat. Go easy on the soy sauce. Finally, add the beans back in and mix them with the sauce. ENJOY! </description>
     </item>
     <item>
       <title>Hello World</title>
