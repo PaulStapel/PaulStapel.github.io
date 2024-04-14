@@ -10,10 +10,10 @@ Hiya, I'm Paul! I'm a student-writer-tutor-programmer hybrid specializing in sci
 
 ### Currently working on
 I'm currently following four courses at Utrecht University: 
-* Databases 
-* Fluid dynamics 
-* Structure of Matter 
-* Real Analysis. 
+* Data structures
+* Electrodynamics
+* Groups and Rings
+* Probability theory
 
 \
 On the side, I work on this blog and write articles for our student society in [de Vakidioot](https://www.a-eskwadraat.nl/Vereniging/Commissies/vakid/) (BEWARE: Dutch!). 
