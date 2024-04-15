@@ -37,13 +37,29 @@ Tying into the last point, a final pitfall of productive procrastination is how 
 
 
 #### The classic method
+In the most basic case, you would just keep track of whatever you need to get done besides your main project. Then, every time you would get the urge to procrastinate, you can work in these tasks instead. The classic strategy for me would be to have a todo-list filled with both smaller and larger tasks, to then pick up smaller tasks when I feel the need to procrastinate (I.e. I get bored with what I'm currently doing). 
+
+You should aim to make this a habit, and I may share some tips on how to build habits in the future. A tip is to make the productive tasks fun to do. For me, I really like meal-prepping and organizing things, so these tasks are perfect candidates. 
 
 
-#### The side-quest method
+#### The key quest method
+A few months ago, I was thinking about the problem of putting your focus in the wrong place with this method. To fix this, I invented the 'key quest' method. This is my take on gamification of tasks. It works as follows:
+
+- Every day, I would define the tasks I need to get done as normal.
+- Then, I denote the most important must-do-tasks with a key symbol or an exclamation mark.
+- Lastly, I make it so that I can unlock a few of the smaller tasks (side-quests) every time I complete a key quest. Additionally, I can also reward myself with other rewards, like snacks, taking a walk or a cup of tea. 
+
+The way I work, I really enjoy going off on little side activities throughout the week. To make sure I don't overdo this, the key quest method helps me stay on track more. Besides, it helps me stay motivated by rewarding me with more variety of work when I complete tasks. 
+
+Another benefit is that it forces me to focus on only a few tasks at a time. I don't want to think about what to do more than necessary, and having less options through key questing achieves this by making productive procrastination leaner. 
+
+#### The rebound method
+Of course, this key quest method takes a little more effort, and that can make it easier to lose focus if you don't plan anything in advance. An easier approach to make it so that you still achieve your goals is this rebound method. Basically, you work like you normally would, and let yourself do productive approximation when you feel like you need a change of work. The only difference is that when you are done with this procrastination task (which should not take all day off course), you rebound immediately to the most important task that needs to get done. 
+
+In my experience, this is what I do when I don't feel like planning too much of my day. Because motivation is often gained after a little procrastination, I find it easier to get started on big tasks after doing a little task (momentum). This method uses the philosophy of never slipping twice: after doing something you shouldn't, you should always do something you should. 
 
 
-#### The queuing method
-
-
+#### Closing thoughts
+In the end, I find productive procrastination to be a worthwhile method when done properly. It is no entry-level habit, as it can lead to avoidance of tasks, but I find it useful when done right. I always try to experiment with different ways to stay productive, and I absolutely urge you to do the same :)
 
 Signing off, have a lovely day!
