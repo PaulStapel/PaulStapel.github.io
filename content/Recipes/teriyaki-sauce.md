@@ -7,7 +7,7 @@ categories = ["recipe"]
 +++
 I love eating this sauce with, for example, chicken and noodles. 
 
-### Ingredients
+## Ingredients
 * Sesame seeds (optional, adds flavour and thickens sauce)
 * Soy Sauce
 * Honey
@@ -19,5 +19,7 @@ I love eating this sauce with, for example, chicken and noodles.
 * Some water
 * Cornstarch (Add if you like a thicker sauce)
 
-### Cooking plan
+## Cooking plan
 * Add all ingredients to a pan, and stir over medium heat until desired taste and texture is achieved. Go easy on the sesame oil. 
+
+## ENJOY!

@@ -8,7 +8,7 @@ categories = ["recipe"]
 
 After a trip to Greece, I fell in love with greek cuisine. Of course, you cant say Greek without Tzatziki, and so I will share this easy recipe for this beloved sauce.
 
-### Ingredients
+## Ingredients
 * Greek yoghurt
 * Garlic
 * Vinegar 
@@ -17,12 +17,12 @@ After a trip to Greece, I fell in love with greek cuisine. Of course, you cant s
 * Cucumber 
 * Some salt
 
-### Preparation 
+## Preparation 
 * Finely grate a cucumber and wring out the moisture using a towel. 
 * Finely press the garlic, and add it to the yoghurt along with the other ingredients. 
 * Season to taste
 
-### ENJOY!
+## ENJOY!
 
 
 
