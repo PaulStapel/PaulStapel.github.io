@@ -271,11 +271,13 @@ a{
 
 .singleContent h2{
     color: var(--bgSoft);
-    margin-bottom: 0px;
+    margin-bottom: 10px;
 }
 
-.singleContent h4{
-    margin: 10px 0px; 
+.singleContent h3{
+    font-weight: 900;
+    margin: 5px 0px;
+    margin-top: 20px; 
 }
 
 .singleContent a{

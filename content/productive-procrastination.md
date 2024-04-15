@@ -6,12 +6,12 @@ description = "Every thought I've thought on productive procrastination"
 categories = ["Productivity"]
 +++
 
-Productive procrastination is the art of delaying the task you need to get done by doing other (often less important) tasks that need to be done. Now, I've heard many different takes on this habit, and have taken different stances depending through the years. Today, I will break down some of its benefits and problems. I will also discuss some alternative methods. 
+Productive procrastination is the art of delaying the task you need to get done by doing other (often less important) tasks that need to be done. Now, I've heard many different takes on this habit, and have taken different stances through the years. Today, I will break down some of the benefits and problems. I will also discuss some alternative methods. 
 
 ## The good
 
 ### Momentum
-When doing work, you should aim to stay in motion. Once I've been going for a while, I often find myself entering a flow state wherein I lose any sense of time. THIS IS WHAT YOU WANT TO ACHIEVE WHEN DOING PRETTY MUCH ANYTHING. When you stop doing productive work, by checking your socials, or watching funny memes for example, this state is lost as well. In contrast, procrastinating on other productive tasks still lets mee keep some of the momentum I've built up, making it easier to start on my main TODO. 
+When doing work, you should aim to stay in motion. Once I've been going for a while, I often find myself entering a flow state wherein I lose any sense of time. THIS IS WHAT YOU WANT TO ACHIEVE WHEN DOING PRETTY MUCH ANYTHING. When you stop doing productive work, by checking your socials or watching funny memes for example, this state is lost as well. In contrast, procrastinating on other productive tasks still lets mee keep some of the momentum I've built up, making it easier to start on my main TODO. 
 
 ### Easily missed tasks get done
 Keeping a backlog of tasks to procrastinate on helps me clear those pesky tasks that I always seem to forget. These tasks, like cleaning my laptop, organizing my notes or updating my calendar are often perfect for short procrastinations. Without the backlog, these tasks wouldn't be on my radar as often. 
