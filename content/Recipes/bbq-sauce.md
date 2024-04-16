@@ -7,7 +7,7 @@ categories = ["recipe"]
 +++
 I really enjoy this bbq-sauce with pulled pork or as a glaze for spare-ribs.
 
-###= Ingredients:
+### Ingredients:
 * Ketchup
 * Worcester Sauce
 * Mustard

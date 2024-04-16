@@ -1,6 +1,6 @@
 :root{
     --bg: #101820FF;
-    --bgSoft : #e5e5e5;
+    --bgSoft : #EAA823;
     --text : #EAA823;
     --textSoft :#088bfc;
 }
@@ -17,7 +17,7 @@ body{
 }
 
 body.light{
-    --bg: #e5e5e5;
+    --bg: #f6f6f6;
     --bgSoft : #EAA823;
     --text: #101820FF;
     --textSoft : #088bfc;
@@ -83,7 +83,7 @@ a{
     display: flex;
     align-items: center;
     gap: 5px;
-    background-color: var(--text);
+    background-color: var(--textSoft);
     border: 0.5px solid #0c0c0c;
     padding: 5px;
     position: relative;
@@ -254,6 +254,11 @@ a{
     flex: 3;
     font-size: 20px;
     line-height: 32px;
+    color: #f6f6f6;
+}
+
+.light .singleContent{
+    color: var(--text)
 }
 
 .singleContent p,
