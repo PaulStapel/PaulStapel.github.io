@@ -1,5 +1,5 @@
 +++
-title = 'Productive Procrastination; Boon or Bane?'
+title = 'Productive procrastination; boon or bane?'
 date = 2024-04-14T21:43:07+02:00
 draft = false
 description = "Every thought I've thought on productive procrastination"

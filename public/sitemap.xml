@@ -3,10 +3,25 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2024-04-14T21:43:07+02:00</lastmod>
+    <lastmod>2024-04-17T21:17:08+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/general/</loc>
+    <lastmod>2024-04-17T21:17:08+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-04-14T21:43:07+02:00</lastmod>
+    <lastmod>2024-04-17T21:17:08+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/writing-motivation/</loc>
+    <lastmod>2024-04-17T21:17:08+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipes/hoisin-ground-beef/</loc>
+    <lastmod>2024-04-16T10:51:32+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/recipe/</loc>
+    <lastmod>2024-04-16T10:51:32+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipes/</loc>
+    <lastmod>2024-04-16T10:51:32+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/productive-procrastination/</loc>
     <lastmod>2024-04-14T21:43:07+02:00</lastmod>
@@ -18,12 +33,6 @@
     <lastmod>2024-04-06T20:57:18+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/recipes/bbq-sauce/</loc>
-    <lastmod>2024-04-06T18:57:14+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/recipe/</loc>
-    <lastmod>2024-04-06T18:57:14+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/recipes/</loc>
     <lastmod>2024-04-06T18:57:14+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/recipes/teriyaki-sauce/</loc>
@@ -58,9 +67,6 @@
   </url><url>
     <loc>http://localhost:1313/recipes/garlic-beans/</loc>
     <lastmod>2024-04-02T17:59:38+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/general/</loc>
-    <lastmod>2024-04-02T17:59:14+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/hello-world/</loc>
     <lastmod>2024-04-02T17:59:14+02:00</lastmod>

@@ -6,10 +6,17 @@
     <description>Recent content on Paul&#39;s Particles</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 14 Apr 2024 21:43:07 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 16 Apr 2024 10:51:32 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Productive Procrastination; Boon or Bane?</title>
+      <title>Hoisin Ground Beef</title>
+      <link>http://localhost:1313/recipes/hoisin-ground-beef/</link>
+      <pubDate>Tue, 16 Apr 2024 10:51:32 +0200</pubDate>
+      <guid>http://localhost:1313/recipes/hoisin-ground-beef/</guid>
+      <description>This recipe is both simple and delicious. This is easy comfort food for when I don&amp;rsquo;t feel like cooking for too long.&#xA;Ingredients Ground beef Garlic Yellow onion Spring onion Shallots Garden peas (frozen is more than fine) Soy sauce Hoisin sauce Oyster sauce (optional, adds umami) Shaoxing cooking wine (to deglaze) Sesame oil (optional, but it really is a finishing touch) White rice Cooking plan Wash the rice and cook it.</description>
+    </item>
+    <item>
+      <title>Productive procrastination; boon or bane?</title>
       <link>http://localhost:1313/productive-procrastination/</link>
       <pubDate>Sun, 14 Apr 2024 21:43:07 +0200</pubDate>
       <guid>http://localhost:1313/productive-procrastination/</guid>
@@ -79,7 +86,7 @@
       <description>Ingredients: Green beans Garlic Ginger Soy Sauce Butter Cooking plan: First, fry the beans in the oil till they become shriveled and you begin to see some yellow. Next, in a new pan, add the butter and heat up the garlic, ginger and soy sauce on medium heat. Go easy on the soy sauce. Finally, add the beans back in and mix them with the sauce. ENJOY! </description>
     </item>
     <item>
-      <title>Hello World</title>
+      <title>Hello world</title>
       <link>http://localhost:1313/hello-world/</link>
       <pubDate>Tue, 02 Apr 2024 17:59:14 +0200</pubDate>
       <guid>http://localhost:1313/hello-world/</guid>
