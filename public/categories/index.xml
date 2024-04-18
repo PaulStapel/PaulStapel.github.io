@@ -9,10 +9,17 @@
     <lastBuildDate>Wed, 17 Apr 2024 21:17:08 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>General</title>
-      <link>http://localhost:1313/categories/general/</link>
+      <title>Productivity</title>
+      <link>http://localhost:1313/categories/productivity/</link>
       <pubDate>Wed, 17 Apr 2024 21:17:08 +0200</pubDate>
-      <guid>http://localhost:1313/categories/general/</guid>
+      <guid>http://localhost:1313/categories/productivity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Writing</title>
+      <link>http://localhost:1313/categories/writing/</link>
+      <pubDate>Wed, 17 Apr 2024 21:17:08 +0200</pubDate>
+      <guid>http://localhost:1313/categories/writing/</guid>
       <description></description>
     </item>
     <item>
@@ -20,13 +27,6 @@
       <link>http://localhost:1313/categories/recipe/</link>
       <pubDate>Tue, 16 Apr 2024 10:51:32 +0200</pubDate>
       <guid>http://localhost:1313/categories/recipe/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Productivity</title>
-      <link>http://localhost:1313/categories/productivity/</link>
-      <pubDate>Sun, 14 Apr 2024 21:43:07 +0200</pubDate>
-      <guid>http://localhost:1313/categories/productivity/</guid>
       <description></description>
     </item>
     <item>
@@ -41,6 +41,13 @@
       <link>http://localhost:1313/categories/setup/</link>
       <pubDate>Wed, 03 Apr 2024 20:56:45 +0200</pubDate>
       <guid>http://localhost:1313/categories/setup/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>General</title>
+      <link>http://localhost:1313/categories/general/</link>
+      <pubDate>Tue, 02 Apr 2024 17:59:14 +0200</pubDate>
+      <guid>http://localhost:1313/categories/general/</guid>
       <description></description>
     </item>
   </channel>
