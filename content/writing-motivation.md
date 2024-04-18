@@ -1,7 +1,7 @@
 +++
 title = 'How I get motivation to write'
 date = 2024-04-17T21:17:08+02:00
-draft = true
+draft = false
 description = "Some tips on how and why I stay consistent in writing"
 categories = ["writing","Productivity"]
 +++
