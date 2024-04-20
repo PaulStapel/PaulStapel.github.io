@@ -10,13 +10,13 @@ I have to admit, this is a guilty pleasure of mine. I don't make this often, as 
 
 ## Ingredients
 
-## For the meat
+### For the meat
 - Chicken breasts (whole, or already cubed)
 - All purpose flour
 - Cornstarch
 - High smoke-point oil like peanut oil
 
-## For the sauce
+### For the sauce
 - A bunch of oranges (5 per kilo of chicken, more if you like it saucy)
 - Alternatively, you can use orange juice instead of fresh oranges
 - A bit of sugar (If it isn't sweet enough already)
