@@ -1,8 +1,8 @@
 +++
-title = '3D Rotation in Python'
+title = '3D Rotation in Python with quaternions'
 date = 2024-04-20T15:55:07+02:00
 draft = false
-description = "Some simple functions to rotate 3D vectors"
+description = "Why and how you should be using quaternions right now"
 categories = ["python","graphics"]
 math = true
 +++
