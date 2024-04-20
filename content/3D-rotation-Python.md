@@ -4,6 +4,7 @@ date = 2024-04-20T15:55:07+02:00
 draft = false
 description = "Some simple functions to rotate 3D vectors"
 categories = ["python","graphics"]
+math = true
 +++
 
 Today, I wanted to share a bit of code that you can use to rotate any 3D vector using Python. 

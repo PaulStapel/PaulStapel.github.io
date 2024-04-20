@@ -1,4 +1,5 @@
 {{ define "main"}}
+{{ if .Params.math }}{{ partial "helpers/katex.html" . }}{{ end }}
 <div class="single">
    <div class="singleHead">
       <div class="singleHeadText">
