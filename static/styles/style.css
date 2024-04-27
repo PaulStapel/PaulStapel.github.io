@@ -460,3 +460,30 @@ a{
     transform-origin: left;
     transform: scaleX(1);
   }
+
+
+ .copy-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.highlight.pre {
+    /* Your pre styles here */
+    padding: 10px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow-x: auto;
+    font-family: monospace;
+}
+
+.highlight {
+    position: relative;
+}
