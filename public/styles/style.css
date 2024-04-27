@@ -371,6 +371,10 @@ a{
         max-width: 475px;
         width: 90%;
     }
+
+    .highlight{
+        max-width: 475px;
+    }
 }
 
 /* BEGIN 404 ERROR */
