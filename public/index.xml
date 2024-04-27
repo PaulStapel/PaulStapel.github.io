@@ -6,8 +6,29 @@
     <description>Recent content on Paul&#39;s Particles</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 17 Apr 2024 21:17:08 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 20 Apr 2024 21:28:15 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Orange Chicken</title>
+      <link>http://localhost:1313/recipes/orange-chicken/</link>
+      <pubDate>Sat, 20 Apr 2024 21:28:15 +0200</pubDate>
+      <guid>http://localhost:1313/recipes/orange-chicken/</guid>
+      <description>I have to admit, this is a guilty pleasure of mine. I don&amp;rsquo;t make this often, as it can take a bit long to make, but I always enjoy it when I do. If you are looking for a sweet and unique taste, look no further than this recipe. I suggest serving this with white rice.&#xA;Ingredients For the meat Chicken breasts (whole, or already cubed) All purpose flour Cornstarch High smoke-point oil like peanut oil For the sauce A bunch of oranges (5 per kilo of chicken, more if you like it saucy) Alternatively, you can use orange juice instead of fresh oranges A bit of sugar (If it isn&amp;rsquo;t sweet enough already) Soy sauce Garlic powder Ginger (or ginger powder) Cornstarch (to thicken the sauce) Cooking plan Squeeze the oranges and strain the juice.</description>
+    </item>
+    <item>
+      <title>3D Rotation in Python with quaternions</title>
+      <link>http://localhost:1313/3d-rotation-python/</link>
+      <pubDate>Sat, 20 Apr 2024 15:55:07 +0200</pubDate>
+      <guid>http://localhost:1313/3d-rotation-python/</guid>
+      <description>Today, I wanted to share a bit of code that you can use to rotate any 3D vector using Python. If you want to read a bit about how the code works, and why quaternions are useful, keep reading. If you are only interested in the code, I have it in full on my GitHub&#xA;Quickly, what is a quaternion? A quaternion is an extension of the complex numbers into 4 dimensions.</description>
+    </item>
+    <item>
+      <title>Mint Dip</title>
+      <link>http://localhost:1313/recipes/mint-dip/</link>
+      <pubDate>Fri, 19 Apr 2024 21:09:25 +0200</pubDate>
+      <guid>http://localhost:1313/recipes/mint-dip/</guid>
+      <description>So I am looking more into the indian cuisine. To start things off, I made a simple mint dip to eat with a meal, or just to dip naan in.&#xA;Ingredients Yoghurt Mint leaves (dried if fresh isn&amp;rsquo;t available) Lemon juice A clove of garlic Salt and pepper Cooking plan Finely chop the garlic and mint leaves Mix the ingredients to taste ENJOY! </description>
+    </item>
     <item>
       <title>How I get motivation to write</title>
       <link>http://localhost:1313/writing-motivation/</link>

@@ -38,4 +38,3 @@ I have to admit, this is a guilty pleasure of mine. I don't make this often, as 
 - Finally, add back the chicken, and coat it in the sauce. Serve it while it's hot, and try not to let it rest too long, because it will lose its crisp. 
 
 ## ENJOY!
-

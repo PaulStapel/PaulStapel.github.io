@@ -3,12 +3,33 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2024-04-17T21:17:08+02:00</lastmod>
+    <lastmod>2024-04-20T21:28:15+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/writing-motivation/</loc>
-    <lastmod>2024-04-17T21:17:08+02:00</lastmod>
+    <loc>http://localhost:1313/recipes/orange-chicken/</loc>
+    <lastmod>2024-04-20T21:28:15+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
+    <lastmod>2024-04-20T21:28:15+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/recipe/</loc>
+    <lastmod>2024-04-20T21:28:15+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipes/</loc>
+    <lastmod>2024-04-20T21:28:15+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/3d-rotation-python/</loc>
+    <lastmod>2024-04-20T15:55:07+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/graphics/</loc>
+    <lastmod>2024-04-20T15:55:07+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/python/</loc>
+    <lastmod>2024-04-20T15:55:07+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipes/mint-dip/</loc>
+    <lastmod>2024-04-19T21:09:25+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/writing-motivation/</loc>
     <lastmod>2024-04-17T21:17:08+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/productivity/</loc>
@@ -18,12 +39,6 @@
     <lastmod>2024-04-17T21:17:08+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/recipes/hoisin-ground-beef/</loc>
-    <lastmod>2024-04-16T10:51:32+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/recipe/</loc>
-    <lastmod>2024-04-16T10:51:32+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/recipes/</loc>
     <lastmod>2024-04-16T10:51:32+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/productive-procrastination/</loc>

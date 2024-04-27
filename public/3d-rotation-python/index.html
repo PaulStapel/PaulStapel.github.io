@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+    <style>
+    body {
+        font-family: 'Lato';
+    }
+    </style>
+    <title>Paul's Particles</title>
+</head>
+<body>
+    <div class="container">
+      <nav class="navbar">
+  <div class="logo">
+    <a href="/" class="site-name hoverlink">Paul's Particles</a>
+  </div>
+  <div class="links">
+    <div class="toggle">
+      <svg
+        width="20px"
+        height="20px"
+        viewBox="-0.14 0 20.03 20.03"
+        fill="#000000"
+      >
+        <g id="moon-alt" transform="translate(-2.25 -2)">
+          <path
+            id="secondary"
+            fill="#ffe01b"
+            d="M21,12A9,9,0,0,1,3.25,14.13,6.9,6.9,0,0,0,8,16,7,7,0,0,0,11.61,3H12a9,9,0,0,1,9,9Z"
+          ></path>
+        </g>
+      </svg>
+      <div class="ball" ></div>
+      <svg width="20px" height="20px" viewBox="0 0 20 20" fill="#000000">
+        <g id="sun" transform="translate(-2 -2)">
+          <circle
+            id="secondary"
+            fill="#ffe01b"
+            cx="4"
+            cy="4"
+            r="4"
+            transform="translate(8 8)"
+          ></circle>
+          <path
+            id="primary"
+            d="M12,3V4M5.64,5.64l.7.7M3,12H4m1.64,6.36.7-.7M12,21V20m6.36-1.64-.7-.7M21,12H20M18.36,5.64l-.7.7M12,8a4,4,0,1,0,4,4A4,4,0,0,0,12,8Z"
+            fill="none"
+            stroke="#ffe01b"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+          ></path>
+        </g>
+      </svg>
+    </div>
+    <a href="/" class="hoverlink">Homepage</a>
+    
+    <a href="/set-up/set-up" class="hoverlink">Setup</a>
+    <a href="/about-me/about-me" class="hoverlink">About</a>
+    <a href="/categories/recipe/" class="hoverlink">Recipes</a>
+    
+  </div>
+</nav>
+      
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js"></script>
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+            delimiters: [
+                {left: "$$", right: "$$", display: true},
+                {left: "$", right: "$", display: false}
+            ]
+        });
+    });
+</script>
+<div class="single">
+   <div class="singleHead">
+      <div class="singleHeadText">
+        <h1 class="singleHeadTitle">3D Rotation in Python with quaternions</h1> 
+        <p class="singleHeadDesc">Why and how you should be using quaternions right now</p>
+        <time><em>Apr 20, 2024</em></time>
+        <div class="singleCategories">
+            
+            <a class="singleCategory" href=http://localhost:1313/categories/python/>python</a> 
+            
+            <a class="singleCategory" href=http://localhost:1313/categories/graphics/>graphics</a> 
+            
+        </div>
+      </div>
+   </div>
+   <div class="singleBottom">
+    <div class="singleContent"><p>Today, I wanted to share a bit of code that you can use to rotate any 3D vector using Python.
+If you want to read a bit about how the code works, and why quaternions are useful, keep reading. If you are only interested in the code, I have it in full <a href="https://github.com/PaulStapel/quaternions">on my GitHub</a></p>
+<h2 id="quickly-what-is-a-quaternion">Quickly, what is a quaternion?</h2>
+<p>A quaternion is an extension of the complex numbers into 4 dimensions. Just like how you can describe a rotation in 2D using a complex number, a quaternion can describe rotation in 3D. By defining some rules for multiplication ($i^2 = j^2 = k^2 = ijk = -1$), we get certain properties that make rotation very intuitive. See this <a href="https://en.wikipedia.org/wiki/Quaternions_and_spatial_rotation">wikipedia article on quaternions</a> for more details.</p>
+<p>Here, the $ijk$ component of our 4D-vector represent the real $xyz$-axes of our 3D space. We can thus represent any point in space using only the quaternion component of a 4-vector. If you are wondering what the real part is for then, it is basically a tool to represent rotation about some vector in the $ijk$-space, as we will see in the code. For more argumentation for why this is, see <a href="https://www.youtube.com/watch?v=d4EgbgTm0Bg">this video </a> by 3Blue1Brown.</p>
+<p>In general, when given a rotation vector $q$ and some point $v$ you want to rotate, we find that the new location of the point will be given by $v&rsquo; = qv\overline{q}$. We will go over constructing q in a moment. Note that we are basically rotating $v$ twice by $q$ (both the standard and conjugate of $q$). This should be accounted for with the angle we want to rotate by. This rotation always happens right-handedly around $q$.</p>
+<h2 id="why-rotate-using-quaternions">Why rotate using quaternions?</h2>
+<p>To begin with, quaternions are often used within game engines because they provide an easier way to rotate angles. Instead of constructing a matrix, which can sometimes be quite cumbersome, you can simply define the normalised normal vector ($q$) and specify the angle θ. This is often quite intuitive to do. Additionally, computer nerds love runtime and storage efficiency, and it holds true that quaternions work better than matrices in both aspects. Quaternions use 4 numbers for storage (vs 9), and the rotation also requires fewer operations than rotations via Euler angles (rotating through 3 perpendicular circles in 3D). Gimbal locking is also avoided, but because I find that topic incredibly boring, I won&rsquo;t dwell on it further.</p>
+<p>Floating-point errors must also be considered in numerical computations, and you&rsquo;ve probably seen how a game animation can stretch or grow a bit too much due to a bug in the graphics. What often happens here is that your rotation matrix isn&rsquo;t properly normalised, and the floating-point errors gradually accumulate until the animation isn&rsquo;t properly bounded anymore. Normalising a matrix can sometimes be quite annoying, but with a vector like a quaternion, it&rsquo;s much easier to do.</p>
+<p>Finally, we have a super cool advantage from the fact that we can now distinguish rotations in two ways. Rotating clockwise or counterclockwise is permitted because we can choose the orientation of the rotation vector $q$. We&rsquo;ve already seen that it normally rotates in a right-handed manner, but by choosing the vector $−q$, you&rsquo;ll effectively have the same rotation, just counterclockwise. You can easily see that $−qv*−\overline{q}=−(−qv\overline{q})=qv\overline{q}$. The rotation remains the same, but now you have the option to choose how you want to reach the final state. This is incredibly useful for areas like robotics, where, for example, a robot arm can&rsquo;t simply rotate 270 degrees without getting stuck.</p>
+<h2 id="step-by-step-guide">Step by step guide</h2>
+<h3 id="step-1-initialise-your-variables">Step 1: initialise your variables</h3>
+<p>We need 3 things for this code to work. Firstly we define a point or array of points (usually making up some object) represented by vectors that we want to rotate. Next, we need the normal vector to the plane we want to rotate about. Lastly, we need the angle of rotation. We will be using the numpy package for our computations and vectorisation.</p>
+<p>IMPORTANT: As we are multiplying our rotation vector twice, we should have our angle be half the angle we want to actually rotate by.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Python" data-lang="Python"><span style="display:flex;"><span><span style="color:#f92672">import</span> numpy <span style="color:#66d9ef">as</span> np
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>angle <span style="color:#f92672">=</span> actual_angle<span style="color:#f92672">/</span><span style="color:#ae81ff">2</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>point <span style="color:#f92672">=</span> [x, y, z] 
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>normal_vector <span style="color:#f92672">=</span> [x, y, z]
+</span></span></code></pre></div><h3 id="step-2-4d-ify-your-vectors">Step 2: 4D-ify your vectors</h3>
+<p>Having specified our 3D vectors, we will look to turn them into 4D vectors. For our point $v$, we simply add a real part $w$ of 0 at the beginning. Our normal vector should be accounted for using Euler&rsquo;s formula to represent a vector: $$q = e^{(ai+bj+ck)\theta} = cos(\theta) + (ai+bj+ck)*sin(\theta)$$
+Where a, b and c are normalised with magnitude 1. The components a, b and c are given by the x, y and z of our normal_vector of course. Combining this, we can define the following function.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Python" data-lang="Python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">turn_4D</span>(point, normal_vector):
+</span></span><span style="display:flex;"><span>	v <span style="color:#f92672">=</span> [<span style="color:#ae81ff">0</span>, point[<span style="color:#ae81ff">0</span>], point[<span style="color:#ae81ff">1</span>], point[<span style="color:#ae81ff">2</span>]]
+</span></span><span style="display:flex;"><span>	
+</span></span><span style="display:flex;"><span>	np<span style="color:#f92672">.</span>linalg<span style="color:#f92672">.</span>norm(normal_vector)
+</span></span><span style="display:flex;"><span>	q <span style="color:#f92672">=</span> [np<span style="color:#f92672">.</span>cos(angle), normal_vector[<span style="color:#ae81ff">0</span>]<span style="color:#f92672">*</span>np<span style="color:#f92672">.</span>sin(angle),
+</span></span><span style="display:flex;"><span>	normal_vector[<span style="color:#ae81ff">1</span>]<span style="color:#f92672">*</span>np<span style="color:#f92672">.</span>sin(angle), normal_vector[<span style="color:#ae81ff">2</span>]<span style="color:#f92672">*</span>np<span style="color:#f92672">.</span>sin(angle)]
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">return</span> v, q
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>v, q <span style="color:#f92672">=</span> turn4D(point, normal_vector)
+</span></span></code></pre></div><h3 id="step-3-conjugate-q">Step 3: Conjugate q</h3>
+<p>This step is quite self-explanatory. We simply take the quaternion conjugate the same way you would a complex conjugate.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Python" data-lang="Python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">conjugate</span>(q):
+</span></span><span style="display:flex;"><span>	w,x,y,z <span style="color:#f92672">=</span> q
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">return</span> [w, <span style="color:#f92672">-</span>x, <span style="color:#f92672">-</span>y, <span style="color:#f92672">-</span>z]
+</span></span></code></pre></div><h3 id="step-4-define-quaternion-multiplication">Step 4: Define quaternion multiplication</h3>
+<p>Using the rules stated above, you can multiply the quaternions much the same way you would with normal complex numbers. From our multiplicative rules, we eventually derive the three expressions $ij = -ji = k$ , $jk = -kj = i$ and $ki = -ik = j$. From this, I created the following function. You can check for yourself that this holds.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">quaternion_mult</span>(q1, q2):
+</span></span><span style="display:flex;"><span>	w1, x1, y1, z1 <span style="color:#f92672">=</span> q1
+</span></span><span style="display:flex;"><span>	w2, x2, y2, z2 <span style="color:#f92672">=</span> q2
+</span></span><span style="display:flex;"><span>	w <span style="color:#f92672">=</span> w1 <span style="color:#f92672">*</span> w2 <span style="color:#f92672">-</span> x1 <span style="color:#f92672">*</span> x2 <span style="color:#f92672">-</span> y1 <span style="color:#f92672">*</span> y2 <span style="color:#f92672">-</span> z1 <span style="color:#f92672">*</span> z2
+</span></span><span style="display:flex;"><span>    x <span style="color:#f92672">=</span> w1 <span style="color:#f92672">*</span> x2 <span style="color:#f92672">+</span> x1 <span style="color:#f92672">*</span> w2 <span style="color:#f92672">+</span> y1 <span style="color:#f92672">*</span> z2 <span style="color:#f92672">-</span> z1 <span style="color:#f92672">*</span> y2
+</span></span><span style="display:flex;"><span>    y <span style="color:#f92672">=</span> w1 <span style="color:#f92672">*</span> y2 <span style="color:#f92672">+</span> y1 <span style="color:#f92672">*</span> w2 <span style="color:#f92672">+</span> z1 <span style="color:#f92672">*</span> x2 <span style="color:#f92672">-</span> x1 <span style="color:#f92672">*</span> z2
+</span></span><span style="display:flex;"><span>    z <span style="color:#f92672">=</span> w1 <span style="color:#f92672">*</span> z2 <span style="color:#f92672">+</span> z1 <span style="color:#f92672">*</span> w2 <span style="color:#f92672">+</span> x1 <span style="color:#f92672">*</span> y2 <span style="color:#f92672">-</span> y1 <span style="color:#f92672">*</span> x2
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">return</span> [q,x,y,z]
+</span></span></code></pre></div><h3 id="step-5-define-a-function-to-rotate-your-vector-v">Step 5: Define a function to rotate your vector $v$</h3>
+<p>Lastly, we combine all of this to create the following function using $v&rsquo; = qv\overline{q}$</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Python" data-lang="Python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">quaternion_rotation</span>(punt, q):
+</span></span><span style="display:flex;"><span>	sub_product <span style="color:#f92672">=</span> quaternion_mult(q,v)
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">return</span> quaternion_mult(sub_product, conjugate(q))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>v_prime <span style="color:#f92672">=</span> quaternion_rotation(v, q) 
+</span></span></code></pre></div><p>Now, you know how to rotate vectors using quaternions. If you need to use this, it can be quite a bit more intuitive than constructing a matrix. I definitely urge you to give this a try! I wrote this code in Python, as it is easy to understand and read. The logic stays the same for other languages, and it shouldn&rsquo;t be all too much work to port this.</p>
+<p>Signing off, have a lovely day!</p>
+</div>
+   </div>
+</div>
+
+      <div class="footer">
+  <div class="footerLinks">
+    <a href="/">Paul's particles</a> |
+    
+    <a href="/set-up/set-up">Setup</a> |
+    <a href="/about-me/about-me">About</a> |
+    <a href="/categories/recipe/">Recipes</a>
+  </div>
+  <div class="social">
+    <a href="https://github.com/PaulStapel">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+      </svg>
+    </a>
+    <a href="https://stackoverflow.com/users/23633120/paul-stapel">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-stack-overflow" viewBox="0 0 16 16">
+        <path d="M12.412 14.572V10.29h1.428V16H1v-5.71h1.428v4.282z"/>
+        <path d="M3.857 13.145h7.137v-1.428H3.857zM10.254 0 9.108.852l4.26 5.727 1.146-.852zm-3.54 3.377 5.484 4.567.913-1.097L7.627 2.28l-.914 1.097zM4.922 6.55l6.47 3.013.603-1.294-6.47-3.013zm-.925 3.344 6.985 1.469.294-1.398-6.985-1.468z"/>
+      </svg>
+    </a>
+    <a href="https://www.linkedin.com/in/paul-stapel/">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+        <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+      </svg>
+  </a>
+  </div>
+</div>
+    </div>
+    <script src="/js/app.js"> </script>
+</body>
+</html>
