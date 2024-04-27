@@ -353,6 +353,7 @@ a{
 
     .highlight{
         max-width: 640px;
+        overflow: hidden;
     }
 }
 @media (max-width: 640px) {
@@ -373,8 +374,9 @@ a{
     }
 
     .highlight{
-        max-width: 420px;
+        max-width: 475px;
         width: 90%;
+        overflow: hidden;
     }
 }
 
