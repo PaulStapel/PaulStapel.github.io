@@ -487,3 +487,28 @@ a{
 .highlight {
     position: relative;
 }
+
+
+blockquote,
+blockquote::before {
+color: #999;
+
+}
+
+blockquote {
+margin: 0px 0px 20px 10px;
+padding: 40px 20px 20px 0px;
+border-top: 1px solid var(--textSoft);
+border-bottom: 1px solid var(--textSoft);
+}
+
+blockquote::before {
+content: "\201C";
+display: block;
+color: var(--textSoft);
+font-size: 80px;
+height: 0;
+left: -50px;
+position: relative;
+top: -10px;
+}

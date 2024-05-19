@@ -3,7 +3,7 @@ title = 'Productive procrastination; boon or bane?'
 date = 2024-04-14T21:43:07+02:00
 draft = false
 description = "Every thought I've thought on productive procrastination"
-categories = ["Productivity"]
+categories = ["productivity"]
 +++
 
 Productive procrastination is the art of delaying the task you need to get done by doing other (often less important) tasks that need to be done. Now, I've heard many different takes on this habit, and have taken different stances through the years. Today, I will break down some of the benefits and problems. I will also discuss some alternative methods. 

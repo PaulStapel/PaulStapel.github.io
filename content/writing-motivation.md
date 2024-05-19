@@ -3,7 +3,7 @@ title = 'How I get motivation to write'
 date = 2024-04-17T21:17:08+02:00
 draft = false
 description = "Some tips on how I stay consistent in writing"
-categories = ["writing","Productivity"]
+categories = ["writing","productivity"]
 +++
 
 So, I have struggled with a lack of motivation to write. Sometimes, I can be to perfectionistic to get anything done, while at other times I simply have to much going on in my head and I feel like I just can't find the time to write. Whatever the reason may be, it's unwarranted more often than not. This does not make the act of sitting down and simply writing any easier off course. That's why I wanted to share some of the ways I make writing (motivation) easier for myself. 
