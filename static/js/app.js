@@ -11,7 +11,7 @@ toggle.addEventListener("click", ()=>{
   body.classList.toggle("light")
 })
 
-// ! Copy code to clipboard; WIP
+// ! Copy code to clipboard;
 
 document.addEventListener("DOMContentLoaded", function() {
   const codeContainers = document.querySelectorAll(".highlight");
