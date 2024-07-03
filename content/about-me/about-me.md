@@ -3,7 +3,8 @@ title = 'Paul Stapel'
 date = 2024-04-03T20:59:30+02:00
 draft = false
 description = "Bachelor Student in Physics, Mathematics & Computer Science"
-categories = ["about"]
+[build] 
+    list = "never" 
 +++
 
 Hiya, I'm Paul! I'm a student-writer-tutor-programmer hybrid specializing in science. This website is my first public project, and I look forward to sharing more of my work in the future. Nonetheless, you can find everything you need to know about me on this page. 

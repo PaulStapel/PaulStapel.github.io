@@ -4,6 +4,8 @@ date = 2024-04-03T20:56:45+02:00
 draft = false
 description = "Everything about my current working setup"
 categories = ["setup"]
+[build] 
+    list = "never" 
 +++
 
 Here you can find my current setup with regards to desk, hardware, software and the likes. I often find it useful to read what other people are using and how they stay organized, so in this post I will return the favor. 
