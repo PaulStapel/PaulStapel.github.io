@@ -1,5 +1,5 @@
 ---
-title: "OE"
+title: "OE (Onion & Eggs)"
 date: "2024-07-14T21:33:38+02:00"
 draft: false
 description: "With only two letters, this dish is veeeery simple"
