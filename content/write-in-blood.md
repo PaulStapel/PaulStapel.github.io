@@ -20,7 +20,7 @@ As for me, I write to organise my thoughts and ideas. My head can get quite clut
 ## From forests to swamps; a (small?) detour
 I looove taking walks. Nearly every day, I put on my shoes and walk trough the streets of my local village or through the forest nearby. The serenity of it all makes it easy for me to get lost in thoughts or in dance, depending on if I feel like turning my brain on or off. However shallow it may be, having beautiful things around you is essential, as it inspires you to do healthy things. Imagine if the only buildings around me were ugly factories. I would definitely not be taking even a step out of the door, that's for sure!
 
-These forests that I speak of can be found in all sorts of places. Whenever I read a good book, it feels akin to walking through a tranquil forest, and I lose all sense of time. Having beautiful things around us is something we should strife for, as we could all use a hearty dose of the living-in-the-moment drug. 
+These forests that I speak of can be found in all sorts of places. Whenever I read a good book, it feels akin to walking through a tranquil forest, and I lose all sense of time. Having beautiful things around us is something we should strive for, as we could all use a hearty dose of the living-in-the-moment drug. 
 
 Then came the internet (or so I've heard, I wasn't born yet), and along with it a near infinite platform for writing with near-zero barriers to entry. With the rise of social media, you could suddenly share information with the click of a button (which people did, of course). Everyone could now read and write whatever they wanted. 
 

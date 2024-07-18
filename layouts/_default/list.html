@@ -7,16 +7,70 @@
 {{ end }}
 {{ else }}
 <div class="list">
+  <div class="stars">
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+  </div>
     {{ range .Paginator.Pages}}
     {{ if not (in .Params.categories "recipe") }}
+    {{ if not (in .Params.categories "meditation") }}
       <div class="listItem">
           <div class="listItemTexts">
-            <gh1 class="listItemTitle">
+            <h1 class="listItemTitle">
                 <a href="{{.Permalink}}" class="hoverlink">{{.Title}}</a>
-            </gh1>
+            </h1>
             <a class="listItemDesc" href="{{.Permalink}}"> <time><em>{{ dateFormat .Site.Params.dateFormat .Date}}</em></time>  || {{.Params.description}} </a>
         </div>
       </div>
+    {{ end }}
     {{ end }}
     {{ end }}
     <!-- {{ template "_internal/pagination.html" . }} -->

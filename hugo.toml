@@ -6,8 +6,10 @@ paginate = 50
 
 [params]
     dateFormat = "2 Jan, 2006" 
+    siteNameMain = "Paul's Particles"
+    siteNameMeditation = "Paul's Garden"
+    siteNameRecipe = "Paul's Kitchen"
 
 [taxonomies]
     category = "categories"
-    
     

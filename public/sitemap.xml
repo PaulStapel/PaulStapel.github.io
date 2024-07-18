@@ -2,17 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/meditation/beginnings/</loc>
+    <lastmod>2024-07-18T19:52:09+02:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2024-06-25T21:05:34+02:00</lastmod>
+    <lastmod>2024-07-18T19:52:09+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/meditation/</loc>
+    <lastmod>2024-07-18T19:52:09+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/meditation/</loc>
+    <lastmod>2024-07-18T19:52:09+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-06-25T21:05:34+02:00</lastmod>
+    <lastmod>2024-07-18T19:52:09+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipes/egg-and-onion/</loc>
+    <lastmod>2024-07-14T21:33:38+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/recipe/</loc>
-    <lastmod>2024-06-25T21:05:34+02:00</lastmod>
+    <lastmod>2024-07-14T21:33:38+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/recipes/</loc>
-    <lastmod>2024-06-25T21:05:34+02:00</lastmod>
+    <lastmod>2024-07-14T21:33:38+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipes/tennessee-onion/</loc>
+    <lastmod>2024-07-14T21:18:06+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipes/souvlaki/</loc>
+    <lastmod>2024-07-12T07:26:17+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipes/melitzanosalata/</loc>
+    <lastmod>2024-07-12T07:12:28+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/recipes/sausage-stew/</loc>
     <lastmod>2024-06-25T21:05:34+02:00</lastmod>

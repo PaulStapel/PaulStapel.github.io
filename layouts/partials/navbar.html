@@ -1,6 +1,12 @@
 <nav class="navbar">
   <div class="logo">
+    {{ if in .RelPermalink "meditation"}}
+    <a href="/categories/meditation" class="site-name hoverlink">Paul's Garden</a>
+    {{ else if in .RelPermalink "recipe"}}
+    <a href="/categories/recipe" class="site-name hoverlink">Paul's Kitchen</a>
+    {{ else }}
     <a href="/" class="site-name hoverlink">Paul's Particles</a>
+    {{ end }}
   </div>
   <div class="links">
     <div class="toggle">
@@ -45,6 +51,7 @@
     <!-- <a href="/categories" class="hoverlink">Categories</a> -->
     <a href="/set-up/set-up" class="hoverlink">Setup</a>
     <a href="/about-me/about-me" class="hoverlink">About</a>
+    <a href="/categories/meditation" class="hoverlink">Meditation</a>
     <a href="/categories/recipe/" class="hoverlink">Recipes</a>
     <!-- TODO: searchbuton 
       <div class="searchButton">
