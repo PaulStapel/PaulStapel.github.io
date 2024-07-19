@@ -47,17 +47,18 @@ The skills one invests their time in can tell you a lot about someone.
 
 
 ### Tools
-* **Git and GitHub** (By no means an expert, but can manage)
-* **HUGO** (The CMS used for this website, still learning to better utilize)
-* **LaTeX and Markdown** 
+* **Git and GitHub** (By no means an expert, but I manage quite well)
+* **HUGO** (The CMS used for this website, learning more every month)
+* **LaTeX and Markdown**
 * **ChatGPT** (I consider this, or other LLM's, to be an important tool for our current age)
 * **Microsoft Office** (I use it, but always reluctantly)  
+* **Power BI** (A great BI tool I use for work. Mostly like it, but we don't always get along)
 * **Mathematics** (including but not limited to calculus, PDE's & ODE's, real analysis and algebra)
 
 ### Soft skills
  Soft-skills always sounds very subjective to me. If I had asses myself however, I would say that I'm organized, articulate and astute. 
 
 ## Reach out
-If you want to reach out, you can currently contact me at <contact@phyzards.com>. I will be making myself easier to reach in the future, so stay tuned. 
+If you want to reach out, you can currently contact me at <contact@paulstapel.com>. I will be making myself easier to reach in the future, so stay tuned. 
 
 Me and my brother also have a wordpress site about Physics. If you want to check it out, [here's the link!](https://phyzards.com). You can also reach me there. 
