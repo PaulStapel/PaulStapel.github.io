@@ -29,23 +29,10 @@ a{
   text-decoration: none;
 }
 
-ul, ol {
-    list-style: none; /* Remove default list styling */
-    padding-left: 0;  /* Remove default padding */
+li::marker {
+  content: counter(list-item) "› ";
+  color: hotpink;
 }
-  
-ul li::before, ol li::before {
-    content: " ~ ";
-    color: inherit; /* Match the color of the list item text */
-    font-size: inherit; /* Match the font size of the list item text */
-    margin-right: 0.5em; /* Space between the marker and the text */
-}
-  
-ul li, ol li {
-    display: flex; /* Align the marker and text horizontally */
-    align-items: center; /* Vertically center the marker */
-}
-
 
 .container{
     max-width: 1366px;
