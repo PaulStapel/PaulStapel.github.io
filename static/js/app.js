@@ -51,6 +51,3 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 });
 
-// GoatCounter 
-<script data-goatcounter="https://paulstapel.goatcounter.com/count"
-        async src="//gc.zgo.at/count.js"></script>
