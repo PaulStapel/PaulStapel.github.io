@@ -1,4 +1,13 @@
 {{ define "main" }}
+<link href="/pagefind/pagefind-ui.css" rel="stylesheet">
+<script src="/pagefind/pagefind-ui.js"></script>
+<div id="search"></div>
+<script>
+    window.addEventListener('DOMContentLoaded', (event) => {
+        new PagefindUI({ element: "#search", showSubResults: true });
+    });
+</script>
+
 {{ if eq .RelPermalink "/categories/"}}
 {{ range $.Site.Taxonomies.categories.ByCount }}
 <a href="/categories/{{ .Name }}">

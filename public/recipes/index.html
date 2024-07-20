@@ -70,14 +70,6 @@
     <a href="/about-me/about-me" class="hoverlink">About</a>
     <a href="/categories/meditation" class="hoverlink">Meditation</a>
     <a href="/categories/recipe/" class="hoverlink">Recipes</a>
-    <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
-    <script src="/pagefind/pagefind-ui.js"></script>
-    <div id="search"></div>
-    <script>
-        window.addEventListener('DOMContentLoaded', (event) => {
-            new PagefindUI({ element: "#search", showSubResults: true });
-        });
-    </script>
   </div>
 
 
@@ -102,6 +94,32 @@
 </nav>
       <script src="/js/app.js"> </script>
       
+<style>
+  .elbi-results {
+      width: 100%;
+  }
+  .elbi-results-item {
+      background-color: #FFFFFF;
+      color: #000000;
+      padding: 10px;
+      border: 1px solid black;
+  }
+</style>
+
+<div>
+  <input type="search" class="input is-size-4" id="elbi-input" placeholder="Search the site...">
+  <ul id="elbi-results"></ul>
+</div>
+
+<link href="/pagefind/pagefind-ui.css" rel="stylesheet">
+<script src="/pagefind/pagefind-ui.js"></script>
+<div id="search"></div>
+<script>
+    window.addEventListener('DOMContentLoaded', (event) => {
+        new PagefindUI({ element: "#search", showSubResults: true });
+    });
+</script>
+
 
 <div class="list">
   <div class="stars">
