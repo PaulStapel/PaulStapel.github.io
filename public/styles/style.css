@@ -69,16 +69,6 @@ li::marker {
     font-size: 20px;
 }
 
-/* .searchButton{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    background-color: var(--bgSoft);
-    color: var(--textSoft);
-    padding: 5px;
-    border-radius: 10px;
-} */
-
 
 .toggle {
     width: 40px;
