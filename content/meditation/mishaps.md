@@ -15,4 +15,4 @@ It is good excercise to ask yourself what your instinctual reaction is when some
 
 I have often struggled with making mistakes. I would loathe myself for my own faults, and as a result I would lose control whenever they occured. This kept me from correcting my behaviour and becoming the calm and collected person I wanted to be. 
 
-Identify your behaviour. Identify your behaviour... Behaviourise your identity? Let's go with that. 
+Identify your behaviour. Identify your behaviour... Behaviourise your identity? Yeah, let's. 
