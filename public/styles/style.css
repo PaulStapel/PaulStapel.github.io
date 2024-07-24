@@ -353,15 +353,7 @@ li::marker {
     .container{
         max-width: 1024px;
     }
-  }
 
-
-@media (max-width: 1024px) {
-    .container{
-        max-width: 768px;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
 
   .borgir{
     display: flex;
@@ -463,6 +455,16 @@ li::marker {
 .links{
   display: none;
 }
+
+  }
+
+
+@media (max-width: 1024px) {
+    .container{
+        max-width: 768px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
 
 
