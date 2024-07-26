@@ -7,7 +7,7 @@ categories = ["recipe"]
 +++
 I've started getting into making soup recently. This is new territory for me, but I decided to give it a try after pondering what to do with the leftover chinese cabbage that had been living rent-free in my fridge for a too long. Behold! This soup was the result. 
 
-## Ingredients:
+## Ingredients
 
 - Chinese Cabbage
 - About 1 liter of chicken stock
@@ -20,7 +20,7 @@ I've started getting into making soup recently. This is new territory for me, bu
 - Scallion 
 - A little bit of cooking oil
 
-## Cooking plan: 
+## Cooking plan
 
 - Chop up your onions, garlic and scallion (put aside the green for garnish). 
 - In a deep pot, start sweating the onion and scallion in a little bit of oil. After a few minutes, add the garlic as well. 

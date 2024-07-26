@@ -9,7 +9,7 @@ categories:
 
 A good burrito recipe has been like the holy grail for me. I looove burritos, but I just wasn't able to get them to taste quite right. This recipe is finally close to the taste I have been searching for. 
 
-## Ingredients:
+## Ingredients
 
 - Ground beef
 - White onion
@@ -19,7 +19,7 @@ A good burrito recipe has been like the holy grail for me. I looove burritos, bu
 - Optionally, you may add vegetables like bell pepper, carrots, leek or whatever you think will taste good. I like the extra variation each bite brings when you add some vegetables to this dish.
 - Water or beef stock (be careful with the salt content!).   
 
-### Serve with: 
+### Serve with
 - Shredded cheese
 - Sour cream
 - Guacamole
