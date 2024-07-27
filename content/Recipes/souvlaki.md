@@ -8,7 +8,7 @@ categories:
 ---
 This is a lovely meaty dish that you can serve as a main course. With summer at its peak, you enjoy this dish on straight from the grill during a barbecue for example. 
 
-## Marinate
+## Marinade
 - (extra virgin) olive oil
 - Oregano
 - Sweet paprika powder
