@@ -70,6 +70,6 @@ Finally, I've got some apps that I really just need to use for work or universit
 ## Final remarks
 And that's that. Those are all of the apps I have on my home screen. If I were to describe my phone in one phrase, it would be "deliberately boring and simple". One of my key ways of avoiding procrastination is making sure I have nothing to procrastinate on besides useful stuff, and my phone plays an important part in keeping my surroundings "boring". If any of the apps (and reasons behind the app) have inspired you in any way - I'm glad. 
 
-I also love hearing about your own set-ups and home screens, so feel free to slide into my DM's on Instagram or to message me on Twitter/X or LinkedIn. I'm always open to discussing software, and maybe we'll both gain some new insights. 
+I also love hearing about your own setups and home screens, so feel free to slide into my DM's on Instagram or to message me on Twitter/X or LinkedIn. I'm always open to discussing software, and maybe we'll both gain some new insights. 
 
 Signing off, have a lovely day!
