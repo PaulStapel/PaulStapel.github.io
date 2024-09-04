@@ -2,17 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Difficulty 2|5 on Paul&#39;s Particles</title>
-    <link>http://localhost:1313/categories/difficulty-25/</link>
+    <link>http://localhost:50145/categories/difficulty-25/</link>
     <description>Recent content in Difficulty 2|5 on Paul&#39;s Particles</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 02 Apr 2024 17:59:38 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/difficulty-25/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 14 Jul 2024 21:18:06 +0200</lastBuildDate>
+    <atom:link href="http://localhost:50145/categories/difficulty-25/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tennessee Onion</title>
+      <link>http://localhost:50145/recipes/tennessee-onion/</link>
+      <pubDate>Sun, 14 Jul 2024 21:18:06 +0200</pubDate>
+      <guid>http://localhost:50145/recipes/tennessee-onion/</guid>
+      <description>Ok, so the description may have been a lie. I usually don&amp;rsquo;t barbecue because Dutch weather can be very unpredictable (Dutch struggles). Instead, I like to put stuff in the oven (like a true patriot). Therefore, this dish will be using our favorite inferno machine. The TTC (time to cook) is about an hour, so prepare it well in advance!&#xA;Ingredients White onions Shredded cheese (Gouda, because it melts well and because it&amp;rsquo;s Dutch) Butter Paprika powder Chopped parsley Dried thyme Dried oregano Aluminum foil Cooking plan Preheat an oven to 160 degrees Celsius.</description>
+    </item>
+    <item>
+      <title>Souvlaki</title>
+      <link>http://localhost:50145/recipes/souvlaki/</link>
+      <pubDate>Fri, 12 Jul 2024 07:26:17 +0200</pubDate>
+      <guid>http://localhost:50145/recipes/souvlaki/</guid>
+      <description>This is a lovely meaty dish that you can serve as a main course. With summer at its peak, you enjoy this dish on straight from the grill during a barbecue for example.&#xA;Marinade (extra virgin) olive oil Oregano Sweet paprika powder Thyme (optional) Bay leaves Juice from a lemon LOTS OF GARLIC Salt and pepper Chicken (cubed, which you&amp;rsquo;ll marinate) Cooking plan Mince the garlic. You should use enough that you can smell it.</description>
+    </item>
+    <item>
+      <title>Egg Drop Soup</title>
+      <link>http://localhost:50145/recipes/egg-drop-soup/</link>
+      <pubDate>Tue, 07 May 2024 21:12:21 +0200</pubDate>
+      <guid>http://localhost:50145/recipes/egg-drop-soup/</guid>
+      <description>I&amp;rsquo;ve started getting into making soup recently. This is new territory for me, but I decided to give it a try after pondering what to do with the leftover chinese cabbage that had been living rent-free in my fridge for a too long. Behold! This soup was the result.&#xA;Ingredients Chinese Cabbage About 1 liter of chicken stock Eggs (about 3) White onion (can be omitted) Garlic Sesame oil Powdered or grated ginger Salt and (preferably white) pepper Scallion A little bit of cooking oil Cooking plan Chop up your onions, garlic and scallion (put aside the green for garnish).</description>
+    </item>
+    <item>
+      <title>Teriyaki Sauce</title>
+      <link>http://localhost:50145/recipes/teriyaki-sauce/</link>
+      <pubDate>Sat, 06 Apr 2024 18:50:31 +0200</pubDate>
+      <guid>http://localhost:50145/recipes/teriyaki-sauce/</guid>
+      <description>I love eating this sauce with, for example, chicken and noodles.&#xA;Ingredients Sesame seeds (optional, adds flavour and thickens sauce) Soy Sauce Honey Sugar (only a little if you like it less sweet) Garlic powder Grated ginger Sesame oil (optional, ads nice sesame flavours) Mirin cooking wine (optional, ads extra complexity) Some water Cornstarch (Add if you like a thicker sauce) Cooking plan Add all ingredients to a pan, and stir over medium heat until desired taste and texture is achieved.</description>
+    </item>
+    <item>
+      <title>Rice Pudding</title>
+      <link>http://localhost:50145/recipes/rice-pudding/</link>
+      <pubDate>Thu, 04 Apr 2024 15:09:19 +0200</pubDate>
+      <guid>http://localhost:50145/recipes/rice-pudding/</guid>
+      <description>Whenever I have rice left over, there are two things that immediately come to mind. Storing it to stir-fry it later, or turning it into a pudding if I have time to do so. This is the ultimate thoughtless recipe for when you want to keep your hands busy while listening to music for example.&#xA;Ingredients (Left over) rice Milk Sugar Vanilla extract (optional) Cooking plan Submerge the rice in milk.</description>
+    </item>
     <item>
       <title>Garlic Beans</title>
-      <link>http://localhost:1313/recipes/garlic-beans/</link>
+      <link>http://localhost:50145/recipes/garlic-beans/</link>
       <pubDate>Tue, 02 Apr 2024 17:59:38 +0200</pubDate>
-      <guid>http://localhost:1313/recipes/garlic-beans/</guid>
+      <guid>http://localhost:50145/recipes/garlic-beans/</guid>
       <description>Ingredients Green beans Garlic Ginger Soy Sauce Butter Cooking plan First, fry the beans in the oil till they become shriveled and you begin to see some yellow. Next, in a new pan, add the butter and heat up the garlic, ginger and soy sauce on medium heat. Go easy on the soy sauce. Finally, add the beans back in and mix them with the sauce. ENJOY! </description>
     </item>
   </channel>

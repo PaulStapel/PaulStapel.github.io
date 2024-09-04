@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Meditations on Paul&#39;s Particles</title>
-    <link>http://localhost:1313/meditation/</link>
+    <link>http://localhost:50145/meditation/</link>
     <description>Recent content in Meditations on Paul&#39;s Particles</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 21 Jul 2024 22:16:37 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/meditation/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:50145/meditation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mishaps</title>
-      <link>http://localhost:1313/meditation/mishaps/</link>
+      <link>http://localhost:50145/meditation/mishaps/</link>
       <pubDate>Sun, 21 Jul 2024 22:16:37 +0200</pubDate>
-      <guid>http://localhost:1313/meditation/mishaps/</guid>
+      <guid>http://localhost:50145/meditation/mishaps/</guid>
       <description>Falling down is an accident, staying down is a choice&#xA;When working on becoming the person you want to be, it is often in the stressful and doubtful situations that you find out your conviction is strong. You can tell alot about yourself and your growth as a person from how you deal with hardship, however small it may be.&#xA;It is good excercise to ask yourself what your instinctual reaction is when something goes wrong.</description>
     </item>
     <item>
       <title>Pretty Things</title>
-      <link>http://localhost:1313/meditation/pretty-things/</link>
+      <link>http://localhost:50145/meditation/pretty-things/</link>
       <pubDate>Fri, 19 Jul 2024 22:44:55 +0200</pubDate>
-      <guid>http://localhost:1313/meditation/pretty-things/</guid>
+      <guid>http://localhost:50145/meditation/pretty-things/</guid>
       <description>Beauty exists only to relief us from ugliness&#xA;Often in live, I find myself feeling like I&amp;rsquo;m above the need for beauty. It can be seen as a virtue to look not at appearance but at what lies within. I agree with this, but only recently have I come around to realising that beauty has its place as well. A lack of elegance or beauty can be distracting. This distraction may take some effort to look through, ultimately draining (a slight amount of) energy.</description>
     </item>
     <item>
       <title>Beginnings</title>
-      <link>http://localhost:1313/meditation/beginnings/</link>
+      <link>http://localhost:50145/meditation/beginnings/</link>
       <pubDate>Thu, 18 Jul 2024 19:52:09 +0200</pubDate>
-      <guid>http://localhost:1313/meditation/beginnings/</guid>
+      <guid>http://localhost:50145/meditation/beginnings/</guid>
       <description>Meditation is conversation with the soul.&#xA;For quite some time now, I&amp;rsquo;ve been wanting to put more of my creative energy into my blog. To do this, I have tried to understand what makes me me by finding my creative voice. I&amp;rsquo;m afraid this question is too grand for me to answer in one go. In my life, I have meditated quite often, and this is just one of many other topics I will meditate on in my life.</description>
     </item>
   </channel>
