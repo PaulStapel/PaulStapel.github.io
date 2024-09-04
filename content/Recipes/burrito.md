@@ -5,6 +5,7 @@ draft: false
 description: "My take on Tex-Mex burritos"
 categories: 
     - recipe
+    - difficulty 3|5
 ---
 
 A good burrito recipe has been like the holy grail for me. I looove burritos, but I just wasn't able to get them to taste quite right. This recipe is finally close to the taste I have been searching for. 

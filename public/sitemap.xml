@@ -3,18 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2024-08-26T20:28:31+02:00</lastmod>
+    <lastmod>2024-09-03T19:42:24+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/recipes/japanese-curry/</loc>
-    <lastmod>2024-08-26T20:28:31+02:00</lastmod>
+    <loc>http://localhost:1313/my-phone-home-screen/</loc>
+    <lastmod>2024-09-03T19:42:24+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-08-26T20:28:31+02:00</lastmod>
+    <lastmod>2024-09-03T19:42:24+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/productivity/</loc>
+    <lastmod>2024-09-03T19:42:24+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipes/butter-lemon-pork/</loc>
+    <lastmod>2024-09-01T20:19:47+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/recipe/</loc>
-    <lastmod>2024-08-26T20:28:31+02:00</lastmod>
+    <lastmod>2024-09-01T20:19:47+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/recipes/</loc>
+    <lastmod>2024-09-01T20:19:47+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipes/japanese-curry/</loc>
     <lastmod>2024-08-26T20:28:31+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/baking/</loc>
@@ -89,9 +98,6 @@
     <loc>http://localhost:1313/writing-motivation/</loc>
     <lastmod>2024-04-17T21:17:08+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/productivity/</loc>
-    <lastmod>2024-04-17T21:17:08+02:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/recipes/hoisin-ground-beef/</loc>
     <lastmod>2024-04-16T10:51:32+02:00</lastmod>
   </url><url>
@@ -102,6 +108,9 @@
     <lastmod>2024-04-06T20:57:18+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/recipes/bbq-sauce/</loc>
+    <lastmod>2024-04-06T18:57:14+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/difficulty-1/</loc>
     <lastmod>2024-04-06T18:57:14+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/recipes/teriyaki-sauce/</loc>

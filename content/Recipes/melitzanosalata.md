@@ -5,6 +5,7 @@ draft: false
 description: "A lovely Greek eggplant salad perfect as a side-dish"
 categories: 
     - recipe
+    - difficulty 3|5
 ---
 I love cooking Greek food. Something about the balance of oils, fresh herbs and grilled meats just really gets me going. But Greek food can be more than just gyros and souvlaki. To give our vegetarians some love, and in order to diversify your Greek palette, let me introduce you to this lovely dish called Melitzanosalata (eggplant salad). 
 

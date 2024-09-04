@@ -272,7 +272,7 @@ li::marker {
     padding: 5px;
     border-radius: 5px;
     background-color: var(--bgSoft);
-    color: var(--textSoft);
+    color: #101820FF;
     font-size: 14px;
 }
 

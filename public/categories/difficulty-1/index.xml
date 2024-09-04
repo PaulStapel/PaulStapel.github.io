@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Difficulty 1 on Paul&#39;s Particles</title>
+    <link>http://localhost:1313/categories/difficulty-1/</link>
+    <description>Recent content in Difficulty 1 on Paul&#39;s Particles</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 06 Apr 2024 18:57:14 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/difficulty-1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bbq Sauce</title>
+      <link>http://localhost:1313/recipes/bbq-sauce/</link>
+      <pubDate>Sat, 06 Apr 2024 18:57:14 +0200</pubDate>
+      <guid>http://localhost:1313/recipes/bbq-sauce/</guid>
+      <description>I really enjoy this bbq-sauce with pulled pork or as a glaze for spare-ribs.&#xA;Ingredients Ketchup Worcester Sauce Mustard Vinegar Garlic powder Onion powder Salt, pepper and sugar to taste Cooking plan Put it all into a pan and stir over low heat. Go easy on the mustard and vinegar. ENJOY! </description>
+    </item>
+  </channel>
+</rss>

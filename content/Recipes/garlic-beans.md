@@ -3,7 +3,7 @@ title = 'Garlic Beans'
 date = 2024-04-02T17:59:38+02:00
 draft = false
 description = "Garlic beans I've become obsessed with"
-categories = ["recipe"]
+categories = ["recipe","difficulty 2|5"]
 +++
 
 ## Ingredients

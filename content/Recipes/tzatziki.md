@@ -3,7 +3,7 @@ title = 'Tzatziki'
 date = 2024-04-06T14:03:15+02:00
 draft = false
 description = "My recipe for Tzatziki"
-categories = ["recipe"]
+categories = ["recipe","difficulty 1|5"]
 +++
 
 After a trip to Greece, I fell in love with greek cuisine. Of course, you cant say Greek without Tzatziki, and so I will share this easy recipe for this beloved sauce.

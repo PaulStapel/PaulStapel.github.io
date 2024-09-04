@@ -3,7 +3,7 @@ title = 'Mongolian Beef'
 date = 2024-04-06T10:01:01+02:00
 draft = false
 description = "One of my favorite recipes with beef"
-categories = ["recipe"]
+categories = ["recipe","difficulty 3|5"]
 +++
 
 This recipe makes for a delicious and saucy beef dish. It takes some time to prepare, but is well worth it. 

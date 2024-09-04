@@ -5,6 +5,7 @@ draft: false
 description: "A southern-style side dish perfect for a barbecue"
 categories: 
     - recipe
+    - difficulty 2|5
 ---
 Ok, so the description may have been a lie. I usually don't barbecue because Dutch weather can be very unpredictable (Dutch struggles). Instead, I like to put stuff in the oven (like a true patriot). Therefore, this dish will be using our favorite inferno machine. The TTC (time to cook) is about an hour, so prepare it well in advance! 
 

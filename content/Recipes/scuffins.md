@@ -6,6 +6,7 @@ description: "The most muffiny scones you'll ever have?"
 categories: 
     - recipe
     - baking
+    - difficulty 3|5
 ---
 
 At first, I was planning on making scones. Because of a lack of better moulds, I decided to use a muffin tray, and the rest is history. This recipe yields about 12 medium-sized scuffins. 
