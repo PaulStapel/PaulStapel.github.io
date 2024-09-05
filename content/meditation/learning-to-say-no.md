@@ -23,6 +23,5 @@ So there we have it. Writing down these concrete examples, I can recognise the p
 
 Maybe the social and practical problem should even be treated seperately. Well, no need to figure everything out our first time. I've got plenty of time to meditate, and there is no rush. "The snake which cannot cast off its skin has to die. Likewise, the minds which are prevented from changing their opinions; they cease to be mind." This quote from Nietzsche seems like a good representation of my opinions on self-contradiction. One must strive to act consistently, but consistent opinion is not a requirement. 
 
-Blorp.
 
 
