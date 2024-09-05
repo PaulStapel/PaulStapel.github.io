@@ -41,7 +41,7 @@ jobs:
       - name: Install Dart Sass
         run: sudo snap install dart-sass
       - name: Generate Pagefind search index
-        run: npx -y pagefind --site public --serve
+        run: npx -y pagefind --site public
       - name: Checkout
         uses: actions/checkout@v4
         with:
