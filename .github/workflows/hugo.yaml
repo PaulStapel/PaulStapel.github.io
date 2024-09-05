@@ -50,6 +50,8 @@ jobs:
         uses: actions/configure-pages@v4
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+      
+      # Build the Hugo site
       - name: Build with Hugo
         env:
           # For maximum backward compatibility with Hugo modules
@@ -59,7 +61,16 @@ jobs:
           hugo \
             --gc \
             --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"          
+            --baseURL "${{ steps.pages.outputs.base_url }}/"
+
+      # Insert Pagefind after Hugo build
+      - name: Install Pagefind
+        run: npm install -g @pagefind/cli
+
+      - name: Generate Pagefind search index
+        run: npx -y pagefind --site public --serve
+
+      # Upload artifact for GitHub Pages
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
