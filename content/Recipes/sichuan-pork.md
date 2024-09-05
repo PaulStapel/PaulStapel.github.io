@@ -3,7 +3,7 @@ title = 'Sichuan Pork'
 date = 2024-05-20T21:56:30+02:00
 draft = false
 description = "A delicous numbing and spicy recipe to delight the senses"
-categories = ["recipe","difficulty 4|5"]
+categories = ["recipe","difficulty 4|5","Chinese"]
 +++
 
 The recipe I referred to in my [previous post](https://paulstapel.github.io/write-in-blood/). The flavour can best be described as má là, a Chinese term meaning numbing ( má 麻) and spicy ( là 辣). The aroma is citrusy and deep, and the flavour leaves you wanting more. I suggest you serve this with rice. This recipe takes about 45 minutes, but it is well worth it. 

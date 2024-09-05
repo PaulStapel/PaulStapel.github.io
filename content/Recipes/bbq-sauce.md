@@ -3,7 +3,7 @@ title = 'Bbq Sauce'
 date = 2024-04-06T18:57:14+02:00
 draft = false
 description = "A nice bbq sauce for your meat"
-categories = ["recipe","difficulty 1|5"]
+categories = ["recipe","difficulty 1|5","American"]
 +++
 I really enjoy this bbq-sauce with pulled pork or as a glaze for spare-ribs.
 

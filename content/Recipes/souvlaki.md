@@ -6,6 +6,7 @@ description: "A staple Greek dish perfect for a barbecue."
 categories: 
     - recipe
     - difficulty 2|5
+    - Greek
 ---
 This is a lovely meaty dish that you can serve as a main course. With summer at its peak, you enjoy this dish on straight from the grill during a barbecue for example. 
 

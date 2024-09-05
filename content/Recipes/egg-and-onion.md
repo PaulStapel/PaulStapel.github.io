@@ -6,6 +6,7 @@ description: "With only two letters, this dish is veeeery simple"
 categories: 
     - recipe
     - difficulty 1|5
+    - French
 ---
 Today, we will be making OE. I'll let you figure out what that means. 
 

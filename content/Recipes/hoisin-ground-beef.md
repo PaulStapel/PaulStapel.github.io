@@ -3,7 +3,7 @@ title = 'Hoisin Ground Beef'
 date = 2024-04-16T10:51:32+02:00
 draft = false
 description = "Quick ground beef with rice for an easy diner"
-categories = ["recipe","difficulty 3|5"]
+categories = ["recipe","difficulty 3|5","Chinese"]
 +++
 
 This recipe is both simple and delicious. This is easy comfort food for when I don't feel like cooking for too long. 

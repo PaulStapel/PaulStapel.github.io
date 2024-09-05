@@ -6,6 +6,7 @@ description: "A sweet and fatty dish that is satisfying and filling"
 categories: 
     - recipe
     - difficulty 3|5
+    - French
 ---
 So today, I tried to do something new with pork belly. Most of my recipes involving this ingredient are Chinese, and so I thought I'd spice things up a little by taking some more inspiration from the french kitchen. Be warned, this recipe is quite fatty, but otherwise it's very easy to make and nutritious to boot.
 

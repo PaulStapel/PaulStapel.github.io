@@ -6,6 +6,7 @@ description: "A vegan-friendly sweet japanese curry you can easily store for lat
 categories: 
     - recipe
     - difficulty 4|5
+    - Japanese
 ---
 After having been on a vacation to Vietnam and Singapore for three weeks (hence the gap in posts, haha), this is one cuisine I have fallen in love with. I simply had to get a recipe to make this myself, and in my opinion, I am quite close to mimicking the taste of the curries I've had in Singapore. Be warned, this recipe can take up to 2 hours. I suggest serving this dish with (white) rice.
 

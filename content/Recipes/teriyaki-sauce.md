@@ -3,7 +3,7 @@ title = 'Teriyaki Sauce'
 date = 2024-04-06T18:50:31+02:00
 draft = false
 description = "A sweet and savoury sauce"
-categories = ["recipe","difficulty 2|5"]
+categories = ["recipe","difficulty 2|5","Japanese"]
 +++
 I love eating this sauce with, for example, chicken and noodles. 
 

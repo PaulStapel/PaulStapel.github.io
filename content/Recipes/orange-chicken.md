@@ -3,7 +3,7 @@ title = 'Orange Chicken'
 date = 2024-04-20T21:28:15+02:00
 draft = false
 description = "The Chinese-American classic for the home-cook"
-categories = ["recipe","difficulty 3|5"]
+categories = ["recipe","difficulty 3|5","Chinese","American"]
 +++
 
 I have to admit, this is a guilty pleasure of mine. I don't make this often, as it can take a bit long to make, but I always enjoy it when I do. If you are looking for a sweet and unique taste, look no further than this recipe. I suggest serving this with white rice. 

@@ -3,7 +3,7 @@ title = 'Sausage Stew'
 date = 2024-06-25T21:05:34+02:00
 draft = false
 description = "A cheap Indian inspired stew that pairs well with bread"
-categories = ["recipe","difficulty 3|5"]
+categories = ["recipe","difficulty 3|5","Indian"]
 +++
 
 This recipe is a Paul-certified classic. It is easy to make (only about 30 minutes), and is quite filling for when you are having a busy week. 
