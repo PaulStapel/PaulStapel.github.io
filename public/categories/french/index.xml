@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>French on Paul&#39;s Particles</title>
+    <link>http://localhost:1313/categories/french/</link>
+    <description>Recent content in French on Paul&#39;s Particles</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Sep 2024 20:19:47 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/french/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Butter Lemon Pork</title>
+      <link>http://localhost:1313/recipes/butter-lemon-pork/</link>
+      <pubDate>Sun, 01 Sep 2024 20:19:47 +0200</pubDate>
+      <guid>http://localhost:1313/recipes/butter-lemon-pork/</guid>
+      <description>So today, I tried to do something new with pork belly. Most of my recipes involving this ingredient are Chinese, and so I thought I&amp;rsquo;d spice things up a little by taking some more inspiration from the french kitchen. Be warned, this recipe is quite fatty, but otherwise it&amp;rsquo;s very easy to make and nutritious to boot.&#xA;Ingredients Butter Dried oregano Salt and Pepper Pork belly Lemon White onion Garlic Water Dark soy sauce (for color) Ginger (or ginger powder) High smoking point oil Serve with white rice.</description>
+    </item>
+    <item>
+      <title>OE (Onion &amp; Eggs)</title>
+      <link>http://localhost:1313/recipes/egg-and-onion/</link>
+      <pubDate>Sun, 14 Jul 2024 21:33:38 +0200</pubDate>
+      <guid>http://localhost:1313/recipes/egg-and-onion/</guid>
+      <description>Today, we will be making OE. I&amp;rsquo;ll let you figure out what that means.&#xA;Ingredients Onions Eggs (also some pepper, salt and cooking oil) Cooking plan We will be using about one onion per one egg. For people that like the taste of onion, I suggest you let the onions sweat by using a medium-low heat, until the onions turn translucent. This takes about 10 minutes. For those of you that have time on their hands, let the onions caramelise on the same medium-low heat.</description>
+    </item>
+  </channel>
+</rss>

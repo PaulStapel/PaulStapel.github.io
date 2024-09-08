@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Baking on Paul&#39;s Particles</title>
-    <link>http://localhost:50145/categories/baking/</link>
+    <link>http://localhost:1313/categories/baking/</link>
     <description>Recent content in Baking on Paul&#39;s Particles</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 26 Jul 2024 20:22:45 +0200</lastBuildDate>
-    <atom:link href="http://localhost:50145/categories/baking/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/baking/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Scuffins</title>
-      <link>http://localhost:50145/recipes/scuffins/</link>
+      <link>http://localhost:1313/recipes/scuffins/</link>
       <pubDate>Fri, 26 Jul 2024 20:22:45 +0200</pubDate>
-      <guid>http://localhost:50145/recipes/scuffins/</guid>
+      <guid>http://localhost:1313/recipes/scuffins/</guid>
       <description>At first, I was planning on making scones. Because of a lack of better moulds, I decided to use a muffin tray, and the rest is history. This recipe yields about 12 medium-sized scuffins.&#xA;Ingredients 500 grams of all-purpose flour 200 grams of granulated sugar About 10 grams of baking powder 2 eggs 250 grams of butter 200 grams of crème fraîche About 20 milliliters of milk About 3 teaspoons of vanilla extract A pinch of salt Optionally, toppings like milk chocolate, blueberries or caramel A muffin tray Baking plan Preheat an oven to 200 degrees Celsius.</description>
     </item>
   </channel>

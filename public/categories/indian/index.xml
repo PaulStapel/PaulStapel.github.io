@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Indian on Paul&#39;s Particles</title>
+    <link>http://localhost:1313/categories/indian/</link>
+    <description>Recent content in Indian on Paul&#39;s Particles</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 25 Jun 2024 21:05:34 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/indian/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sausage Stew</title>
+      <link>http://localhost:1313/recipes/sausage-stew/</link>
+      <pubDate>Tue, 25 Jun 2024 21:05:34 +0200</pubDate>
+      <guid>http://localhost:1313/recipes/sausage-stew/</guid>
+      <description>This recipe is a Paul-certified classic. It is easy to make (only about 30 minutes), and is quite filling for when you are having a busy week.&#xA;Ingredients Sausage (pork works well) Cooking oil A (small) tin of tomtato paste Yellow onion Garlic Bell peppers (different colors looks the nicest, doesn&amp;rsquo;t really matter for taste) Beef broth Garam masala (can sub for 5-spice) Pepper Dark soy sauce (for color and salt) Cooking plan First, cook your sausage in an oiled pan until golden brown.</description>
+    </item>
+    <item>
+      <title>Mint Dip</title>
+      <link>http://localhost:1313/recipes/mint-dip/</link>
+      <pubDate>Fri, 19 Apr 2024 21:09:25 +0200</pubDate>
+      <guid>http://localhost:1313/recipes/mint-dip/</guid>
+      <description>So I am looking more into the indian cuisine. To start things off, I made a simple mint dip to eat with a meal, or just to dip naan in.&#xA;Ingredients Yoghurt Mint leaves (dried if fresh isn&amp;rsquo;t available) Lemon juice A clove of garlic Salt and pepper Cooking plan Finely chop the garlic and mint leaves Mix the ingredients to taste ENJOY! </description>
+    </item>
+  </channel>
+</rss>

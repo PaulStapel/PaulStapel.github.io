@@ -21,11 +21,10 @@ The mechanism is quite simple, really. I make sure I have some physical way to r
 
 As you may have noticed, all of these methods rely mostly on mindfulness. It could be said that the most important skill for self-improvement is clarity of mind, and because of this, I usually begin my trajectory of improving myself with meditation on this mindfulness.
 
-To recap, I meditate on the following:
+To recap, I meditate on the following. This is an abstract meditation routine that would fit in with any habit I try to improve, although I am currently using it in my no-saga. That's all for today.
 
 - First, the situations in which I find myself regressing to negative habits
 - Secondly, the ways in which I want to prevent myself from turning to these habits in those situations
 - Finally, the ways in which I can remind myself to keep up this mindfulness throughout the day.
 
-\\
-This is an abstract meditation routine that would fit in with any habit I try to improve, although I am currently using it in my no-saga. That's all for today.
+

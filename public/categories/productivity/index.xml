@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Productivity on Paul&#39;s Particles</title>
-    <link>http://localhost:50145/categories/productivity/</link>
+    <link>http://localhost:1313/categories/productivity/</link>
     <description>Recent content in Productivity on Paul&#39;s Particles</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 03 Sep 2024 19:42:24 +0200</lastBuildDate>
-    <atom:link href="http://localhost:50145/categories/productivity/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/productivity/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My Phone&#39;s Home Screen</title>
-      <link>http://localhost:50145/my-phone-home-screen/</link>
+      <link>http://localhost:1313/my-phone-home-screen/</link>
       <pubDate>Tue, 03 Sep 2024 19:42:24 +0200</pubDate>
-      <guid>http://localhost:50145/my-phone-home-screen/</guid>
+      <guid>http://localhost:1313/my-phone-home-screen/</guid>
       <description>Hiya, long time no see! It&amp;rsquo;s been - glances at notes - more than 100 days since I last posted something on Paul&amp;rsquo;s Particles. A lot has happened, but I&amp;rsquo;m finally starting to settle into my usual routine again. I&amp;rsquo;ve got some great content planned, but I thought I would start things off with a simple post sharing what my phone looks like. I actually hide all apps that are not on my home screen in order to avoid distractions from social media apps or apps that I just don&amp;rsquo;t use on a daily basis, meaning my home screen is like a best-of collection for my phone.</description>
     </item>
     <item>
       <title>How I get motivation to write</title>
-      <link>http://localhost:50145/writing-motivation/</link>
+      <link>http://localhost:1313/writing-motivation/</link>
       <pubDate>Wed, 17 Apr 2024 21:17:08 +0200</pubDate>
-      <guid>http://localhost:50145/writing-motivation/</guid>
+      <guid>http://localhost:1313/writing-motivation/</guid>
       <description>So, I have struggled with a lack of motivation to write. Sometimes, I can be to perfectionistic to get anything done, while at other times I simply have to much going on in my head and I feel like I just can&amp;rsquo;t find the time to write. Whatever the reason may be, it&amp;rsquo;s unwarranted more often than not. This does not make the act of sitting down and simply writing any easier off course.</description>
     </item>
     <item>
       <title>Productive procrastination; boon or bane?</title>
-      <link>http://localhost:50145/productive-procrastination/</link>
+      <link>http://localhost:1313/productive-procrastination/</link>
       <pubDate>Sun, 14 Apr 2024 21:43:07 +0200</pubDate>
-      <guid>http://localhost:50145/productive-procrastination/</guid>
+      <guid>http://localhost:1313/productive-procrastination/</guid>
       <description>Productive procrastination is the art of delaying the task you need to get done by doing other (often less important) tasks that need to be done. Now, I&amp;rsquo;ve heard many different takes on this habit, and have taken different stances through the years. Today, I will break down some of the benefits and problems. I will also discuss some alternative methods.&#xA;The good Momentum When doing work, you should aim to stay in motion.</description>
     </item>
     <item>
       <title>VScode extensions that boost my productivity</title>
-      <link>http://localhost:50145/vscode-extensions/</link>
+      <link>http://localhost:1313/vscode-extensions/</link>
       <pubDate>Sat, 06 Apr 2024 20:57:18 +0200</pubDate>
-      <guid>http://localhost:50145/vscode-extensions/</guid>
+      <guid>http://localhost:1313/vscode-extensions/</guid>
       <description>As I have stated in my setup-page, I use VScode as my main text editor. I especially like the ability to customize your coding environment with extensions. Today, I will share the extensions that really give a boost to my work.&#xA;Better Comments This first extension allows me to better manage and organize my annotations while coding. When starting comments with alerts (!), questions (?), TODO&amp;rsquo;s (TODO), or important tags (*), this extension automatically colors them to make them stand out more.</description>
     </item>
   </channel>
