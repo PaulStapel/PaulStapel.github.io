@@ -2,7 +2,7 @@
 title: "Noticing My Bad Habits"
 date: "2024-09-08T21:23:27+02:00"
 draft: false
-description: "The no-saga part two: recognition"
+description: "The no saga part two: recognition"
 categories: 
     - meditation
 ---
