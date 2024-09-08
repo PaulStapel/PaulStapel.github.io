@@ -2,7 +2,7 @@
 title: "Learning To Say No"
 date: "2024-09-05T19:56:21+02:00"
 draft: false
-description: "The no saga part one: recognition"
+description: "The no saga part one: realisation"
 categories: 
     - meditation
 ---
