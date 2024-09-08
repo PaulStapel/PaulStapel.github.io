@@ -27,4 +27,5 @@ To recap, I meditate on the following:
 - Secondly, the ways in which I want to prevent myself from turning to these habits in those situations
 - Finally, the ways in which I can remind myself to keep up this mindfulness throughout the day.
 
+\\
 This is an abstract meditation routine that would fit in with any habit I try to improve, although I am currently using it in my no-saga. That's all for today.
