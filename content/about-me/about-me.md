@@ -14,7 +14,7 @@ After summer break is over, I will be following these courses at Utrecht Univers
 * Fields and Galois theory
 * Functional programming
 * Advanced statistical physics
-* Multivariable analysis
+* Introduction to multivariate analysis
 * Moddeling and system development
 
 \
