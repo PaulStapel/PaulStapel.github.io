@@ -11,7 +11,7 @@ I really enjoy this bbq-sauce with pulled pork or as a glaze for spare-ribs.
 * Ketchup
 * Worcester Sauce
 * Mustard
-* Vinegar
+* Vinegar``
 * Garlic powder
 * Onion powder
 * Salt, pepper and sugar to taste
