@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Set-Ups on Paul&#39;s Particles</title>
-    <link>http://localhost:1313/set-up/</link>
+    <link>https://example.org/set-up/</link>
     <description>Recent content in Set-Ups on Paul&#39;s Particles</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="http://localhost:1313/set-up/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://example.org/set-up/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

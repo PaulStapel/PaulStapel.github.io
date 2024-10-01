@@ -2,171 +2,171 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Paul&#39;s Particles</title>
-    <link>http://localhost:1313/categories/</link>
+    <link>https://example.org/categories/</link>
     <description>Recent content in Categories on Paul&#39;s Particles</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 27 Sep 2024 08:19:15 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://example.org/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Chinese</title>
-      <link>http://localhost:1313/categories/chinese/</link>
+      <link>https://example.org/categories/chinese/</link>
       <pubDate>Fri, 27 Sep 2024 08:19:15 +0200</pubDate>
-      <guid>http://localhost:1313/categories/chinese/</guid>
+      <guid>https://example.org/categories/chinese/</guid>
       <description></description>
     </item>
     <item>
       <title>Difficulty 2|5</title>
-      <link>http://localhost:1313/categories/difficulty-25/</link>
+      <link>https://example.org/categories/difficulty-25/</link>
       <pubDate>Fri, 27 Sep 2024 08:19:15 +0200</pubDate>
-      <guid>http://localhost:1313/categories/difficulty-25/</guid>
+      <guid>https://example.org/categories/difficulty-25/</guid>
       <description></description>
     </item>
     <item>
       <title>Recipe</title>
-      <link>http://localhost:1313/categories/recipe/</link>
+      <link>https://example.org/categories/recipe/</link>
       <pubDate>Fri, 27 Sep 2024 08:19:15 +0200</pubDate>
-      <guid>http://localhost:1313/categories/recipe/</guid>
+      <guid>https://example.org/categories/recipe/</guid>
       <description></description>
     </item>
     <item>
       <title>Italian</title>
-      <link>http://localhost:1313/categories/italian/</link>
+      <link>https://example.org/categories/italian/</link>
       <pubDate>Wed, 25 Sep 2024 20:03:41 +0200</pubDate>
-      <guid>http://localhost:1313/categories/italian/</guid>
+      <guid>https://example.org/categories/italian/</guid>
       <description></description>
     </item>
     <item>
       <title>Difficulty 3|5</title>
-      <link>http://localhost:1313/categories/difficulty-35/</link>
+      <link>https://example.org/categories/difficulty-35/</link>
       <pubDate>Fri, 13 Sep 2024 08:22:49 +0200</pubDate>
-      <guid>http://localhost:1313/categories/difficulty-35/</guid>
+      <guid>https://example.org/categories/difficulty-35/</guid>
       <description></description>
     </item>
     <item>
       <title>Egyptian</title>
-      <link>http://localhost:1313/categories/egyptian/</link>
+      <link>https://example.org/categories/egyptian/</link>
       <pubDate>Fri, 13 Sep 2024 08:22:49 +0200</pubDate>
-      <guid>http://localhost:1313/categories/egyptian/</guid>
+      <guid>https://example.org/categories/egyptian/</guid>
       <description></description>
     </item>
     <item>
       <title>Meditation</title>
-      <link>http://localhost:1313/categories/meditation/</link>
+      <link>https://example.org/categories/meditation/</link>
       <pubDate>Sun, 08 Sep 2024 21:23:27 +0200</pubDate>
-      <guid>http://localhost:1313/categories/meditation/</guid>
+      <guid>https://example.org/categories/meditation/</guid>
       <description></description>
     </item>
     <item>
       <title>American</title>
-      <link>http://localhost:1313/categories/american/</link>
+      <link>https://example.org/categories/american/</link>
       <pubDate>Sat, 07 Sep 2024 17:18:42 +0200</pubDate>
-      <guid>http://localhost:1313/categories/american/</guid>
+      <guid>https://example.org/categories/american/</guid>
       <description></description>
     </item>
     <item>
       <title>Difficulty 1|5</title>
-      <link>http://localhost:1313/categories/difficulty-15/</link>
+      <link>https://example.org/categories/difficulty-15/</link>
       <pubDate>Sat, 07 Sep 2024 17:18:42 +0200</pubDate>
-      <guid>http://localhost:1313/categories/difficulty-15/</guid>
+      <guid>https://example.org/categories/difficulty-15/</guid>
       <description></description>
     </item>
     <item>
       <title>Productivity</title>
-      <link>http://localhost:1313/categories/productivity/</link>
+      <link>https://example.org/categories/productivity/</link>
       <pubDate>Tue, 03 Sep 2024 19:42:24 +0200</pubDate>
-      <guid>http://localhost:1313/categories/productivity/</guid>
+      <guid>https://example.org/categories/productivity/</guid>
       <description></description>
     </item>
     <item>
       <title>French</title>
-      <link>http://localhost:1313/categories/french/</link>
+      <link>https://example.org/categories/french/</link>
       <pubDate>Sun, 01 Sep 2024 20:19:47 +0200</pubDate>
-      <guid>http://localhost:1313/categories/french/</guid>
+      <guid>https://example.org/categories/french/</guid>
       <description></description>
     </item>
     <item>
       <title>Difficulty 4|5</title>
-      <link>http://localhost:1313/categories/difficulty-45/</link>
+      <link>https://example.org/categories/difficulty-45/</link>
       <pubDate>Mon, 26 Aug 2024 20:28:31 +0200</pubDate>
-      <guid>http://localhost:1313/categories/difficulty-45/</guid>
+      <guid>https://example.org/categories/difficulty-45/</guid>
       <description></description>
     </item>
     <item>
       <title>Japanese</title>
-      <link>http://localhost:1313/categories/japanese/</link>
+      <link>https://example.org/categories/japanese/</link>
       <pubDate>Mon, 26 Aug 2024 20:28:31 +0200</pubDate>
-      <guid>http://localhost:1313/categories/japanese/</guid>
+      <guid>https://example.org/categories/japanese/</guid>
       <description></description>
     </item>
     <item>
       <title>Baking</title>
-      <link>http://localhost:1313/categories/baking/</link>
+      <link>https://example.org/categories/baking/</link>
       <pubDate>Fri, 26 Jul 2024 20:22:45 +0200</pubDate>
-      <guid>http://localhost:1313/categories/baking/</guid>
+      <guid>https://example.org/categories/baking/</guid>
       <description></description>
     </item>
     <item>
       <title>Mexican</title>
-      <link>http://localhost:1313/categories/mexican/</link>
+      <link>https://example.org/categories/mexican/</link>
       <pubDate>Tue, 23 Jul 2024 07:38:59 +0200</pubDate>
-      <guid>http://localhost:1313/categories/mexican/</guid>
+      <guid>https://example.org/categories/mexican/</guid>
       <description></description>
     </item>
     <item>
       <title>Greek</title>
-      <link>http://localhost:1313/categories/greek/</link>
+      <link>https://example.org/categories/greek/</link>
       <pubDate>Fri, 12 Jul 2024 07:26:17 +0200</pubDate>
-      <guid>http://localhost:1313/categories/greek/</guid>
+      <guid>https://example.org/categories/greek/</guid>
       <description></description>
     </item>
     <item>
       <title>Indian</title>
-      <link>http://localhost:1313/categories/indian/</link>
+      <link>https://example.org/categories/indian/</link>
       <pubDate>Tue, 25 Jun 2024 21:05:34 +0200</pubDate>
-      <guid>http://localhost:1313/categories/indian/</guid>
+      <guid>https://example.org/categories/indian/</guid>
       <description></description>
     </item>
     <item>
       <title>Philosophy</title>
-      <link>http://localhost:1313/categories/philosophy/</link>
+      <link>https://example.org/categories/philosophy/</link>
       <pubDate>Sun, 19 May 2024 20:44:13 +0200</pubDate>
-      <guid>http://localhost:1313/categories/philosophy/</guid>
+      <guid>https://example.org/categories/philosophy/</guid>
       <description></description>
     </item>
     <item>
       <title>Writing</title>
-      <link>http://localhost:1313/categories/writing/</link>
+      <link>https://example.org/categories/writing/</link>
       <pubDate>Sun, 19 May 2024 20:44:13 +0200</pubDate>
-      <guid>http://localhost:1313/categories/writing/</guid>
+      <guid>https://example.org/categories/writing/</guid>
       <description></description>
     </item>
     <item>
       <title>Graphics</title>
-      <link>http://localhost:1313/categories/graphics/</link>
+      <link>https://example.org/categories/graphics/</link>
       <pubDate>Sat, 20 Apr 2024 15:55:07 +0200</pubDate>
-      <guid>http://localhost:1313/categories/graphics/</guid>
+      <guid>https://example.org/categories/graphics/</guid>
       <description></description>
     </item>
     <item>
       <title>Python</title>
-      <link>http://localhost:1313/categories/python/</link>
+      <link>https://example.org/categories/python/</link>
       <pubDate>Sat, 20 Apr 2024 15:55:07 +0200</pubDate>
-      <guid>http://localhost:1313/categories/python/</guid>
+      <guid>https://example.org/categories/python/</guid>
       <description></description>
     </item>
     <item>
       <title>Setup</title>
-      <link>http://localhost:1313/categories/setup/</link>
+      <link>https://example.org/categories/setup/</link>
       <pubDate>Wed, 03 Apr 2024 20:56:45 +0200</pubDate>
-      <guid>http://localhost:1313/categories/setup/</guid>
+      <guid>https://example.org/categories/setup/</guid>
       <description></description>
     </item>
     <item>
       <title>General</title>
-      <link>http://localhost:1313/categories/general/</link>
+      <link>https://example.org/categories/general/</link>
       <pubDate>Tue, 02 Apr 2024 17:59:14 +0200</pubDate>
-      <guid>http://localhost:1313/categories/general/</guid>
+      <guid>https://example.org/categories/general/</guid>
       <description></description>
     </item>
   </channel>

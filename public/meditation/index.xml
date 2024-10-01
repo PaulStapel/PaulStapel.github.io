@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Meditations on Paul&#39;s Particles</title>
-    <link>http://localhost:1313/meditation/</link>
+    <link>https://example.org/meditation/</link>
     <description>Recent content in Meditations on Paul&#39;s Particles</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 08 Sep 2024 21:23:27 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/meditation/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://example.org/meditation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Noticing My Bad Habits</title>
-      <link>http://localhost:1313/meditation/noticing-no-no/</link>
+      <link>https://example.org/meditation/noticing-no-no/</link>
       <pubDate>Sun, 08 Sep 2024 21:23:27 +0200</pubDate>
-      <guid>http://localhost:1313/meditation/noticing-no-no/</guid>
+      <guid>https://example.org/meditation/noticing-no-no/</guid>
       <description>Every battle is won before it is fought - Sun Tzu&#xA;In my life, I have noticed that most of my failings are only recognized in hindsight. It is often easier to look back with an analytical mind than to analyze the situation on the fly. This is exactly why I mostly fall victim to my unwillingness to say no when I am put on the spot. From my experience, the best way to shift this bad habit is to analyze the course of action beforehand.</description>
     </item>
     <item>
       <title>Learning To Say No</title>
-      <link>http://localhost:1313/meditation/learning-to-say-no/</link>
+      <link>https://example.org/meditation/learning-to-say-no/</link>
       <pubDate>Thu, 05 Sep 2024 19:56:21 +0200</pubDate>
-      <guid>http://localhost:1313/meditation/learning-to-say-no/</guid>
+      <guid>https://example.org/meditation/learning-to-say-no/</guid>
       <description>You have to learn to say no to many good things if you want to say yes to many great things&#xA;Recently, I have found myself having trouble saying no to people. Of course, when push comes to shove, I know when to stand my ground when I strongly believe in something, but the main problem lies in saying no to good things. In order to explore this, I will take you on a journey of meditation where I explore this side of myself for the first time.</description>
     </item>
     <item>
       <title>Rebalancing Oneself</title>
-      <link>http://localhost:1313/meditation/rebalancing-oneself/</link>
+      <link>https://example.org/meditation/rebalancing-oneself/</link>
       <pubDate>Wed, 04 Sep 2024 21:41:30 +0200</pubDate>
-      <guid>http://localhost:1313/meditation/rebalancing-oneself/</guid>
+      <guid>https://example.org/meditation/rebalancing-oneself/</guid>
       <description>Balance is not something you find but something you create&#xA;Sometimes, I feel like I&amp;rsquo;m finally getting in a good groove. In those times, my studying routine works, my workout routine works, I&amp;rsquo;m being social and am taking care of myself and the people around me. Then, something happens that knocks me off-balance. This summer, it has been a wonderful vacation to Vietnam that saw me quickly adapt my way of living to this travelling lifestyle, but this sweeping force may also be something a little less enjoyable.</description>
     </item>
     <item>
       <title>Mishaps</title>
-      <link>http://localhost:1313/meditation/mishaps/</link>
+      <link>https://example.org/meditation/mishaps/</link>
       <pubDate>Sun, 21 Jul 2024 22:16:37 +0200</pubDate>
-      <guid>http://localhost:1313/meditation/mishaps/</guid>
+      <guid>https://example.org/meditation/mishaps/</guid>
       <description>Falling down is an accident, staying down is a choice&#xA;When working on becoming the person you want to be, it is often in the stressful and doubtful situations that you find out your conviction is strong. You can tell alot about yourself and your growth as a person from how you deal with hardship, however small it may be.&#xA;It is good excercise to ask yourself what your instinctual reaction is when something goes wrong.</description>
     </item>
     <item>
       <title>Pretty Things</title>
-      <link>http://localhost:1313/meditation/pretty-things/</link>
+      <link>https://example.org/meditation/pretty-things/</link>
       <pubDate>Fri, 19 Jul 2024 22:44:55 +0200</pubDate>
-      <guid>http://localhost:1313/meditation/pretty-things/</guid>
+      <guid>https://example.org/meditation/pretty-things/</guid>
       <description>Beauty exists only to relief us from ugliness&#xA;Often in live, I find myself feeling like I&amp;rsquo;m above the need for beauty. It can be seen as a virtue to look not at appearance but at what lies within. I agree with this, but only recently have I come around to realising that beauty has its place as well. A lack of elegance or beauty can be distracting. This distraction may take some effort to look through, ultimately draining (a slight amount of) energy.</description>
     </item>
     <item>
       <title>Beginnings</title>
-      <link>http://localhost:1313/meditation/beginnings/</link>
+      <link>https://example.org/meditation/beginnings/</link>
       <pubDate>Thu, 18 Jul 2024 19:52:09 +0200</pubDate>
-      <guid>http://localhost:1313/meditation/beginnings/</guid>
+      <guid>https://example.org/meditation/beginnings/</guid>
       <description>Meditation is conversation with the soul.&#xA;For quite some time now, I&amp;rsquo;ve been wanting to put more of my creative energy into my blog. To do this, I have tried to understand what makes me me by finding my creative voice. I&amp;rsquo;m afraid this question is too grand for me to answer in one go. In my life, I have meditated quite often, and this is just one of many other topics I will meditate on in my life.</description>
     </item>
   </channel>

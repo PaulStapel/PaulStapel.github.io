@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>American on Paul&#39;s Particles</title>
-    <link>http://localhost:1313/categories/american/</link>
+    <link>https://example.org/categories/american/</link>
     <description>Recent content in American on Paul&#39;s Particles</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 07 Sep 2024 17:18:42 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/american/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://example.org/categories/american/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Burger Sauce</title>
-      <link>http://localhost:1313/recipes/burger-sauce/</link>
+      <link>https://example.org/recipes/burger-sauce/</link>
       <pubDate>Sat, 07 Sep 2024 17:18:42 +0200</pubDate>
-      <guid>http://localhost:1313/recipes/burger-sauce/</guid>
+      <guid>https://example.org/recipes/burger-sauce/</guid>
       <description>Today, I share a very simple recipe for a burger sauce. It&amp;rsquo;s easy to make and a lot more interesting than your usual mayonaise or ketchup that you put on your burger. When making burgers, I suggest you assemble the following: your buns, a leave of lettuce, some fried onions, gherkins/pickles, your patty and lastly this burger sauce.&#xA;Ingredients Mayonaise (250 grams) Mustard (30 grams) 1 tbsp of white vinegar 0.</description>
     </item>
     <item>
       <title>Tennessee Onion</title>
-      <link>http://localhost:1313/recipes/tennessee-onion/</link>
+      <link>https://example.org/recipes/tennessee-onion/</link>
       <pubDate>Sun, 14 Jul 2024 21:18:06 +0200</pubDate>
-      <guid>http://localhost:1313/recipes/tennessee-onion/</guid>
+      <guid>https://example.org/recipes/tennessee-onion/</guid>
       <description>Ok, so the description may have been a lie. I usually don&amp;rsquo;t barbecue because Dutch weather can be very unpredictable (Dutch struggles). Instead, I like to put stuff in the oven (like a true patriot). Therefore, this dish will be using our favorite inferno machine. The TTC (time to cook) is about an hour, so prepare it well in advance!&#xA;Ingredients White onions Shredded cheese (Gouda, because it melts well and because it&amp;rsquo;s Dutch) Butter Paprika powder Chopped parsley Dried thyme Dried oregano Aluminum foil Cooking plan Preheat an oven to 160 degrees Celsius.</description>
     </item>
     <item>
       <title>Orange Chicken</title>
-      <link>http://localhost:1313/recipes/orange-chicken/</link>
+      <link>https://example.org/recipes/orange-chicken/</link>
       <pubDate>Sat, 20 Apr 2024 21:28:15 +0200</pubDate>
-      <guid>http://localhost:1313/recipes/orange-chicken/</guid>
+      <guid>https://example.org/recipes/orange-chicken/</guid>
       <description>I have to admit, this is a guilty pleasure of mine. I don&amp;rsquo;t make this often, as it can take a bit long to make, but I always enjoy it when I do. If you are looking for a sweet and unique taste, look no further than this recipe. I suggest serving this with white rice.&#xA;Ingredients For the meat Chicken breasts (whole, or already cubed) All purpose flour Cornstarch High smoke-point oil like peanut oil For the sauce A bunch of oranges (5 per kilo of chicken, more if you like it saucy) Alternatively, you can use orange juice instead of fresh oranges A bit of sugar (If it isn&amp;rsquo;t sweet enough already) Soy sauce Garlic powder Ginger (or ginger powder) Cornstarch (to thicken the sauce) Cooking plan Squeeze the oranges and strain the juice.</description>
     </item>
     <item>
       <title>Bbq Sauce</title>
-      <link>http://localhost:1313/recipes/bbq-sauce/</link>
+      <link>https://example.org/recipes/bbq-sauce/</link>
       <pubDate>Sat, 06 Apr 2024 18:57:14 +0200</pubDate>
-      <guid>http://localhost:1313/recipes/bbq-sauce/</guid>
+      <guid>https://example.org/recipes/bbq-sauce/</guid>
       <description>I really enjoy this bbq-sauce with pulled pork or as a glaze for spare-ribs.&#xA;Ingredients Ketchup Worcester Sauce Mustard Vinegar`` Garlic powder Onion powder Salt, pepper and sugar to taste Cooking plan Put it all into a pan and stir over low heat. Go easy on the mustard and vinegar. ENJOY! </description>
     </item>
     <item>
       <title>Mongolian Beef</title>
-      <link>http://localhost:1313/recipes/mongolian-beef/</link>
+      <link>https://example.org/recipes/mongolian-beef/</link>
       <pubDate>Sat, 06 Apr 2024 10:01:01 +0200</pubDate>
-      <guid>http://localhost:1313/recipes/mongolian-beef/</guid>
+      <guid>https://example.org/recipes/mongolian-beef/</guid>
       <description>This recipe makes for a delicious and saucy beef dish. It takes some time to prepare, but is well worth it.&#xA;Ingredients Marinade Beef (I like using cheap steak for this, as the baking soda will tenderize it anyway) Shaoxing (cooking wine, sub with any rice wine) (Dark) soy sauce Oyster sauce Some white pepper A little cooking oil Baking soda (To tenderize the meat) Cornstarch (To keep the beef moist) Sauce Soy Sauce (light or dark) Sugar Oyster Sauce Shaoxing (To deglaze) A little cornstarch + water to thicken Veggies (for stir-fry) Garlic Ginger Spring onion Onion Bell pepper Dried chili pepper (you can remove this if you don&amp;rsquo;t like spicy food) Cooking plan Cut the beef into strips and mix it with the marinade (add the cornstarch at the end) Let it sit for at least 15 minutes, but preferably a few hours.</description>
     </item>
   </channel>

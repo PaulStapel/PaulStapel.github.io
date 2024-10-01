@@ -2,59 +2,59 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Chinese on Paul&#39;s Particles</title>
-    <link>http://localhost:1313/categories/chinese/</link>
+    <link>https://example.org/categories/chinese/</link>
     <description>Recent content in Chinese on Paul&#39;s Particles</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 27 Sep 2024 08:19:15 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/chinese/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://example.org/categories/chinese/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Garlixplosion Noodles</title>
-      <link>http://localhost:1313/recipes/garlicsplosion-noodles/</link>
+      <link>https://example.org/recipes/garlicsplosion-noodles/</link>
       <pubDate>Fri, 27 Sep 2024 08:19:15 +0200</pubDate>
-      <guid>http://localhost:1313/recipes/garlicsplosion-noodles/</guid>
+      <guid>https://example.org/recipes/garlicsplosion-noodles/</guid>
       <description>The only way to make a good dish even gooder is to add an exuberant amount of garlic to it. That was exactly the premise of this little experiment. Adding a lot of garlic and seeing where it leads me. It turned out to be a delightful recipe that I have even decided to share her on my blog. Be warned, not for the faint of heart.&#xA;Ingredients Lots of garlic (I used about 2 bulbs, but adjust to your own tolerance/taste) Noodles Onion Zucchini Ground beef or meatballs Chili oil (I use Lao Gan Ma) A little vegetable oil Light soy sauce Optional black bean sauce Cooking plan To a pot, add some salted water and cook your noodles as per the instructions on the package.</description>
     </item>
     <item>
       <title>Sichuan Pork</title>
-      <link>http://localhost:1313/recipes/sichuan-pork/</link>
+      <link>https://example.org/recipes/sichuan-pork/</link>
       <pubDate>Mon, 20 May 2024 21:56:30 +0200</pubDate>
-      <guid>http://localhost:1313/recipes/sichuan-pork/</guid>
+      <guid>https://example.org/recipes/sichuan-pork/</guid>
       <description>The recipe I referred to in my previous post. The flavour can best be described as má là, a Chinese term meaning numbing ( má 麻) and spicy ( là 辣). The aroma is citrusy and deep, and the flavour leaves you wanting more. I suggest you serve this with rice. This recipe takes about 45 minutes, but it is well worth it.&#xA;Ingredients Pork belly (without the rind) Black pepper About a tablespoon of red Sichuan peppercorns (less if you can&amp;rsquo;t stand the numbing effect) Five-spice powder High smoke point cooking oil (like vegetable oil) Star anise Onion Ginger As much pepper as you can handle (and don&amp;rsquo;t be a wimp!</description>
     </item>
     <item>
       <title>Egg Drop Soup</title>
-      <link>http://localhost:1313/recipes/egg-drop-soup/</link>
+      <link>https://example.org/recipes/egg-drop-soup/</link>
       <pubDate>Tue, 07 May 2024 21:12:21 +0200</pubDate>
-      <guid>http://localhost:1313/recipes/egg-drop-soup/</guid>
+      <guid>https://example.org/recipes/egg-drop-soup/</guid>
       <description>I&amp;rsquo;ve started getting into making soup recently. This is new territory for me, but I decided to give it a try after pondering what to do with the leftover chinese cabbage that had been living rent-free in my fridge for a too long. Behold! This soup was the result.&#xA;Ingredients Chinese Cabbage About 1 liter of chicken stock Eggs (about 3) White onion (can be omitted) Garlic Sesame oil Powdered or grated ginger Salt and (preferably white) pepper Scallion A little bit of cooking oil Cooking plan Chop up your onions, garlic and scallion (put aside the green for garnish).</description>
     </item>
     <item>
       <title>Orange Chicken</title>
-      <link>http://localhost:1313/recipes/orange-chicken/</link>
+      <link>https://example.org/recipes/orange-chicken/</link>
       <pubDate>Sat, 20 Apr 2024 21:28:15 +0200</pubDate>
-      <guid>http://localhost:1313/recipes/orange-chicken/</guid>
+      <guid>https://example.org/recipes/orange-chicken/</guid>
       <description>I have to admit, this is a guilty pleasure of mine. I don&amp;rsquo;t make this often, as it can take a bit long to make, but I always enjoy it when I do. If you are looking for a sweet and unique taste, look no further than this recipe. I suggest serving this with white rice.&#xA;Ingredients For the meat Chicken breasts (whole, or already cubed) All purpose flour Cornstarch High smoke-point oil like peanut oil For the sauce A bunch of oranges (5 per kilo of chicken, more if you like it saucy) Alternatively, you can use orange juice instead of fresh oranges A bit of sugar (If it isn&amp;rsquo;t sweet enough already) Soy sauce Garlic powder Ginger (or ginger powder) Cornstarch (to thicken the sauce) Cooking plan Squeeze the oranges and strain the juice.</description>
     </item>
     <item>
       <title>Hoisin Ground Beef</title>
-      <link>http://localhost:1313/recipes/hoisin-ground-beef/</link>
+      <link>https://example.org/recipes/hoisin-ground-beef/</link>
       <pubDate>Tue, 16 Apr 2024 10:51:32 +0200</pubDate>
-      <guid>http://localhost:1313/recipes/hoisin-ground-beef/</guid>
+      <guid>https://example.org/recipes/hoisin-ground-beef/</guid>
       <description>This recipe is both simple and delicious. This is easy comfort food for when I don&amp;rsquo;t feel like cooking for too long.&#xA;Ingredients Ground beef Garlic Yellow onion Spring onion Shallots Soy sauce Hoisin sauce Oyster sauce (optional, adds umami) Shaoxing cooking wine (to deglaze) Sesame oil (optional, but it really is a finishing touch) White rice Cooking plan Wash the rice and cook it. cut up the spring onion and reserve the greens for garnishing.</description>
     </item>
     <item>
       <title>Mongolian Beef</title>
-      <link>http://localhost:1313/recipes/mongolian-beef/</link>
+      <link>https://example.org/recipes/mongolian-beef/</link>
       <pubDate>Sat, 06 Apr 2024 10:01:01 +0200</pubDate>
-      <guid>http://localhost:1313/recipes/mongolian-beef/</guid>
+      <guid>https://example.org/recipes/mongolian-beef/</guid>
       <description>This recipe makes for a delicious and saucy beef dish. It takes some time to prepare, but is well worth it.&#xA;Ingredients Marinade Beef (I like using cheap steak for this, as the baking soda will tenderize it anyway) Shaoxing (cooking wine, sub with any rice wine) (Dark) soy sauce Oyster sauce Some white pepper A little cooking oil Baking soda (To tenderize the meat) Cornstarch (To keep the beef moist) Sauce Soy Sauce (light or dark) Sugar Oyster Sauce Shaoxing (To deglaze) A little cornstarch + water to thicken Veggies (for stir-fry) Garlic Ginger Spring onion Onion Bell pepper Dried chili pepper (you can remove this if you don&amp;rsquo;t like spicy food) Cooking plan Cut the beef into strips and mix it with the marinade (add the cornstarch at the end) Let it sit for at least 15 minutes, but preferably a few hours.</description>
     </item>
     <item>
       <title>Garlic Beans</title>
-      <link>http://localhost:1313/recipes/garlic-beans/</link>
+      <link>https://example.org/recipes/garlic-beans/</link>
       <pubDate>Tue, 02 Apr 2024 17:59:38 +0200</pubDate>
-      <guid>http://localhost:1313/recipes/garlic-beans/</guid>
+      <guid>https://example.org/recipes/garlic-beans/</guid>
       <description>Ingredients Green beans Garlic Ginger Soy Sauce Butter Cooking plan First, fry the beans in the oil till they become shriveled and you begin to see some yellow. Next, in a new pan, add the butter and heat up the garlic, ginger and soy sauce on medium heat. Go easy on the soy sauce. Finally, add the beans back in and mix them with the sauce. ENJOY! </description>
     </item>
   </channel>

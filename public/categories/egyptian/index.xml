@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Egyptian on Paul&#39;s Particles</title>
-    <link>http://localhost:1313/categories/egyptian/</link>
+    <link>https://example.org/categories/egyptian/</link>
     <description>Recent content in Egyptian on Paul&#39;s Particles</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 13 Sep 2024 08:22:49 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/egyptian/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://example.org/categories/egyptian/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mesa&#39;a&#39;ah</title>
-      <link>http://localhost:1313/recipes/mesa-ah/</link>
+      <link>https://example.org/recipes/mesa-ah/</link>
       <pubDate>Fri, 13 Sep 2024 08:22:49 +0200</pubDate>
-      <guid>http://localhost:1313/recipes/mesa-ah/</guid>
+      <guid>https://example.org/recipes/mesa-ah/</guid>
       <description>There were too many eggplants in my fridge, so I decided to do something about that. I could have made my melitzanosalata, but I didn&amp;rsquo;t feel like that would be filling enough, and it was too cold outside to grill. That&amp;rsquo;s when I stumbled upon a dish I had never heard of before. Behold, the Egyptian dish &amp;ldquo;mesa&amp;rsquo;a&amp;rsquo;ah&amp;rdquo;.&#xA;Ingredients Tomato paste (about 1 tsp) Eggplants (Like, 2 or something) Strained tomatoes (about 500 grams or something) Salt Dried coriander Cumin Lots of olive oil White onion Garlic (about 6 cloves?</description>
     </item>
   </channel>

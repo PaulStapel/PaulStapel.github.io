@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Graphics on Paul&#39;s Particles</title>
-    <link>http://localhost:1313/categories/graphics/</link>
+    <link>https://example.org/categories/graphics/</link>
     <description>Recent content in Graphics on Paul&#39;s Particles</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 20 Apr 2024 15:55:07 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/graphics/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://example.org/categories/graphics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>3D Rotation in Python with quaternions</title>
-      <link>http://localhost:1313/3d-rotation-python/</link>
+      <link>https://example.org/3d-rotation-python/</link>
       <pubDate>Sat, 20 Apr 2024 15:55:07 +0200</pubDate>
-      <guid>http://localhost:1313/3d-rotation-python/</guid>
+      <guid>https://example.org/3d-rotation-python/</guid>
       <description>Today, I wanted to share a bit of code that you can use to rotate any 3D vector using Python. If you want to read a bit about how the code works, and why quaternions are useful, keep reading. If you are only interested in the code, I have it in full on my GitHub&#xA;Quickly, what is a quaternion? A quaternion is an extension of the complex numbers into 4 dimensions.</description>
     </item>
   </channel>
