@@ -11,13 +11,13 @@ This recipe makes for a delicious and saucy beef dish. It takes some time to pre
 ## Ingredients
 
 ### Marinade
-* Beef (I like using cheap steak for this)
-* Shaoxing (Cooking Wine)
-* (Dark) Soy Sauce
+* Beef (I like using cheap steak for this, as the baking soda will tenderize it anyway)
+* Shaoxing (cooking wine, sub with any rice wine)
+* (Dark) soy sauce
 * Oyster sauce
 * Some white pepper
 * A little cooking oil
-* Baking Soda (To tenderize the meat)
+* Baking soda (To tenderize the meat)
 * Cornstarch (To keep the beef moist)
 
 ### Sauce
@@ -39,8 +39,8 @@ This recipe makes for a delicious and saucy beef dish. It takes some time to pre
 * Cut the beef into strips and mix it with the marinade (add the cornstarch at the end) Let it sit for at least 15 minutes, but preferably a few hours. 
 * Cut the vegetables
 * Prepare the sauce in a small bowl, with a separate bowl for the cornstarch slurry
-* Stir fry the beef in a wok, make sure to use a lot of oil. Take the beef out of the wok when it starts to turn crispy.
-* Remove some of the oil, and stir fry the veggies. 
+* If time permits, I suggest you deep fry your beef in vegetable oil. This way, the texture will turn out crispy while the beef remains moist. Else, you can simply stir fry your mongolian beef instead. 
+* Remove some of the oil and stir fry the veggies. 
 * Add in the sauce and the beef, and season to taste. 
 
 ## ENJOY!

@@ -1,5 +1,5 @@
 ---
-title: "Garlicsplosion Noodles"
+title: "Garlixplosion Noodles"
 date: "2024-09-27T08:19:15+02:00"
 draft: false
 description: "The name says it all. Ya like garlic?"
