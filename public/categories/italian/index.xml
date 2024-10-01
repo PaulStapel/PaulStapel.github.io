@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Italian on Paul&#39;s Particles</title>
+    <link>http://localhost:1313/categories/italian/</link>
+    <description>Recent content in Italian on Paul&#39;s Particles</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 25 Sep 2024 20:03:41 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/italian/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Carbonara</title>
+      <link>http://localhost:1313/recipes/carbonara/</link>
+      <pubDate>Wed, 25 Sep 2024 20:03:41 +0200</pubDate>
+      <guid>http://localhost:1313/recipes/carbonara/</guid>
+      <description>So, yesterday I was craving some good &amp;lsquo;ol spaghetti. I usually go with a tomato sauce, but this time, I saw that I still had some parmigiano in my fridge. I simply couldn&amp;rsquo;t resist the urge to try something new, and ended up making this delicious carbonara. It may not be the healthiest, but it was definitely worth it in the end. I included a secret ingredient of miso paste in order to boost the umami content.</description>
+    </item>
+  </channel>
+</rss>
