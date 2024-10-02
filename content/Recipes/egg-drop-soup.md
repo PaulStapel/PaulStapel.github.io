@@ -5,7 +5,7 @@ draft = false
 description = "A delicous and light soup to complement any diner!"
 categories = ["recipe","difficulty 2|5","Chinese"]
 +++
-I've started getting into making soup recently. This is new territory for me, but I decided to give it a try after pondering what to do with the leftover chinese cabbage that had been living rent-free in my fridge for a too long. Behold! This soup was the result. 
+I've started getting into making soup recently. This is new territory for me, but I decided to give it a try after pondering what to do with the leftover chinese cabbage that had been living rent-free in my fridge for too long. Behold! This soup was the result. 
 
 ## Ingredients
 
