@@ -12,7 +12,7 @@ This recipe is a Paul-certified classic. It is easy to make (only about 30 minut
 
 - Sausage (pork works well)
 - Cooking oil
-- A (small) tin of tomtato paste
+- A (small) tin of tomato paste
 - Yellow onion
 - Garlic
 - Bell peppers (different colors looks the nicest, doesn't really matter for taste)
