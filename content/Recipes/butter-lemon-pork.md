@@ -17,6 +17,7 @@ So today, I tried to do something new with pork belly. Most of my recipes involv
 - Pork belly
 - Lemon juice
 - White onion
+- Honey
 - Garlic
 - Water
 - Dark soy sauce (for color)
@@ -26,11 +27,11 @@ So today, I tried to do something new with pork belly. Most of my recipes involv
 
 ## Cooking plan
 - First, slice your pork belly into bite sized pieces and cover with a little salt, pepper and dried oregano. 
-- Add some oil and 2 thin slices of butter to a heated pan. 
-- When the butter has melted, add your pork belly to a pan and let it crisp properly. 
-- In a sauce pan, add 2 thin slices of butter, a little bit of oil and your garlic. Stir it until it is fragrant and sauteed. 
-- Once the pork is done, remove it from your pan and add onion (in rings or slices), leave it to brown a little while you further prepare your sauce. 
-- To your sauce, add the ginger, lemon juice and more dried oregano. After that, add a little water and dark soy sauce for coloring. Reduce the sauce until it is thick (perhaps with some cornstarch added to quicken the process). 
+- Add some oil to a heated pan. For added crisp and brownness from your pork, use a cast iron pan. 
+- Add your pork belly to a pan and let it crisp properly. Once it has browned, add in 2 thin slices of butter and keep cooking your pork until crisp. 
+- Remove your pork and add in onion (in rings or slices). Leave it to brown for a while. For quick caramelisation, you may add some hot water to your pan and cover it with a lid. This way, your onion will come into contact with even more heat, quickening the process. This also prevents your onion from burning when you prepare the sauce. 
+- In a sauce pan, add 2 thin slices of butter, a little bit of oil and your garlic. Stir it until it is fragrant and sauteed. For this sauce, it is up to your own taste, so keep tasting while cooking it so that you can gauge how much of your ingredients to add. 
+- To your sauce, add the ginger, lemon juice and more dried oregano. To sweeten your sauce and counteract the sourness, add in honey to taste. After that, add a little water and dark soy sauce for coloring. Reduce the sauce until it is thick and keep adjusting your sauce until it is to your liking. If needed, you can add a cornstarch slurry to make it thicken faster. 
 - Add the sauce, pork and onion into your pan and stir a little until everything is covered. 
 
 ## ENJOY!
