@@ -30,6 +30,6 @@ After a long day of work, you probably don't want to have to cook anything compl
 - Once they have become aromatic, add in your ground beef on high heat until properly browned. The texture should be very granular.
 - Next, add your broth to the pan. It should be able to nearly coat your glass noodles. (But don't add them yet!)
 - To this broth, add light and dark soy sauce in equal parts. Also add a little sugar to taste. Once it starts boiling, also add your glass noodles (without the water). 
-- Let it until your noodles are cooked and the water has evaporated. You are now ready to serve. 
+- Let it simmer until your noodles are cooked and the water has evaporated. You are now ready to serve. 
 
 ## ENJOY!
