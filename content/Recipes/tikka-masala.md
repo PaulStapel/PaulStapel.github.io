@@ -9,7 +9,7 @@ categories:
     - Indian
 ---
 
-I always love the taste of Indian cuisine, and I usually turn to Indian food when I want a fix of rich and hearty flavours paired with a healthy feel. Today's recipe is rather easy to make compared to other Indian curries, and it is an easy fix for when you crave something creamy. I'm not sure if it can be classified as a weekday meal, but it is definetely easy enough to make it on a lazy sunday. You'll probably even have leftovers to boot. 
+I always love the taste of Indian cuisine, and I usually turn to Indian food when I want a fix of rich and hearty flavours paired with a healthy feel. Today's recipe is rather easy to make compared to other Indian curries, and it is an easy fix for when you crave something creamy. I'm not sure if it can be classified as a weekday meal, but it is definetely easy enough to make it on a lazy sunday. You'll probably have leftovers to boot. 
 
 ## Ingredients
 
