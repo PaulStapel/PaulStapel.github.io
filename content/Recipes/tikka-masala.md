@@ -51,7 +51,7 @@ Make sure to marinate your chicken at least 2 hours in advance, but preferably o
 - If using a cinnamon stick, start by toasting it until fragrant. Then, add your onions and some oil to that pot. Cook your onion until caramelised. See [this post](https://paulstapel.com/recipes/japanese-curry/) for tips on fast caramelisation. 
 - While you do this, use a skillet to grill your marinated chicken. When a piece has turned crispy, leave it on a plate for a bit. Don't worry too much about doneness, as you will still cook it later on. 
 - Once the onions are done, also add your ginger and garlic. When they become fragrent, add your garam masala, fenugreek, ground coriander and cumin to the pot. The coriander should be your main flavour, but you may add spices to your own taste. 
-- Once these spices have become fragrant, add your tomato paste and cook until it is almost devoid of water. 
+- Once these spices have become fragrant, add your tomato paste and cook until most of the water content has evaporated. 
 - Next add some water to your pot in order to deglaze it, thus creating your curry. Add in your chicken.
 - Mash or blend your cashew nuts with some water. This will become a thickener/smoothener to your sauce. Once it is blended, add it to the sauce. 
 - Next, you may add heavy cream or cooking cream. This will make sure your sauces thickens even further, and it can give a more rich and umami flavour to your dish. 
