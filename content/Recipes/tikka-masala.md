@@ -47,7 +47,7 @@ Make sure to marinate your chicken at least 2 hours in advance, but preferably o
 
 ## Cooking plan
 - Start by marinating your chicken. First cut your chicken into (bite sized) cubes. Next, add your ingredients for the marinade. I usually add 2 parts Fenugreek, 2 parts garam masala, 1 part Cumin powder, 1 part ground tumeric, 2 parts coriander powder, 1 part garlic powder and 1 part ginger powder. Your marinade should turn out a yellow/orange color. Marinate for at least 2 hours, but preferably overnight. 
-- Start by mincing your onion, garlic and ginger seperately. Make sure to use a lot of onions, as they shrink. Otherwise, your sauce will be dominated by the tomato flavour. 
+- Next, mince your onion, garlic and ginger seperately. Make sure to use a lot of onions, as they shrink. Otherwise, your sauce will be dominated by the tomato flavour. 
 - If using a cinnamon stick, start by toasting it until fragrant. Then, add your onions and some oil to that pot. Cook your onion until caramelised. See [this post](https://paulstapel.com/recipes/japanese-curry/) for tips on fast caramelisation. 
 - While you do this, use a skillet to grill your marinated chicken. When a piece has turned crispy, leave it on a plate for a bit. Don't worry too much about doneness, as you will still cook it later on. 
 - Once the onions are done, also add your ginger and garlic. When they become fragrent, add your garam masala, fenugreek, ground coriander and cumin to the pot. The coriander should be your main flavour, but you may add spices to your own taste. 
