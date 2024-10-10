@@ -32,7 +32,7 @@ After having been on a vacation to Vietnam and Singapore for three weeks (hence 
 - To a large pan on medium heat, add some vegetable oil and your grated ginger, garlic, and carrot. Stir until fragrant.
 - Once fragrant, add in your onions and your salted water. Quickly close the lid and let it steam for about 10 minutes.
 - Meanwhile, start cutting your carrot and potato into bite-sized chunks.
-- If you are making your curry powder from scratch, do so now (see the link in ingredients). You'll need the full portion size mentioned there.
+- If you are making your curry powder from scratch, do so now.
 - Once the 10 minutes are up, take off the lid and start stirring the onions on medium-high heat, making sure not to burn them. You are finished when the onions have turned completely brown and soft.
 - Next, add your carrots and potatoes to the pan, and add stock until they are covered completely. To this stew, add your curry powder and some soy sauce.
 - For added sweetness, add a blended banana or grated apple to your stew. If you don't like the taste of these ingredients, add only half the fruit or substitute with honey. (But please do try it, it's really good.)
