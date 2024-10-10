@@ -13,7 +13,8 @@ This recipe is both simple and delicious. This is easy comfort food for when I d
 * Garlic
 * Yellow onion
 * Spring onion
-* Shallots
+* (Optional) Shallots
+* Garden peas
 * Soy sauce
 * Hoisin sauce
 * Oyster sauce (optional, adds umami)
