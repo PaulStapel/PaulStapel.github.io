@@ -8,7 +8,7 @@ categories:
     - Russian
     - difficulty 2|5
 ---
-
+ 
 All jokes aside, this recipe results in a rich and creamy beef stroganoff. As pork is a lot cheaper where I live, I often use pork as instead of beef. This is still very tasty, but if you can, try making it with beef, as it will be even richer in flavor. You should serve it with pasta. I recommend serving this with pasta like tagliatelle, but mashed potatoes would also be verrryyy good I imagine. Without further ado, let's get into this recipe :D
 
 ## Ingredients
