@@ -2,73 +2,87 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Difficulty 2|5 on Paul&#39;s Particles</title>
-    <link>https://example.org/categories/difficulty-25/</link>
+    <link>http://localhost:1313/categories/difficulty-25/</link>
     <description>Recent content in Difficulty 2|5 on Paul&#39;s Particles</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 27 Sep 2024 08:19:15 +0200</lastBuildDate>
-    <atom:link href="https://example.org/categories/difficulty-25/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 14 Nov 2024 21:19:53 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/difficulty-25/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Beef/Pork Stroganoff</title>
+      <link>http://localhost:1313/recipes/beef-stroganoff/</link>
+      <pubDate>Thu, 14 Nov 2024 21:19:53 +0100</pubDate>
+      <guid>http://localhost:1313/recipes/beef-stroganoff/</guid>
+      <description>All jokes aside, this recipe results in a rich and creamy beef stroganoff. As pork is a lot cheaper where I live, I often use pork as instead of beef. This is still very tasty, but if you can, try making it with beef, as it will be even richer in flavor. You should serve it with pasta. I recommend serving this with pasta like tagliatelle, but mashed potatoes would also be verrryyy good I imagine.</description>
+    </item>
+    <item>
+      <title>Pork Adobo</title>
+      <link>http://localhost:1313/recipes/pork-adobo/</link>
+      <pubDate>Thu, 14 Nov 2024 20:48:12 +0100</pubDate>
+      <guid>http://localhost:1313/recipes/pork-adobo/</guid>
+      <description>My auntie Rose from the Philippines shared this awesome recipe with me recently, and i&amp;rsquo;ve made it a few times now. I will be sharing the base recipe with some optional ingredients you may add, but having cooked this dish in a few different ways now, I can safely say that all of them are delicous. Serve with white rice.&#xA;Ingredients Pork belly (or chicken for chicken adobo) (Use the bones seperately as well if you have them) Garlic (lots of it) Olive oil String beans (Optional) Potatoes (Optional) Hard boiled egg (Optional) Salt White onion (Own addition, optional) For the marinade White vinegar (I have found that Chinkiang black vinegar also works, but I prefer white) Soy sauce Brown sugar Black pepper Bay leafs Warm water Cooking plan There are two ways to do the marinade.</description>
+    </item>
     <item>
       <title>Garlixplosion Noodles</title>
-      <link>https://example.org/recipes/garlicsplosion-noodles/</link>
+      <link>http://localhost:1313/recipes/garlicsplosion-noodles/</link>
       <pubDate>Fri, 27 Sep 2024 08:19:15 +0200</pubDate>
-      <guid>https://example.org/recipes/garlicsplosion-noodles/</guid>
+      <guid>http://localhost:1313/recipes/garlicsplosion-noodles/</guid>
       <description>The only way to make a good dish even gooder is to add an exuberant amount of garlic to it. That was exactly the premise of this little experiment. Adding a lot of garlic and seeing where it leads me. It turned out to be a delightful recipe that I have even decided to share her on my blog. Be warned, not for the faint of heart.&#xA;Ingredients Lots of garlic (I used about 2 bulbs, but adjust to your own tolerance/taste) Noodles Onion Zucchini Ground beef or meatballs Chili oil (I use Lao Gan Ma) A little vegetable oil Light soy sauce Optional black bean sauce Cooking plan To a pot, add some salted water and cook your noodles as per the instructions on the package.</description>
     </item>
     <item>
       <title>Carbonara</title>
-      <link>https://example.org/recipes/carbonara/</link>
+      <link>http://localhost:1313/recipes/carbonara/</link>
       <pubDate>Wed, 25 Sep 2024 20:03:41 +0200</pubDate>
-      <guid>https://example.org/recipes/carbonara/</guid>
+      <guid>http://localhost:1313/recipes/carbonara/</guid>
       <description>So, yesterday I was craving some good &amp;lsquo;ol spaghetti. I usually go with a tomato sauce, but this time, I saw that I still had some parmigiano in my fridge. I simply couldn&amp;rsquo;t resist the urge to try something new, and ended up making this delicious carbonara. It may not be the healthiest, but it was definitely worth it in the end. I included a secret ingredient of miso paste in order to boost the umami content.</description>
     </item>
     <item>
       <title>Ants Climbing a Tree</title>
-      <link>https://example.org/recipes/ants-climbing-a-tree/</link>
+      <link>http://localhost:1313/recipes/ants-climbing-a-tree/</link>
       <pubDate>Tue, 17 Sep 2024 20:38:46 +0200</pubDate>
-      <guid>https://example.org/recipes/ants-climbing-a-tree/</guid>
+      <guid>http://localhost:1313/recipes/ants-climbing-a-tree/</guid>
       <description>After a long day of work, you probably don&amp;rsquo;t want to have to cook anything complicated. Whenever I have days like this, I like keeping it simple as well. Of course, simple does not necessarily mean bland, and this dish is both easy and flavorful. The name &amp;ldquo;Ants climbing a tree&amp;rdquo; stems from the fact that the small ingredients on top of the glass noodles look like ants climbing a tree.</description>
     </item>
     <item>
       <title>Tennessee Onion</title>
-      <link>https://example.org/recipes/tennessee-onion/</link>
+      <link>http://localhost:1313/recipes/tennessee-onion/</link>
       <pubDate>Sun, 14 Jul 2024 21:18:06 +0200</pubDate>
-      <guid>https://example.org/recipes/tennessee-onion/</guid>
+      <guid>http://localhost:1313/recipes/tennessee-onion/</guid>
       <description>Ok, so the description may have been a lie. I usually don&amp;rsquo;t barbecue because Dutch weather can be very unpredictable (Dutch struggles). Instead, I like to put stuff in the oven (like a true patriot). Therefore, this dish will be using our favorite inferno machine. The TTC (time to cook) is about an hour, so prepare it well in advance!&#xA;Ingredients White onions Shredded cheese (Gouda, because it melts well and because it&amp;rsquo;s Dutch) Butter Paprika powder Chopped parsley Dried thyme Dried oregano Aluminum foil Cooking plan Preheat an oven to 160 degrees Celsius.</description>
     </item>
     <item>
       <title>Souvlaki</title>
-      <link>https://example.org/recipes/souvlaki/</link>
+      <link>http://localhost:1313/recipes/souvlaki/</link>
       <pubDate>Fri, 12 Jul 2024 07:26:17 +0200</pubDate>
-      <guid>https://example.org/recipes/souvlaki/</guid>
+      <guid>http://localhost:1313/recipes/souvlaki/</guid>
       <description>This is a lovely meaty dish that you can serve as a main course. With summer at its peak, you enjoy this dish on straight from the grill during a barbecue for example.&#xA;Marinade (extra virgin) olive oil Oregano Sweet paprika powder Thyme (optional) Bay leaves Juice from a lemon LOTS OF GARLIC Salt and pepper Chicken (cubed, which you&amp;rsquo;ll marinate) Cooking plan Mince the garlic. You should use enough that you can smell it.</description>
     </item>
     <item>
       <title>Egg Drop Soup</title>
-      <link>https://example.org/recipes/egg-drop-soup/</link>
+      <link>http://localhost:1313/recipes/egg-drop-soup/</link>
       <pubDate>Tue, 07 May 2024 21:12:21 +0200</pubDate>
-      <guid>https://example.org/recipes/egg-drop-soup/</guid>
-      <description>I&amp;rsquo;ve started getting into making soup recently. This is new territory for me, but I decided to give it a try after pondering what to do with the leftover chinese cabbage that had been living rent-free in my fridge for a too long. Behold! This soup was the result.&#xA;Ingredients Chinese Cabbage About 1 liter of chicken stock Eggs (about 3) White onion (can be omitted) Garlic Sesame oil Powdered or grated ginger Salt and (preferably white) pepper Scallion A little bit of cooking oil Cooking plan Chop up your onions, garlic and scallion (put aside the green for garnish).</description>
+      <guid>http://localhost:1313/recipes/egg-drop-soup/</guid>
+      <description>I&amp;rsquo;ve started getting into making soup recently. This is new territory for me, but I decided to give it a try after pondering what to do with the leftover chinese cabbage that had been living rent-free in my fridge for too long. Behold! This soup was the result.&#xA;Ingredients Chinese Cabbage About 1 liter of chicken stock Eggs (about 3) White onion (can be omitted) Garlic Sesame oil Powdered or grated ginger Salt and (preferably white) pepper Scallion A little bit of cooking oil Cooking plan Chop up your onions, garlic and scallion (put aside the green for garnish).</description>
     </item>
     <item>
       <title>Teriyaki Sauce</title>
-      <link>https://example.org/recipes/teriyaki-sauce/</link>
+      <link>http://localhost:1313/recipes/teriyaki-sauce/</link>
       <pubDate>Sat, 06 Apr 2024 18:50:31 +0200</pubDate>
-      <guid>https://example.org/recipes/teriyaki-sauce/</guid>
+      <guid>http://localhost:1313/recipes/teriyaki-sauce/</guid>
       <description>I love eating this sauce with, for example, chicken and noodles.&#xA;Ingredients Sesame seeds (optional, adds flavour and thickens sauce) Soy Sauce Honey Sugar (only a little if you like it less sweet) Garlic powder Grated ginger Sesame oil (optional, ads nice sesame flavours) Mirin cooking wine (optional, ads extra complexity) Some water Cornstarch (Add if you like a thicker sauce) Cooking plan Add all ingredients to a pan, and stir over medium heat until desired taste and texture is achieved.</description>
     </item>
     <item>
       <title>Rice Pudding</title>
-      <link>https://example.org/recipes/rice-pudding/</link>
+      <link>http://localhost:1313/recipes/rice-pudding/</link>
       <pubDate>Thu, 04 Apr 2024 15:09:19 +0200</pubDate>
-      <guid>https://example.org/recipes/rice-pudding/</guid>
+      <guid>http://localhost:1313/recipes/rice-pudding/</guid>
       <description>Whenever I have rice left over, there are two things that immediately come to mind. Storing it to stir-fry it later, or turning it into a pudding if I have time to do so. This is the ultimate thoughtless recipe for when you want to keep your hands busy while listening to music for example.&#xA;Ingredients (Left over) rice Milk Sugar Vanilla extract (optional) Cooking plan Submerge the rice in milk.</description>
     </item>
     <item>
       <title>Garlic Beans</title>
-      <link>https://example.org/recipes/garlic-beans/</link>
+      <link>http://localhost:1313/recipes/garlic-beans/</link>
       <pubDate>Tue, 02 Apr 2024 17:59:38 +0200</pubDate>
-      <guid>https://example.org/recipes/garlic-beans/</guid>
+      <guid>http://localhost:1313/recipes/garlic-beans/</guid>
       <description>Ingredients Green beans Garlic Ginger Soy Sauce Butter Cooking plan First, fry the beans in the oil till they become shriveled and you begin to see some yellow. Next, in a new pan, add the butter and heat up the garlic, ginger and soy sauce on medium heat. Go easy on the soy sauce. Finally, add the beans back in and mix them with the sauce. ENJOY! </description>
     </item>
   </channel>

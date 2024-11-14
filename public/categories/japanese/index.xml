@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Japanese on Paul&#39;s Particles</title>
-    <link>https://example.org/categories/japanese/</link>
+    <link>http://localhost:1313/categories/japanese/</link>
     <description>Recent content in Japanese on Paul&#39;s Particles</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 26 Aug 2024 20:28:31 +0200</lastBuildDate>
-    <atom:link href="https://example.org/categories/japanese/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/japanese/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Japanese Curry</title>
-      <link>https://example.org/recipes/japanese-curry/</link>
+      <link>http://localhost:1313/recipes/japanese-curry/</link>
       <pubDate>Mon, 26 Aug 2024 20:28:31 +0200</pubDate>
-      <guid>https://example.org/recipes/japanese-curry/</guid>
+      <guid>http://localhost:1313/recipes/japanese-curry/</guid>
       <description>After having been on a vacation to Vietnam and Singapore for three weeks (hence the gap in posts, haha), this is one cuisine I have fallen in love with. I simply had to get a recipe to make this myself, and in my opinion, I am quite close to mimicking the taste of the curries I&amp;rsquo;ve had in Singapore. Be warned, this recipe can take up to 2 hours. I suggest serving this dish with (white) rice.</description>
     </item>
     <item>
       <title>Teriyaki Sauce</title>
-      <link>https://example.org/recipes/teriyaki-sauce/</link>
+      <link>http://localhost:1313/recipes/teriyaki-sauce/</link>
       <pubDate>Sat, 06 Apr 2024 18:50:31 +0200</pubDate>
-      <guid>https://example.org/recipes/teriyaki-sauce/</guid>
+      <guid>http://localhost:1313/recipes/teriyaki-sauce/</guid>
       <description>I love eating this sauce with, for example, chicken and noodles.&#xA;Ingredients Sesame seeds (optional, adds flavour and thickens sauce) Soy Sauce Honey Sugar (only a little if you like it less sweet) Garlic powder Grated ginger Sesame oil (optional, ads nice sesame flavours) Mirin cooking wine (optional, ads extra complexity) Some water Cornstarch (Add if you like a thicker sauce) Cooking plan Add all ingredients to a pan, and stir over medium heat until desired taste and texture is achieved.</description>
     </item>
   </channel>

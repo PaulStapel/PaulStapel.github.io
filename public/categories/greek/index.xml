@@ -2,31 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Greek on Paul&#39;s Particles</title>
-    <link>https://example.org/categories/greek/</link>
+    <link>http://localhost:1313/categories/greek/</link>
     <description>Recent content in Greek on Paul&#39;s Particles</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Jul 2024 07:26:17 +0200</lastBuildDate>
-    <atom:link href="https://example.org/categories/greek/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 08 Nov 2024 18:11:37 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/greek/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Meatballs in tomato sauce</title>
+      <link>http://localhost:1313/recipes/tomato-meatballs/</link>
+      <pubDate>Fri, 08 Nov 2024 18:11:37 +0100</pubDate>
+      <guid>http://localhost:1313/recipes/tomato-meatballs/</guid>
+      <description>Ok, so last week I was thinking about what I wanted to cook, when I stumbled upon some inspiration for meatballs in tomato sauce, thinking back to how delicious those were back when I visited Greece. Now I am not about to tell you that this is an authentic Greek recipe (it is more of an Italian recipe I believe), but this is an authentic Paul banger, and as such, I would love to share it with you all.</description>
+    </item>
     <item>
       <title>Souvlaki</title>
-      <link>https://example.org/recipes/souvlaki/</link>
+      <link>http://localhost:1313/recipes/souvlaki/</link>
       <pubDate>Fri, 12 Jul 2024 07:26:17 +0200</pubDate>
-      <guid>https://example.org/recipes/souvlaki/</guid>
+      <guid>http://localhost:1313/recipes/souvlaki/</guid>
       <description>This is a lovely meaty dish that you can serve as a main course. With summer at its peak, you enjoy this dish on straight from the grill during a barbecue for example.&#xA;Marinade (extra virgin) olive oil Oregano Sweet paprika powder Thyme (optional) Bay leaves Juice from a lemon LOTS OF GARLIC Salt and pepper Chicken (cubed, which you&amp;rsquo;ll marinate) Cooking plan Mince the garlic. You should use enough that you can smell it.</description>
     </item>
     <item>
       <title>Melitzanosalata</title>
-      <link>https://example.org/recipes/melitzanosalata/</link>
+      <link>http://localhost:1313/recipes/melitzanosalata/</link>
       <pubDate>Fri, 12 Jul 2024 07:12:28 +0200</pubDate>
-      <guid>https://example.org/recipes/melitzanosalata/</guid>
+      <guid>http://localhost:1313/recipes/melitzanosalata/</guid>
       <description>I love cooking Greek food. Something about the balance of oils, fresh herbs and grilled meats just really gets me going. But Greek food can be more than just gyros and souvlaki. To give our vegetarians some love, and in order to diversify your Greek palette, let me introduce you to this lovely dish called Melitzanosalata (eggplant salad).&#xA;Ingredients A few Eggplants Half a red onion (or a full shallot, if you want a more delicate flavour) Olive oil, preferably extra virgin.</description>
     </item>
     <item>
       <title>Tzatziki</title>
-      <link>https://example.org/recipes/tzatziki/</link>
+      <link>http://localhost:1313/recipes/tzatziki/</link>
       <pubDate>Sat, 06 Apr 2024 14:03:15 +0200</pubDate>
-      <guid>https://example.org/recipes/tzatziki/</guid>
+      <guid>http://localhost:1313/recipes/tzatziki/</guid>
       <description>After a trip to Greece, I fell in love with greek cuisine. Of course, you cant say Greek without Tzatziki, and so I will share this easy recipe for this beloved sauce.&#xA;Ingredients Greek yoghurt Garlic Vinegar Olive oil (I like extra virgin) Dill Cucumber Some salt Preparation Finely grate a cucumber and wring out the moisture using a towel. Finely press the garlic, and add it to the yoghurt along with the other ingredients.</description>
     </item>
   </channel>
