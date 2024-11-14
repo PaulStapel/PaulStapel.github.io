@@ -69,7 +69,6 @@ The skills one invests their time in can tell you a lot about someone.
 * **MacOS** (Used this operating system for all my life, and know it quite well)
 
 
-
 ## Reach out
 If you want to reach out, you can currently contact me at <contact@paulstapel.com>. Can't promise I will respond for now, but that may change in the future. 
 
