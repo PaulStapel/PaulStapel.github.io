@@ -292,6 +292,7 @@ li::marker {
     line-height: 32px;
     color: #f6f6f6;
     text-align: justify;
+    font-size: 20px;
 }
 
 .light .singleContent{
@@ -310,7 +311,6 @@ li::marker {
 .singleContent p{
     margin-bottom: 30px;
     margin-top: 5px;
-    font-size: 20px;
 }
 
 .singleContent h2{
