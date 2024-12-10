@@ -495,7 +495,7 @@ li::marker {
 
 
     .singleContent{
-        font-size: 16px;
+        font-size: 18px;
         overflow: hidden;
     }
 
@@ -517,6 +517,11 @@ li::marker {
         max-width: 475px;
         width: 90%;
     }
+
+    .singleContent{
+      font-size: 18px;
+      overflow: hidden;
+  }
 
     .highlight{
         max-width: 475px;
