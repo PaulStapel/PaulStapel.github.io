@@ -247,7 +247,7 @@ li::marker {
 
 .singleHead{
     display: block;
-    align-items: column;
+    align-items: center;
     justify-content: space-between; 
     gap: 10px;
 }
