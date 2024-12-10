@@ -1,6 +1,6 @@
 ---
 title: "Classical Mechanics Three Ways"
-date: "2024-4-10T16:41:15+01:00"
+date: "2024-12-10T16:41:15+01:00"
 draft: false
 description: "Today we derive and explore three ways of doing classical mechanics"
 math: true
