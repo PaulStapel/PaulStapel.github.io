@@ -53,7 +53,7 @@ In that case, we must have
 $$\int_{x_1}^{x_2}  \eta \frac{df}{dy} + \eta' \frac{df}{dy'} dx = 0$$
 
 Using integration by parts, we find that
-$$ \int_{x_1}^{x_2} \eta' \frac{df}{dy'} dx = [ \eta \frac{df}{dy'}]_{x_1}^{x_2} - \int_{x_1}^{x_2}  \eta \frac{d}{dx} \frac{df}{dy'} dx $$
+$$\int_{x_1}^{x_2} \eta' \frac{df}{dy'} dx = [ \eta \frac{df}{dy'}]_{x_1}^{x_2} - \int_{x_1}^{x_2}  \eta \frac{d}{dx} \frac{df}{dy'} dx $$
 
 Where the second term is zero as we know that there can be no perturbation on the boundaries, such that $\eta$ there is zero. Substituting this back into our eqaution we (famously) find:
 $$ \int_{x_1}^{x_2}  \eta (\frac{df}{dy} - \frac{d}{dx} \frac{df}{dy'}) dx = 0 $$
