@@ -5,15 +5,6 @@
     --textSoft :#088bfc;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  display: inline-block;
-  max-width: 800px;
-  padding: 0;
-  margin: 10px auto;
-  line-height: 1.4; 
-}
-
-
 
 *{
     margin: 0;
@@ -249,7 +240,6 @@ li::marker {
 
 .singleHead{
     display: block;
-    text-align: center;
     align-items: column;
     justify-content: space-between; 
     gap: 10px;
@@ -258,12 +248,14 @@ li::marker {
 .singleHeadText{
     width: 100%;
     display: block;
+    text-align: center;
     align-items: center;
     gap: 20px;
 }
 
 .singleHeadTitle{
     font-size: 48px;
+    text-align: center;
 }
 
 .singleHeadDesc{
@@ -273,18 +265,19 @@ li::marker {
 }
 
 .singleCategories{
-    display: flex;
+    display: block;
     align-items: center;
-    gap: 20px;
-    padding: 5px 0;
+    padding: 20px 0px;
 }
 
 .singleCategory{
     padding: 5px;
+    align-items: center;
     border-radius: 5px;
     background-color: var(--bgSoft);
     color: #101820FF;
     font-size: 14px;
+    margin: 5px 5px 5px 5px;
 }
 
 .singleBottom {
@@ -312,6 +305,7 @@ li::marker {
 .singleContent h3{
     margin: 10px 0px;
     margin-top: 20px;
+    text-align: left;
 }
 
 .singleContent p{
