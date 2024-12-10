@@ -2,22 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2024-12-10T16:41:15+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/classical-mechanics/</loc>
+    <lastmod>2024-12-10T16:41:15+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/classical-mechanics-three-ways/</loc>
+    <lastmod>2024-12-10T16:41:15+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/mathematics/</loc>
+    <lastmod>2024-12-10T16:41:15+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2024-12-10T16:41:15+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/physics/</loc>
+    <lastmod>2024-12-10T16:41:15+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/american/</loc>
+    <lastmod>2024-11-14T22:04:16+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipes/cowboy-butter/</loc>
+    <lastmod>2024-11-14T22:04:16+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/difficulty-15/</loc>
+    <lastmod>2024-11-14T22:04:16+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/recipe/</loc>
+    <lastmod>2024-11-14T22:04:16+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipes/</loc>
+    <lastmod>2024-11-14T22:04:16+01:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/recipes/beef-stroganoff/</loc>
     <lastmod>2024-11-14T21:19:53+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2024-11-14T21:19:53+01:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/categories/difficulty-25/</loc>
-    <lastmod>2024-11-14T21:19:53+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2024-11-14T21:19:53+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/recipe/</loc>
-    <lastmod>2024-11-14T21:19:53+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/recipes/</loc>
     <lastmod>2024-11-14T21:19:53+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/russian/</loc>
@@ -80,13 +101,7 @@
     <loc>http://localhost:1313/meditation/noticing-no-no/</loc>
     <lastmod>2024-09-08T21:23:27+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/american/</loc>
-    <lastmod>2024-09-07T17:18:42+02:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/recipes/burger-sauce/</loc>
-    <lastmod>2024-09-07T17:18:42+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/difficulty-15/</loc>
     <lastmod>2024-09-07T17:18:42+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/meditation/learning-to-say-no/</loc>

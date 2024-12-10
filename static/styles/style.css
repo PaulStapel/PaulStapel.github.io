@@ -5,6 +5,16 @@
     --textSoft :#088bfc;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  display: inline-block;
+  max-width: 800px;
+  padding: 0;
+  margin: 10px auto;
+  line-height: 1.4; 
+}
+
+
+
 *{
     margin: 0;
     box-sizing: border-box; 
@@ -239,7 +249,8 @@ li::marker {
 
 .singleHead{
     display: block;
-    align-items: center;
+    text-align: center;
+    align-items: column;
     justify-content: space-between; 
     gap: 10px;
 }
