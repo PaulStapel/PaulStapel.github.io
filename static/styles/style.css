@@ -8,10 +8,9 @@
 h1, h2, h3, h4, h5, h6 {
   display: inline-block;
   max-width: 800px;
-  text-align: center;
   padding: 0;
   margin: 10px auto;
-  line-height: 1.4; /* Adjust line height for multi-line headers */
+  line-height: 1.4; 
 }
 
 
