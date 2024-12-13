@@ -299,6 +299,11 @@ li::marker {
     color: var(--text)
 }
 
+.singleContent ul,
+.singleContent ol{
+    text-align: left;
+}
+
 .singleContent p,
 .singleContent h1,
 .singleContent h2,
