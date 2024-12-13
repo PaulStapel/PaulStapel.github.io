@@ -4,6 +4,7 @@ date: "2024-12-13T14:24:19+01:00"
 draft: false
 description: "A tasty treat bringing back those campfire memories"
 categories: 
+    - recipe
     - baking
     - American
     - difficulty 1|5
