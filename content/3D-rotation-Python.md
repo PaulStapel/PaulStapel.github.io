@@ -59,7 +59,7 @@ def turn_4D(point, normal_vector):
 	normal_vector[1]*np.sin(angle), normal_vector[2]*np.sin(angle)]
 	return v, q
 
-v, q = turn4D(point, normal_vector)
+v, q = turn_4D(point, normal_vector)
 ```
 
 
