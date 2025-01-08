@@ -51,7 +51,7 @@ Having specified our 3D vectors, we will look to turn them into 4D vectors. For 
 Where a, b and c are normalised with magnitude 1. The components a, b and c are given by the x, y and z of our normal_vector of course. Combining this, we can define the following function. 
 
 ```Python
-def turn_4D(point, normal_vector):
+def turn_4D(point, normal_vector, angle):
 	v = [0, point[0], point[1], point[2]]
 	
 	np.linalg.norm(normal_vector)
@@ -84,7 +84,7 @@ def quaternion_mult(q1, q2):
     x = w1 * x2 + x1 * w2 + y1 * z2 - z1 * y2
     y = w1 * y2 + y1 * w2 + z1 * x2 - x1 * z2
     z = w1 * z2 + z1 * w2 + x1 * y2 - y1 * x2
-	return [q,x,y,z]
+	return [w,x,y,z]
 ```
 
 ### Step 5: Define a function to rotate your vector $v$
@@ -92,7 +92,7 @@ def quaternion_mult(q1, q2):
 Lastly, we combine all of this to create the following function using $v' = qv\overline{q}$
 
 ```Python
-def quaternion_rotation(punt, q):
+def quaternion_rotation(v, q):
 	sub_product = quaternion_mult(q,v)
 	return quaternion_mult(sub_product, conjugate(q))
 
