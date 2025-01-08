@@ -51,7 +51,7 @@ Having specified our 3D vectors, we will look to turn them into 4D vectors. For 
 Where a, b and c are normalised with magnitude 1. The components a, b and c are given by the x, y and z of our normal_vector of course. Combining this, we can define the following function. 
 
 ```Python
-def turn_4D(point, normal_vector, angle):
+def turn_4D(point, normal_vector):
 	v = [0, point[0], point[1], point[2]]
 	
 	np.linalg.norm(normal_vector)
