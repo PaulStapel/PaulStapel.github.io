@@ -70,6 +70,6 @@ The skills one invests their time in can tell you a lot about someone.
 
 
 ## Reach out
-If you want to reach out, you can currently contact me at <contact@paulstapel.com>. Can't promise I will respond for now, but that may change in the future. 
+If you want to reach out, you can currently contact me at <contact@paulstapel.com>.
 
 Me and my brother also have a wordpress site about Physics. If you want to check it out, [here's the link!](https://phyzards.com). You can also reach me there. 
