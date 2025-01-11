@@ -299,6 +299,11 @@ li::marker {
     color: var(--text)
 }
 
+.singleContent ul,
+.singleContent ol{
+    text-align: left;
+}
+
 .singleContent p,
 .singleContent h1,
 .singleContent h2,
@@ -309,20 +314,22 @@ li::marker {
 }
 
 .singleContent p{
-    margin-bottom: 30px;
-    margin-top: 5px;
+    margin-bottom: 25px;
+    margin-top: 25px;
 }
 
 .singleContent h2{
     color: var(--bgSoft);
-    margin-bottom: 10px;
+    margin-bottom: 25px;
+    margin-top: 25px;
     font-size: 32px;
 }
 
 .singleContent h3{
     font-weight: 900;
     margin: 5px 0px;
-    margin-top: 24px; 
+    margin-bottom: 25px;
+    margin-top: 25px;
     font-size: 24px;
 }
 

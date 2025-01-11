@@ -4,7 +4,7 @@
     <title>General on Paul&#39;s Particles</title>
     <link>http://localhost:1313/categories/general/</link>
     <description>Recent content in General on Paul&#39;s Particles</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 02 Apr 2024 17:59:14 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/general/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <link>http://localhost:1313/hello-world/</link>
       <pubDate>Tue, 02 Apr 2024 17:59:14 +0200</pubDate>
       <guid>http://localhost:1313/hello-world/</guid>
-      <description>Welcome to my blog! This first post gives a basic overview of what this website is about, and why I started it.&#xA;Paul&amp;rsquo;s Particles This is a personal website containing everything I want to share with the world. It is my aim to break these topics down to their fundamentals. In doing so, this website can become a repository of neatly contained packages (particles, if you will) of my knowledge and experience.</description>
+      <description>&lt;p&gt;Welcome to my &lt;a href=&#34;https://paulstapel.github.io&#34;&gt;blog&lt;/a&gt;! This first post gives a basic overview of what this website is about, and why I started it.&lt;/p&gt;&#xA;&lt;h2 id=&#34;pauls-particles&#34;&gt;Paul&amp;rsquo;s Particles&lt;/h2&gt;&#xA;&lt;p&gt;This is a personal website containing everything I want to share with the world. It is my aim to break these topics down to their fundamentals. In doing so, this website can become a repository of neatly contained packages (particles, if you will) of my knowledge and experience. I try to be as honest as possible in my writing, as this is the most insightful for both me and you.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

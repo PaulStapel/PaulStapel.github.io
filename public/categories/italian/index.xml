@@ -4,7 +4,7 @@
     <title>Italian on Paul&#39;s Particles</title>
     <link>http://localhost:1313/categories/italian/</link>
     <description>Recent content in Italian on Paul&#39;s Particles</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 08 Nov 2024 18:11:37 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/italian/index.xml" rel="self" type="application/rss+xml" />
@@ -13,14 +13,14 @@
       <link>http://localhost:1313/recipes/tomato-meatballs/</link>
       <pubDate>Fri, 08 Nov 2024 18:11:37 +0100</pubDate>
       <guid>http://localhost:1313/recipes/tomato-meatballs/</guid>
-      <description>Ok, so last week I was thinking about what I wanted to cook, when I stumbled upon some inspiration for meatballs in tomato sauce, thinking back to how delicious those were back when I visited Greece. Now I am not about to tell you that this is an authentic Greek recipe (it is more of an Italian recipe I believe), but this is an authentic Paul banger, and as such, I would love to share it with you all.</description>
+      <description>&lt;p&gt;Ok, so last week I was thinking about what I wanted to cook, when I stumbled upon some inspiration for meatballs in tomato sauce, thinking back to how delicious those were back when I visited Greece. Now I am not about to tell you that this is an authentic Greek recipe (it is more of an Italian recipe I believe), but this is an authentic Paul banger, and as such, I would love to share it with you all. If you don&amp;rsquo;t feel like rolling meatballs, you can also just use ground beef. This has the added benefit of making storage for later easier.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Carbonara</title>
       <link>http://localhost:1313/recipes/carbonara/</link>
       <pubDate>Wed, 25 Sep 2024 20:03:41 +0200</pubDate>
       <guid>http://localhost:1313/recipes/carbonara/</guid>
-      <description>So, yesterday I was craving some good &amp;lsquo;ol spaghetti. I usually go with a tomato sauce, but this time, I saw that I still had some parmigiano in my fridge. I simply couldn&amp;rsquo;t resist the urge to try something new, and ended up making this delicious carbonara. It may not be the healthiest, but it was definitely worth it in the end. I included a secret ingredient of miso paste in order to boost the umami content.</description>
+      <description>&lt;p&gt;So, yesterday I was craving some good &amp;lsquo;ol spaghetti. I usually go with a tomato sauce, but this time, I saw that I still had some parmigiano in my fridge. I simply couldn&amp;rsquo;t resist the urge to try something new, and ended up making this delicious carbonara. It may not be the healthiest, but it was definitely worth it in the end. I included a secret ingredient of miso paste in order to boost the umami content. Although I strongly recommend you put it, the dish will still turn out yummy if omitted.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

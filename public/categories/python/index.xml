@@ -4,7 +4,7 @@
     <title>Python on Paul&#39;s Particles</title>
     <link>http://localhost:1313/categories/python/</link>
     <description>Recent content in Python on Paul&#39;s Particles</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 20 Apr 2024 15:55:07 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/python/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <link>http://localhost:1313/3d-rotation-python/</link>
       <pubDate>Sat, 20 Apr 2024 15:55:07 +0200</pubDate>
       <guid>http://localhost:1313/3d-rotation-python/</guid>
-      <description>Today, I wanted to share a bit of code that you can use to rotate any 3D vector using Python. If you want to read a bit about how the code works, and why quaternions are useful, keep reading. If you are only interested in the code, I have it in full on my GitHub&#xA;Quickly, what is a quaternion? A quaternion is an extension of the complex numbers into 4 dimensions.</description>
+      <description>&lt;p&gt;Today, I wanted to share a bit of code that you can use to rotate any 3D vector using Python.&#xA;If you want to read a bit about how the code works, and why quaternions are useful, keep reading. If you are only interested in the code, I have it in full &lt;a href=&#34;https://github.com/PaulStapel/quaternions&#34;&gt;on my GitHub&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;quickly-what-is-a-quaternion&#34;&gt;Quickly, what is a quaternion?&lt;/h2&gt;&#xA;&lt;p&gt;A quaternion is an extension of the complex numbers into 4 dimensions. Just like how you can describe a rotation in 2D using a complex number, a quaternion can describe rotation in 3D. By defining some rules for multiplication ($i^2 = j^2 = k^2 = ijk = -1$), we get certain properties that make rotation very intuitive. See this &lt;a href=&#34;https://en.wikipedia.org/wiki/Quaternions_and_spatial_rotation&#34;&gt;wikipedia article on quaternions&lt;/a&gt; for more details.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

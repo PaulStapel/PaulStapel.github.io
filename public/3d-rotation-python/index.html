@@ -162,7 +162,7 @@ Where a, b and c are normalised with magnitude 1. The components a, b and c are 
 </span></span><span style="display:flex;"><span>	normal_vector[<span style="color:#ae81ff">1</span>]<span style="color:#f92672">*</span>np<span style="color:#f92672">.</span>sin(angle), normal_vector[<span style="color:#ae81ff">2</span>]<span style="color:#f92672">*</span>np<span style="color:#f92672">.</span>sin(angle)]
 </span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">return</span> v, q
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>v, q <span style="color:#f92672">=</span> turn4D(point, normal_vector)
+</span></span><span style="display:flex;"><span>v, q <span style="color:#f92672">=</span> turn_4D(point, normal_vector)
 </span></span></code></pre></div><h3 id="step-3-conjugate-q">Step 3: Conjugate q</h3>
 <p>This step is quite self-explanatory. We simply take the quaternion conjugate the same way you would a complex conjugate.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Python" data-lang="Python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">conjugate</span>(q):
@@ -177,10 +177,10 @@ Where a, b and c are normalised with magnitude 1. The components a, b and c are 
 </span></span><span style="display:flex;"><span>    x <span style="color:#f92672">=</span> w1 <span style="color:#f92672">*</span> x2 <span style="color:#f92672">+</span> x1 <span style="color:#f92672">*</span> w2 <span style="color:#f92672">+</span> y1 <span style="color:#f92672">*</span> z2 <span style="color:#f92672">-</span> z1 <span style="color:#f92672">*</span> y2
 </span></span><span style="display:flex;"><span>    y <span style="color:#f92672">=</span> w1 <span style="color:#f92672">*</span> y2 <span style="color:#f92672">+</span> y1 <span style="color:#f92672">*</span> w2 <span style="color:#f92672">+</span> z1 <span style="color:#f92672">*</span> x2 <span style="color:#f92672">-</span> x1 <span style="color:#f92672">*</span> z2
 </span></span><span style="display:flex;"><span>    z <span style="color:#f92672">=</span> w1 <span style="color:#f92672">*</span> z2 <span style="color:#f92672">+</span> z1 <span style="color:#f92672">*</span> w2 <span style="color:#f92672">+</span> x1 <span style="color:#f92672">*</span> y2 <span style="color:#f92672">-</span> y1 <span style="color:#f92672">*</span> x2
-</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">return</span> [q,x,y,z]
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">return</span> [w,x,y,z]
 </span></span></code></pre></div><h3 id="step-5-define-a-function-to-rotate-your-vector-v">Step 5: Define a function to rotate your vector $v$</h3>
 <p>Lastly, we combine all of this to create the following function using $v&rsquo; = qv\overline{q}$</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Python" data-lang="Python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">quaternion_rotation</span>(punt, q):
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Python" data-lang="Python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">quaternion_rotation</span>(v, q):
 </span></span><span style="display:flex;"><span>	sub_product <span style="color:#f92672">=</span> quaternion_mult(q,v)
 </span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">return</span> quaternion_mult(sub_product, conjugate(q))
 </span></span><span style="display:flex;"><span>
