@@ -6,41 +6,62 @@
     <description>Recent content in Categories on Paul&#39;s Particles</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 11 Jan 2025 21:59:06 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 01 Feb 2025 21:28:30 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>American</title>
-      <link>http://localhost:1313/categories/american/</link>
-      <pubDate>Sat, 11 Jan 2025 21:59:06 +0100</pubDate>
-      <guid>http://localhost:1313/categories/american/</guid>
-      <description></description>
-    </item>
     <item>
       <title>Chinese</title>
       <link>http://localhost:1313/categories/chinese/</link>
-      <pubDate>Sat, 11 Jan 2025 21:59:06 +0100</pubDate>
+      <pubDate>Sat, 01 Feb 2025 21:28:30 +0100</pubDate>
       <guid>http://localhost:1313/categories/chinese/</guid>
       <description></description>
     </item>
     <item>
       <title>Difficulty 3|5</title>
       <link>http://localhost:1313/categories/difficulty-35/</link>
-      <pubDate>Sat, 11 Jan 2025 21:59:06 +0100</pubDate>
+      <pubDate>Sat, 01 Feb 2025 21:28:30 +0100</pubDate>
       <guid>http://localhost:1313/categories/difficulty-35/</guid>
       <description></description>
     </item>
     <item>
       <title>Recipe</title>
       <link>http://localhost:1313/categories/recipe/</link>
-      <pubDate>Sat, 11 Jan 2025 21:59:06 +0100</pubDate>
+      <pubDate>Sat, 01 Feb 2025 21:28:30 +0100</pubDate>
       <guid>http://localhost:1313/categories/recipe/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Game</title>
+      <link>http://localhost:1313/categories/game/</link>
+      <pubDate>Thu, 16 Jan 2025 18:06:45 +0100</pubDate>
+      <guid>http://localhost:1313/categories/game/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Review</title>
+      <link>http://localhost:1313/categories/review/</link>
+      <pubDate>Thu, 16 Jan 2025 18:06:45 +0100</pubDate>
+      <guid>http://localhost:1313/categories/review/</guid>
       <description></description>
     </item>
     <item>
       <title>Meditation</title>
       <link>http://localhost:1313/categories/meditation/</link>
-      <pubDate>Sat, 11 Jan 2025 08:33:09 +0100</pubDate>
+      <pubDate>Thu, 16 Jan 2025 13:28:45 +0100</pubDate>
       <guid>http://localhost:1313/categories/meditation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Indian</title>
+      <link>http://localhost:1313/categories/indian/</link>
+      <pubDate>Wed, 15 Jan 2025 17:23:35 +0100</pubDate>
+      <guid>http://localhost:1313/categories/indian/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>American</title>
+      <link>http://localhost:1313/categories/american/</link>
+      <pubDate>Sat, 11 Jan 2025 21:59:06 +0100</pubDate>
+      <guid>http://localhost:1313/categories/american/</guid>
       <description></description>
     </item>
     <item>
@@ -132,13 +153,6 @@
       <link>http://localhost:1313/categories/italian/</link>
       <pubDate>Fri, 08 Nov 2024 18:11:37 +0100</pubDate>
       <guid>http://localhost:1313/categories/italian/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Indian</title>
-      <link>http://localhost:1313/categories/indian/</link>
-      <pubDate>Wed, 09 Oct 2024 21:18:46 +0200</pubDate>
-      <guid>http://localhost:1313/categories/indian/</guid>
       <description></description>
     </item>
     <item>
