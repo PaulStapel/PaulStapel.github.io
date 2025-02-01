@@ -9,7 +9,7 @@ categories:
     - Chinese
 ---
 
-I love wokkking, and it has been a bit to cold to use my wok in the last few months. Today however, I just couldn't resist the urge to wok, and this delicious recipe is the result. 
+I love wokking, but it has been a bit too cold to use my wok in the last few months. Today however, I just couldn't resist the urge to wok, and this delicious recipe is the result. 
 
 ## Ingredients
 
@@ -43,8 +43,8 @@ I love wokkking, and it has been a bit to cold to use my wok in the last few mon
 - Next, prepare your sauce by mixing all ingredients in a bowl. 
 - Chop your veggies into large chunks. 
 - Prepare your wok with some vegetable oil and wait until your wok is smoking hot. 
-- Add your veggies and stir fry until browned a little. 
-- Next, add your beef and quickly stir fry until browned and a little crispy. 
+- Add your veggies and stir-fry until browned a little. 
+- Next, add your beef and quickly stir-fry until browned and a little crispy. 
 - Finally, add your sauce and reduce until it creates a nice coating on your meat and veggies. 
 - Serve with white rice
 
