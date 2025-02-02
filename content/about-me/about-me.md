@@ -10,15 +10,14 @@ description = "Bachelor Student in Physics, Mathematics & Computer Science"
 Hiya, I'm Paul! I'm a student-writer-tutor-programmer hybrid specializing in science. This website is my first public project, and I look forward to sharing more of my work in the future. Nonetheless, you can find everything you need to know about me on this page. 
 
 ## Currently working on
-After summer break is over, I will be following these courses at Utrecht University: 
-* Introduction to topology
-* Optimalisation and complexity 
-* Advanced quantum mechanics
-* Advanced (classical) mechanics
-* Functions and series
+I am currently following these courses at Utrecht University: 
+* Classical field theory
+* Algorithms
+* Interaction technologies
+* Topology and Geometry
 
 \
-On the side, I work on this blog and write articles for our student society in [de Vakidioot](https://www.a-eskwadraat.nl/Vereniging/Commissies/vakid/) (BEWARE: Dutch!). The vakidioot is currently on hold, but I would like to resume writing for it when time permits.  
+On the side, I work on this blog and some personal projects.
 
 I also work as a part-time data analyst for Simplex, a Dutch consultancy agency that specialises in AFAS-software. In this job, I desing and develop dashboards with Power Bi.
 
