@@ -44,3 +44,5 @@ Lastly, I supercharge this workflow with the Raycast application launcher. This 
 
 ## Final remarks
 So as you can see, an effective workflow does not need thousands of automations or a stack of 10 paid apps to function well. The main point is that you need to be reminded of what needs to happen or be done, so that you can act on that information. If you feel like you need a bit more structure in your life or like your workflow is eating you alive, give this simple system a try! If you are not on iOS/macOS, you can replace Calendar and Reminders with Fantastical and ToDoist for example. Want to talk about this some more? Send me a DM or [mail me](contact@paulstapel.com)  
+
+## Signing off, have a lovely day!!

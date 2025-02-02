@@ -62,4 +62,4 @@ To wrap things up, I'd like to share some blogs and other sources that I feel ar
 - [These cleverly written and illustrated jokes](https://xkcd.com)
 
 \
-Signing off, have a lovely day!
+## Signing off, have a lovely day!

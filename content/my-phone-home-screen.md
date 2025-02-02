@@ -72,4 +72,4 @@ And that's that. Those are all of the apps I have on my home screen. If I were t
 
 I also love hearing about your own setups and home screens, so feel free to slide into my DM's on Instagram or to message me on Twitter/X or LinkedIn. I'm always open to discussing software, and maybe we'll both gain some new insights. 
 
-Signing off, have a lovely day!
+## Signing off, have a lovely day!

@@ -26,4 +26,4 @@ Here are some of the best reasons to blog I can think off.
 \
 To help with the daunting task of starting a blog, I will write some posts about how I created this website in the future, so stay posted. 
 
-Signing off, have a lovely day!
+## Signing off, have a lovely day!

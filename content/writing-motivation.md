@@ -50,4 +50,4 @@ Finally, I listen to music when writing. Usually lofi hip-hop, but I am also par
 * Involve other people. Having other people join you on your writing journey can make it way easier to commit. Having one or more friends to blog alongside you can be a great boost to motivation, as you can share tips, progress and triumph with each other. At least having people you know read some of your writing can go a great way in motivating you, as you can get direct feedback on how your writing is affecting other people.
 
 \
-Signing off, have a lovely day!
+## Signing off, have a lovely day!

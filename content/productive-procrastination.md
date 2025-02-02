@@ -61,4 +61,4 @@ In my experience, this is what I do when I don't feel like planning too much of 
 ## Closing thoughts
 In the end, I find productive procrastination to be a worthwhile method when done properly. If used consciously, it will boost your performance on small tasks. As long as you're careful not to overdo it, I would suggest giving it a try. I always try to experiment with different ways to stay productive, and I absolutely urge you to do the same :)
 
-Signing off, have a lovely day!
+## Signing off, have a lovely day!

@@ -101,4 +101,4 @@ v_prime = quaternion_rotation(v, q)
 
 Now, you know how to rotate vectors using quaternions. If you need to use this, it can be quite a bit more intuitive than constructing a matrix. I definitely urge you to give this a try! I wrote this code in Python, as it is easy to understand and read. The logic stays the same for other languages, and it shouldn't be all too much work to port this. 
 
-Signing off, have a lovely day!
+## Signing off, have a lovely day!
