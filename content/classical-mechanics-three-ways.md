@@ -50,11 +50,12 @@ $$\frac{df}{d\alpha} = \eta \frac{df}{dy} + \eta' \frac{df}{dy'}$$
 
 In that case, we must have 
 
-$$\int_{x_1}^{x_2}  \eta \frac{df}{dy} + \eta' \frac{df}{dy'} dx = 0$$
+$$\int_{x_1}^{x_2}  \eta \frac{df}{dy} + \eta' \frac{df}{dy'} dx = 0$$ 
 
-Using integration by parts, we find that
+Using integration by parts, we find that (this code seems to not display correctly):
 
-$$\int_{x_1}^{x_2} \eta' \frac{df}{dy'} dx = [ \eta \frac{df}{dy'}]_{x_1}^{x_2} - \int_{x_1}^{x_2}  \eta \frac{d}{dx} \frac{df}{dy'} dx $$
+$$ \int_{x_1}^{x_2} \eta' \frac{df}{dy'} dx = [ \eta 
+\frac{df}{dy'}]_{x_1}^{x_2} - \int_{x_1}^{x_2}  \eta \frac{d}{dx} \frac{df}{dy'} dx $$
 
 Where the second term is zero as we know that there can be no perturbation on the boundaries, such that $\eta$ there is zero. Substituting this back into our eqaution we (famously) find:
 $$ \int_{x_1}^{x_2}  \eta (\frac{df}{dy} - \frac{d}{dx} \frac{df}{dy'}) dx = 0 $$
@@ -100,7 +101,7 @@ $$ \mathcal{H} = \sum_i p_i \dot{q_i} - \mathcal{L}$$
 In case the generalized coordinates are independent of time and the potential energy is independent of generalized velocities, the above defined Hamiltonian is equal to the total energy of the system and is it is conserved. 
 
 We can calculate the derivative (using the chain rule) of the hamiltonian with respect to our generalized coordinates in order to find equations of motion (one dimensional case because it is less writing): 
-$$ \frac{d \mathcal{H}}{d q} =  p \frac{d \mathcal{q}}{d q} -  \frac{d \mathcal{L}}{d q} -  \frac{d \mathcal{L}}{d \dot{q}} \frac{d \dot{q}}{d q} = -  \frac{d \mathcal{L}}{d q} = - \frac{d}{dt} \frac{d \mathcal{L}}{d \dot{p}} = -\dot{p}$$
+$$ \frac{d \mathcal{H}}{d q} =  p \frac{d \mathcal{q}}{d q} -  \frac{d \mathcal{L}}{d q} -  \frac{d \mathcal{L}}{d \dot{q}} \frac{d \dot{q}}{d q} = -  \frac{d \mathcal{L}}{d q} = - \frac{d}{dt} \frac{d \mathcal{L}}{d \dot{p}} = -\dot{p} $$
 Here, we have used the definition of the generalized momentum and the Euler-Lagrange equation. Next, for the other derivative, we find
 $$ \frac{d \mathcal{H}}{d p} = \dot{q} + p \frac{d \mathcal{q}}{d p} - \frac{d \mathcal{L}}{d \dot{q}}\frac{d \dot{q}}{d q} = \dot{q}$$
 
