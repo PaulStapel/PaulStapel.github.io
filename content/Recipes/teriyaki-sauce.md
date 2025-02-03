@@ -5,7 +5,8 @@ draft = false
 description = "A sweet and savoury sauce"
 categories = ["recipe","difficulty 2|5","Japanese"]
 +++
-I love eating this sauce with, for example, chicken and noodles. 
+
+I love eating this sauce with, for example, chicken and noodles. Do note that this sauce is by no means traditional, and is a take for the home kitchen for people that don't have the ingredients to make traditional teriyaki sauce. I also have [a more traditional recipe](https://paulstapel.com/recipes/traditional-teriyaki-sauce/) on my blog, so give that one a try as well, and see for yourself which you like best!
 
 ## Ingredients
 * Sesame seeds (optional, adds flavour and thickens sauce)
@@ -15,7 +16,6 @@ I love eating this sauce with, for example, chicken and noodles.
 * Garlic powder
 * Grated ginger
 * Sesame oil (optional, ads nice sesame flavours)
-* Mirin cooking wine (optional, ads extra complexity)
 * Some water
 * Cornstarch (Add if you like a thicker sauce)
 
