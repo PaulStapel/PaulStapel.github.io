@@ -11,7 +11,7 @@ categories:
 
 Last academic period didn't go easy on me. Or more accurately, I didn't go easy on myself. I always aim to challenge myself, and with all the things that I had to do outside of studying I found myself struggling quite a bit more than previous periods. This, i believe, is a good thing, as it means that I am slowly approaching my limit and finding new ways to challenge myself. 
 
-But of course, this does leave a certain unease: "may the next challenge be my breaking point?" "Will I rise up to the challenge once again, or was last times success a mere fluke?" "Will I be able to face the next mountain on my path?". 
+But of course, this does leave a certain unease: "may the next challenge be my breaking point?" "Will I rise up to the challenge once again, or was last time's succes a mere fluke?" "Will I be able to face the next mountain on my path?". 
 
 This next metaphorical mountain is the course "Topology and geometry", a course that has been hyped up for its difficulty in the mathematics curriculum. Now, although I understood the fundamentals of topology last period, topological proof writing is rather challenging, and this course will be a huge challenge for me. At first, leading up to the start of the new period, this left me anxious. I must, however, remind myself of my ultimate goal: "intellectual enlightenment".
 
