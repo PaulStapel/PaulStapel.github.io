@@ -6,27 +6,55 @@
     <description>Recent content in Categories on Paul&#39;s Particles</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 01 Feb 2025 21:28:30 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 04 Feb 2025 08:00:26 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Chinese</title>
-      <link>http://localhost:1313/categories/chinese/</link>
-      <pubDate>Sat, 01 Feb 2025 21:28:30 +0100</pubDate>
-      <guid>http://localhost:1313/categories/chinese/</guid>
+      <title>Meditation</title>
+      <link>http://localhost:1313/categories/meditation/</link>
+      <pubDate>Tue, 04 Feb 2025 08:00:26 +0100</pubDate>
+      <guid>http://localhost:1313/categories/meditation/</guid>
       <description></description>
     </item>
     <item>
       <title>Difficulty 3|5</title>
       <link>http://localhost:1313/categories/difficulty-35/</link>
-      <pubDate>Sat, 01 Feb 2025 21:28:30 +0100</pubDate>
+      <pubDate>Mon, 03 Feb 2025 08:01:27 +0100</pubDate>
       <guid>http://localhost:1313/categories/difficulty-35/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Japanese</title>
+      <link>http://localhost:1313/categories/japanese/</link>
+      <pubDate>Mon, 03 Feb 2025 08:01:27 +0100</pubDate>
+      <guid>http://localhost:1313/categories/japanese/</guid>
       <description></description>
     </item>
     <item>
       <title>Recipe</title>
       <link>http://localhost:1313/categories/recipe/</link>
-      <pubDate>Sat, 01 Feb 2025 21:28:30 +0100</pubDate>
+      <pubDate>Mon, 03 Feb 2025 08:01:27 +0100</pubDate>
       <guid>http://localhost:1313/categories/recipe/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>General</title>
+      <link>http://localhost:1313/categories/general/</link>
+      <pubDate>Sun, 02 Feb 2025 08:21:26 +0100</pubDate>
+      <guid>http://localhost:1313/categories/general/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Productivity</title>
+      <link>http://localhost:1313/categories/productivity/</link>
+      <pubDate>Sun, 02 Feb 2025 08:21:26 +0100</pubDate>
+      <guid>http://localhost:1313/categories/productivity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Chinese</title>
+      <link>http://localhost:1313/categories/chinese/</link>
+      <pubDate>Sat, 01 Feb 2025 21:28:30 +0100</pubDate>
+      <guid>http://localhost:1313/categories/chinese/</guid>
       <description></description>
     </item>
     <item>
@@ -41,13 +69,6 @@
       <link>http://localhost:1313/categories/review/</link>
       <pubDate>Thu, 16 Jan 2025 18:06:45 +0100</pubDate>
       <guid>http://localhost:1313/categories/review/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Meditation</title>
-      <link>http://localhost:1313/categories/meditation/</link>
-      <pubDate>Thu, 16 Jan 2025 13:28:45 +0100</pubDate>
-      <guid>http://localhost:1313/categories/meditation/</guid>
       <description></description>
     </item>
     <item>
@@ -163,24 +184,10 @@
       <description></description>
     </item>
     <item>
-      <title>Productivity</title>
-      <link>http://localhost:1313/categories/productivity/</link>
-      <pubDate>Tue, 03 Sep 2024 19:42:24 +0200</pubDate>
-      <guid>http://localhost:1313/categories/productivity/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>French</title>
       <link>http://localhost:1313/categories/french/</link>
       <pubDate>Sun, 01 Sep 2024 20:19:47 +0200</pubDate>
       <guid>http://localhost:1313/categories/french/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Japanese</title>
-      <link>http://localhost:1313/categories/japanese/</link>
-      <pubDate>Mon, 26 Aug 2024 20:28:31 +0200</pubDate>
-      <guid>http://localhost:1313/categories/japanese/</guid>
       <description></description>
     </item>
     <item>
@@ -223,13 +230,6 @@
       <link>http://localhost:1313/categories/setup/</link>
       <pubDate>Wed, 03 Apr 2024 20:56:45 +0200</pubDate>
       <guid>http://localhost:1313/categories/setup/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>General</title>
-      <link>http://localhost:1313/categories/general/</link>
-      <pubDate>Tue, 02 Apr 2024 17:59:14 +0200</pubDate>
-      <guid>http://localhost:1313/categories/general/</guid>
       <description></description>
     </item>
   </channel>

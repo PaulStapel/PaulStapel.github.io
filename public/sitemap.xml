@@ -3,21 +3,45 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-02-01T21:28:30+01:00</lastmod>
+    <lastmod>2025-02-04T08:00:26+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/chinese/</loc>
-    <lastmod>2025-02-01T21:28:30+01:00</lastmod>
+    <loc>http://localhost:1313/meditation/facing-mountains/</loc>
+    <lastmod>2025-02-04T08:00:26+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/difficulty-35/</loc>
-    <lastmod>2025-02-01T21:28:30+01:00</lastmod>
+    <loc>http://localhost:1313/categories/meditation/</loc>
+    <lastmod>2025-02-04T08:00:26+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/meditation/</loc>
+    <lastmod>2025-02-04T08:00:26+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-02-01T21:28:30+01:00</lastmod>
+    <lastmod>2025-02-04T08:00:26+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/difficulty-35/</loc>
+    <lastmod>2025-02-03T08:01:27+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/japanese/</loc>
+    <lastmod>2025-02-03T08:01:27+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/recipe/</loc>
-    <lastmod>2025-02-01T21:28:30+01:00</lastmod>
+    <lastmod>2025-02-03T08:01:27+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/recipes/</loc>
+    <lastmod>2025-02-03T08:01:27+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipes/traditional-teriyaki-sauce/</loc>
+    <lastmod>2025-02-03T08:01:27+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/general/</loc>
+    <lastmod>2025-02-02T08:21:26+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/how-i-get-things-done/</loc>
+    <lastmod>2025-02-02T08:21:26+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/productivity/</loc>
+    <lastmod>2025-02-02T08:21:26+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/chinese/</loc>
     <lastmod>2025-02-01T21:28:30+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/recipes/sweet-and-spicy-hoisin-beef-bliss/</loc>
@@ -34,12 +58,6 @@
   </url><url>
     <loc>http://localhost:1313/review/</loc>
     <lastmod>2025-01-16T18:06:45+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/meditation/</loc>
-    <lastmod>2025-01-16T13:28:45+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/meditation/</loc>
-    <lastmod>2025-01-16T13:28:45+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/meditation/the-slow-days/</loc>
     <lastmod>2025-01-16T13:28:45+01:00</lastmod>
@@ -170,17 +188,11 @@
     <loc>http://localhost:1313/my-phone-home-screen/</loc>
     <lastmod>2024-09-03T19:42:24+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/productivity/</loc>
-    <lastmod>2024-09-03T19:42:24+02:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/recipes/butter-lemon-pork/</loc>
     <lastmod>2024-09-01T20:19:47+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/french/</loc>
     <lastmod>2024-09-01T20:19:47+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/japanese/</loc>
-    <lastmod>2024-08-26T20:28:31+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/recipes/japanese-curry/</loc>
     <lastmod>2024-08-26T20:28:31+02:00</lastmod>
@@ -286,9 +298,6 @@
   </url><url>
     <loc>http://localhost:1313/recipes/garlic-beans/</loc>
     <lastmod>2024-04-02T17:59:38+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/general/</loc>
-    <lastmod>2024-04-02T17:59:14+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/hello-world/</loc>
     <lastmod>2024-04-02T17:59:14+02:00</lastmod>
