@@ -2,8 +2,6 @@ baseURL = "https://paulstapel.com/"
 languageCode = 'en-us'
 title = "Paul's Particles"
 
-pagination.pagerSize = 100
-
 [params]
     dateFormat = "2 Jan, 2006" 
     siteNameMain = "Paul's Particles"
@@ -15,3 +13,8 @@ pagination.pagerSize = 100
     
 [outputs]
     home = ["HTML", "RSS", "JSON"]
+
+[pagination]
+  disableAliases = false
+  pagerSize = 1000
+  path = 'page'
