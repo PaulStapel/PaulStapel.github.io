@@ -1,8 +1,8 @@
-baseURL = 'https://example.org/'
+baseURL = "https://paulstapel.com/"
 languageCode = 'en-us'
 title = "Paul's Particles"
 
-paginate = 100
+pagination.pagerSize = 100
 
 [params]
     dateFormat = "2 Jan, 2006" 
