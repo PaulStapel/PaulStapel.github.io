@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Physics on Paul&#39;s Particles</title>
-    <link>http://localhost:1313/categories/physics/</link>
+    <link>https://paulstapel.com/categories/physics/</link>
     <description>Recent content in Physics on Paul&#39;s Particles</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 10 Dec 2024 16:41:15 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/physics/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://paulstapel.com/categories/physics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Classical Mechanics Three Ways</title>
-      <link>http://localhost:1313/classical-mechanics-three-ways/</link>
+      <link>https://paulstapel.com/classical-mechanics-three-ways/</link>
       <pubDate>Tue, 10 Dec 2024 16:41:15 +0100</pubDate>
-      <guid>http://localhost:1313/classical-mechanics-three-ways/</guid>
+      <guid>https://paulstapel.com/classical-mechanics-three-ways/</guid>
       <description>&lt;p&gt;Classical mechanics is a very useful tool in describing the world around us. As I am currently taking a course about classical mechanics, I wanted to give a quick overview of the three main ways in which a classical problem can be solved in physics. We will also work through a simple example using the simple pendulum with mass $m$ and length $l$. This article will take you through the main steps you&amp;rsquo;ll have to take to tackle a problem and the derivation of the different methods. Without further ado, let&amp;rsquo;s get to it.&lt;/p&gt;</description>
     </item>
   </channel>
