@@ -16,7 +16,7 @@ title = "Paul's Particles"
 
 [pagination]
   disableAliases = false
-  pagerSize = 1000
+  pagerSize = 10000
   path = 'page'
 
 [params.meta]
