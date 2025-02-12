@@ -7,6 +7,7 @@ title = "Paul's Particles"
     siteNameMain = "Paul's Particles"
     siteNameMeditation = "Paul's Garden"
     siteNameRecipe = "Paul's Kitchen"
+    favicon = "favicon.ico"
 
 [taxonomies]
     category = "categories"
@@ -14,5 +15,3 @@ title = "Paul's Particles"
 [outputs]
     home = ["HTML", "RSS", "JSON"]
 
-[params.meta]
-    favicon = true
