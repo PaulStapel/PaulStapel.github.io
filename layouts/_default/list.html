@@ -49,7 +49,8 @@
     <div class="star"></div>
     <div class="star"></div> -->
   <!-- </div> -->
-    {{ range .Paginator.Pages}}
+    {{ $section := .Section }}
+    {{ range where .Pages "Section" $section }}
     {{ if not (in .Params.categories "recipe") }}
     {{ if not (in .Params.categories "meditation") }}
     {{ if not (in .Params.categories "review") }}

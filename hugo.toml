@@ -14,10 +14,5 @@ title = "Paul's Particles"
 [outputs]
     home = ["HTML", "RSS", "JSON"]
 
-[pagination]
-  disableAliases = false
-  pagerSize = 10000
-  path = 'page'
-
 [params.meta]
     favicon = true
