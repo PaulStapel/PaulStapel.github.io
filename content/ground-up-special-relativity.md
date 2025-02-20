@@ -88,7 +88,7 @@ Here, the angle can be any real value. It is interesting to note that this angle
 ## From rapidity to velocity
 Finally, in order to go from this rapidity to a more standard velocity based Lorentz-transformation, we can observe that
 $$ \frac{1}{c} \frac{dy^1}{dy^0} = tanh(\theta)$$
-From which we can conclude that $\tanh\theta) = -\frac{v}{c}$. Using hyperbolic identities, it follows that $\cosh(\theta) = \gamma$ and $\sinh(\theta) = -\frac{v}{c} \gamma$, where $$ \gamma = \frac{1}{\sqrt{1- \frac{v^2}{c^2}}}$$
+From which we can conclude that $\tanh\theta) = -\frac{v}{c}$. Here, the minus sign is introduced as the boost of $v$ with regards to the first frame means a boost of $-v$ with regards to the second frame, so in that frame the velocity would become $-v$. Using hyperbolic identities, it follows that $\cosh(\theta) = \gamma$ and $\sinh(\theta) = -\frac{v}{c} \gamma$, where $$ \gamma = \frac{1}{\sqrt{1- \frac{v^2}{c^2}}}$$
 is the well-known gamma-factor. Then, the Lorentz-transformation takes the final form
 
 $$ \begin{pmatrix}
