@@ -1,7 +1,7 @@
 ---
 title: "Special Relativity From The Ground Up"
 date: "2025-02-19T16:22:39+01:00"
-draft: false
+draft: true
 description: "Building special relativity from 'simple' symmetry arguments"
 categories: 
     - general
