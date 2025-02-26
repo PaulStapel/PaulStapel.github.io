@@ -3,7 +3,7 @@ title: "Larb"
 date: "2024-12-13T13:06:08+01:00"
 draft: false
 description: "A quick and easy fix of some Thai goodness"
-image: "images/larb.png"
+image: "/images/larb.png"
 categories: 
     - recipe
     - Thai

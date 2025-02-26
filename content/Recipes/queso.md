@@ -3,7 +3,7 @@ title: "Queso"
 date: "2025-02-10T09:19:17+01:00"
 draft: false
 description: "A true crowd-pleaser (except for the lactose-intolerant)"
-images: "images/queso.png"
+image: "/images/queso.png"
 categories: 
     - recipe
     - Mexican
