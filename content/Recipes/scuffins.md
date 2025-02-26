@@ -3,6 +3,7 @@ title: "Scuffins"
 date: "2024-07-26T20:22:45+02:00"
 draft: false
 description: "The most muffiny scones you'll ever have?"
+image: "/images/scuffins.png"
 categories: 
     - recipe
     - baking

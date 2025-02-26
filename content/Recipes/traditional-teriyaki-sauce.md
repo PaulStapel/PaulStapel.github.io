@@ -3,6 +3,7 @@ title: "Traditional Teriyaki Sauce"
 date: "2025-02-03T08:01:27+01:00"
 draft: false
 description: "Wholly traditional teriyaki sauce"
+image: "/images/teriyaki.png"
 categories: 
     - recipe
     - difficulty 3|5
