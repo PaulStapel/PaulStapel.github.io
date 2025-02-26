@@ -3,7 +3,7 @@ title: "Tikka Masala"
 date: "2024-10-09T21:18:46+02:00"
 draft: false
 description: "A rich, creamy and non-spicy take on a famous indian recipe that pairs well with naan"
-image: "/images/tikka-masala.png"
+image: "/images/tikka-masala.jpeg"
 categories: 
     - recipe
     - difficulty 3|5

@@ -3,7 +3,7 @@ title: "Chicken Korma"
 date: "2025-02-23T20:52:55+01:00"
 draft: false
 description: "A filling and savoury Indian dish that I can't get enough of"
-image: "/images/korma.png"
+image: "/images/korma.jpeg"
 categories: 
     - recipe
     - Indian

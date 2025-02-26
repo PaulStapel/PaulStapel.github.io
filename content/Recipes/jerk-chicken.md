@@ -3,7 +3,7 @@ title: "Jerk Chicken my way"
 date: "2025-02-05T10:54:29+01:00"
 draft: false
 description: "My take on this satisfying and easy Jamaican dish, brimming with powerful flavors"
-image: "/images/jerk-chicken.png"
+image: "/images/jerk-chicken.jpeg"
 categories: 
     - recipe
     - difficulty 2|5
