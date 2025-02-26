@@ -3,6 +3,7 @@ title: "Shoyu Ramen"
 date: "2025-02-26T20:44:11+01:00"
 draft: false
 description: "A diverse blend of flavors that is incredibly satisfying"
+image: "/images/shoyu-ramen.png"
 categories: 
     - recipe
     - Japanese
