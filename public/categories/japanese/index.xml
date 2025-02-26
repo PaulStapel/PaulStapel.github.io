@@ -2,31 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Japanese on Paul&#39;s Particles</title>
-    <link>http://localhost:1313/categories/japanese/</link>
+    <link>https://paulstapel.com/categories/japanese/</link>
     <description>Recent content in Japanese on Paul&#39;s Particles</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 03 Feb 2025 08:01:27 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/japanese/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 26 Feb 2025 20:44:11 +0100</lastBuildDate>
+    <atom:link href="https://paulstapel.com/categories/japanese/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Shoyu Ramen</title>
+      <link>https://paulstapel.com/recipes/shoyu-ramen/</link>
+      <pubDate>Wed, 26 Feb 2025 20:44:11 +0100</pubDate>
+      <guid>https://paulstapel.com/recipes/shoyu-ramen/</guid>
+      <description>&lt;p&gt;Shoyu ramen is an amazing dish that can be extended to your liking very easily. The name of this ramen dish comes from the addition of soy sauce to your broth (Shoyu = Japanese soy sauce). As this recipe can be made with lots of different ingredients, I will simply suggest some of the ingredients you could add to your ramen. This recipe may take some multi-tasking if you are adding a lot of toppings, so prepping well is recommended!&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Traditional Teriyaki Sauce</title>
-      <link>http://localhost:1313/recipes/traditional-teriyaki-sauce/</link>
+      <link>https://paulstapel.com/recipes/traditional-teriyaki-sauce/</link>
       <pubDate>Mon, 03 Feb 2025 08:01:27 +0100</pubDate>
-      <guid>http://localhost:1313/recipes/traditional-teriyaki-sauce/</guid>
+      <guid>https://paulstapel.com/recipes/traditional-teriyaki-sauce/</guid>
       <description>&lt;p&gt;So half a year ago, I shared with you a recipe for teriyaki sauce. Back then, I didn&amp;rsquo;t really have the ingredients to make traditional teryiyaki sauce, and thus I created an alternative that tasted close to the original in flavour. But of course, we must pay respect to tradition, and that&amp;rsquo;s why we&amp;rsquo;ll be making traditional teriyaki sauce today. For comparison, you can also try my &lt;a href=&#34;https://paulstapel.com/recipes/teriyaki-sauce/&#34;&gt;original recipe&lt;/a&gt; and see which you like best. From there, you can always iterate further on this recipe.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Japanese Curry</title>
-      <link>http://localhost:1313/recipes/japanese-curry/</link>
+      <link>https://paulstapel.com/recipes/japanese-curry/</link>
       <pubDate>Mon, 26 Aug 2024 20:28:31 +0200</pubDate>
-      <guid>http://localhost:1313/recipes/japanese-curry/</guid>
+      <guid>https://paulstapel.com/recipes/japanese-curry/</guid>
       <description>&lt;p&gt;After having been on a vacation to Vietnam and Singapore for three weeks (hence the gap in posts, haha), this is one cuisine I have fallen in love with. I simply had to get a recipe to make this myself, and in my opinion, I am quite close to mimicking the taste of the curries I&amp;rsquo;ve had in Singapore. Be warned, this recipe can take up to 2 hours. I suggest serving this dish with (white) rice.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Teriyaki Sauce</title>
-      <link>http://localhost:1313/recipes/teriyaki-sauce/</link>
+      <link>https://paulstapel.com/recipes/teriyaki-sauce/</link>
       <pubDate>Sat, 06 Apr 2024 18:50:31 +0200</pubDate>
-      <guid>http://localhost:1313/recipes/teriyaki-sauce/</guid>
+      <guid>https://paulstapel.com/recipes/teriyaki-sauce/</guid>
       <description>&lt;p&gt;I love eating this sauce with, for example, chicken and noodles. Do note that this sauce is by no means traditional, and is a take for the home kitchen for people that don&amp;rsquo;t have the ingredients to make traditional teriyaki sauce. I also have &lt;a href=&#34;https://paulstapel.com/recipes/traditional-teriyaki-sauce/&#34;&gt;a more traditional recipe&lt;/a&gt; on my blog, so give that one a try as well, and see for yourself which you like best!&lt;/p&gt;&#xA;&lt;h2 id=&#34;ingredients&#34;&gt;Ingredients&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Sesame seeds (optional, adds flavour and thickens sauce)&lt;/li&gt;&#xA;&lt;li&gt;Soy Sauce&lt;/li&gt;&#xA;&lt;li&gt;Honey&lt;/li&gt;&#xA;&lt;li&gt;Sugar (only a little if you like it less sweet)&lt;/li&gt;&#xA;&lt;li&gt;Garlic powder&lt;/li&gt;&#xA;&lt;li&gt;Grated ginger&lt;/li&gt;&#xA;&lt;li&gt;Sesame oil (optional, ads nice sesame flavours)&lt;/li&gt;&#xA;&lt;li&gt;Some water&lt;/li&gt;&#xA;&lt;li&gt;Cornstarch (Add if you like a thicker sauce)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;cooking-plan&#34;&gt;Cooking plan&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Add all ingredients to a pan, and stir over medium heat until desired taste and texture is achieved. Go easy on the sesame oil.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;enjoy&#34;&gt;ENJOY!&lt;/h2&gt;</description>
     </item>
   </channel>

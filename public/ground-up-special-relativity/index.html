@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><script data-goatcounter="https://paulstapel.goatcounter.com/count"
+<script data-goatcounter="https://paulstapel.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>
 
 
@@ -10,6 +10,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles/style.css">
     <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css"
+    integrity="sha384-R4558gYOUz8mP9YWpZJjofhk+zx0AS11p36HnD2ZKj/6JR5z27gSSULCNHIRReVs" crossorigin="anonymous">
+  
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js"
+    integrity="sha384-z1fJDqw8ZApjGO3/unPWUPsIymfsJmyrDVWC8Tv/a1HeOtGmkwNd/7xUS0Xcnvsx" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/contrib/auto-render.min.js"
+    integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR" crossorigin="anonymous"
+    onload="renderMathInElement(document.body,
+      {
+        delimiters: [
+          {left: '$$', right: '$$', display:true},
+          {left: '$', right: '$', display:false},
+          {left: '\\(', right: '\\)', display: false},
+          {left: '\\[', right: '\\]', display: true}
+        ]
+      }
+    );"></script> // Katex
 
     
     <link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://paulstapel.com/favicons/apple-touch-icon-57x57.png" />
@@ -124,23 +142,6 @@
       <script src="/js/app.js"> </script>
       
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css"
-    integrity="sha384-R4558gYOUz8mP9YWpZJjofhk+zx0AS11p36HnD2ZKj/6JR5z27gSSULCNHIRReVs" crossorigin="anonymous">
-  
-  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js"
-    integrity="sha384-z1fJDqw8ZApjGO3/unPWUPsIymfsJmyrDVWC8Tv/a1HeOtGmkwNd/7xUS0Xcnvsx" crossorigin="anonymous"></script>
-  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/contrib/auto-render.min.js"
-    integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR" crossorigin="anonymous"
-    onload="renderMathInElement(document.body,
-      {
-        delimiters: [
-          {left: '$$', right: '$$', display:true},
-          {left: '$', right: '$', display:false},
-          {left: '\\(', right: '\\)', display: false},
-          {left: '\\[', right: '\\]', display: true}
-        ]
-      }
-    );"></script>
 
 
 <div class="single">
@@ -151,11 +152,11 @@
         <time><em>19 Feb, 2025</em></time>
         <div class="singleCategories">
             
-            <a class="singleCategory" href=http://localhost:1313/categories/general/>general</a> 
+            <a class="singleCategory" href=https://paulstapel.com/categories/general/>general</a> 
             
-            <a class="singleCategory" href=http://localhost:1313/categories/field-theory/>field theory</a> 
+            <a class="singleCategory" href=https://paulstapel.com/categories/field-theory/>field theory</a> 
             
-            <a class="singleCategory" href=http://localhost:1313/categories/physics/>physics</a> 
+            <a class="singleCategory" href=https://paulstapel.com/categories/physics/>physics</a> 
             
         </div>
       </div>
@@ -176,57 +177,57 @@
 <p>From postulate 3, we can easily see that for a ray of light that travels between two points, this constant speed multiplied by the time traveled will equal the distance traveled. Then, we obtain the invariant spacetime interval $$ \Delta (x^0)^2 = \Delta (x^1)^2 + \Delta (x^2)^2 + \Delta (x^3)^2 $$
 By looking at coordinates with respect to the origin, we can talk about the coordinates instead of the difference in coordinates, so that we have an invariant $(x^0)^2 - (x^1)^2 + (x^2)^2 + (x^3)^2 = 0$. In tensor notation, we can write this as $$x^\mu g_{\mu \nu} x^\nu = 0$$</p>
 <p>Here, $g_{\mu \nu}$ is a metric tensor called the Minkowski metric. From postulate 4, we can see that this metric is conserved under Lorentz transformation, as it must hold that
-$$x^\mu g_{\mu \nu} x^\nu = y^\mu g_{\mu \nu} y^\nu =  x^\rho  (\Lambda^{\mu}<em>\rho g</em>{\mu \nu}\Lambda^{\nu}<em>\sigma)  x^\sigma $$
-Which yields $ \Lambda^{\mu}</em>\rho \Lambda^{\nu}<em>\sigma  g</em>{\mu \nu}= g_{\mu \nu} $. At first, I thought that isometricity of the Lorentz transformation should have been another postulate to add to special relativity, but as we can see, it is a consequence of Postulates 3 and 4.</p>
+$$ x^\mu g_{\mu \nu} x^\nu = y^\mu g_{\mu \nu} y^\nu =  x^\rho  (\Lambda_\nu^{\mu} \rho g_{\mu \nu}\Lambda_\sigma^\nu)  x^\sigma $$
+Which yields $ \Lambda_\rho^{\mu} \Lambda_\sigma^{\nu}  g_{\mu \nu}= g_{\mu \nu} $. At first, I thought that isometricity of the Lorentz transformation should have been another postulate to add to special relativity, but as we can see, it is a consequence of Postulates 3 and 4.</p>
 <h2 id="lorentz-transformations">Lorentz transformations</h2>
 <p>There are, in general, two transformations we should consider. Rotations and boosts. Postulate 5 ensures that time reversal and space mirroring are exluded from our possible Lorentz transformations.</p>
 <p>The case of rotations is not really that interesting, as time will behave as normal, and all Lorentz transformations of this form can simply be generalised to the rotation matrix acting on $x^\mu$, $\mu \neq 0$.</p>
-<p>Far more interesting, however, is what boosts act like. A boost is an added velocity, call it $v$, from one system to another. For simplicity, let us assume this boost to be in the $x$-direction. Then, we can assume that the coordinates $y,z$ will remain exactly the same by symmetry. Our Lorentz-transformation takes the form
-$$ \begin{pmatrix}
-y^0 \
-y^1 \
+<p>Far more interesting, however, is what boosts act like. A boost is an added velocity, call it $v$, from one system to another. For simplicity, let us assume this boost to be in the $x$-direction. Then, we can assume that the coordinates $y,z$ will remain exactly the same by symmetry. Our Lorentz-transformation takes the form</p>
+<p>$$ \begin{pmatrix}
+y^0 \newline
+y^1 \newline
 \end{pmatrix} =
 \Lambda
 \begin{pmatrix}
-x^0 \
-x^1 \
+x^0 \newline
+x^1 \newline
 \end{pmatrix}
-$$
-Here, we ignore all constant parts and only focus on coordinates that (might) change. But we know that the Lorentz-transformation is isometric, so it must hold that
+$$</p>
+<p>Here, we ignore all constant parts and only focus on coordinates that (might) change. But we know that the Lorentz-transformation is isometric, so it must hold that
 $$ \Lambda^T g \Lambda = g = \begin{pmatrix}
 -1 &amp; 0
-\
-0 &amp; 1\
+\newline
+0 &amp; 1\newline
 \end{pmatrix}$$
 Taking the most general form of $\Lambda$, we can write that $$\Lambda = \begin{pmatrix}
 a &amp; b
-\
-c &amp; d\
+\newline
+c &amp; d\newline
 \end{pmatrix}$$
 From which we can, with a little algebra, obtain the following equality:
 $$
 \begin{pmatrix}
-bc - a^2 &amp; db - ab \
-dc - ac &amp; d^2 - bc \
+bc - a^2 &amp; db - ab \newline
+dc - ac &amp; d^2 - bc \newline
 \end{pmatrix} =
 \begin{pmatrix}
 -1 &amp; 0
-\
-0 &amp; 1\
+\newline
+0 &amp; 1\newline
 \end{pmatrix}$$
 Then, it must hold that $a = d$ and $a^2 - bc = 1$. From symmetry arguments, we would expect a symmetric matrix for $\Lambda$, so we can see that a general solution takes the form $a = d = \cosh( \theta )$ and $c = b = sinh(\theta)$. Where both angles are as of yet undefined.
 We obtain the Lorentz transformation
 $$ \begin{pmatrix}
-y^0 \
-y^1 \
+y^0 \newline
+y^1 \newline
 \end{pmatrix} =
 \begin{pmatrix}
-cosh(\theta) &amp; sinh(\theta) \
-sinh(\theta) &amp; cosh(\theta) \
+cosh(\theta) &amp; sinh(\theta) \newline
+sinh(\theta) &amp; cosh(\theta) \newline
 \end{pmatrix}
 \begin{pmatrix}
-x^0 \
-x^1 \
+x^0 \newline
+x^1 \newline
 \end{pmatrix}
 $$
 Here, the angle can be any real value. It is interesting to note that this angle has a physical interpretation. It is called the rapidity, and it resembles velocity inside of a relativistic frame. While velocities do not add as normal (as can be observed by the form of this transformation), the rapidity do, and thus they resemble a more general relativistic velocity. This addition of rapidities can be easily observed by writing these hyperbolics in their exponential forms.</p>
@@ -236,16 +237,16 @@ $$ \frac{1}{c} \frac{dy^1}{dy^0} = tanh(\theta)$$
 From which we can conclude that $\tanh\theta) = -\frac{v}{c}$. Here, the minus sign is introduced as the boost of $v$ with regards to the first frame means a boost of $-v$ with regards to the second frame, so in that frame the velocity would become $-v$. Using hyperbolic identities, it follows that $\cosh(\theta) = \gamma$ and $\sinh(\theta) = -\frac{v}{c} \gamma$, where $$ \gamma = \frac{1}{\sqrt{1- \frac{v^2}{c^2}}}$$
 is the well-known gamma-factor. Then, the Lorentz-transformation takes the final form</p>
 <p>$$ \begin{pmatrix}
-y^0 \
-y^1 \
+y^0 \newline
+y^1 \newline
 \end{pmatrix} =
 \gamma \begin{pmatrix}
-1 &amp;  -\frac{v}{c}\
--\frac{v}{c} &amp; 1 \
+1 &amp;  -\frac{v}{c}\newline
+-\frac{v}{c} &amp; 1 \newline
 \end{pmatrix}
 \begin{pmatrix}
-x^0 \
-x^1 \
+x^0 \newline
+x^1 \newline
 \end{pmatrix}
 $$
 Which is the Lorentz-transformation as you know it.</p>

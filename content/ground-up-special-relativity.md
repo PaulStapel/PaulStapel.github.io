@@ -1,7 +1,7 @@
 ---
 title: "Special Relativity From The Ground Up"
 date: "2025-02-19T16:22:39+01:00"
-draft: true
+draft: false
 description: "Building special relativity from 'simple' symmetry arguments"
 categories: 
     - general
@@ -27,8 +27,8 @@ From postulate 3, we can easily see that for a ray of light that travels between
 By looking at coordinates with respect to the origin, we can talk about the coordinates instead of the difference in coordinates, so that we have an invariant $(x^0)^2 - (x^1)^2 + (x^2)^2 + (x^3)^2 = 0$. In tensor notation, we can write this as $$x^\mu g_{\mu \nu} x^\nu = 0$$
 
 Here, $g_{\mu \nu}$ is a metric tensor called the Minkowski metric. From postulate 4, we can see that this metric is conserved under Lorentz transformation, as it must hold that 
-$$x^\mu g_{\mu \nu} x^\nu = y^\mu g_{\mu \nu} y^\nu =  x^\rho  (\Lambda^{\mu}_\rho g_{\mu \nu}\Lambda^{\nu}_\sigma)  x^\sigma $$ 
-Which yields $ \Lambda^{\mu}_\rho \Lambda^{\nu}_\sigma  g_{\mu \nu}= g_{\mu \nu} $. At first, I thought that isometricity of the Lorentz transformation should have been another postulate to add to special relativity, but as we can see, it is a consequence of Postulates 3 and 4. 
+$$ x^\mu g_{\mu \nu} x^\nu = y^\mu g_{\mu \nu} y^\nu =  x^\rho  (\Lambda_\nu^{\mu} \rho g_{\mu \nu}\Lambda_\sigma^\nu)  x^\sigma $$ 
+Which yields $ \Lambda_\rho^{\mu} \Lambda_\sigma^{\nu}  g_{\mu \nu}= g_{\mu \nu} $. At first, I thought that isometricity of the Lorentz transformation should have been another postulate to add to special relativity, but as we can see, it is a consequence of Postulates 3 and 4. 
 
 ## Lorentz transformations
 There are, in general, two transformations we should consider. Rotations and boosts. Postulate 5 ensures that time reversal and space mirroring are exluded from our possible Lorentz transformations. 
@@ -36,51 +36,54 @@ There are, in general, two transformations we should consider. Rotations and boo
 The case of rotations is not really that interesting, as time will behave as normal, and all Lorentz transformations of this form can simply be generalised to the rotation matrix acting on $x^\mu$, $\mu \neq 0$. 
 
 Far more interesting, however, is what boosts act like. A boost is an added velocity, call it $v$, from one system to another. For simplicity, let us assume this boost to be in the $x$-direction. Then, we can assume that the coordinates $y,z$ will remain exactly the same by symmetry. Our Lorentz-transformation takes the form 
+
 $$ \begin{pmatrix}
-           y^0 \\
-           y^1 \\
+           y^0 \newline
+           y^1 \newline
          \end{pmatrix} =
          \Lambda 
          \begin{pmatrix}
-           x^0 \\
-           x^1 \\
+           x^0 \newline
+           x^1 \newline
          \end{pmatrix}
 $$ 
+
+
 Here, we ignore all constant parts and only focus on coordinates that (might) change. But we know that the Lorentz-transformation is isometric, so it must hold that 
 $$ \Lambda^T g \Lambda = g = \begin{pmatrix}
            -1 & 0 
-        \\
-           0 & 1\\
+        \newline
+           0 & 1\newline
          \end{pmatrix}$$
 Taking the most general form of $\Lambda$, we can write that $$\Lambda = \begin{pmatrix}
            a & b 
-        \\
-           c & d\\
+        \newline
+           c & d\newline
          \end{pmatrix}$$
 From which we can, with a little algebra, obtain the following equality: 
 $$ 
 \begin{pmatrix}
-        bc - a^2 & db - ab \\
-        dc - ac & d^2 - bc \\
+        bc - a^2 & db - ab \newline
+        dc - ac & d^2 - bc \newline
 \end{pmatrix} =
 \begin{pmatrix}
            -1 & 0 
-        \\
-           0 & 1\\
+        \newline
+           0 & 1\newline
 \end{pmatrix}$$
 Then, it must hold that $a = d$ and $a^2 - bc = 1$. From symmetry arguments, we would expect a symmetric matrix for $\Lambda$, so we can see that a general solution takes the form $a = d = \cosh( \theta )$ and $c = b = sinh(\theta)$. Where both angles are as of yet undefined. 
 We obtain the Lorentz transformation 
 $$ \begin{pmatrix}
-           y^0 \\
-           y^1 \\
+           y^0 \newline
+           y^1 \newline
          \end{pmatrix} =
          \begin{pmatrix}
-           cosh(\theta) & sinh(\theta) \\ 
-           sinh(\theta) & cosh(\theta) \\
+           cosh(\theta) & sinh(\theta) \newline
+           sinh(\theta) & cosh(\theta) \newline
          \end{pmatrix}
          \begin{pmatrix}
-           x^0 \\
-           x^1 \\
+           x^0 \newline
+           x^1 \newline
          \end{pmatrix}
 $$ 
 Here, the angle can be any real value. It is interesting to note that this angle has a physical interpretation. It is called the rapidity, and it resembles velocity inside of a relativistic frame. While velocities do not add as normal (as can be observed by the form of this transformation), the rapidity do, and thus they resemble a more general relativistic velocity. This addition of rapidities can be easily observed by writing these hyperbolics in their exponential forms. 
@@ -92,16 +95,16 @@ From which we can conclude that $\tanh\theta) = -\frac{v}{c}$. Here, the minus s
 is the well-known gamma-factor. Then, the Lorentz-transformation takes the final form
 
 $$ \begin{pmatrix}
-           y^0 \\
-           y^1 \\
+           y^0 \newline
+           y^1 \newline
          \end{pmatrix} =
          \gamma \begin{pmatrix}
-           1 &  -\frac{v}{c}\\ 
-           -\frac{v}{c} & 1 \\
+           1 &  -\frac{v}{c}\newline 
+           -\frac{v}{c} & 1 \newline
          \end{pmatrix}
          \begin{pmatrix}
-           x^0 \\
-           x^1 \\
+           x^0 \newline
+           x^1 \newline
          \end{pmatrix}
 $$ 
 Which is the Lorentz-transformation as you know it. 
