@@ -3,6 +3,7 @@ title: "Beef/Pork Stroganoff"
 date: "2024-11-14T21:19:53+01:00"
 draft: false
 description: "[EXTEREMELY LOUD INCORRECT BUZZER]"
+image: "images/stroganoff"
 categories: 
     - recipe
     - Russian

@@ -3,6 +3,7 @@ title: "Ants Climbing a Tree"
 date: "2024-09-17T20:38:46+02:00"
 draft: false
 description: "This classic Sichuan dish is my definition of comfort food"
+image: "/images/ants-climbing-a-tree.png"
 categories: 
     - recipe
     - difficulty 2|5

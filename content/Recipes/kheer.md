@@ -3,6 +3,7 @@ title: "Kheer"
 date: "2025-02-07T07:31:25+01:00"
 draft: false
 description: "A flexible breakfast that is easy to make from leftover rice"
+image: "/images/kheer.png"
 categories: 
     - recipe
     - breakfast
