@@ -166,41 +166,155 @@ li::marker {
   display: inline-block;
 }
 
-.image-circle {
-  width: 25px;
-  height: 25px;
+.image-circle-container {
+  width: 32px;
+  height: 32px;
   border-radius: 50%;
-  background-size: cover;
-  background-position: center; 
-  margin-right: 8px;
-  margin-left: 2px;
-  margin-bottom: -3px;
-  cursor: pointer;
-  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 5px;
+  margin-right: 5px;
 }
 
-/* Hidden tooltip */
+.image-circle-container::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: linear-gradient(45deg, #11998e, #38ef7d, #ff6b6b, #ffcc00);
+  padding: 0.5px;
+  background-size: 400% 400%;
+  -webkit-mask: 
+    radial-gradient(circle, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 51%);
+  mask: 
+    radial-gradient(circle, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 51%);
+  animation: animate 5s ease infinite;
+}
+
+@keyframes animate {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.image-circle {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+}
+@keyframes animate {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Container to position tooltip relative to the trigger element */
+.image-tooltip-container {
+  position: relative;
+  display: inline-block;
+}
+
+
 .image-tooltip {
-  display: none;
   position: absolute;
   top: 27px; 
   left: 50%;
   transform: translateX(-50%);
   width: 250px; 
   height: 250px;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   border-radius: 10px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
   z-index: 100;
-  transition: opacity 0.5s ease-in-out;
   opacity: 0;
+  pointer-events: none; /* Prevent hover issues when hidden */
+  transition: opacity 0.5s ease-in-out;
+  box-sizing: border-box;
+  overflow: hidden;
 }
 
+
 .image-tooltip-container:hover .image-tooltip {
-  display: block;
   opacity: 1;
+  pointer-events: auto;
+}
+
+
+.image-tooltip::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: inherit;
+  background: linear-gradient(45deg, #11998e, #38ef7d, #ff6b6b, #ffcc00);
+  background-size: 200% 200%;
+  animation: animate 5s ease infinite;
+  z-index: -1;
+  pointer-events: none;
+  /* Use mask to show only the border overlay without expanding the element */
+  -webkit-mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out;
+          mask-composite: exclude;
+  padding: 4px; /* Border thickness */
+}
+
+.tooltip-image {
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 1;
+}
+
+.image-circle-container {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 5px;
+  margin-right: 5px;
+}
+
+.image-circle {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
 }
 
 

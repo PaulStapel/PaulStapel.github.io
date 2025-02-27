@@ -66,8 +66,12 @@
             <h1 class="listItemTitle">
               {{ if .Params.image }}
                 <div class="image-tooltip-container">
-                  <div class="image-circle" style="background-image: url('{{ .Params.image }}');"></div>
-                  <div class="image-tooltip" style="background-image: url('{{ .Params.image }}');"></div>
+                  <div class="image-circle-container">
+                    <div class="image-circle" style="background-image: url('{{ .Params.image }}');"></div>
+                  </div>
+                  <div class="image-tooltip">
+                    <div class="tooltip-image" style="background-image: url('{{ .Params.image }}');"></div>
+                  </div>
                 </div>
               {{ end }}
                 <a href="{{.Permalink}}" class="hoverlink">{{.Title}}</a>
