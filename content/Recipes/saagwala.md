@@ -1,7 +1,7 @@
 ---
 title: "Saagwala"
 date: "2025-03-05T21:13:47+01:00"
-draft: false
+draft: falsehug
 description: "A delicious curry that is very healthy and green"
 image: "/images/saagwala.jpeg"
 categories: 
