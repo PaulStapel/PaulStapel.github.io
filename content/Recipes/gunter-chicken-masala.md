@@ -14,18 +14,18 @@ I have been making a lot of masala recently, and this gunter chicken masala was 
 ## Ingredients
 
 ### Masala powder
-To make the masala powder, first toast the whole spices and dried chili's whole, and put them in a spice blender. 
 - About 4-5 dried chili's
 - 2 tsp coriander seeds
 - 1 tsp black peppercorns
 - 1 tsp cumin seeds
+To make the masala powder, first toast the whole spices and dried chili's whole, and put them in a spice blender. 
 
 ### Masala paste
-We will use this masala paste to marinate the chicken. Again, mix all ingredients in a blender
 - 2 tsp masala powder (that you just made)
 - About 1 - 2 tsp minced ginger
 - About 4-5 cloves of garlic
 - A little water to make it a paste
+We will use this masala paste to marinate the chicken. Again, mix all ingredients in a blender
 
 ### Marinade
 - Chicken (bone-in)
