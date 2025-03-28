@@ -12,15 +12,15 @@ categories:
 I love roti, and having now made it myself, I can safely say that its lovely flavor carries over to the home kitchen.
 
 ## Ingredients
-- Flour (500 grams)
+- Flour (200 grams)
 - Butter (40 grams)
-- Butter (80+ grams) (used for cooking)
-- Water (200 grams)
+- Butter (60+ grams) (used for the grilling of the roti)
+- Water (~100 grams after boiling)
 - Salt (1 teaspoon)
 
 ## Cooking plan
-- Heat about 40 grams of butter in a pan until melted. 
-- Add together this melted butter, your flour and water. Mix in a dough mixer or by using two forks until your dough is smooth and not as sticky anymore. 
+- Add together your butter, flour and a little salt. 
+- Boil your water and let it cool to just below boiling temperature. Add it to your dough (this will melt the butter) and start mixing it. Use forks at first, and your hands after it has cooled down a bit. 
 - Roll out your dough into thin sheets. The thinner they are, the better they will be cooked once they go into your pan. 
 - Cook your roti at high heat in a skillet or non-stick pan. For each roti you cook, coat the pan with butter and lay your roti on it. Wait until it bubbles up a little and starts to brown, and then flip it over. Your roti should be coated in the butter, so add more if you didn't add enough. 
 
