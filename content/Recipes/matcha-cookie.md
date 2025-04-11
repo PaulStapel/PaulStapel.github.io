@@ -25,14 +25,14 @@ When it comes to baked goods, I really love freshly baked cookies. As it happens
 - 100 grams of white chocolate
 
 ## Baking plan
-- Start by preheating an oven to 180 degrees Celcius. 
-- Next, brown your butter on medium heat. 
+- Take some butter and brown it on medium heat. (Heat it up until the milk solids give the butter a brown color)
 - While your butter is browning, mix your flour, cornstarch, baking powder, salt and matcha until combined. 
 - In another bowl, mix your sugars (and honey). 
 - Add brown butter to your sugar, and mix for a little. Add your vanilla extract and eggs. 
 - Mix in your dry ingredients and stir until it forms a smooth paste. This may take some muscle. Alternatively, you may use a mixer. 
 - Cut up some chunks of white chocolate and mix them into your dough. 
 - Put your bowl in the fridge for about an hour, until it has chilled completely. 
+- When you want to bake your cookies, start by preheating the oven to 180 degrees Celcius. 
 - Make scoops from your dough and place them on a baking tray lined with parchement paper. Give them some space, as they will spread out in the oven. 
 - Put your cookies in the oven for about 12 minutes. Let them cool a little before eating, as they will be very soft when they leave your oven. 
 
