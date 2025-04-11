@@ -33,7 +33,7 @@ When it comes to baked goods, I really love freshly baked cookies. As it happens
 - Mix in your dry ingredients and stir until it forms a smooth paste. This may take some muscle. Alternatively, you may use a mixer. 
 - Cut up some chunks of white chocolate and mix them into your dough. 
 - Put your bowl in the fridge for about an hour, until it has chilled completely. 
-- Make scoops from your dough and place them on a baking tray lined with parchement paper. Give them some space, as thew will spread out in the oven. 
+- Make scoops from your dough and place them on a baking tray lined with parchement paper. Give them some space, as they will spread out in the oven. 
 - Put your cookies in the oven for about 12 minutes. Let them cool a little before eating, as they will be very soft when they leave your oven. 
 
 ## ENJOY!!
