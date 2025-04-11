@@ -1,5 +1,5 @@
 ---
-title: "Fast Peanut Noodles"
+title: "Peanut Noodles" 
 date: "2025-04-11T07:47:32+02:00"
 draft: false
 description: "Fast, Cheap and Delicious"
