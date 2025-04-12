@@ -1,5 +1,3 @@
-// ! Dark and light mode
-
 const mode = localStorage.getItem("mode") || "";
 const toggle = document.querySelector(".toggle");
 const body = document.querySelector("body");
@@ -8,7 +6,6 @@ if (mode) {
   body.classList.add(mode);
 }
 
-// Add event listener for the toggle button
 toggle.addEventListener("click", () => {
   if (body.classList.contains("light")) {
     body.classList.remove("light");
@@ -17,9 +14,9 @@ toggle.addEventListener("click", () => {
     body.classList.add("light");
     localStorage.setItem("mode", "light");
   }
+  // Update particles background color when mode changes
+  updateParticlesBackground();
 });
-
-// ! Copy code to clipboard;
 
 document.addEventListener("DOMContentLoaded", function() {
   const codeContainers = document.querySelectorAll(".highlight");
@@ -49,4 +46,37 @@ document.addEventListener("DOMContentLoaded", function() {
       document.execCommand("copy");
       document.body.removeChild(textarea);
   }
+});
+
+function getIsLightMode() {
+  return document.body.classList.contains("light");
+}
+
+async function updateParticlesBackground() {
+  await tsParticles.load({
+    id: "tsparticles",
+    options: {
+      preset: "stars",
+      background: {
+        color: getIsLightMode() ? "#9A510D" : "#395452",
+      }
+    }
+  });
+}
+
+// Initialize particles on page load
+(async () => {
+  await loadStarsPreset(tsParticles);
+  await updateParticlesBackground(); // Initial background setup
+})();
+
+// Listen for theme changes and update particles accordingly
+const observer = new MutationObserver(() => {
+  updateParticlesBackground();
+});
+
+// Observe class changes on the body element
+observer.observe(document.body, {
+  attributes: true,
+  attributeFilter: ['class']
 });
