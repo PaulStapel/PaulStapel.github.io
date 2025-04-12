@@ -1,5 +1,5 @@
 ---
-title: "Balatro"
+title: "Balatro: review"
 date: "2025-01-16T18:06:45+01:00"
 draft: false
 description: "Jimbo Jimbo Jimbo"

@@ -53,7 +53,6 @@
     {{ range where .Pages "Section" $section }}
     {{ if not (in .Params.categories "recipe") }}
     {{ if not (in .Params.categories "meditation") }}
-    {{ if not (in .Params.categories "review") }}
       <div class="listItem">
           <div class="listItemTexts">
             <h1 class="listItemTitle">
@@ -74,7 +73,6 @@
             <a class="listItemDesc" href="{{.Permalink}}"> <time><em>{{ dateFormat .Site.Params.dateFormat .Date}}</em></time>  || {{.Params.description}} </a>
         </div>
       </div>
-    {{ end }}
     {{ end }}
     {{ end }}
     {{ end }}

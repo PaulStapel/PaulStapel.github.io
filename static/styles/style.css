@@ -118,13 +118,28 @@ li::marker {
     left: 0;
     background-color: var(--bgSoft) ;
     border: 1px solid #0c0c0c;
+    transform: translateX(0);
+    transition: transform 0.3s ease;
 }
   
 .light .ball {
-    left: unset;
-    right: 0;
+    transform: translateX(20px);
     background-color: #EAA823;
     border-color: #dee4eb;
+
+}
+
+#moon-alt {
+    display: none;
+}
+
+.light #moon-alt {
+    display: inline;
+}
+
+
+.light #sun{
+  display: none; 
 }
   
 .light .toggle{
