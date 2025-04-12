@@ -2,7 +2,7 @@
 title = 'Paul Stapel'
 date = 2024-04-03T20:59:30+02:00
 draft = false
-description = "Bachelor Student in Physics, Mathematics & Computer Science"
+description = "Recent as of 12/04/2025"
 [build] 
     list = "never" 
 +++
