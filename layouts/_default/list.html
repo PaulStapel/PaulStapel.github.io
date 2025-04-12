@@ -56,7 +56,7 @@
       <div class="listItem">
           <div class="listItemTexts">
             <h1 class="listItemTitle">
-              {{ if .Params.image }}
+              <!-- {{ if .Params.image }}
               <div class="image-tooltip-container">
                 <div class="image-circle-container">
                   <div class="image-circle" style="background-image: url('{{ .Params.image }}');"></div>
@@ -67,7 +67,7 @@
                   </div>
                 </div>
               </div>
-            {{ end }}
+            {{ end }} -->
                 <a href="{{.Permalink}}" class="hoverlink">{{.Title}}</a>
             </h1>
             <a class="listItemDesc" href="{{.Permalink}}"> <time><em>{{ dateFormat .Site.Params.dateFormat .Date}}</em></time>  || {{.Params.description}} </a>

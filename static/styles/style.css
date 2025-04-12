@@ -98,38 +98,38 @@ li::marker {
 
 
 .toggle {
-    width: 40px;
-    height: 20px;
-    border-radius: 50px;
+    width: 50px;
+    height: 26px;
+    border-radius: 16px;
     cursor: pointer;
     display: flex;
     align-items: center;
     gap: 5px;
-    background-color: var(--textSoft);
-    border: 0.5px solid #0c0c0c;
+    background-color: #EAA823;
     padding: 5px;
     position: relative;
     margin-left: 10px;
     margin-right:-5px;
 }
+
   
 .ball {
-    width: 19px;
-    height: 19px;
+    width: 22px;
+    height: 22px;
     border-radius: 50%;
     position: absolute;
-    left: 0;
-    background-color: var(--bgSoft) ;
-    border: 1px solid #0c0c0c;
-    transform: translateX(0);
-    transition: transform 0.3s ease;
+    left: 0px;
+    background-color: #f6f6f6 ;
+    border-color: #E5E4E2;
+    border: 2px solid;
+    transform: translateX(2px);
+    transition: transform 0.4s ease;
 }
   
 .light .ball {
-    transform: translateX(20px);
-    background-color: #EAA823;
-    border-color: #dee4eb;
-
+    transform: translateX(25px);
+    background-color: #f6f6f6;
+    border-color: #E5E4E2;
 }
 
 #moon-alt {
@@ -146,8 +146,7 @@ li::marker {
 }
   
 .light .toggle{
-    background-color: var(--text);
-    border-color: #dee4eb;
+    background-color: #088bfc;
 }
 
 
