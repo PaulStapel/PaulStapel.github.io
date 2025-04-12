@@ -1,8 +1,9 @@
 :root{
-    --bg: #101820FF;
-    --bgSoft : #EAA823;
-    --text : #EAA823;
-    --textSoft :#088bfc;
+    --bg: #2d353b;
+    --bgSoft : #a7c080;
+    --text : #eae3d2;
+    --textSoft :#E67E80;
+    --Desc: #7FBBB3;
 }
 
 
@@ -45,6 +46,8 @@ body.light{
     --bgSoft : #EAA823;
     --text: #101820FF;
     --textSoft : #088bfc;
+    --Desc: #C24040;
+;
 }
   
 
@@ -300,6 +303,10 @@ li::marker {
     margin-bottom: 20px;
 }
 
+.listItemDesc{
+  color: var(--Desc);
+}
+
 .listItemTexts{
     display: flex;
     flex-direction: column; 
@@ -370,6 +377,14 @@ li::marker {
     padding-top: 20px; 
 }
 
+.singleHeadDesc {
+    color: var(--Desc);
+}
+
+.singleDate {
+    color: var(--Desc);
+}
+
 .singleHead{
     display: block;
     align-items: column;
@@ -422,7 +437,7 @@ li::marker {
 .singleContent{
     flex: 3;
     line-height: 32px;
-    color: #f6f6f6;
+    color: var(--text);
     text-align: justify;
     font-size: 20px;
 }

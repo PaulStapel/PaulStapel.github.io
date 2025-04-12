@@ -12,7 +12,7 @@
       <div class="singleHeadText">
         <h1 class="singleHeadTitle">{{.Title}}</h1> 
         <p class="singleHeadDesc">{{.Params.description}}</p>
-        <time><em>{{ dateFormat .Site.Params.dateFormat .Date }}</em></time>
+        <time class="singleDate"><em>{{ dateFormat .Site.Params.dateFormat .Date }}</em></time>
         <div class="singleCategories">
             {{ range (.GetTerms "categories")}}
             <a class="singleCategory" href={{ .Permalink }}>{{ .Name}}</a> 
