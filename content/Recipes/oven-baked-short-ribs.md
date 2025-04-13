@@ -9,7 +9,7 @@ categories:
     - difficulty 4|5
 ---
 
-!Be aware that this recipe takes about 4 hours to finish! I love myself a good hunk of meat, and short ribs are a satisfying fill that can feed quite some guests. I don't grill often, and so I have to get creative when it comes to making ribs, but I have found that ovens work well enough for most pieces of meat. So that's exactly what we will be using :)
+**!Be aware that this recipe takes about 4 hours to finish!** I love myself a good hunk of meat, and short ribs are a satisfying fill that can feed quite some guests. I don't grill often, and so I have to get creative when it comes to making ribs, but I have found that ovens work well enough for most pieces of meat. So that's exactly what we will be using :)
 
 ## Ingredients
 - Short ribs (Duh)
