@@ -17,7 +17,7 @@ This post is a simple one, but simple does not always have to equal bland. Usual
 - Mustard
 - Grated cheese (only a little, ads a nice flavor and crisp)
 
-## Veggies
+### Veggies
 Choose any combination of: 
 - Garlic
 - Red onion
