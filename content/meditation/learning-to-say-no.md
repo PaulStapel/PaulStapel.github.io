@@ -2,7 +2,7 @@
 title: "Learning To Say No"
 date: "2024-09-05T19:56:21+02:00"
 draft: false
-description: "The no saga part one: realisation"
+description: "Realisation"
 categories: 
     - meditation
 ---
@@ -10,8 +10,6 @@ categories:
 > You have to learn to say no to many good things if you want to say yes to many great things
 
 Recently, I have found myself having trouble saying no to people. Of course, when push comes to shove, I know when to stand my ground when I strongly believe in something, but the main problem lies in saying no to good things. In order to explore this, I will take you on a journey of meditation where I explore this side of myself for the first time. That's right, it's time for a certified "Paul character arc"!
-
-To start off this series of posts, I would like to define my problem and identify some examples. From there, I will come to term with the fact that this is a problem. 
 
 In general, I can show some real puppy behaviour in terms of my interests. I'm fascinated by many different facets of life, and my love runs strong through my veins. Through this, I can get excited by things easily. Especially projects, new skills to learn or subjects to study suffer from this excitement, as they become a little too much for me to handle. My love for other people is also a strong factor in this, and I wish I were able to say no to people more often so that I can leave more energy and time for even greater and better things. 
 

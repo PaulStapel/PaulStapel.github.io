@@ -11,7 +11,7 @@ categories:
 
 Sometimes, I feel like I'm finally getting in a good groove. In those times, my studying routine works, my workout routine works, I'm being social and am taking care of myself and the people around me. Then, something happens that knocks me off-balance. This summer, it has been a wonderful vacation to Vietnam that saw me quickly adapt my way of living to this travelling lifestyle, but this sweeping force may also be something a little less enjoyable. 
 
-I don't it when I lose my rhythm in life - after all, life is full of unexpected event - as long as I manage to rebalance myself. 
+I don't like it when I lose my rhythm in life - after all, life is full of unexpected events - but all is fine as long as I manage to rebalance myself. 
 
 Rebalancing, yeah, that's one tough cookie to crack. There are some things that I do that usually help me physically, like getting a good night sleep or exercising regularly. As long as I force myself to do these things, my rhythm will restore naturally. The real problem lies in the mental aspect of rebalancing. It can often feel as if there is a certain pressure to get back to your usual rhythm, or like you are not getting there fast enough. For me, this can sometimes take quite some meditation to overcome. 
 
