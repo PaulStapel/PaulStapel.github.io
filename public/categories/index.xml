@@ -6,19 +6,47 @@
     <description>Recent content in Categories on Paul&#39;s Particles</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 11 Apr 2025 21:10:30 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 15 Apr 2025 20:36:52 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Meditation</title>
       <link>http://localhost:1313/categories/meditation/</link>
-      <pubDate>Fri, 11 Apr 2025 21:10:30 +0200</pubDate>
+      <pubDate>Tue, 15 Apr 2025 20:36:52 +0200</pubDate>
       <guid>http://localhost:1313/categories/meditation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Codex</title>
+      <link>http://localhost:1313/categories/codex/</link>
+      <pubDate>Sun, 13 Apr 2025 22:07:06 +0200</pubDate>
+      <guid>http://localhost:1313/categories/codex/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>American</title>
+      <link>http://localhost:1313/categories/american/</link>
+      <pubDate>Sun, 13 Apr 2025 20:45:58 +0200</pubDate>
+      <guid>http://localhost:1313/categories/american/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Difficulty 4|5</title>
+      <link>http://localhost:1313/categories/difficulty-45/</link>
+      <pubDate>Sun, 13 Apr 2025 20:45:58 +0200</pubDate>
+      <guid>http://localhost:1313/categories/difficulty-45/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Recipe</title>
+      <link>http://localhost:1313/categories/recipe/</link>
+      <pubDate>Sun, 13 Apr 2025 20:45:58 +0200</pubDate>
+      <guid>http://localhost:1313/categories/recipe/</guid>
       <description></description>
     </item>
     <item>
       <title>Difficulty 2|5</title>
       <link>http://localhost:1313/categories/difficulty-25/</link>
-      <pubDate>Fri, 11 Apr 2025 07:47:32 +0200</pubDate>
+      <pubDate>Sun, 13 Apr 2025 20:29:54 +0200</pubDate>
       <guid>http://localhost:1313/categories/difficulty-25/</guid>
       <description></description>
     </item>
@@ -27,13 +55,6 @@
       <link>http://localhost:1313/categories/indonesian/</link>
       <pubDate>Fri, 11 Apr 2025 07:47:32 +0200</pubDate>
       <guid>http://localhost:1313/categories/indonesian/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Recipe</title>
-      <link>http://localhost:1313/categories/recipe/</link>
-      <pubDate>Fri, 11 Apr 2025 07:47:32 +0200</pubDate>
-      <guid>http://localhost:1313/categories/recipe/</guid>
       <description></description>
     </item>
     <item>
@@ -76,13 +97,6 @@
       <link>http://localhost:1313/categories/japanese/</link>
       <pubDate>Wed, 12 Mar 2025 13:09:16 +0100</pubDate>
       <guid>http://localhost:1313/categories/japanese/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Difficulty 4|5</title>
-      <link>http://localhost:1313/categories/difficulty-45/</link>
-      <pubDate>Wed, 05 Mar 2025 21:13:47 +0100</pubDate>
-      <guid>http://localhost:1313/categories/difficulty-45/</guid>
       <description></description>
     </item>
     <item>
@@ -167,13 +181,6 @@
       <link>http://localhost:1313/categories/review/</link>
       <pubDate>Thu, 16 Jan 2025 18:06:45 +0100</pubDate>
       <guid>http://localhost:1313/categories/review/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>American</title>
-      <link>http://localhost:1313/categories/american/</link>
-      <pubDate>Sat, 11 Jan 2025 21:59:06 +0100</pubDate>
-      <guid>http://localhost:1313/categories/american/</guid>
       <description></description>
     </item>
     <item>
@@ -272,6 +279,13 @@
       <link>http://localhost:1313/categories/python/</link>
       <pubDate>Sat, 20 Apr 2024 15:55:07 +0200</pubDate>
       <guid>http://localhost:1313/categories/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Meta</title>
+      <link>http://localhost:1313/categories/meta/</link>
+      <pubDate>Wed, 03 Apr 2024 20:59:30 +0200</pubDate>
+      <guid>http://localhost:1313/categories/meta/</guid>
       <description></description>
     </item>
     <item>

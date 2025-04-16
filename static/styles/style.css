@@ -431,6 +431,7 @@ li::marker {
 .singleBottom {
     display: flex;
     gap: 10px;
+    align-items: flex-start;
     justify-content: space-between;
     margin-top: 20px;
 }
@@ -496,17 +497,16 @@ li::marker {
 }
 
 .toc-container {
+  display: inline-block;
   position: relative;
   top: 20px;
   max-width: 225px; 
-  max-height: 800px;
   overflow-y: auto;
   margin-right: 25px;
   padding: 16px;
   border-radius: 10px;
   background-color: var(--ToC); 
   border: 1px solid #3a3e47;
-  float: left;
   margin-left: -200px; /* Move it more to the left */
 }
 
@@ -558,9 +558,10 @@ li::marker {
 /* If the screen is small, adjust TOC display */
 @media (max-width: 1024px) {
   .toc-container {
-    float: none;
-    max-width: 100%;
-    margin: 0 0 20px 0;
+    width: 100%;
+    max-width: none;
+    margin-left: auto;
+    margin-right: auto;
     position: relative !important;
   }
   
