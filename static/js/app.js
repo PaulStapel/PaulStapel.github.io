@@ -134,9 +134,6 @@ document.addEventListener("DOMContentLoaded", function() {
     item.element.addEventListener('click', function(e) {
       // Remove active class from all items
       tocItems.forEach(i => i.element.classList.remove('active'));
-      
-      // Add active class to clicked item
-      this.classList.add('active');
     });
   });
 });
