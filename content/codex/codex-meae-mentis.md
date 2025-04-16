@@ -6,6 +6,7 @@ description: "Ubi mens cessavit, ibi claritas"
 categories: 
     - codex
 list: "never" 
+ToC: "true"
 ---
 
 In my meditations, I stumble upon thoughts and concepts that cannot always be described fully by language. These thoughts need to be expressed in words that convey feeling, not reason. In my meditations, and throughout my life in general, I may thus share words that are not at all clear in meaning. In order for readers to better understand these concepts, and to keep me from having to repeat myself, I present to you the codex of my mind. 

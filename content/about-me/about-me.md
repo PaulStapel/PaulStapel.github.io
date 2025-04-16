@@ -4,8 +4,9 @@ date = 2024-04-03T20:59:30+02:00
 draft = false
 description = "Recent as of 12/04/2025"
 categories = "meta"
+ToC = true
 [build] 
-    list = "never" 
+    list = "never"
 +++
 
 Hiya, I'm Paul! I'm a student-writer-programmer hybrid specializing in science. This website is my first public project, and I look forward to sharing more of my work in the future. Nonetheless, you can find everything you need to know about me on this page. 
@@ -76,7 +77,7 @@ I can speak Dutch and English proficiently, and can comprehend and (poorly) spea
 * **Jira** (Use it for work, and know how to navigate it well enough)
 * **Asperite** ( Disclaimer: I am very bad at pixel art :/ )
 
-### Things I am learning or am wanting to learn
+### Things I am learning
 * **Mandarin** (A lot of interesting culture and literature is in Mandarin, and I'm slowly learning the language) 
 * **Rust** (Rust sounds like an interesting language, and I'd love to learn it)
 * **Bevy** (Part of why I'd like to learn Rust is for the bevy framework, as I love the concepts of ECS)

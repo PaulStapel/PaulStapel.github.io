@@ -4,6 +4,7 @@
     --text : #eae3d2;
     --textSoft :#E67E80;
     --Desc: #7FBBB3;
+    --ToC: #2d3036;
 }
 
 
@@ -47,6 +48,7 @@ body.light{
     --text: #101820FF;
     --textSoft : #088bfc;
     --Desc: #9A510D;
+    --ToC: #eeeeee;
 ;
 }
   
@@ -492,6 +494,91 @@ li::marker {
     width: 100%;
     overflow-x: scroll; 
 }
+
+.toc-container {
+  position: relative;
+  top: 20px;
+  max-width: 225px; 
+  max-height: 50vh;
+  overflow-y: auto;
+  margin-right: 25px;
+  padding: 16px;
+  border-radius: 10px;
+  background-color: var(--ToC); 
+  border: 1px solid #3a3e47;
+  float: left;
+  margin-left: -200px; /* Move it more to the left */
+}
+
+.toc-title {
+  font-size: 24px;
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: var(--text);
+  text-align: center;
+}
+
+#toc {
+  list-style: none;
+  padding-left: 0;
+  position: relative;
+  text-align: left;
+}
+
+#toc a {
+  display: block;
+  text-decoration: none;
+  padding: 8px 0;
+  color: var(--text); 
+  transition: color 0.3s;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+#toc a.active {
+  color: var(--textSoft);
+  font-weight: bold;
+}
+
+#toc a:hover {
+  color: var(--textSoft);
+  font-weight: bold;
+}
+
+#toc li:hover {
+  margin: 0;
+  padding: 0;
+}
+
+.toc-indicator {
+  z-index: 1;
+  transition: opacity 0.3s ease;
+}
+
+/* If the screen is small, adjust TOC display */
+@media (max-width: 1024px) {
+  .toc-container {
+    float: none;
+    max-width: 100%;
+    margin: 0 0 20px 0;
+    position: relative !important;
+  }
+  
+  .singleBottom {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .toc-title {
+    font-size: 32px;
+  }
+
+  #toc a {
+    font-size: 20px;
+  }
+
+}
+
 
 /* SINGLE END */
 
