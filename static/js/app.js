@@ -100,21 +100,10 @@ document.addEventListener("DOMContentLoaded", function() {
   
   // Only proceed if there are headings and a TOC element
   if (headings.length === 0 || !toc) return;
-
-  
-  // Track items for updating the path
-  const tocItems = [];
-  
-  // Make sure headings have IDs
-  headings.forEach((heading, index) => {
-    if (!heading.id) {
-      heading.id = `heading-${index}`;
-    }
-  });
   
   // Create TOC items from headings
   headings.forEach(heading => {
-    // Create TOC item
+    // Create list item
     const li = document.createElement("li");
     li.textContent = heading.textContent;
     
@@ -125,17 +114,11 @@ document.addEventListener("DOMContentLoaded", function() {
     
     // Set indentation based on heading level
     const level = parseInt(heading.tagName.charAt(1)) - 2; // h2 = level 0, h3 = level 1, etc.
-    const indentation = level * 24; // Reduced indentation
+    const indentation = level * 24;
     link.style.paddingLeft = indentation + 'px';
     link.style.position = 'relative';
     
     // Add to TOC
     toc.appendChild(link);
-    
-    // Store this item for path calculation
-    tocItems.push({
-      element: link,
-      level: level
-    });
   });
 });
