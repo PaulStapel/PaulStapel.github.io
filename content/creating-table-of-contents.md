@@ -1,5 +1,5 @@
 ---
-title: "Creating Table of Contents"
+title: "Creating a Table of Contents"
 date: "2025-04-16T15:15:55+02:00"
 draft: false
 description: "The simplest code necessary to implement a ToC."
