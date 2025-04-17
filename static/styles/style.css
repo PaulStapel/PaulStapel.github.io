@@ -373,6 +373,7 @@ li::marker {
 /* SINGLE START */
 .single {
     min-height: 100vh;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -431,7 +432,7 @@ li::marker {
 
 .singleBottom {
     display: flex;
-    width: 100vw;
+    width: 100%;
     gap: 10px;
     align-items: flex-start;
     justify-content: space-between;
@@ -439,7 +440,7 @@ li::marker {
 }
 
 .singleContent{
-    width: 100vw;
+    width: 100%;
     flex: 3;
     line-height: 32px;
     color: var(--text);
@@ -742,6 +743,7 @@ li::marker {
         font-size: 18px;
         overflow: hidden;
     }
+
 }
 @media (max-width: 640px) {
 
@@ -754,6 +756,7 @@ li::marker {
       font-size: 18px;
       overflow: hidden;
   }
+
 }
 
 /* BEGIN 404 ERROR */
@@ -838,8 +841,7 @@ li::marker {
 
   /* Style for code blocks */
 pre:has(code) {
-  width: 80vw;
-  max-width: 90%;
+  max-width: 85%;
   margin: 1.5em auto;
   padding: 0;
   margin-bottom: 50px;
