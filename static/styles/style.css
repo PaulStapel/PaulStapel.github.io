@@ -634,7 +634,7 @@ li::marker {
     padding-top: 60px; 
 }
 
-.light #meny{
+.light #meny{ 
   background: var(--bgSoft)
 }
 
