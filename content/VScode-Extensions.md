@@ -3,7 +3,7 @@ title = 'VScode extensions that boost my productivity'
 date = 2024-04-06T20:57:18+02:00
 draft = false
 description = "My recommendations for VS-code extensions"
-categories = ["productivity"]
+categories = ["productivity", "coding"]
 +++
 As I have stated in my setup-page, I use VScode as my main text editor. I especially like the ability to customize your coding environment with extensions. Today, I will share the extensions that really give a boost to my work. 
 

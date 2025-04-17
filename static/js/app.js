@@ -18,34 +18,44 @@ toggle.addEventListener("click", () => {
   updateParticlesBackground();
 });
 
-document.addEventListener("DOMContentLoaded", function() {
-  const codeContainers = document.querySelectorAll(".highlight");
-
-  codeContainers.forEach(container => {
-      const copyButton = document.createElement("button");
-      copyButton.innerText = "Copy";
-      copyButton.classList.add("copy-button");
-      copyButton.addEventListener("click", function() {
-          const codeBlock = container.querySelector("code");
-          copyCodeToClipboard(codeBlock.innerText);
-          this.innerText = "Copied!";
+document.addEventListener('DOMContentLoaded', () => {
+  // Find all code blocks
+  const codeBlocks = document.querySelectorAll('pre:has(code)');
+  
+  codeBlocks.forEach((pre) => {
+    const code = pre.querySelector('code');
+    
+    // Get language from class (Hugo usually adds class like "language-js")
+    let language = 'Text';
+    if (code.className) {
+      const match = code.className.match(/language-(\w+)/);
+      if (match) {
+        language = match[1].charAt(0).toUpperCase() + match[1].slice(1);
+      }
+    }
+    
+    // Set language attribute for the ::before pseudo-element
+    pre.setAttribute('data-language', language);
+    
+    // Create and append copy button
+    const copyButton = document.createElement('button');
+    copyButton.textContent = 'Copy Code';
+    copyButton.className = 'copy-button';
+    copyButton.addEventListener('click', () => {
+      navigator.clipboard.writeText(code.textContent)
+        .then(() => {
+          copyButton.textContent = 'Copied!';
           setTimeout(() => {
-              this.innerText = "Copy";
+            copyButton.textContent = 'Copy Code';
           }, 2000);
-      });
-
-      container.appendChild(copyButton);
+        })
+        .catch(err => {
+          console.error('Could not copy text: ', err);
+        });
+    });
+    
+    pre.appendChild(copyButton);
   });
-
-  function copyCodeToClipboard(code) {
-      const textarea = document.createElement("textarea");
-      textarea.value = code;
-      textarea.style.position = "fixed"; // Prevent scrolling to bottom
-      document.body.appendChild(textarea);
-      textarea.select();
-      document.execCommand("copy");
-      document.body.removeChild(textarea);
-  }
 });
 
 function getIsLightMode() {

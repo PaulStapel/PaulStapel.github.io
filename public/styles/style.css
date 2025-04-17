@@ -5,6 +5,7 @@
     --textSoft :#E67E80;
     --Desc: #7FBBB3;
     --ToC: #2d3036;
+    --header: #303446;
 }
 
 
@@ -49,7 +50,7 @@ body.light{
     --textSoft : #088bfc;
     --Desc: #9A510D;
     --ToC: #eeeeee;
-;
+    --header: #303446;
 }
   
 
@@ -442,6 +443,7 @@ li::marker {
     color: var(--text);
     text-align: justify;
     font-size: 20px;
+    overflow: hidden;
 }
 
 .light .singleContent{
@@ -734,8 +736,6 @@ li::marker {
         font-size: 10px;
     }
 
-
-
     .singleContent{
         font-size: 18px;
         overflow: hidden;
@@ -852,32 +852,64 @@ li::marker {
     transform: scaleX(1);
   }
 
-
- .copy-button {
-    position: absolute;
-    top: 5px;
-    right: 5px;
-    padding: 5px 10px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+  /* Style for code blocks */
+pre:has(code) {
+  max-width: 90%;
+  margin: 1.5em auto;
+  padding: 0;
+  margin-bottom: 50px;
+  overflow: hidden;
+  border-radius: 12px;
+  position: relative;
+  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
 }
 
-.highlight.pre {
-    /* Your pre styles here */
-    padding: 10px;
-    background-color: #f4f4f4;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    overflow-x: auto;
-    font-family: monospace;
+
+pre:has(code)::before {
+  content: attr(data-language); /* This will be added via JS */
+  display: block;
+  background-color: var(--header);
+  padding: 12px 16px;
+  font-family: sans-serif;
+  font-size: 1rem;
+  color: #eae3d2;
+  font-weight: 500;
+  border-bottom: 1px solid #333;
 }
 
-.highlight {
-    position: relative;
+/* Style the code element */
+pre:has(code) code {
+  color: var(--text);
+  background-color: var(--ToC);
+  font-family: monospace;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  display: block;
+  padding: 1em;
+  overflow-x: auto;
+  margin: 0;
 }
+
+/* Copy button */
+.copy-button {
+  background-color: var(--bgSoft);
+  color: var(--text);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  z-index: 10;
+}
+
+.copy-button:hover {
+  background-color: var(--textSoft);
+}
+
 
 blockquote,
 blockquote::before {

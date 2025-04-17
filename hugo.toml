@@ -14,3 +14,8 @@ title = "Paul's Particles"
     
 [outputs]
     home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.highlight]
+    noClasses = false  # ✅ use CSS classes instead of inline styles
+    style = "monokai"  # or any style, doesn’t matter if noClasses=false

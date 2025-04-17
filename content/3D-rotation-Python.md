@@ -3,7 +3,7 @@ title = '3D Rotation in Python with quaternions'
 date = 2024-04-20T15:55:07+02:00
 draft = false
 description = "Why and how you should be using quaternions right now"
-categories = ["python","graphics"]
+categories = ["python","graphics", "coding"]
 math = true
 +++
 
