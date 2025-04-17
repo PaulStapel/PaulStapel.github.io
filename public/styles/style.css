@@ -431,12 +431,15 @@ li::marker {
 
 .singleBottom {
     display: flex;
+    width: 100vw;
     gap: 10px;
+    align-items: flex-start;
     justify-content: space-between;
     margin-top: 20px;
 }
 
 .singleContent{
+    width: 100vw;
     flex: 3;
     line-height: 32px;
     color: var(--text);
@@ -739,20 +742,8 @@ li::marker {
         font-size: 18px;
         overflow: hidden;
     }
-
-    .highlight{
-        max-width: 640px;
-        overflow: hidden;
-    }
 }
 @media (max-width: 640px) {
-
-    /* .links{
-        display: flex;
-        align-items: center;
-        gap: 20px;
-        font-size: 10px;
-    } */
 
     .container{
         max-width: 475px;
@@ -763,12 +754,6 @@ li::marker {
       font-size: 18px;
       overflow: hidden;
   }
-
-    .highlight{
-        max-width: 475px;
-        width: 90%;
-        overflow: hidden;
-    }
 }
 
 /* BEGIN 404 ERROR */
@@ -853,7 +838,7 @@ li::marker {
 
   /* Style for code blocks */
 pre:has(code) {
-  width: 100%;
+  width: 80vw;
   max-width: 90%;
   margin: 1.5em auto;
   padding: 0;
