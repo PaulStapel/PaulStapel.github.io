@@ -432,7 +432,6 @@ li::marker {
 .singleBottom {
     display: flex;
     gap: 10px;
-    align-items: flex-start;
     justify-content: space-between;
     margin-top: 20px;
 }
