@@ -6,22 +6,8 @@
     <description>Recent content in Categories on Paul&#39;s Particles</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 16 Apr 2025 15:15:55 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 15 Apr 2025 20:36:52 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Coding</title>
-      <link>http://localhost:1313/categories/coding/</link>
-      <pubDate>Wed, 16 Apr 2025 15:15:55 +0200</pubDate>
-      <guid>http://localhost:1313/categories/coding/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>WebDev</title>
-      <link>http://localhost:1313/categories/webdev/</link>
-      <pubDate>Wed, 16 Apr 2025 15:15:55 +0200</pubDate>
-      <guid>http://localhost:1313/categories/webdev/</guid>
-      <description></description>
-    </item>
     <item>
       <title>Meditation</title>
       <link>http://localhost:1313/categories/meditation/</link>
@@ -279,6 +265,13 @@
       <link>http://localhost:1313/categories/writing/</link>
       <pubDate>Sun, 19 May 2024 20:44:13 +0200</pubDate>
       <guid>http://localhost:1313/categories/writing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Coding</title>
+      <link>http://localhost:1313/categories/coding/</link>
+      <pubDate>Sat, 20 Apr 2024 15:55:07 +0200</pubDate>
+      <guid>http://localhost:1313/categories/coding/</guid>
       <description></description>
     </item>
     <item>

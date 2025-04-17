@@ -854,6 +854,7 @@ li::marker {
 
   /* Style for code blocks */
 pre:has(code) {
+  width: 100%;
   max-width: 90%;
   margin: 1.5em auto;
   padding: 0;
