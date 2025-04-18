@@ -2,7 +2,7 @@
 title: "Oven Baked Short Ribs"
 date: "2025-04-13T20:45:58+02:00"
 draft: false
-description: "Juicy glazed short ribs that are fork-tende and mouthwatering"
+description: "Juicy glazed short ribs that are fork-tender and mouthwatering"
 categories: 
     - recipe
     - American
