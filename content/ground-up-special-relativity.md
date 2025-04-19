@@ -4,7 +4,6 @@ date: "2025-02-19T16:22:39+01:00"
 draft: false
 description: "Building special relativity from 'simple' symmetry arguments"
 categories: 
-    - general
     - field theory
     - physics
 math: true

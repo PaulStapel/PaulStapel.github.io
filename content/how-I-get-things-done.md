@@ -4,7 +4,6 @@ date: "2025-02-02T08:21:26+01:00"
 draft: false
 description: "Organising my life with Reminders, Calendar and Raycast"
 categories: 
-    - general
     - productivity
 ---
 
