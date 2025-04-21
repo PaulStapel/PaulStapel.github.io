@@ -1,5 +1,5 @@
 ---
-title: "Avocado Scrambled Eggs"
+title: "Avocado and Scrambled Eggs"
 date: "2025-04-21T13:44:39+02:00"
 draft: false
 description: "A nice and filling lunch rich in protein."
