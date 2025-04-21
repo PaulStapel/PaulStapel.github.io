@@ -2,7 +2,7 @@
 title: "Silent Observation"
 date: "2025-04-21T20:30:43+02:00"
 draft: false
-description: "The art of unobtrusive reflection"
+description: "The act of unobtrusive reflection"
 categories: 
     - meditation
 ---
