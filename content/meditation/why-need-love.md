@@ -1,5 +1,5 @@
 ---
-title: "My experience with romance"
+title: "My Experience with Romance"
 date: "2025-04-23T14:47:43+02:00"
 draft: false
 description: "Introspections on romantic love"
