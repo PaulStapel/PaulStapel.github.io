@@ -77,7 +77,7 @@ I can speak Dutch and English proficiently, and can comprehend and (poorly) spea
 * **Jira** (Use it for work, and know how to navigate it well enough)
 * **Asperite** ( Disclaimer: I am very bad at pixel art :/ )
 
-### Things I am learning
+### Things I'd like to learn
 * **Mandarin** (A lot of interesting culture and literature is in Mandarin, and I'm slowly learning the language) 
 * **Rust** (Rust sounds like an interesting language, and I'd love to learn it)
 * **Bevy** (Part of why I'd like to learn Rust is for the bevy framework, as I love the concepts of ECS)
