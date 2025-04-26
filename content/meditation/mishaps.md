@@ -7,7 +7,7 @@ categories:
     - meditation
 ---
 
-> Falling down is an accident, staying down is a choice
+> "Falling down is an accident, staying down is a choice"
 
 When working on becoming the person you want to be, it is often in the stressful and doubtful situations that you find out your conviction is strong. You can tell alot about yourself and your growth as a person from how you deal with hardship, however small it may be. 
 

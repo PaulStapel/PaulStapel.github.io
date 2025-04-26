@@ -7,7 +7,7 @@ categories:
     - meditation
 ---
 
-> Oh, you sentimental hypocrites, you lustful men! You lack innocence in desire: and therefore you now slander desiring! - Nietzsche
+> "Oh, you sentimental hypocrites, you lustful men! You lack innocence in desire: and therefore you now slander desiring!"  [Nietzsche]
 
 After re-reading Nietzsche's "Of immaculate perception", I started seeing some of the subjects of resentment more clearly. It is all too common to reject our own nature, and resent our love and desire in this world for we lack a certain innocence in this desiring. We can be a jealous bunch, afraid of our own desires. It is like a child throwing a tantrum, saying that if they can't have it, nobody can. Instead of little fists, we wave around morals and values. 
 

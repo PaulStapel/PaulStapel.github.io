@@ -2,29 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/categories/c%23/</loc>
-    <lastmod>2025-04-23T16:05:05+02:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-04-23T16:05:05+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/coding/</loc>
-    <lastmod>2025-04-23T16:05:05+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/game-input/</loc>
-    <lastmod>2025-04-23T16:05:05+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/gamedev/</loc>
-    <lastmod>2025-04-23T16:05:05+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2025-04-23T16:05:05+02:00</lastmod>
+    <lastmod>2025-04-26T22:23:38+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/meditation/</loc>
-    <lastmod>2025-04-23T14:47:43+02:00</lastmod>
+    <lastmod>2025-04-26T22:23:38+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/meditation/</loc>
-    <lastmod>2025-04-23T14:47:43+02:00</lastmod>
+    <lastmod>2025-04-26T22:23:38+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-04-26T22:23:38+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/meditation/weak-week-planning/</loc>
+    <lastmod>2025-04-26T22:23:38+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipes/aloo-keema/</loc>
+    <lastmod>2025-04-26T21:52:56+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/difficulty-35/</loc>
+    <lastmod>2025-04-26T21:52:56+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/indian/</loc>
+    <lastmod>2025-04-26T21:52:56+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/recipe/</loc>
+    <lastmod>2025-04-26T21:52:56+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipes/</loc>
+    <lastmod>2025-04-26T21:52:56+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/meditation/why-need-love/</loc>
     <lastmod>2025-04-23T14:47:43+02:00</lastmod>
@@ -41,11 +47,8 @@
     <loc>http://localhost:1313/categories/lunch/</loc>
     <lastmod>2025-04-21T13:44:39+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/recipe/</loc>
-    <lastmod>2025-04-21T13:44:39+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/recipes/</loc>
-    <lastmod>2025-04-21T13:44:39+02:00</lastmod>
+    <loc>http://localhost:1313/categories/coding/</loc>
+    <lastmod>2025-04-19T08:49:06+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/ode-to-mvp/</loc>
     <lastmod>2025-04-19T08:49:06+02:00</lastmod>
@@ -113,16 +116,10 @@
     <loc>http://localhost:1313/categories/baking/</loc>
     <lastmod>2025-03-23T12:34:53+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/difficulty-35/</loc>
-    <lastmod>2025-03-23T12:34:53+01:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/recipes/matcha-cookie/</loc>
     <lastmod>2025-03-23T12:34:53+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/recipes/gunter-chicken-masala/</loc>
-    <lastmod>2025-03-21T07:12:39+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/indian/</loc>
     <lastmod>2025-03-21T07:12:39+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/recipes/eel-brioche-amuse/</loc>

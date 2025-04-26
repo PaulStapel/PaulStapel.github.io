@@ -7,7 +7,7 @@ categories:
     - meditation
 ---
 
-> My solitude doesn't depend on the presence or absence of people; on the contrary, I hate who steals my solitude without, in exchange, offering me true company. -- Nietzsche
+> "My solitude doesn't depend on the presence or absence of people; on the contrary, I hate who steals my solitude without, in exchange, offering me true company" [Nietzsche]
 
 Solitude is a tricky thing. On the one hand, I strive to find peace in solitude, and the time I spend with myself is among the most peaceful time I can have. On the other, I recognise that a certain balance needs to be struck between relying on friends and relying on self. Both love of your neighbours and love of solitude can come from resentment of yourself. Truly, our company can be solitude when it is an escape from the self, for how can we be present if we have fled? And similarly, our solitude can become numbing if the "I" escapes the self, for how can we feel if we have fled? 
 

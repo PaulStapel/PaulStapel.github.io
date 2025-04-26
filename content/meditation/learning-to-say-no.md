@@ -7,7 +7,7 @@ categories:
     - meditation
 ---
 
-> You have to learn to say no to many good things if you want to say yes to many great things
+> "You have to learn to say no to many good things if you want to say yes to many great things"
 
 Recently, I have found myself having trouble saying no to people. Of course, when push comes to shove, I know when to stand my ground when I strongly believe in something, but the main problem lies in saying no to good things. In order to explore this, I will take you on a journey of meditation where I explore this side of myself for the first time. That's right, it's time for a certified "Paul character arc"!
 

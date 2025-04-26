@@ -7,7 +7,7 @@ categories:
     - meditation
 ---
 
-> Balance is not something you find but something you create
+> "Balance is not something you find but something you create" [Me]
 
 Sometimes, I feel like I'm finally getting in a good groove. In those times, my studying routine works, my workout routine works, I'm being social and am taking care of myself and the people around me. Then, something happens that knocks me off-balance. This summer, it has been a wonderful vacation to Vietnam that saw me quickly adapt my way of living to this travelling lifestyle, but this sweeping force may also be something a little less enjoyable. 
 

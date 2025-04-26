@@ -8,7 +8,7 @@ categories:
 ---
 
 > "Poetry should be great and unobtrusive, a thing which enters into one's soul, and does not startle it or amaze it with itself, but with its
-subject" -- John Keats
+subject" [John Keats]
 
 I could ask myself to think about the way I am breathing currently. It is often joked that this makes you start to think too much about your breathing, making you switch from automatic breathing to manual breathing. I have been reading "The Art of Game Design" by Jesse Schell, and in one of the earlier chapters, he talks about the paradox of actually observing your experiences. If we want to learn our thoughts about a certain experience, it would be best to observe our own thoughts while we are still experiencing it, as it is much harder to bring back those feelings after the fact. The quantum-mechanics-like problem we face here is that the act of observing our experience disturbs it. 
 

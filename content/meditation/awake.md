@@ -8,7 +8,7 @@ categories:
     - awake
 ---
 
-> As yet hath his knowledge not learned to smile, and to be without jealousy; as yet hath his gushing passion not become calm in beauty. -- Nietzsche
+> As yet hath his knowledge not learned to smile, and to be without jealousy; as yet hath his gushing passion not become calm in beauty [Nietzsche]
 
 Sometimes, things in life may inspire you to a deeper contemplation. Things that once eluded you suddenly become clearer, and more present in your mind. It can feel as if things just fall in place, and a fire of passion consumes you thus. But it is not that which life reveals to me, but that which life conceals from me that fuels me most. There hangs an innate urge in mankind to dig up all that which is hidden from it; we are a curious bunch. To dig is a noble cause, but those who dig must beware its consequences. As humanity ever carves deeper into world's flesh, world itself becomes ... a graveyard! Oh, how to express that this is devoutly to be wished? And if our knowledge not be sent to the grave, let it be cremated in the flames of our inspiration! 
 

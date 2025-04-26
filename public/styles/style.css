@@ -896,30 +896,72 @@ pre:has(code) code {
   background-color: var(--textSoft);
 }
 
-
-blockquote,
-blockquote::before {
-color: #999;
-
-}
-
 blockquote {
-margin: 0px 0px 20px 0px;
-padding: 40px 20px 20px 10px;
-border-top: 1px solid var(--textSoft);
-border-bottom: 1px solid var(--textSoft);
+  position: relative;
+  margin: 1.5rem auto;
+  margin-bottom: 4rem;
+  padding: 2rem;
+  width: 90%;
+  max-width: 600px;
+  color: var(--text);
+  text-align: center;
+  border: 2px solid var(--textSoft); 
+  background: var(--bg); 
 }
 
-blockquote::before {
-content: "\201C";
-display: block;
-color: var(--textSoft);
-font-size: 80px;
-height: 0;
-left: -50px;
-position: relative;
-top: -10px;
+blockquote p {
+  text-align: center !important;
+  margin-bottom: -20px !important;
+  margin-top: 0px !important;
+  font-size: 20px;
+  font-style: italic;
 }
+
+blockquote .corner {
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  border: 2px solid var(--textSoft);
+  transform: rotate(-45deg);
+  position: absolute;
+  background: var(--bg); /* matches background to "cut out" the corner */
+}
+
+blockquote #left_top {
+  top: -18px;
+  left: -18px;
+  border-color: transparent transparent var(--textSoft) transparent;
+}
+
+blockquote #right_top {
+  top: -18px;
+  right: -18px;
+  border-color: transparent transparent transparent var(--textSoft);
+}
+
+blockquote #left_bottom {
+  bottom: -18px;
+  left: -18px;
+  border-color: transparent var(--textSoft) transparent transparent;
+}
+
+blockquote #right_bottom {
+  bottom: -18px;
+  right: -18px;
+  border-color: var(--textSoft) transparent transparent transparent;
+}
+
+blockquote .quote-author {
+  display: inline-block;
+  font-size: 1.5rem;
+  color: var(--textSoft);
+  background: var(--bg);
+  padding: 0 10px;
+  position: relative;
+  top: 45px;
+}
+
+
 
 
 /* star animation, credit to https://twitter.com/alphardex007 */

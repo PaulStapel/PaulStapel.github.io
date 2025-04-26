@@ -7,7 +7,7 @@ categories:
     - meditation
 ---
 
-> Winter is a slow heartbeat, an aged murmur of lifelong love   -- Angie Weiland-Crosby
+> "Winter is a slow heartbeat, an aged murmur of lifelong love" [Angie Weiland-Crosby]
 
 During these cold winter months, it is easy to let the mind slow down to a halt. The combination of cold temperature and short days makes for a season of tiredness, but also of tranquility. I wanted to take this slow afternoon to reflect on this beautiful January, and to shape my winter ways. 
 

@@ -7,7 +7,7 @@ categories:
     - meditation
 ---
 
-> Defeat is a state of mind; no one is ever defeated until defeat has been accepted as a reality - Bruce Lee
+> "Defeat is a state of mind; no one is ever defeated until defeat has been accepted as a reality" [Bruce Lee]
 
 Yesterday marked the end of my most recent semester of university, and one of the most challenging semesters yet. I was faced with the mountain that was the course "topology and geometry", a course on abstract topology. If you are interested in reading my original thoughts on this course, [I'd refer you to this post](https://paulstapel.com/meditation/facing-mountains/), where I shared my anxieties going into this semester. Just having finished the exam yesterday, I am happy to announce that I passed this and all other courses generously. 
 

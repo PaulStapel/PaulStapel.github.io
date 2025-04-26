@@ -7,7 +7,7 @@ categories:
     - meditation
 ---
 
-> Meditation is conversation with the soul. 
+> "Meditation is conversation with the soul" [Me]
 
 For quite some time now, I've been wanting to put more of my creative energy into my blog. To do this, I have tried to understand what makes me me by finding my creative voice. I'm afraid this question is too grand for me to answer in one go. In my life, I have meditated quite often, and this is just one of many other topics I will meditate on in my life. 
 

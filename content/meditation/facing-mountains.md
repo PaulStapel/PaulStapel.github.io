@@ -7,7 +7,7 @@ categories:
     - meditation
 ---
 
-> "On the mountains of truth you can never climb in vain; either you will reach a point higher up today, or you will be training so that you will be able to climb higher tomorrow" - Nietzsche
+> "On the mountains of truth you can never climb in vain; either you will reach a point higher up today, or you will be training so that you will be able to climb higher tomorrow" [Nietzsche]
 
 Last academic period didn't go easy on me. Or more accurately, I didn't go easy on myself. I always aim to challenge myself, and with all the things that I had to do outside of studying I found myself struggling quite a bit more than previous periods. This, i believe, is a good thing, as it means that I am slowly approaching my limit and finding new ways to challenge myself. 
 

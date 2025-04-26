@@ -7,7 +7,7 @@ categories:
     - meditation
 ---
 
-> A path is made by walking it
+> "A path is made by walking it" [Chuang Tsu]
 
 2024 was a good year for me. It was a year of great fortune in my education, work and home life. That being said, I have even more to look forward to in 2025, and one of the things I always embrace in the new year is the opportunity to steer myself in the right direction along the tracks of life. Today, I will discuss the things I would like to improve upon when it comes to my body, mind and soul in 2025. 
 

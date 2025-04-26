@@ -7,7 +7,7 @@ categories:
     - meditation
 ---
 
-> The past wants to be loved, the future heard and the present lived - such is the nature of time
+> "The past wants to be loved, the future heard and the present lived - such is the nature of time" [Me]
 
 We are subject to much force throughout our lives. I myself can feel this resistance in much of what I do. A principle I try to live by is to follow the path of least resistance - to go with the flow of the way of life. I also believe that life is what you make of it, and that our actions shape these paths for our future. Living with only the present in mind, while admirable, may lead to greater resistance down the line. 
 

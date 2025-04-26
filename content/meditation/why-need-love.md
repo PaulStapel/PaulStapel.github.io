@@ -7,7 +7,7 @@ categories:
     - meditation
 ---
 
-> "My formula for greatness in a human being is amor fati: that one wants nothing to be different, not forward, not backward, not in all eternity. Not merely bear what is necessary, still less conceal it - all idealism is mandaciousness in the face of what is necessary - but love it" -- Friedrich Nietzsche.
+> "My formula for greatness in a human being is amor fati: that one wants nothing to be different, not forward, not backward, not in all eternity. Not merely bear what is necessary, still less conceal it - all idealism is mandaciousness in the face of what is necessary - but love it" [Friedrich Nietzsche]
 
 As I have stated last week, love is a troubling subject to me. It has taken many a nights of pondering this abstract topic for me to even discover my feelings on it, and only after a relationship of about two years have I grasped them in some capacity. One of the greatest findings has been that I actually don't feel a strong need for romantic love. I would like to bring some nuance to these thoughts of mine. 
 

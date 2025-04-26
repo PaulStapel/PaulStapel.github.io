@@ -7,7 +7,7 @@ categories:
     - meditation
 ---
 
-> Once you make the decision that you will not fail, the heart and body will follow.
+> "Once you make the decision that you will not fail, the heart and body will follow" [Kara Goucher]
 
 So a few friends of mine came up with the idea to run a marathon in 2026. Now, I have been running for about 4 months, and I wouldn't have imagined doing this 1 year ago. I wanted to share some of my personal observations.
 

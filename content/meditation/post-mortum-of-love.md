@@ -7,7 +7,7 @@ categories:
     - meditation
 ---
 
-> "The saddest thing about love is not only that it cannot last forever, but that heartbreak is soon forgotten" - William Faulkner
+> "The saddest thing about love is not only that it cannot last forever, but that heartbreak is soon forgotten" [William Faulkner]
 
 Last December, I broke up with my first serious partner. We had been together for 2 years by then, but we both agreed that it would be better for us to go our own ways. As it has now been 5 months already, I felt it was finally time to write down some of my meditations that came from this breakup. I was hesitant to post things too soon, as it could have been interpreted as either spiteful or bitter to post about my past relationship so soon after it ended. Of course, I don't mean this post to be any of those things, and I'd like to reiterate that there has been no bad blood between us <3. 
 

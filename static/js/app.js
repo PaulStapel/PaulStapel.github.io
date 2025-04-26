@@ -122,3 +122,28 @@ document.addEventListener("DOMContentLoaded", function() {
     toc.appendChild(link);
   });
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll("blockquote").forEach(block => {
+    const text = block.innerHTML;
+    const match = text.match(/\[(.*?)\]/);
+
+    if (match) {
+      const author = match[1];
+      block.innerHTML = text.replace(/\[(.*?)\]/, "").trim(); 
+      
+      const authorElement = document.createElement("div");
+      authorElement.className = "quote-author";
+      authorElement.textContent = author;
+      block.appendChild(authorElement);
+    }
+
+    // Add corners
+    ["left_top", "right_top", "left_bottom", "right_bottom"].forEach(id => {
+      const corner = document.createElement("div");
+      corner.className = "corner";
+      corner.id = id;
+      block.appendChild(corner);
+    });
+  });
+});

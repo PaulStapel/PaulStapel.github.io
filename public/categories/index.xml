@@ -6,34 +6,34 @@
     <description>Recent content in Categories on Paul&#39;s Particles</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 23 Apr 2025 16:05:05 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 26 Apr 2025 22:23:38 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>C#</title>
-      <link>http://localhost:1313/categories/c%23/</link>
-      <pubDate>Wed, 23 Apr 2025 16:05:05 +0200</pubDate>
-      <guid>http://localhost:1313/categories/c%23/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Coding</title>
-      <link>http://localhost:1313/categories/coding/</link>
-      <pubDate>Wed, 23 Apr 2025 16:05:05 +0200</pubDate>
-      <guid>http://localhost:1313/categories/coding/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>GameDev</title>
-      <link>http://localhost:1313/categories/gamedev/</link>
-      <pubDate>Wed, 23 Apr 2025 16:05:05 +0200</pubDate>
-      <guid>http://localhost:1313/categories/gamedev/</guid>
-      <description></description>
-    </item>
     <item>
       <title>Meditation</title>
       <link>http://localhost:1313/categories/meditation/</link>
-      <pubDate>Wed, 23 Apr 2025 14:47:43 +0200</pubDate>
+      <pubDate>Sat, 26 Apr 2025 22:23:38 +0200</pubDate>
       <guid>http://localhost:1313/categories/meditation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Difficulty 3|5</title>
+      <link>http://localhost:1313/categories/difficulty-35/</link>
+      <pubDate>Sat, 26 Apr 2025 21:52:56 +0200</pubDate>
+      <guid>http://localhost:1313/categories/difficulty-35/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Indian</title>
+      <link>http://localhost:1313/categories/indian/</link>
+      <pubDate>Sat, 26 Apr 2025 21:52:56 +0200</pubDate>
+      <guid>http://localhost:1313/categories/indian/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Recipe</title>
+      <link>http://localhost:1313/categories/recipe/</link>
+      <pubDate>Sat, 26 Apr 2025 21:52:56 +0200</pubDate>
+      <guid>http://localhost:1313/categories/recipe/</guid>
       <description></description>
     </item>
     <item>
@@ -51,10 +51,10 @@
       <description></description>
     </item>
     <item>
-      <title>Recipe</title>
-      <link>http://localhost:1313/categories/recipe/</link>
-      <pubDate>Mon, 21 Apr 2025 13:44:39 +0200</pubDate>
-      <guid>http://localhost:1313/categories/recipe/</guid>
+      <title>Coding</title>
+      <link>http://localhost:1313/categories/coding/</link>
+      <pubDate>Sat, 19 Apr 2025 08:49:06 +0200</pubDate>
+      <guid>http://localhost:1313/categories/coding/</guid>
       <description></description>
     </item>
     <item>
@@ -139,20 +139,6 @@
       <link>http://localhost:1313/categories/baking/</link>
       <pubDate>Sun, 23 Mar 2025 12:34:53 +0100</pubDate>
       <guid>http://localhost:1313/categories/baking/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Difficulty 3|5</title>
-      <link>http://localhost:1313/categories/difficulty-35/</link>
-      <pubDate>Sun, 23 Mar 2025 12:34:53 +0100</pubDate>
-      <guid>http://localhost:1313/categories/difficulty-35/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Indian</title>
-      <link>http://localhost:1313/categories/indian/</link>
-      <pubDate>Fri, 21 Mar 2025 07:12:39 +0100</pubDate>
-      <guid>http://localhost:1313/categories/indian/</guid>
       <description></description>
     </item>
     <item>

@@ -7,7 +7,7 @@ categories:
     - meditation
 ---
 
-> Every battle is won before it is fought - Sun Tzu
+> "Every battle is won before it is fought" [Sun Tzu]
 
 In my life, I have noticed that most of my failings are only recognized in hindsight. It is often easier to look back with an analytical mind than to analyze the situation on the fly. This is exactly why I mostly fall victim to my unwillingness to say no when I am put on the spot. From my experience, the best way to shift this bad habit is to analyze the course of action beforehand. Luckily, I already have some systems in place that make it easier for me to act more mindfully, and the implementation of these tricks is exactly what this meditation was centered around.
 

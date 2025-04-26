@@ -7,7 +7,7 @@ categories:
     - meditation
 ---
 
-> Beauty exists only to relief us from ugliness
+> "Beauty exists only to relief us from ugliness" [Oscar Wilde]
 
 Often in live, I find myself feeling like I'm above the need for beauty. It can be seen as a virtue to look not at appearance but at what lies within. I agree with this, but only recently have I come around to realising that beauty has its place as well. A lack of elegance or beauty can be distracting. This distraction may take some effort to look through, ultimately draining (a slight amount of) energy.Oppositely, beauty can also motivate and invigorate the mind. It can be seen as a way of seeing beauty in the world and embracing the effect it has on you. 
 

@@ -7,7 +7,7 @@ categories:
     - meditation
 ---
 
-> Life is a conversation, make it a good one
+> "Life is a conversation, make it a good one" [Glennon Doyle]
 
 In keeping with my new year resolutions, I started meditating on how I can become a more sociable person. One of the core parts of being social is conversation, and while I have learned a lot about how to hold an engaging conversation, there is always one thing that I find difficult: How do you start a conversation in a natural way? 
 
