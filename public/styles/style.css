@@ -860,7 +860,7 @@ pre:has(code) code {
   color: var(--text);
   background-color: var(--ToC);
   font-family: monospace;
-  font-size: 0.95rem;
+  font-size: 0.95rem !important; 
   line-height: 1.5;
   display: block;
   padding: 1em;

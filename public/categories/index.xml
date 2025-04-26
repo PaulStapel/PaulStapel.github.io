@@ -6,13 +6,90 @@
     <description>Recent content in Categories on Paul&#39;s Particles</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 15 Apr 2025 20:36:52 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 23 Apr 2025 16:05:05 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>C#</title>
+      <link>http://localhost:1313/categories/c%23/</link>
+      <pubDate>Wed, 23 Apr 2025 16:05:05 +0200</pubDate>
+      <guid>http://localhost:1313/categories/c%23/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Coding</title>
+      <link>http://localhost:1313/categories/coding/</link>
+      <pubDate>Wed, 23 Apr 2025 16:05:05 +0200</pubDate>
+      <guid>http://localhost:1313/categories/coding/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GameDev</title>
+      <link>http://localhost:1313/categories/gamedev/</link>
+      <pubDate>Wed, 23 Apr 2025 16:05:05 +0200</pubDate>
+      <guid>http://localhost:1313/categories/gamedev/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Meditation</title>
       <link>http://localhost:1313/categories/meditation/</link>
-      <pubDate>Tue, 15 Apr 2025 20:36:52 +0200</pubDate>
+      <pubDate>Wed, 23 Apr 2025 14:47:43 +0200</pubDate>
       <guid>http://localhost:1313/categories/meditation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Difficulty 1|5</title>
+      <link>http://localhost:1313/categories/difficulty-15/</link>
+      <pubDate>Mon, 21 Apr 2025 13:44:39 +0200</pubDate>
+      <guid>http://localhost:1313/categories/difficulty-15/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lunch</title>
+      <link>http://localhost:1313/categories/lunch/</link>
+      <pubDate>Mon, 21 Apr 2025 13:44:39 +0200</pubDate>
+      <guid>http://localhost:1313/categories/lunch/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Recipe</title>
+      <link>http://localhost:1313/categories/recipe/</link>
+      <pubDate>Mon, 21 Apr 2025 13:44:39 +0200</pubDate>
+      <guid>http://localhost:1313/categories/recipe/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Productivity</title>
+      <link>http://localhost:1313/categories/productivity/</link>
+      <pubDate>Sat, 19 Apr 2025 08:49:06 +0200</pubDate>
+      <guid>http://localhost:1313/categories/productivity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CSS</title>
+      <link>http://localhost:1313/categories/css/</link>
+      <pubDate>Wed, 16 Apr 2025 15:15:55 +0200</pubDate>
+      <guid>http://localhost:1313/categories/css/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>HTML</title>
+      <link>http://localhost:1313/categories/html/</link>
+      <pubDate>Wed, 16 Apr 2025 15:15:55 +0200</pubDate>
+      <guid>http://localhost:1313/categories/html/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>JavaScript</title>
+      <link>http://localhost:1313/categories/javascript/</link>
+      <pubDate>Wed, 16 Apr 2025 15:15:55 +0200</pubDate>
+      <guid>http://localhost:1313/categories/javascript/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>WebDev</title>
+      <link>http://localhost:1313/categories/webdev/</link>
+      <pubDate>Wed, 16 Apr 2025 15:15:55 +0200</pubDate>
+      <guid>http://localhost:1313/categories/webdev/</guid>
       <description></description>
     </item>
     <item>
@@ -34,13 +111,6 @@
       <link>http://localhost:1313/categories/difficulty-45/</link>
       <pubDate>Sun, 13 Apr 2025 20:45:58 +0200</pubDate>
       <guid>http://localhost:1313/categories/difficulty-45/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Recipe</title>
-      <link>http://localhost:1313/categories/recipe/</link>
-      <pubDate>Sun, 13 Apr 2025 20:45:58 +0200</pubDate>
-      <guid>http://localhost:1313/categories/recipe/</guid>
       <description></description>
     </item>
     <item>
@@ -107,13 +177,6 @@
       <description></description>
     </item>
     <item>
-      <title>General</title>
-      <link>http://localhost:1313/categories/general/</link>
-      <pubDate>Wed, 19 Feb 2025 16:22:39 +0100</pubDate>
-      <guid>http://localhost:1313/categories/general/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Physics</title>
       <link>http://localhost:1313/categories/physics/</link>
       <pubDate>Wed, 19 Feb 2025 16:22:39 +0100</pubDate>
@@ -146,13 +209,6 @@
       <link>http://localhost:1313/categories/mindfulness/</link>
       <pubDate>Fri, 14 Feb 2025 07:47:45 +0100</pubDate>
       <guid>http://localhost:1313/categories/mindfulness/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Productivity</title>
-      <link>http://localhost:1313/categories/productivity/</link>
-      <pubDate>Fri, 14 Feb 2025 07:47:45 +0100</pubDate>
-      <guid>http://localhost:1313/categories/productivity/</guid>
       <description></description>
     </item>
     <item>
@@ -195,13 +251,6 @@
       <link>http://localhost:1313/categories/greek/</link>
       <pubDate>Fri, 13 Dec 2024 14:47:30 +0100</pubDate>
       <guid>http://localhost:1313/categories/greek/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Difficulty 1|5</title>
-      <link>http://localhost:1313/categories/difficulty-15/</link>
-      <pubDate>Fri, 13 Dec 2024 14:24:19 +0100</pubDate>
-      <guid>http://localhost:1313/categories/difficulty-15/</guid>
       <description></description>
     </item>
     <item>
@@ -268,13 +317,6 @@
       <description></description>
     </item>
     <item>
-      <title>Coding</title>
-      <link>http://localhost:1313/categories/coding/</link>
-      <pubDate>Sat, 20 Apr 2024 15:55:07 +0200</pubDate>
-      <guid>http://localhost:1313/categories/coding/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Graphics</title>
       <link>http://localhost:1313/categories/graphics/</link>
       <pubDate>Sat, 20 Apr 2024 15:55:07 +0200</pubDate>
@@ -300,6 +342,13 @@
       <link>http://localhost:1313/categories/setup/</link>
       <pubDate>Wed, 03 Apr 2024 20:56:45 +0200</pubDate>
       <guid>http://localhost:1313/categories/setup/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>General</title>
+      <link>http://localhost:1313/categories/general/</link>
+      <pubDate>Tue, 02 Apr 2024 17:59:14 +0200</pubDate>
+      <guid>http://localhost:1313/categories/general/</guid>
       <description></description>
     </item>
   </channel>

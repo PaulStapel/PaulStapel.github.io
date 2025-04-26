@@ -6,6 +6,9 @@ description: "The simplest code necessary to implement a ToC."
 categories: 
     - coding
     - webDev
+    - JavaScript
+    - CSS
+    - HTML
 ToC: true
 ---
 

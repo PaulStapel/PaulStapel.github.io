@@ -6,22 +6,8 @@
     <description>Recent content in General on Paul&#39;s Particles</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 19 Feb 2025 16:22:39 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 02 Apr 2024 17:59:14 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/general/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Special Relativity From The Ground Up</title>
-      <link>http://localhost:1313/ground-up-special-relativity/</link>
-      <pubDate>Wed, 19 Feb 2025 16:22:39 +0100</pubDate>
-      <guid>http://localhost:1313/ground-up-special-relativity/</guid>
-      <description>&lt;p&gt;I am currently taking a course on field theory, and we are currently working with Lorentz transformations and the likes. I have never really liked the way lorentz transformations are introduced, as previously, they weren&amp;rsquo;t derived that much, and we just had to take them for granted. The book we are currently working with is also a bit lackluster when it comes to the full derivation of lorentz transformations and the likes, and so I wanted to give this derivation a shot to see if I could explain it in a more intuitive way. Let&amp;rsquo;s get into it.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>How I Get Things Done</title>
-      <link>http://localhost:1313/how-i-get-things-done/</link>
-      <pubDate>Sun, 02 Feb 2025 08:21:26 +0100</pubDate>
-      <guid>http://localhost:1313/how-i-get-things-done/</guid>
-      <description>&lt;p&gt;I can have a lot on my plate sometimes. Work, university, content creation, home organisation, a social life (who&amp;rsquo;da thunk?) and personal projects all vie for my attention. Amidst all this chaos, I need a way to stay organised while staying flexible enough to enable spontaneity in life, as the best things can come unexpectedly. I would like to share my considerations and results in this (p)article.&lt;/p&gt;&#xA;&lt;h2 id=&#34;down-with-convoluted-workflows&#34;&gt;Down with convoluted workflows&lt;/h2&gt;&#xA;&lt;p&gt;In my younger years, when I was still trying to find out what worked best for me, I was enamored by the world of productivity books and videos. These people would talk about second brains, task automations and productivity apps, all with the promise of making you a productivity beast that would never forget anything ever again. Although I didn&amp;rsquo;t buy it entirely, it started me down a rabbit hole of increasingly complex workflows, that eventually made me realise that you&amp;rsquo;d need a full-time job to even so much as sustain such a system; No thank you!&lt;/p&gt;</description>
-    </item>
     <item>
       <title>Hello world</title>
       <link>http://localhost:1313/hello-world/</link>

@@ -2,17 +2,71 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2025-04-16T15:15:55+02:00</lastmod>
+    <loc>http://localhost:1313/categories/c%23/</loc>
+    <lastmod>2025-04-23T16:05:05+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-04-15T20:36:52+02:00</lastmod>
+    <lastmod>2025-04-23T16:05:05+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/coding/</loc>
+    <lastmod>2025-04-23T16:05:05+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/game-input/</loc>
+    <lastmod>2025-04-23T16:05:05+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/gamedev/</loc>
+    <lastmod>2025-04-23T16:05:05+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-04-23T16:05:05+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/meditation/</loc>
-    <lastmod>2025-04-15T20:36:52+02:00</lastmod>
+    <lastmod>2025-04-23T14:47:43+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/meditation/</loc>
-    <lastmod>2025-04-15T20:36:52+02:00</lastmod>
+    <lastmod>2025-04-23T14:47:43+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/meditation/why-need-love/</loc>
+    <lastmod>2025-04-23T14:47:43+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/meditation/silent-observation/</loc>
+    <lastmod>2025-04-21T20:30:43+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipes/avocado-scrambled-eggs/</loc>
+    <lastmod>2025-04-21T13:44:39+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/difficulty-15/</loc>
+    <lastmod>2025-04-21T13:44:39+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/lunch/</loc>
+    <lastmod>2025-04-21T13:44:39+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/recipe/</loc>
+    <lastmod>2025-04-21T13:44:39+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipes/</loc>
+    <lastmod>2025-04-21T13:44:39+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/ode-to-mvp/</loc>
+    <lastmod>2025-04-19T08:49:06+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/productivity/</loc>
+    <lastmod>2025-04-19T08:49:06+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/creating-table-of-contents/</loc>
+    <lastmod>2025-04-16T15:15:55+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/css/</loc>
+    <lastmod>2025-04-16T15:15:55+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/html/</loc>
+    <lastmod>2025-04-16T15:15:55+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/javascript/</loc>
+    <lastmod>2025-04-16T15:15:55+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/webdev/</loc>
+    <lastmod>2025-04-16T15:15:55+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/meditation/post-mortum-of-love/</loc>
     <lastmod>2025-04-15T20:36:52+02:00</lastmod>
@@ -33,12 +87,6 @@
     <lastmod>2025-04-13T20:45:58+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/recipes/oven-baked-short-ribs/</loc>
-    <lastmod>2025-04-13T20:45:58+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/recipe/</loc>
-    <lastmod>2025-04-13T20:45:58+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/recipes/</loc>
     <lastmod>2025-04-13T20:45:58+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/difficulty-25/</loc>
@@ -104,9 +152,6 @@
     <loc>http://localhost:1313/categories/field-theory/</loc>
     <lastmod>2025-02-19T16:22:39+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/general/</loc>
-    <lastmod>2025-02-19T16:22:39+01:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/categories/physics/</loc>
     <lastmod>2025-02-19T16:22:39+01:00</lastmod>
   </url><url>
@@ -132,9 +177,6 @@
     <lastmod>2025-02-14T07:47:45+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/mindfulness/</loc>
-    <lastmod>2025-02-14T07:47:45+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/productivity/</loc>
     <lastmod>2025-02-14T07:47:45+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/meditation/the-crushing-weight-of-time/</loc>
@@ -211,9 +253,6 @@
   </url><url>
     <loc>http://localhost:1313/recipes/htipiti/</loc>
     <lastmod>2024-12-13T14:47:30+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/difficulty-15/</loc>
-    <lastmod>2024-12-13T14:24:19+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/recipes/smores/</loc>
     <lastmod>2024-12-13T14:24:19+01:00</lastmod>
@@ -350,9 +389,6 @@
     <loc>http://localhost:1313/3d-rotation-python/</loc>
     <lastmod>2024-04-20T15:55:07+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/coding/</loc>
-    <lastmod>2024-04-20T15:55:07+02:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/categories/graphics/</loc>
     <lastmod>2024-04-20T15:55:07+02:00</lastmod>
   </url><url>
@@ -403,6 +439,9 @@
   </url><url>
     <loc>http://localhost:1313/recipes/garlic-beans/</loc>
     <lastmod>2024-04-02T17:59:38+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/general/</loc>
+    <lastmod>2024-04-02T17:59:14+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/hello-world/</loc>
     <lastmod>2024-04-02T17:59:14+02:00</lastmod>
