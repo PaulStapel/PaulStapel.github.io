@@ -125,17 +125,25 @@ document.addEventListener("DOMContentLoaded", function() {
 
 document.addEventListener("DOMContentLoaded", function () {
   document.querySelectorAll("blockquote").forEach(block => {
-    const text = block.innerHTML;
+    let text = block.innerHTML;
+
+    // Replace // with <br> for line breaks
+    text = text.replace(/\/\//g, "<br>");
+
     const match = text.match(/\[(.*?)\]/);
 
     if (match) {
       const author = match[1];
-      block.innerHTML = text.replace(/\[(.*?)\]/, "").trim(); 
+      text = text.replace(/\[(.*?)\]/, "").trim();
       
+      block.innerHTML = text; // Set updated text with <br>
+
       const authorElement = document.createElement("div");
       authorElement.className = "quote-author";
       authorElement.textContent = author;
       block.appendChild(authorElement);
+    } else {
+      block.innerHTML = text; 
     }
 
     // Add corners
@@ -147,3 +155,4 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+
