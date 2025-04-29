@@ -14,7 +14,7 @@ toggle.addEventListener("click", () => {
     body.classList.add("light");
     localStorage.setItem("mode", "light");
   }
-  // Update particles background color when mode changes
+    // Update particles background color when mode changes
   updateParticlesBackground();
 });
 
