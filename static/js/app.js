@@ -104,7 +104,8 @@ document.addEventListener("DOMContentLoaded", function() {
   // Create TOC items from headings
   headings.forEach(heading => {
     // Create list item
-    const li = document.createElement("li");
+    const ul = document.createElement("ul");
+    ul.style.listStyleType = 'none';
     
     // Create link
     const link = document.createElement("a");
@@ -118,7 +119,7 @@ document.addEventListener("DOMContentLoaded", function() {
     link.style.position = 'relative';
     
     // Add to TOC
-    link.appendChild(li);
+    link.appendChild(ul);
     toc.appendChild(link);
   });
 });
