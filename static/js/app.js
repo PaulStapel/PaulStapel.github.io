@@ -106,6 +106,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // Create list item
     const li = document.createElement("li");
     li.textContent = heading.textContent;
+    li.style.listStyleType = "none";
     
     // Create link
     const link = document.createElement("a");
