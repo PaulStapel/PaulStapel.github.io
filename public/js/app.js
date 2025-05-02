@@ -105,12 +105,11 @@ document.addEventListener("DOMContentLoaded", function() {
   headings.forEach(heading => {
     // Create list item
     const li = document.createElement("li");
-    li.textContent = heading.textContent;
     
     // Create link
     const link = document.createElement("a");
     link.href = "#" + heading.id;
-    link.appendChild(li);
+    link.textContent = heading.textContent;
     
     // Set indentation based on heading level
     const level = parseInt(heading.tagName.charAt(1)) - 2; // h2 = level 0, h3 = level 1, etc.
@@ -119,6 +118,7 @@ document.addEventListener("DOMContentLoaded", function() {
     link.style.position = 'relative';
     
     // Add to TOC
+    link.appendChild(li);
     toc.appendChild(link);
   });
 });
