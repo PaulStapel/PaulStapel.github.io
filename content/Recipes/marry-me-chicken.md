@@ -14,7 +14,7 @@ Before getting started with this recipe, [I must credit the original recipe](htt
 ## Ingredients
 - Boneless chicken breasts. 
 - Butter
-- Flour
+- Flour (optional, you can skip this step, but it makes chicken juicier)
 - Garlic
 - Salt
 - Black pepper
