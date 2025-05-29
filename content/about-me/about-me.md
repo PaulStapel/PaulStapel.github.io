@@ -41,7 +41,7 @@ These are some things I really enjoy talking/writing about. I'm always up for a 
 * Any of the skills mentioned below
 
 ## Skills
-The skills one invests their time in can tell you a lot about someone. These are things I am familiar with. I list a lot of things, but this is not meant to be a flex or part of some CV or whatever. I just like to share the things I have some knowledge of and keep track for personal reasons. 
+The skills one invests their time in can tell you a lot about someone. These are things I am familiar with. I list a lot of things, but this is not meant to be a flex or part of some CV or whatever. I just like to share the things I have some knowledge of and keep track for personal reasons. In each category, skills are sorted by how comfortable I am with them. 
 
 ### Languages
 I can speak Dutch and English proficiently, and can comprehend and (poorly) speak German.
@@ -61,13 +61,12 @@ I can speak Dutch and English proficiently, and can comprehend and (poorly) spea
 * **HUGO** (The CMS used for this website, learning more every month)
 * **NumPy** (Used for all of my scientific computing in Python)
 * **Snowflake** (Quite familiar, have used it a bunch for data warehousing in projects)
-* **.NEt** (All of my c# projects have used the .NET framework)
-* **Arduino** (Made some small )
-* **NVIM** (Use it for light text editing and easier navigation of files)
+* **.NET** (All of my c# projects have used the .NET framework)
+* **Arduino** (Made some small hardware contraptions and thingamajigs)
 * **Monogame** (Made a small game with it)
 * **Scikit-learn** (Used in my high school paper on machine learning in drug discovery)
+* **NVIM** (Use it for light text editing and easier navigation of files)
 * **Cabal** (Used for creating a game in Haskell)
-* **AvaloniaUI** (Used for creating a simple learning App in C#. Don't love, don't hate)
 
 ### Non programming tools
 * **Mathematics** (including but not limited to calculus, PDE's & ODE's, real and complex analysis, algebra and (abstract) topology; all at undergrad level)
@@ -78,8 +77,9 @@ I can speak Dutch and English proficiently, and can comprehend and (poorly) spea
 * **Asperite** ( Disclaimer: I am very bad at pixel art :/ )
 
 ### Things I'd like to learn
+* **Docker** (I've been wanting to get into containerising, so that I can run some FOSS more easily locally for example)
 * **Mandarin** (A lot of interesting culture and literature is in Mandarin, and I'm slowly learning the language) 
 * **Rust** (Rust sounds like an interesting language, and I'd love to learn it)
 * **Bevy** (Part of why I'd like to learn Rust is for the bevy framework, as I love the concepts of ECS)
-* **Docker** (I've been wanting to get into containerising, so that I can run some FOSS more easily locally for example)
+* **Blender** (I like being creative I suppose)
 * **Some web framework** (Not sure yet which one, but I like creating things, and webapps are a thing)
