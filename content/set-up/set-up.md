@@ -25,6 +25,7 @@ These are software I use on a regular basis. I may write a blog about af few of 
 * Raycast (better spotlight, very powerful and customisable)
 * Homebrew (package manager for mac, and very useful for exporting to a new device.)
 * VScode (My favorite text editor because of the ease of customization it provides)
+* Rider (A nice IDE for larger projects)
 * Iterm2 (my terminal of choice for its ease of customisation and ability to split multiple panes)
 * Github and gh desktop (Because I have to share my code with fellow students quite often, and a GUI can sometimes help organise this more cleanly.) 
 * Apple Calendar (I really like the UI of this calendar-app)
