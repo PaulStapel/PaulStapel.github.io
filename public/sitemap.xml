@@ -3,33 +3,75 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-05-02T08:05:10+02:00</lastmod>
+    <lastmod>2025-05-29T09:26:04+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/difficulty-35/</loc>
-    <lastmod>2025-05-02T08:05:10+02:00</lastmod>
+    <loc>http://localhost:1313/categories/difficulty-25/</loc>
+    <lastmod>2025-05-29T09:26:04+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/italian/</loc>
+    <lastmod>2025-05-29T09:26:04+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipes/marry-me-chicken/</loc>
+    <lastmod>2025-05-29T09:26:04+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-05-02T08:05:10+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/recipes/phanaeng/</loc>
-    <lastmod>2025-05-02T08:05:10+02:00</lastmod>
+    <lastmod>2025-05-29T09:26:04+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/recipe/</loc>
-    <lastmod>2025-05-02T08:05:10+02:00</lastmod>
+    <lastmod>2025-05-29T09:26:04+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/recipes/</loc>
+    <lastmod>2025-05-29T09:26:04+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/meditation/</loc>
+    <lastmod>2025-05-29T08:53:26+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/meditation/</loc>
+    <lastmod>2025-05-29T08:53:26+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/meditation/morning-rythms/</loc>
+    <lastmod>2025-05-29T08:53:26+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/chinese/</loc>
+    <lastmod>2025-05-28T20:20:57+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/difficulty-35/</loc>
+    <lastmod>2025-05-28T20:20:57+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipes/hong-shao-rou/</loc>
+    <lastmod>2025-05-28T20:20:57+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipes/coconut-keema/</loc>
+    <lastmod>2025-05-28T20:06:04+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/indian/</loc>
+    <lastmod>2025-05-28T20:06:04+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipes/hoisin-garlic-chicken/</loc>
+    <lastmod>2025-05-28T19:59:27+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipes/rendang/</loc>
+    <lastmod>2025-05-26T21:24:22+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/difficulty-45/</loc>
+    <lastmod>2025-05-26T21:24:22+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/indonesian/</loc>
+    <lastmod>2025-05-26T21:24:22+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/spanish/</loc>
+    <lastmod>2025-05-03T10:12:34+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipes/spanish-chicken-rice/</loc>
+    <lastmod>2025-05-03T10:12:34+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipes/phanaeng/</loc>
     <lastmod>2025-05-02T08:05:10+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/thai/</loc>
     <lastmod>2025-05-02T08:05:10+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/meditation/breakfast-struggles/</loc>
-    <lastmod>2025-04-30T07:12:52+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/meditation/</loc>
-    <lastmod>2025-04-30T07:12:52+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/meditation/</loc>
     <lastmod>2025-04-30T07:12:52+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/meditation/setting-up/</loc>
@@ -48,9 +90,6 @@
     <lastmod>2025-04-26T22:23:38+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/recipes/aloo-keema/</loc>
-    <lastmod>2025-04-26T21:52:56+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/indian/</loc>
     <lastmod>2025-04-26T21:52:56+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/meditation/why-need-love/</loc>
@@ -107,23 +146,14 @@
     <loc>http://localhost:1313/categories/american/</loc>
     <lastmod>2025-04-13T20:45:58+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/difficulty-45/</loc>
-    <lastmod>2025-04-13T20:45:58+02:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/recipes/oven-baked-short-ribs/</loc>
     <lastmod>2025-04-13T20:45:58+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/difficulty-25/</loc>
-    <lastmod>2025-04-13T20:29:54+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/recipes/roasted-veggies/</loc>
     <lastmod>2025-04-13T20:29:54+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/meditation/view-from-the-summit/</loc>
     <lastmod>2025-04-11T21:10:30+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/indonesian/</loc>
-    <lastmod>2025-04-11T07:47:32+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/recipes/peanut-noodles/</loc>
     <lastmod>2025-04-11T07:47:32+02:00</lastmod>
@@ -227,9 +257,6 @@
     <loc>http://localhost:1313/how-i-get-things-done/</loc>
     <lastmod>2025-02-02T08:21:26+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/chinese/</loc>
-    <lastmod>2025-02-01T21:28:30+01:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/recipes/sweet-and-spicy-hoisin-beef-bliss/</loc>
     <lastmod>2025-02-01T21:28:30+01:00</lastmod>
   </url><url>
@@ -304,9 +331,6 @@
   </url><url>
     <loc>http://localhost:1313/recipes/pork-adobo/</loc>
     <lastmod>2024-11-14T20:48:12+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/italian/</loc>
-    <lastmod>2024-11-08T18:11:37+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/recipes/tomato-meatballs/</loc>
     <lastmod>2024-11-08T18:11:37+01:00</lastmod>
