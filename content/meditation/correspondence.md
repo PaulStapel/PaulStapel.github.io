@@ -1,5 +1,5 @@
 ---
-title: "Correspondence"
+title: "Response"
 date: "2025-06-10T21:10:47+02:00"
 draft: false
 description: "From me, to you"
