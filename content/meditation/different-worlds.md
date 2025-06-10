@@ -15,4 +15,4 @@ What can even be considered real? How much realer is life in my home than life i
 
 In life, I have many facets that constitute my day-to-day life. I study at a university, I go to work at a local company, I exercise in a local gym, I clean around the house, I meet with friends, I take leisurly walks etc. In this, is it not the world that I wish to live in that I can choose to live in? I feel that sometimes we emerse ourselves so much in worlds that mean nothing to us, that we forget to pay attention to those worlds that actually matter. 
 
-Take, then, the world that is most yours, and live it fully, instead of livnig all of these worlds partly.  
+Take, then, the world that is most yours, and live it fully, instead of living all of these worlds partly.  
