@@ -18,11 +18,7 @@ Me and my brother also have an inactive wordpress site about Physics. If you wan
 
 ## Currently working on
 I am currently following these courses at Utrecht University: 
-* Graphics
-* Data analysis and retrieval
-* Software testing and verification
-* Condensed quantum matter
-* Statistics
+* None, I have summer break!
 
 \
 On the side, I work on this blog and some personal projects.
