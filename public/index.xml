@@ -6,8 +6,50 @@
     <description>Recent content on Paul&#39;s Particles</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 29 May 2025 09:26:04 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 06 Jul 2025 12:10:42 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Manage Player Input - Part 1: Polling</title>
+      <link>http://localhost:1313/handling-user-input/</link>
+      <pubDate>Sun, 06 Jul 2025 12:10:42 +0200</pubDate>
+      <guid>http://localhost:1313/handling-user-input/</guid>
+      <description>&lt;p&gt;So I have slowly been working on a game lately, and I wanted to share some of the problems I face and my solutions to those problems. I find that a definitive guide to input handling was something I could not really find online, and although input handling can be done in simple ways, I&amp;rsquo;d like to make a system to make it more robust and extensible. I wanted to share my findings and opinions here, as I have found that there is not enough information about this topic online. If you have any feedback, or if you would implement things differently, I&amp;rsquo;d love to hear about it!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Academic Year 2024/2025</title>
+      <link>http://localhost:1313/end-of-2024-2025-uni/</link>
+      <pubDate>Fri, 27 Jun 2025 20:40:44 +0200</pubDate>
+      <guid>http://localhost:1313/end-of-2024-2025-uni/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;We don&amp;rsquo;t learn from experience, we learn from reflecting on experience [John Dewey]&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Another year has passed at university. This is my third year I partook in, and my second year on paper. Three down, one to go. I have done quite a lot this year, and I wish to reflect on a few things. For this meditation, I reflect on my favorite thing I learned for each subject this year. One abstract thing, and one concrete thing. With a total of 17 subjects taken, I will go over each one only briefly. I&amp;rsquo;d also like to give a grade to each course based on how useful and interesting the course was (scale 1-5).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Response</title>
+      <link>http://localhost:1313/meditation/correspondence/</link>
+      <pubDate>Tue, 10 Jun 2025 21:10:47 +0200</pubDate>
+      <guid>http://localhost:1313/meditation/correspondence/</guid>
+      <description>&lt;p&gt;Dear Niels,&lt;/p&gt;&#xA;&lt;p&gt;I usually write towards myself in these meditations, but today I would like to write back to you instead.&lt;/p&gt;&#xA;&lt;p&gt;To start at the ending of your letter, I would like to say that I feel the concepts of &amp;ldquo;perception,&amp;rdquo; &amp;ldquo;choosing,&amp;rdquo; and &amp;ldquo;reality&amp;rdquo; are indeed perceptions themselves—only deemed as such because we deem them to be reality. For quite a while now, I have taken a stance of contextual truth—that is, truth as something that lives within the construct of reality. With this letter, I would like to explore with you what reality and truth really entail for me.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Different Worlds</title>
+      <link>http://localhost:1313/meditation/different-worlds/</link>
+      <pubDate>Thu, 05 Jun 2025 13:11:28 +0200</pubDate>
+      <guid>http://localhost:1313/meditation/different-worlds/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;World is as much perception as it is fact [Me]&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;As we develop and grow older, we come to face many realities. It starts at nothing, nothing to be percieved or thought, an empty slate. From there, we gain insight into the reality around us, our parents, our home, eventually our school. We play pretend, maybe watch some shows, play some games. Through our development, we come into contact with many different worlds. Even as adults, we meet new worlds at work, college, social gatherings, new towns and cities we may move to, countries we visit and the likes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hoisin Ginger Ground Beef</title>
+      <link>http://localhost:1313/recipes/hoisin-ginger-ground-beef/</link>
+      <pubDate>Tue, 03 Jun 2025 09:03:16 +0200</pubDate>
+      <guid>http://localhost:1313/recipes/hoisin-ginger-ground-beef/</guid>
+      <description>&lt;p&gt;I love Hoisin sauce, and a little while ago, I ate some Peking Duck with Hoisin sauce that also added some ginger to the sauce. I fell in love, and decided to adapt one of my signature recipes (Hoisin ground beef) to this amazing flavor combination. The result is this all-new recipe.&lt;/p&gt;&#xA;&lt;h2 id=&#34;ingredients&#34;&gt;Ingredients&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;ground beef&lt;/li&gt;&#xA;&lt;li&gt;5-spice seasoning&lt;/li&gt;&#xA;&lt;li&gt;Cooking oil&lt;/li&gt;&#xA;&lt;li&gt;Ginger&lt;/li&gt;&#xA;&lt;li&gt;Garlic&lt;/li&gt;&#xA;&lt;li&gt;Hoisin sauce&lt;/li&gt;&#xA;&lt;li&gt;Soy sauce (half dark, half light)&lt;/li&gt;&#xA;&lt;li&gt;Oyster sauce&lt;/li&gt;&#xA;&lt;li&gt;Sesame oil&lt;/li&gt;&#xA;&lt;li&gt;Spring onion (green part, for garnish)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;cooking-plan&#34;&gt;Cooking plan&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Season your ground beef with 5-spice and brown it in an oiled pan on high heat.&lt;/li&gt;&#xA;&lt;li&gt;Chop up your garlic and ginger, once the beef has browned, plate it and let it rest while you cook your aromatics until fragrant.&lt;/li&gt;&#xA;&lt;li&gt;Next, add back in your ground beef, and add oyster sauce, soy sauce, Hoisin sauce, and sesame oil in a 2:3:2:1 ratio. I usually go with 1 tbsp Hoisin sauce for every 500 grams of beef.&lt;/li&gt;&#xA;&lt;li&gt;Season to taste with salt and more 5-spice.&lt;/li&gt;&#xA;&lt;li&gt;Garnish with spring onion and serve with rice.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;enjoy&#34;&gt;ENJOY!!&lt;/h2&gt;</description>
+    </item>
+    <item>
+      <title>Muscle Memory</title>
+      <link>http://localhost:1313/meditation/muscle-memory/</link>
+      <pubDate>Mon, 02 Jun 2025 11:31:24 +0200</pubDate>
+      <guid>http://localhost:1313/meditation/muscle-memory/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;I fear not the man who has practiced 10,000 kicks once, but I fear the man who has practiced one kick 10,000 times&amp;rdquo; [Bruce Lee]&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Proficiency is a beautiful thing. When we have reached a point where we can perform an action without having to think about it, it frees our mind to focus on what we wish to focus on, bringing us closer to non-action. In martial arts, we often hear that we must practice a certain technique hundreds of times over, and the same thing holds for all aspects of life. There where we want to live a truly fulfilling life, we must be able to have our body, mind and soul align with our actions.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Marry Me Chicken</title>
       <link>http://localhost:1313/recipes/marry-me-chicken/</link>

@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Get language from class (Hugo usually adds class like "language-js")
     let language = 'Text';
     if (code.className) {
-      const match = code.className.match(/language-(\w+)/);
+      const match = code.className.match(/language-(.+)/);
       if (match) {
         language = match[1].charAt(0).toUpperCase() + match[1].slice(1);
       }

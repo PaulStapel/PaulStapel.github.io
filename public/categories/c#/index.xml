@@ -6,14 +6,14 @@
     <description>Recent content in C# on Paul&#39;s Particles</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 23 Apr 2025 16:05:05 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 06 Jul 2025 12:10:42 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/c%23/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Game Input</title>
-      <link>http://localhost:1313/game-input/</link>
-      <pubDate>Wed, 23 Apr 2025 16:05:05 +0200</pubDate>
-      <guid>http://localhost:1313/game-input/</guid>
-      <description></description>
+      <title>How to Manage Player Input: Design and Code</title>
+      <link>http://localhost:1313/handling-user-input/</link>
+      <pubDate>Sun, 06 Jul 2025 12:10:42 +0200</pubDate>
+      <guid>http://localhost:1313/handling-user-input/</guid>
+      <description>&lt;p&gt;So I have slowly been working on a game lately, and I wanted to share some of the problems I face and my solutions to those problems. I find that a definitive guide to input handling was something I could not really find online, and although input handling can be done in simple ways, I&amp;rsquo;d like to make a system to make it more robust and extensible. I wanted to share my findings and opinions here, as I have found that there is not enough information about this topic online. If you have any feedback, or if you would implement things differently, I&amp;rsquo;d love to hear about it!&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

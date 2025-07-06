@@ -6,8 +6,43 @@
     <description>Recent content in Categories on Paul&#39;s Particles</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 29 May 2025 09:26:04 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 06 Jul 2025 12:10:42 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>General</title>
+      <link>http://localhost:1313/categories/general/</link>
+      <pubDate>Sun, 06 Jul 2025 12:10:42 +0200</pubDate>
+      <guid>http://localhost:1313/categories/general/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Reflection</title>
+      <link>http://localhost:1313/categories/reflection/</link>
+      <pubDate>Fri, 27 Jun 2025 20:40:44 +0200</pubDate>
+      <guid>http://localhost:1313/categories/reflection/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Study</title>
+      <link>http://localhost:1313/categories/study/</link>
+      <pubDate>Fri, 27 Jun 2025 20:40:44 +0200</pubDate>
+      <guid>http://localhost:1313/categories/study/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Meditation</title>
+      <link>http://localhost:1313/categories/meditation/</link>
+      <pubDate>Tue, 10 Jun 2025 21:10:47 +0200</pubDate>
+      <guid>http://localhost:1313/categories/meditation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Recipe</title>
+      <link>http://localhost:1313/categories/recipe/</link>
+      <pubDate>Tue, 03 Jun 2025 09:03:16 +0200</pubDate>
+      <guid>http://localhost:1313/categories/recipe/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Difficulty 2|5</title>
       <link>http://localhost:1313/categories/difficulty-25/</link>
@@ -20,20 +55,6 @@
       <link>http://localhost:1313/categories/italian/</link>
       <pubDate>Thu, 29 May 2025 09:26:04 +0200</pubDate>
       <guid>http://localhost:1313/categories/italian/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Recipe</title>
-      <link>http://localhost:1313/categories/recipe/</link>
-      <pubDate>Thu, 29 May 2025 09:26:04 +0200</pubDate>
-      <guid>http://localhost:1313/categories/recipe/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Meditation</title>
-      <link>http://localhost:1313/categories/meditation/</link>
-      <pubDate>Thu, 29 May 2025 08:53:26 +0200</pubDate>
-      <guid>http://localhost:1313/categories/meditation/</guid>
       <description></description>
     </item>
     <item>
@@ -349,13 +370,6 @@
       <link>http://localhost:1313/categories/setup/</link>
       <pubDate>Wed, 03 Apr 2024 20:56:45 +0200</pubDate>
       <guid>http://localhost:1313/categories/setup/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>General</title>
-      <link>http://localhost:1313/categories/general/</link>
-      <pubDate>Tue, 02 Apr 2024 17:59:14 +0200</pubDate>
-      <guid>http://localhost:1313/categories/general/</guid>
       <description></description>
     </item>
   </channel>
