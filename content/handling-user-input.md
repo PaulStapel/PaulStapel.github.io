@@ -120,7 +120,7 @@ public class PlayerCommandProvider : CommandProvider
     // We may even set configurable keybindings for each player individually. 
     private Dictionary<GameState, <Input, Command>> keybindings;
      
-    public List<Command> GetCommand()
+    public List<Command> GetCommands()
     {
         Input input = inputAPI.GetInput(); 
 
