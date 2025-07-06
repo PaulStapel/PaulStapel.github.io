@@ -2,7 +2,7 @@
 title: "How to Manage Player Input - Part 1: Polling"
 date: "2025-07-06T12:10:42+02:00"
 draft: false
-description: "Exploring input handling inside of games"
+description: "Exploring input handling inside of games using polling"
 categories: 
     - coding
     - gameDev
