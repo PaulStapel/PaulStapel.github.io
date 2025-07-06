@@ -25,7 +25,7 @@ The solution(s) that we will look at here may also bring some additional benefit
 ## A Naive Polling-Based Approach
 Let us assume that we have a simple program that has a main loop like 
 ```C#
-// Simple main loop
+// An overly simplified main loop for illustration purposes
 public static class Game
 {
     public static void Main()
@@ -83,7 +83,7 @@ Our first abstraction is that of states inside of our game. Depending on what is
 
 For our second abstraction, we wish to seperate the action from the input, such that the final action that occurs is independent of the source from which it got the input. The system should not couple the button A with the action Jump. Some input manager should know that the button A (in this context) maps to Jump, and it should then send a Jump command to the player. This also lets us buffer input if we wish, and it is an easy way to bind keys to a certain command or action. 
 
-Using this, keybindings become quite simple. Take a look at the following JSON we may use to define commands inside of a mock game. 
+Using this, keybindings become quite simple. Take a look at the following JSON we may use to define commands inside of a mock game. This is all keyboard-based for now, with multiple keys being mappable per command. 
 
 ```JSON
 {

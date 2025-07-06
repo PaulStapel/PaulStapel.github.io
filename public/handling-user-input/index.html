@@ -164,7 +164,7 @@
 <p>The solution(s) that we will look at here may also bring some additional benefits, but in my opinion any good input system satisfies at least these four requirements. First, however, we will discuss a very standard implementation and all the ways in which this can go wrong. I aim to make these techniques language-agnostic, but for my examples I will be writing in C#.</p>
 <h2 id="a-naive-polling-based-approach">A Naive Polling-Based Approach</h2>
 <p>Let us assume that we have a simple program that has a main loop like</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="c1">// Simple main loop</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="c1">// An overly simplified main loop for illustration purposes</span>
 </span></span><span class="line"><span class="cl"><span class="kd">public</span> <span class="kd">static</span> <span class="k">class</span> <span class="nc">Game</span>
 </span></span><span class="line"><span class="cl"><span class="p">{</span>
 </span></span><span class="line"><span class="cl">    <span class="kd">public</span> <span class="kd">static</span> <span class="k">void</span> <span class="n">Main</span><span class="p">()</span>
@@ -211,7 +211,7 @@
 <p>For our first step, we will introduce keybindings to our implementation. We would like our game to become data-driven, so that we can manipulate the keybindings at runtime. In order to do this, we will first introduce some abstractions to make dealing with our code a bit easier.</p>
 <p>Our first abstraction is that of states inside of our game. Depending on what is happening on-screen, we may have different controls and actions that we can perform. In your main menu, pressin the up-arrow has a different result from pressing that same button during the final boss. Because of this, we wish to make our controls depend on the state of the game.</p>
 <p>For our second abstraction, we wish to seperate the action from the input, such that the final action that occurs is independent of the source from which it got the input. The system should not couple the button A with the action Jump. Some input manager should know that the button A (in this context) maps to Jump, and it should then send a Jump command to the player. This also lets us buffer input if we wish, and it is an easy way to bind keys to a certain command or action.</p>
-<p>Using this, keybindings become quite simple. Take a look at the following JSON we may use to define commands inside of a mock game.</p>
+<p>Using this, keybindings become quite simple. Take a look at the following JSON we may use to define commands inside of a mock game. This is all keyboard-based for now, with multiple keys being mappable per command.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-JSON" data-lang="JSON"><span class="line"><span class="cl"><span class="p">{</span>
 </span></span><span class="line"><span class="cl">    <span class="nt">&#34;Gameplay&#34;</span><span class="p">:</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">        <span class="nt">&#34;MoveUp&#34;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&#34;W&#34;</span><span class="p">,</span> <span class="s2">&#34;Up&#34;</span><span class="p">],</span>
