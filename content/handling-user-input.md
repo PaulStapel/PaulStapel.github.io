@@ -120,13 +120,13 @@ public class PlayerCommandProvider : CommandProvider
     // We may even set configurable keybindings for each player individually. 
     private Dictionary<GameState, <Input, Command>> keybindings;
      
-    public Command GetCommand()
+    public List<Command> GetCommand()
     {
         Input input = inputAPI.GetInput(); 
 
         // ... Do some logic on input (based on keybindings)
 
-        return command
+        return commands
     }
 }
 ```
@@ -147,8 +147,8 @@ public class Player : GameEntity
      
     public void Update()
     {
-        Command command = commandProvider.GetCommand(); // Poll the command
-        command.Execute(this); // Execute command on this entity. 
+        foreach (var command in commandProvider.GetCommands()) // Poll the commands
+            command.Execute(this); // Execute each command
     }
 }
 ```
@@ -156,7 +156,7 @@ Let us look at our four main criteria for building an input handler.
 
 Firstly, we can see that this design is configurable, as we are able to change the commands loaded in our JSON and each input provider may even have their own configuration. The way a GameEntity behaves can be entirely controlled by the InputProvider that guides it. 
 
-We can also see that this method is very extensible. For a player, we can simply add a new command to the controls.json and write the command implementation for it. Still, however, we have some small problems when it comes to more complex inputs. Say for example we wish to adjust jump-height based on the duration of a button press. In our case, there is no simple way to do this. Besides that, we have only one command to execute per game cycle (although this can be resolved easily by returning a list of commands instead of a single command). 
+We can also see that this method is very extensible. For a player, we can simply add a new command to the controls.json and write the command implementation for it. Still, however, we have some small problems when it comes to more complex inputs. Say for example we wish to adjust jump-height based on the duration of a button press. In our case, there is no simple way to do this.
 
 Performance is about the same as for the naive implementation, although we have added quite some classes to accomodate this abstraction, meaning that there is a little more overhead. This should not be a problem if this is implemented well however. 
 

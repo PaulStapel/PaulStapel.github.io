@@ -242,13 +242,13 @@
 </span></span><span class="line"><span class="cl">    <span class="c1">// We may even set configurable keybindings for each player individually. </span>
 </span></span><span class="line"><span class="cl">    <span class="kd">private</span> <span class="n">Dictionary</span><span class="p">&lt;</span><span class="n">GameState</span><span class="p">,</span> <span class="p">&lt;</span><span class="n">Input</span><span class="p">,</span> <span class="n">Command</span><span class="p">&gt;&gt;</span> <span class="n">keybindings</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">     
-</span></span><span class="line"><span class="cl">    <span class="kd">public</span> <span class="n">Command</span> <span class="n">GetCommand</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">public</span> <span class="n">List</span><span class="p">&lt;</span><span class="n">Command</span><span class="p">&gt;</span> <span class="n">GetCommand</span><span class="p">()</span>
 </span></span><span class="line"><span class="cl">    <span class="p">{</span>
 </span></span><span class="line"><span class="cl">        <span class="n">Input</span> <span class="n">input</span> <span class="p">=</span> <span class="n">inputAPI</span><span class="p">.</span><span class="n">GetInput</span><span class="p">();</span> 
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">        <span class="c1">// ... Do some logic on input (based on keybindings)</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">command</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">commands</span>
 </span></span><span class="line"><span class="cl">    <span class="p">}</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span></code></pre></div><p>Our player code could then be reduced to:</p>
@@ -266,13 +266,13 @@
 </span></span><span class="line"><span class="cl">     
 </span></span><span class="line"><span class="cl">    <span class="kd">public</span> <span class="k">void</span> <span class="n">Update</span><span class="p">()</span>
 </span></span><span class="line"><span class="cl">    <span class="p">{</span>
-</span></span><span class="line"><span class="cl">        <span class="n">Command</span> <span class="n">command</span> <span class="p">=</span> <span class="n">commandProvider</span><span class="p">.</span><span class="n">GetCommand</span><span class="p">();</span> <span class="c1">// Poll the command</span>
-</span></span><span class="line"><span class="cl">        <span class="n">command</span><span class="p">.</span><span class="n">Execute</span><span class="p">(</span><span class="k">this</span><span class="p">);</span> <span class="c1">// Execute command on this entity. </span>
+</span></span><span class="line"><span class="cl">        <span class="k">foreach</span> <span class="p">(</span><span class="kt">var</span> <span class="n">command</span> <span class="k">in</span> <span class="n">commandProvider</span><span class="p">.</span><span class="n">GetCommands</span><span class="p">())</span> <span class="c1">// Poll the commands</span>
+</span></span><span class="line"><span class="cl">            <span class="n">command</span><span class="p">.</span><span class="n">Execute</span><span class="p">(</span><span class="k">this</span><span class="p">);</span> <span class="c1">// Execute each command</span>
 </span></span><span class="line"><span class="cl">    <span class="p">}</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span></code></pre></div><p>Let us look at our four main criteria for building an input handler.</p>
 <p>Firstly, we can see that this design is configurable, as we are able to change the commands loaded in our JSON and each input provider may even have their own configuration. The way a GameEntity behaves can be entirely controlled by the InputProvider that guides it.</p>
-<p>We can also see that this method is very extensible. For a player, we can simply add a new command to the controls.json and write the command implementation for it. Still, however, we have some small problems when it comes to more complex inputs. Say for example we wish to adjust jump-height based on the duration of a button press. In our case, there is no simple way to do this. Besides that, we have only one command to execute per game cycle (although this can be resolved easily by returning a list of commands instead of a single command).</p>
+<p>We can also see that this method is very extensible. For a player, we can simply add a new command to the controls.json and write the command implementation for it. Still, however, we have some small problems when it comes to more complex inputs. Say for example we wish to adjust jump-height based on the duration of a button press. In our case, there is no simple way to do this.</p>
 <p>Performance is about the same as for the naive implementation, although we have added quite some classes to accomodate this abstraction, meaning that there is a little more overhead. This should not be a problem if this is implemented well however.</p>
 <p>Finally, we have succesfully decoupled our input device from our player. Furthermore, the logic of what input to return and the GameEntity are also seperate, giving us a kind of plug-and-play system where we can easily exchange one input with another.</p>
 <h2 id="extending-this-system">Extending this system</h2>
