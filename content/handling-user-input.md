@@ -11,7 +11,7 @@ categories:
 
 So I have slowly been working on a game lately, and I wanted to share some of the problems I face and my solutions to those problems. I find that a definitive guide to input handling was something I could not really find online, and although input handling can be done in simple ways, I'd like to make a system to make it more robust and extensible. I wanted to share my findings and opinions here, as I have found that there is not enough information about this topic online. If you have any feedback, or if you would implement things differently, I'd love to hear about it!
 
-## The problem
+## The Problem
 In this article, I will assume that we already have some API that can query the state of the input-device that we are using. We can call it to find the state of for example a button or a joystick. From there, we wish to translate this state towards some effect on a player character or other interactable element in our game. 
 
 We wish to do this in a way that is:
@@ -22,7 +22,7 @@ We wish to do this in a way that is:
 
 The solution(s) that we will look at here may also bring some additional benefits, but in my opinion any good input system satisfies at least these four requirements. First, however, we will discuss a very standard implementation and all the ways in which this can go wrong. I aim to make these techniques language-agnostic, but for my examples I will be writing in C#. 
 
-## The naive approach
+## A Naive Polling-Based Approach
 Let us assume that we have a simple program that has a main loop like 
 ```C#
 // Simple main loop
@@ -109,7 +109,7 @@ Using this, keybindings become quite simple. Take a look at the following JSON w
 ```
 We can then simply parse this JSON and store it in a nested dictionary. Depending on your implementation, the key-value pair would either be Input-Command or Command-Input. Command-Input would work using an enum for your commands, and is probably the easiest way to go. Input-Command is more powerful, and is what we will be using for the rest of this article. 
 
-## Polling Based Input Handling
+## Command-Based Polling Input Handling
 Now that we have this infrastructure ready, let's look at a better way to handle our inputs. We create a new abstract class "CommandProvider" from which we can create concrete instances for each Player character or Enemy. The power of this approach is that enemy AI and player input are all treated as just a provider of commands, and that they don't care about the actual way these commands where achieved. As an example, we could have this implementation of a CommandProvider for a human player:
 
 ```C#
@@ -162,7 +162,7 @@ Performance is about the same as for the naive implementation, although we have 
 
 Finally, we have succesfully decoupled our input device from our player. Furthermore, the logic of what input to return and the GameEntity are also seperate, giving us a kind of plug-and-play system where we can easily exchange one input with another. 
 
-## Extending this system
+## Extending This System
 We can do quite a lot with this simple framework. We could for example introduce a more ECS (Entity, Component, System) based structure where each Entity is composed of Components that define what it can do. We can build reactive components for the entity and let our inputs only use those for example. 
 
 We can also create an undo-system by storing the commands used and giving each command not only an execute() function call, but also an undo() call. This could even be used to implement a playback feature. 
