@@ -7,6 +7,7 @@ categories:
     - recipe
     - difficulty 3|5
     - Chinese
+    - wok
 ---
 
 I love wokking, but it has been a bit too cold to use my wok in the last few months. Today however, I just couldn't resist the urge to wok, and this delicious recipe is the result. 

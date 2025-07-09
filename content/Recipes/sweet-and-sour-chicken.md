@@ -8,6 +8,7 @@ categories:
     - Chinese
     - American
     - Difficulty 3|5
+    - wok
 ---
 
 I have always loved sweet and sour chicken. When I was little, I used to eat this on vacations to New York, at a local mall in Middletown, New York. I wanted to recreate this taste, but without having to use tomato ketchup, as that is usually a little too processed for me (and also, I don't always have it in my pantry). The result is this recipe. 
