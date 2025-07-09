@@ -136,7 +136,7 @@
    <div class="singleHead">
       <div class="singleHeadText">
         <h1 class="singleHeadTitle">How to Manage Player Input - Part 1: Polling</h1> 
-        <p class="singleHeadDesc">Exploring input handling inside of games</p>
+        <p class="singleHeadDesc">Exploring input handling inside of games using polling</p>
         <time class="singleDate"><em>6 Jul, 2025</em></time>
         <div class="singleCategories">
             
@@ -242,7 +242,7 @@
 </span></span><span class="line"><span class="cl">    <span class="c1">// We may even set configurable keybindings for each player individually. </span>
 </span></span><span class="line"><span class="cl">    <span class="kd">private</span> <span class="n">Dictionary</span><span class="p">&lt;</span><span class="n">GameState</span><span class="p">,</span> <span class="p">&lt;</span><span class="n">Input</span><span class="p">,</span> <span class="n">Command</span><span class="p">&gt;&gt;</span> <span class="n">keybindings</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">     
-</span></span><span class="line"><span class="cl">    <span class="kd">public</span> <span class="n">List</span><span class="p">&lt;</span><span class="n">Command</span><span class="p">&gt;</span> <span class="n">GetCommand</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">public</span> <span class="n">List</span><span class="p">&lt;</span><span class="n">Command</span><span class="p">&gt;</span> <span class="n">GetCommands</span><span class="p">()</span>
 </span></span><span class="line"><span class="cl">    <span class="p">{</span>
 </span></span><span class="line"><span class="cl">        <span class="n">Input</span> <span class="n">input</span> <span class="p">=</span> <span class="n">inputAPI</span><span class="p">.</span><span class="n">GetInput</span><span class="p">();</span> 
 </span></span><span class="line"><span class="cl">

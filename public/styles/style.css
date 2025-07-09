@@ -714,6 +714,25 @@ li::marker {
 
 
 @media (max-width: 768px) {
+
+
+    pre:has(code) {
+      max-width: 100% !important;
+      font-size: 18px;
+      margin: 1em auto;
+      border-radius: 10px;
+    }
+
+    pre:has(code) code {
+      font-size: 10px !important;
+      padding: 0.75em;
+    }
+
+    pre:has(code)::before {
+      font-size: 18px;
+      padding: 10px 12px;
+    }
+
     .site-name{
         font-size: 20px;
     }
@@ -860,7 +879,7 @@ pre:has(code) code {
   color: var(--text);
   background-color: var(--ToC);
   font-family: monospace;
-  font-size: 0.95rem !important; 
+  font-size: 0.95rem; 
   line-height: 1.5;
   display: block;
   padding: 1em;

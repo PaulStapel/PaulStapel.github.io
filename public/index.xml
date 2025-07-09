@@ -6,8 +6,29 @@
     <description>Recent content on Paul&#39;s Particles</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 06 Jul 2025 12:10:42 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 09 Jul 2025 21:39:46 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nasi Goreng Biasa</title>
+      <link>http://localhost:1313/recipes/nasi-goreng-biasa/</link>
+      <pubDate>Wed, 09 Jul 2025 21:39:46 +0200</pubDate>
+      <guid>http://localhost:1313/recipes/nasi-goreng-biasa/</guid>
+      <description>&lt;p&gt;I love cooking fried rice, and I wanted to share this basic (Biasa = basic) recipe with you all because it really is versatile and delicious. From this base, a lot of very delicious types of Nasi Goreng can be constructed, and it can be served with almost any Indonesian, Malay, Thai, or even Chinese dish.&lt;/p&gt;&#xA;&lt;h2 id=&#34;ingredients&#34;&gt;Ingredients&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Cooking oil (high smoke point)&lt;/li&gt;&#xA;&lt;li&gt;Old cooked rice (as dry and grainy as possible)&lt;/li&gt;&#xA;&lt;li&gt;Kecap Manis (can be subbed with dark soy sauce combined with palm sugar)&lt;/li&gt;&#xA;&lt;li&gt;Garlic&lt;/li&gt;&#xA;&lt;li&gt;Shallots&lt;/li&gt;&#xA;&lt;li&gt;Fish sauce or Shrimp paste (substitute 2 tbsp fish sauce for 1 tbsp shrimp paste)&lt;/li&gt;&#xA;&lt;li&gt;Fresh chilies (optional)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;cooking-plan&#34;&gt;Cooking plan&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Chop your garlic, shallots and fresh chilies until they are fine. Add them to a bowl.&lt;/li&gt;&#xA;&lt;li&gt;Heat your wok and add a layer of cooking oil to the bottom of it.&lt;/li&gt;&#xA;&lt;li&gt;Next, add your aromatics and cook them for a little while until they begin to brown.&lt;/li&gt;&#xA;&lt;li&gt;Add your rice to the pan, followed by your fish sauce and kecap manis.&lt;/li&gt;&#xA;&lt;li&gt;Make sure to stir and toss your rice while cooking to keep it from sticking to the pan.&lt;/li&gt;&#xA;&lt;li&gt;Stir-fry this until most of the water has evaporated and you are left with loose grains. This only takes about 2 minutes.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;enjoy&#34;&gt;ENJOY!!&lt;/h2&gt;</description>
+    </item>
+    <item>
+      <title>Bumbu Kacang (peanut sauce)</title>
+      <link>http://localhost:1313/recipes/bumbu-kacang/</link>
+      <pubDate>Wed, 09 Jul 2025 21:25:58 +0200</pubDate>
+      <guid>http://localhost:1313/recipes/bumbu-kacang/</guid>
+      <description>&lt;p&gt;Historically, the Dutch have had close ties with the Indonesians starting way back with the VOC. One product of these ties is the introduction of the Bumbu Kacang, or &amp;ldquo;Pindasaus&amp;rdquo; to the dutch kitchen. Although we Dutch people have our own view on how we should prepare this sauce, I like to stick a bit more with the Indonesian traditions. This is my recipe for a Bumbu Kacang.&lt;/p&gt;&#xA;&lt;h2 id=&#34;ingredients&#34;&gt;Ingredients&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Peanut butter (chunky, smooth is also fine) (3 tbsp)&lt;/li&gt;&#xA;&lt;li&gt;Dark soy sauce (1 tbsp)&lt;/li&gt;&#xA;&lt;li&gt;Coconut milk (220 milliliters)&lt;/li&gt;&#xA;&lt;li&gt;Fish sauce (1 tbsp)&lt;/li&gt;&#xA;&lt;li&gt;Chili oil (1 tbsp)&lt;/li&gt;&#xA;&lt;li&gt;Lime juice (2 tbsp)&lt;/li&gt;&#xA;&lt;li&gt;Palm sugar (1 tbsp)&lt;/li&gt;&#xA;&lt;li&gt;Ground coriander (1/2 tsp)&lt;/li&gt;&#xA;&lt;li&gt;Salt (1/2 tsp)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;cooking-plan&#34;&gt;Cooking plan&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Add all ingredients to a pan and let it cook on medium heat until it has reached the desired consistency&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;enjoy&#34;&gt;ENJOY!!&lt;/h2&gt;</description>
+    </item>
+    <item>
+      <title>How to Manage Player Input - Part 2: Events</title>
+      <link>http://localhost:1313/handling-user-input2/</link>
+      <pubDate>Sun, 06 Jul 2025 20:16:21 +0200</pubDate>
+      <guid>http://localhost:1313/handling-user-input2/</guid>
+      <description>&lt;p&gt;Here we are again, back with the second part of this 2-part series on input handling. Last time, we looked into how to use polling, commands and states to represent a lot of what can be done with inputs. Complex games, however, operate in a slightly different way. We will be looking at three ways to use events in our input handling, and how this can further elevate our engine.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>How to Manage Player Input - Part 1: Polling</title>
       <link>http://localhost:1313/handling-user-input/</link>
