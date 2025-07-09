@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
   codeBlocks.forEach((pre) => {
     const code = pre.querySelector('code');
     
-    // Get language from class (Hugo usually adds class like "language-js")
+    // Get language from code block class (variable you set at ```Language )
     let language = 'Text';
     if (code.className) {
       const match = code.className.match(/language-(.+)/);
@@ -124,6 +124,7 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 });
 
+// Quotes
 document.addEventListener("DOMContentLoaded", function () {
   document.querySelectorAll("blockquote").forEach(block => {
     let text = block.innerHTML;
