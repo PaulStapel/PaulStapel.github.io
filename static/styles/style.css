@@ -729,7 +729,7 @@ li::marker {
     }
 
     pre:has(code)::before {
-      font-size: 18px;
+      font-size: 18px !important;
       padding: 10px 12px;
     }
 
@@ -751,7 +751,6 @@ li::marker {
 
     .singleContent{
         font-size: 18px;
-        overflow: auto;
         word-spacing: 1.2px;
     }
 
@@ -762,12 +761,10 @@ li::marker {
     .container{
         max-width: 475px;
         width: 90%;
-        overflow: visible;
     }
 
     .singleContent{
       font-size: 18px;
-      overflow: hidden;
       word-spacing: 1.2px;
   }
 
