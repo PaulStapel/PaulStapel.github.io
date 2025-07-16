@@ -9,7 +9,7 @@ categories:
     - difficulty 3|5
 ---
 
-Recently, I made a recipe for Spanish chicken and rice. Both family and peers seemed to really enjoy this recipe, and therefore I am creating a Greek twist. I recommend eating it with fresh bread and some [(https://paulstapel.com/recipes/tzatziki/](Tzatziki.)
+Recently, I made a recipe for Spanish chicken and rice. Both family and peers seemed to really enjoy this recipe, and therefore I am creating a Greek twist. I recommend eating it with fresh bread and some [Tzatziki.](https://paulstapel.com/recipes/tzatziki/)
 
 ## Ingredients
 - Chicken breast (If it's too thick, cut it in half crosswise)
