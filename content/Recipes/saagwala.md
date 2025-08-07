@@ -14,7 +14,7 @@ I am becoming a little obsessed with Indian cuisine, and while searching for new
 
 ## Ingredients
 
-### Marinate
+### Marinade
 - Chicken (bone-in)
 - Cooking oil (1 tbsp)
 - Yoghurt (full) (enough to cover)
