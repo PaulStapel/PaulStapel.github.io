@@ -9,7 +9,7 @@ categories:
     - difficulty 2|5
 ---
 
-I want to make my Indian recipes a bit more accessible for weekday dinners, so to start, I have contrived this nice little recipe for an Indian coconut chicken curry.
+I want to make my Indian recipes a bit more accessible for weekday dinners, so to start, I have contrived this nice little recipe for an Indian coconut chicken curry. 
 
 ## Ingredients
 - Neutral cooking oil (1 - 2 tbsp)
