@@ -2,7 +2,7 @@
 title: "Coconut Chicken Curry"
 date: "2025-08-11T10:41:20+02:00"
 draft: false
-description: "A hearty and fast coconut curry for a splendid weekday dinner. 
+description: "A hearty and fast coconut curry for a splendid weekday dinner." 
 categories: 
     - recipe
     - Indian
