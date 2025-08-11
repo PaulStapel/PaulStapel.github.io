@@ -1,6 +1,6 @@
 ---
 title: "Coconut Chicken Curry"
-date: "2025-08-10T19:39:31+02:00"
+date: "2025-08-11T10:41:20+02:00"
 draft: false
 description: "A hearty and fast coconut curry for a splendid weekday dinner. 
 categories: 
