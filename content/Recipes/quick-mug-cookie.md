@@ -16,12 +16,12 @@ FAST
 - 5 tbsp flour
 - 2 - 3 tbsp milk
 - 2 tbsp sugar
-- a pinch of baking soda
 - Some optional toppings, like chocolate chips or fruits. 
 
 ## Cooking plan
 - Melt your butter
 - Whisk everything together in a microwaveable mug or small bowl 
+- You may also add some baking powder, but it may overflow if you add too much, so be careful!
 - Put in the microwave for 1 minute
 
 ## ENJOY!!

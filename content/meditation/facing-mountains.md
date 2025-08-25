@@ -20,4 +20,3 @@ There are things that I find important to remember whenever I encounter such end
 There is no need to fear the great heights of the mountains we climb, for they only exalt us. But in rising higher, look out for gravity, a jealous force determined to keep us down down down like its own spirit. We find this gravity to be an external force, but enough external force creates internal force. Aim then to free ourself from as much gravity as possible when climbing mountains, lest it keep us tethered to the ground. In climbing, it is equally important to hone your strength as it is to weaken your gravity.  
 
 Fear of heights is a product of gravity, not of heights. But remember that gravity is nothing more than the influence of ... the masses! 
-
