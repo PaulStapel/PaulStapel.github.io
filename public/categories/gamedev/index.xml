@@ -2,24 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>GameDev on Paul&#39;s Particles</title>
-    <link>http://localhost:1313/categories/gamedev/</link>
+    <link>https://paulstapel.com/categories/gamedev/</link>
     <description>Recent content in GameDev on Paul&#39;s Particles</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 06 Jul 2025 20:16:21 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/gamedev/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Jul 2025 15:33:42 +0200</lastBuildDate>
+    <atom:link href="https://paulstapel.com/categories/gamedev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Setting Up A (MonoGame) .NET Project</title>
+      <link>https://paulstapel.com/setting-up-monogame/</link>
+      <pubDate>Sun, 20 Jul 2025 15:33:42 +0200</pubDate>
+      <guid>https://paulstapel.com/setting-up-monogame/</guid>
+      <description>&lt;p&gt;In the spirit of working on Game Development, I wanted to quickly share with you my current directory structure. Creating a good structure for your projects can be quite the task, as there are many ways to go about it. Besides that, there isn&amp;rsquo;t really any clear guidance to be found online (in my opinion). Therefore, I wanted to share my approach. It may not be perfect, but it works for me.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>How to Manage Player Input - Part 2: Events</title>
-      <link>http://localhost:1313/handling-user-input2/</link>
+      <link>https://paulstapel.com/handling-user-input2/</link>
       <pubDate>Sun, 06 Jul 2025 20:16:21 +0200</pubDate>
-      <guid>http://localhost:1313/handling-user-input2/</guid>
+      <guid>https://paulstapel.com/handling-user-input2/</guid>
       <description>&lt;p&gt;Here we are again, back with the second part of this 2-part series on input handling. Last time, we looked into how to use polling, commands and states to represent a lot of what can be done with inputs. Complex games, however, operate in a slightly different way. We will be looking at three ways to use events in our input handling, and how this can further elevate our engine.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How to Manage Player Input - Part 1: Polling</title>
-      <link>http://localhost:1313/handling-user-input/</link>
+      <link>https://paulstapel.com/handling-user-input/</link>
       <pubDate>Sun, 06 Jul 2025 12:10:42 +0200</pubDate>
-      <guid>http://localhost:1313/handling-user-input/</guid>
+      <guid>https://paulstapel.com/handling-user-input/</guid>
       <description>&lt;p&gt;So I have slowly been working on a game lately, and I wanted to share some of the problems I face and my solutions to those problems. I find that a definitive guide to input handling was something I could not really find online, and although input handling can be done in simple ways, I&amp;rsquo;d like to make a system to make it more robust and extensible. I wanted to share my findings and opinions here, as I have found that there is not enough information about this topic online. If you have any feedback, or if you would implement things differently, I&amp;rsquo;d love to hear about it!&lt;/p&gt;</description>
     </item>
   </channel>

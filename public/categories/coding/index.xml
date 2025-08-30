@@ -2,52 +2,59 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Coding on Paul&#39;s Particles</title>
-    <link>http://localhost:1313/categories/coding/</link>
+    <link>https://paulstapel.com/categories/coding/</link>
     <description>Recent content in Coding on Paul&#39;s Particles</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 06 Jul 2025 20:16:21 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/coding/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Jul 2025 15:33:42 +0200</lastBuildDate>
+    <atom:link href="https://paulstapel.com/categories/coding/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Setting Up A (MonoGame) .NET Project</title>
+      <link>https://paulstapel.com/setting-up-monogame/</link>
+      <pubDate>Sun, 20 Jul 2025 15:33:42 +0200</pubDate>
+      <guid>https://paulstapel.com/setting-up-monogame/</guid>
+      <description>&lt;p&gt;In the spirit of working on Game Development, I wanted to quickly share with you my current directory structure. Creating a good structure for your projects can be quite the task, as there are many ways to go about it. Besides that, there isn&amp;rsquo;t really any clear guidance to be found online (in my opinion). Therefore, I wanted to share my approach. It may not be perfect, but it works for me.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>How to Manage Player Input - Part 2: Events</title>
-      <link>http://localhost:1313/handling-user-input2/</link>
+      <link>https://paulstapel.com/handling-user-input2/</link>
       <pubDate>Sun, 06 Jul 2025 20:16:21 +0200</pubDate>
-      <guid>http://localhost:1313/handling-user-input2/</guid>
+      <guid>https://paulstapel.com/handling-user-input2/</guid>
       <description>&lt;p&gt;Here we are again, back with the second part of this 2-part series on input handling. Last time, we looked into how to use polling, commands and states to represent a lot of what can be done with inputs. Complex games, however, operate in a slightly different way. We will be looking at three ways to use events in our input handling, and how this can further elevate our engine.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How to Manage Player Input - Part 1: Polling</title>
-      <link>http://localhost:1313/handling-user-input/</link>
+      <link>https://paulstapel.com/handling-user-input/</link>
       <pubDate>Sun, 06 Jul 2025 12:10:42 +0200</pubDate>
-      <guid>http://localhost:1313/handling-user-input/</guid>
+      <guid>https://paulstapel.com/handling-user-input/</guid>
       <description>&lt;p&gt;So I have slowly been working on a game lately, and I wanted to share some of the problems I face and my solutions to those problems. I find that a definitive guide to input handling was something I could not really find online, and although input handling can be done in simple ways, I&amp;rsquo;d like to make a system to make it more robust and extensible. I wanted to share my findings and opinions here, as I have found that there is not enough information about this topic online. If you have any feedback, or if you would implement things differently, I&amp;rsquo;d love to hear about it!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Ode to MVPs</title>
-      <link>http://localhost:1313/ode-to-mvp/</link>
+      <link>https://paulstapel.com/ode-to-mvp/</link>
       <pubDate>Sat, 19 Apr 2025 08:49:06 +0200</pubDate>
-      <guid>http://localhost:1313/ode-to-mvp/</guid>
+      <guid>https://paulstapel.com/ode-to-mvp/</guid>
       <description>&lt;p&gt;I believe humans have an innate urge to create things. We like being creative and making things like books, paintings or clothes. It is quite a shame, then, that people often have a rough time getting started with such a creative project. Procrastination is quite easy, and one large part in this is that it takes time before a project actually becomes fun to work on. It doesn&amp;rsquo;t help that the start of a project is usually the time when you are most overwhelmed with options. Because of this, it can take a lot of effort to even get started with a project, let alone finish it. I have reflected on this quite a bit and would like to share some of my findings.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Creating a Table of Contents</title>
-      <link>http://localhost:1313/creating-table-of-contents/</link>
+      <link>https://paulstapel.com/creating-table-of-contents/</link>
       <pubDate>Wed, 16 Apr 2025 15:15:55 +0200</pubDate>
-      <guid>http://localhost:1313/creating-table-of-contents/</guid>
+      <guid>https://paulstapel.com/creating-table-of-contents/</guid>
       <description>&lt;p&gt;Ok, so as my blog has been growing recently, I decided it was about time I started implementing some more features. One of the things I wanted to add was a little floating table of contents. From there, users would be able to more easily navigate through a given page, and as I have just recently implemented my &lt;a href=&#34;https://paulstapel.com/codex/codex-meae-mentis/&#34;&gt;codex&lt;/a&gt;, I felt it was about time to create this. As I found it rather difficult to find things about this online, I wanted to quickly share my implementation. I will be using HTML, Javascript and CSS.&lt;/p&gt;</description>
     </item>
     <item>
       <title>3D Rotation in Python with quaternions</title>
-      <link>http://localhost:1313/3d-rotation-python/</link>
+      <link>https://paulstapel.com/3d-rotation-python/</link>
       <pubDate>Sat, 20 Apr 2024 15:55:07 +0200</pubDate>
-      <guid>http://localhost:1313/3d-rotation-python/</guid>
+      <guid>https://paulstapel.com/3d-rotation-python/</guid>
       <description>&lt;p&gt;Today, I wanted to share a bit of code that you can use to rotate any 3D vector using Python.&#xA;If you want to read a bit about how the code works, and why quaternions are useful, keep reading. If you are only interested in the code, I have it in full &lt;a href=&#34;https://github.com/PaulStapel/quaternions&#34;&gt;on my GitHub&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;quickly-what-is-a-quaternion&#34;&gt;Quickly, what is a quaternion?&lt;/h2&gt;&#xA;&lt;p&gt;A quaternion is an extension of the complex numbers into 4 dimensions. Just like how you can describe a rotation in 2D using a complex number, a quaternion can describe rotation in 3D. By defining some rules for multiplication ($i^2 = j^2 = k^2 = ijk = -1$), we get certain properties that make rotation very intuitive. See this &lt;a href=&#34;https://en.wikipedia.org/wiki/Quaternions_and_spatial_rotation&#34;&gt;wikipedia article on quaternions&lt;/a&gt; for more details.&lt;/p&gt;</description>
     </item>
     <item>
       <title>VScode extensions that boost my productivity</title>
-      <link>http://localhost:1313/vscode-extensions/</link>
+      <link>https://paulstapel.com/vscode-extensions/</link>
       <pubDate>Sat, 06 Apr 2024 20:57:18 +0200</pubDate>
-      <guid>http://localhost:1313/vscode-extensions/</guid>
+      <guid>https://paulstapel.com/vscode-extensions/</guid>
       <description>&lt;p&gt;As I have stated in my setup-page, I use VScode as my main text editor. I especially like the ability to customize your coding environment with extensions. Today, I will share the extensions that really give a boost to my work.&lt;/p&gt;&#xA;&lt;h2 id=&#34;better-comments&#34;&gt;Better Comments&lt;/h2&gt;&#xA;&lt;p&gt;This first extension allows me to better manage and organize my annotations while coding. When starting comments with alerts (!), questions (?), TODO&amp;rsquo;s (TODO), or important tags (*), this extension automatically colors them to make them stand out more. This makes it so I can more easily find the information I&amp;rsquo;m looking for, and it has saved me more time than I initially expected.&lt;/p&gt;</description>
     </item>
   </channel>
