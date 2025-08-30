@@ -786,11 +786,11 @@ li::marker {
   }
 }
 
-@media (max-width: 450px){
+/* @media (max-width: 450px){
   .logo{
         display: none
   }
-}
+} */
 
 /* BEGIN 404 ERROR */
 
