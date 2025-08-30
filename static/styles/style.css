@@ -786,11 +786,11 @@ li::marker {
   }
 }
 
-/* @media (max-width: 450px){
-  .logo{
-        display: none
-  }
-} */
+@media (max-width: 450px){
+  .site-name{
+        font-size: 16px;
+    }
+}
 
 /* BEGIN 404 ERROR */
 
