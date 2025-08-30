@@ -834,6 +834,7 @@ li::marker {
 
 .hoverlink {
     position: relative;
+    transition: text-shadow 0.3s ease, color 0.3s ease;
   }
   
   .hoverlink::before {
