@@ -161,43 +161,63 @@ document.addEventListener("DOMContentLoaded", function () {
 // Search! 
 
 document.addEventListener("DOMContentLoaded", async () => {
-  const input = document.querySelector(".search-container input");
+  const container = document.querySelector(".search-container");
+  const input = container.querySelector("input");
   const resultsContainer = document.createElement("div");
-  resultsContainer.classList.add("search-results");
-  document.querySelector(".search-container").appendChild(resultsContainer);
+  resultsContainer.className = "search-results";
+  container.appendChild(resultsContainer);
 
-  // Fetch your index.json
   const response = await fetch("/index.json");
   const pages = await response.json();
 
-  // Configure Fuse.js to search title, summary, and tags
   const fuse = new Fuse(pages, {
-    keys: ["title", "description", "categories"],
-    threshold: 0.4,
+    keys: ["title", "categories", "url"],
+    threshold: 0.2,
+    ignoreLocation: true
   });
 
-  input.addEventListener("input", () => {
-    const query = input.value.trim();
-    resultsContainer.innerHTML = "";
+  // Debounce utility
+  function debounce(fn, delay = 200) {
+    let timeout;
+    return (...args) => {
+      clearTimeout(timeout);
+      timeout = setTimeout(() => fn(...args), delay);
+    };
+  }
 
+  const runSearch = debounce((query) => {
+    resultsContainer.innerHTML = "";
     if (!query) return;
 
     const results = fuse.search(query);
+    if (results.length === 0) {
+      resultsContainer.innerHTML = `<div class="search-item no-results">No results found</div>`;
+      return;
+    }
 
-    results.forEach(result => {
-      const item = document.createElement("div");
-      item.classList.add("search-item");
-      item.innerHTML = `<a href="${result.item.url}">${result.item.title}</a>`;
-      resultsContainer.appendChild(item);
+    results.forEach(({ item }) => {
+      const itemLink = document.createElement("div");
+      itemLink.className = "search-item";
+      itemLink.textContent = item.title;
+      resultsContainer.appendChild(itemLink);
+
+      itemLink.addEventListener("mousedown", () => {
+        window.location.href = item.url;
+      });
     });
+  }, 150);
+
+  input.addEventListener("input", () => {
+    runSearch(input.value.trim());
   });
 
-  // Optional: hide results when clicking outside
   document.addEventListener("click", (e) => {
-    if (!input.contains(e.target) && !resultsContainer.contains(e.target)) {
+    if (!container.contains(e.target)) {
+      input.value = "";
       resultsContainer.innerHTML = "";
     }
   });
 });
+
 
 

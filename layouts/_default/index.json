@@ -6,8 +6,8 @@
   {{- end -}}
   {{- $pages = $pages | append (dict
       "title" .Title
-      "description" .Params.description
       "categories" $cats
+      "url" .RelPermalink
   ) -}}
 {{- end -}}
 {{- $pages | jsonify -}}
