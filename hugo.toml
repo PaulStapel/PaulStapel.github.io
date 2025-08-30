@@ -17,5 +17,5 @@ title = "Paul's Particles"
 
 [markup]
   [markup.highlight]
-    noClasses = false  # ✅ use CSS classes instead of inline styles
-    style = "monokai"  # or any style, doesn’t matter if noClasses=false
+    noClasses = false
+    style = "monokai" 

@@ -157,3 +157,47 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+
+// Search! 
+
+document.addEventListener("DOMContentLoaded", async () => {
+  const input = document.querySelector(".search-container input");
+  const resultsContainer = document.createElement("div");
+  resultsContainer.classList.add("search-results");
+  document.querySelector(".search-container").appendChild(resultsContainer);
+
+  // Fetch your index.json
+  const response = await fetch("/index.json");
+  const pages = await response.json();
+
+  // Configure Fuse.js to search title, summary, and tags
+  const fuse = new Fuse(pages, {
+    keys: ["title", "description", "categories"],
+    threshold: 0.4,
+  });
+
+  input.addEventListener("input", () => {
+    const query = input.value.trim();
+    resultsContainer.innerHTML = "";
+
+    if (!query) return;
+
+    const results = fuse.search(query);
+
+    results.forEach(result => {
+      const item = document.createElement("div");
+      item.classList.add("search-item");
+      item.innerHTML = `<a href="${result.item.url}">${result.item.title}</a>`;
+      resultsContainer.appendChild(item);
+    });
+  });
+
+  // Optional: hide results when clicking outside
+  document.addEventListener("click", (e) => {
+    if (!input.contains(e.target) && !resultsContainer.contains(e.target)) {
+      resultsContainer.innerHTML = "";
+    }
+  });
+});
+
+

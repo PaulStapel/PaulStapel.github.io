@@ -509,14 +509,14 @@ li::marker {
   display: inline-block;
   position: relative;
   top: 30px;
-  max-width: 225px; 
+  max-width: 250px; 
   overflow-y: auto;
-  margin-right: 25px;
+  margin-right: 20px;
   padding: 16px;
   border-radius: 10px;
   background-color: var(--ToC); 
   border: 1px solid #3a3e47;
-  margin-left: -200px;
+  margin-left: -150px;
 }
 
 .toc-title {
@@ -757,23 +757,6 @@ li::marker {
 
 }
 @media (max-width: 640px) {
-
-    .search-container {
-      width: 120px !important; /* smaller container */
-      height: 40px !important; /* keep same height */
-    }
-
-    .search-container input:focus {
-      width: 120px !important; /* expanded width on focus */
-    }
-
-    .search-container input {
-      width: 26px !important; /* initial collapsed width stays the same */
-    }
-
-    .search-container input:focus ~ .search {
-      right: -95px !important; /* adjust so the circle moves correctly (100 - 26 - 1 ?) */
-    }
 
     .container{
         max-width: 475px;
@@ -1070,7 +1053,6 @@ blockquote .quote-author {
 }
 
 .search-container input {
-  font-family: 'Inconsolata', monospace;
   position: absolute;
   margin: auto;
   top: 0;
@@ -1133,5 +1115,42 @@ blockquote .quote-author {
   font-weight: bolder;
 }
 
+/* Search output  */
+.search-container input:focus + .search-results,
+.search-container input:focus ~ .search-results {
+  display: block;
+}
 
+.search-results {
+  display: none; /* hidden by default */
+  position: absolute;
+  top: 45px; /* below input */
+  left: 0;
+  width: 150px; /* match expanded input width */
+  background: var(--textSoft);
+  border: 1px solid var(--textSoft);
+  max-height: 300px;
+  overflow-y: auto;
+  z-index: 1000;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
 
+.search-item {
+  padding: 0.5em;
+  border-bottom: 1px solid var(--textSoft);
+}
+
+.search-item:last-child {
+  border-bottom: none;
+}
+
+.search-item a {
+  text-decoration: none;
+  color: var(--text);
+}
+
+.search-item a:hover {
+  text-decoration: underline;
+  color: var(--Desc);
+}
