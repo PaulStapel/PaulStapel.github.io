@@ -1,54 +1,14 @@
 {{ define "main" }}
-<link href="/pagefind/pagefind-ui.css" rel="stylesheet">
-<script src="/pagefind/pagefind-ui.js"></script>
-<div id="search"></div>
-<script>
-    window.addEventListener('DOMContentLoaded', (event) => {
-        new PagefindUI({ element: "#search", showSubResults: true });
-    });
-</script>
 
 {{ if eq .RelPermalink "/categories/"}}
 {{ range $.Site.Taxonomies.categories.ByCount }}
 <a href="/categories/{{ .Name }}">
   # {{ .Name }} <small>({{.Count}})</small>
 </a>
+
 {{ end }}
 {{ else }}
 <div class="list">
-  <!-- <div class="stars">
-    <div class="star"></div>
-    <div class="star"></div>
-    <div class="star"></div>
-    <div class="star"></div>
-    <div class="star"></div>
-    <div class="star"></div>
-    <div class="star"></div>
-    <div class="star"></div>
-    <div class="star"></div>
-    <div class="star"></div>
-    <div class="star"></div>
-    <div class="star"></div>
-    <div class="star"></div>
-    <div class="star"></div>
-    <div class="star"></div>
-    <div class="star"></div>
-    <div class="star"></div>
-    <div class="star"></div>
-    <div class="star"></div>
-    <div class="star"></div>
-    <div class="star"></div>
-    <div class="star"></div>
-    <div class="star"></div>
-    <div class="star"></div>
-    <div class="star"></div>
-    <div class="star"></div>
-    <div class="star"></div>
-    <div class="star"></div>
-    <div class="star"></div>
-    <div class="star"></div>
-    <div class="star"></div> -->
-  <!-- </div> -->
     {{ $section := .Section }}
     {{ range where .Pages "Section" $section }}
     {{ if not (in .Params.categories "recipe") }}
