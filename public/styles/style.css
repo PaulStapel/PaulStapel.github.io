@@ -759,12 +759,12 @@ li::marker {
 @media (max-width: 640px) {
 
     .search-container {
-      width: 100px !important; /* smaller container */
+      width: 120px !important; /* smaller container */
       height: 40px !important; /* keep same height */
     }
 
     .search-container input:focus {
-      width: 100px !important; /* expanded width on focus */
+      width: 120px !important; /* expanded width on focus */
     }
 
     .search-container input {
@@ -772,7 +772,7 @@ li::marker {
     }
 
     .search-container input:focus ~ .search {
-      right: -75px !important; /* adjust so the circle moves correctly (100 - 26 - 1 ?) */
+      right: -95px !important; /* adjust so the circle moves correctly (100 - 26 - 1 ?) */
     }
 
     .container{
@@ -788,7 +788,7 @@ li::marker {
 
 @media (max-width: 450px){
   .logo{
-        display: none
+    display: none; 
   }
 }
 
