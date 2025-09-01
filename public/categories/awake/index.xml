@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Awake on Paul&#39;s Particles</title>
-    <link>https://paulstapel.com/categories/awake/</link>
+    <link>http://localhost:1313/categories/awake/</link>
     <description>Recent content in Awake on Paul&#39;s Particles</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 18 Feb 2025 08:08:04 +0100</lastBuildDate>
-    <atom:link href="https://paulstapel.com/categories/awake/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/awake/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Awake</title>
-      <link>https://paulstapel.com/meditation/awake/</link>
+      <link>http://localhost:1313/meditation/awake/</link>
       <pubDate>Tue, 18 Feb 2025 08:08:04 +0100</pubDate>
-      <guid>https://paulstapel.com/meditation/awake/</guid>
+      <guid>http://localhost:1313/meditation/awake/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;As yet hath his knowledge not learned to smile, and to be without jealousy; as yet hath his gushing passion not become calm in beauty [Nietzsche]&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Sometimes, things in life may inspire you to a deeper contemplation. Things that once eluded you suddenly become clearer, and more present in your mind. It can feel as if things just fall in place, and a fire of passion consumes you thus. But it is not that which life reveals to me, but that which life conceals from me that fuels me most. There hangs an innate urge in mankind to dig up all that which is hidden from it; we are a curious bunch. To dig is a noble cause, but those who dig must beware its consequences. As humanity ever carves deeper into world&amp;rsquo;s flesh, world itself becomes &amp;hellip; a graveyard! Oh, how to express that this is devoutly to be wished? And if our knowledge not be sent to the grave, let it be cremated in the flames of our inspiration!&lt;/p&gt;</description>
     </item>
   </channel>

@@ -1,6 +1,5 @@
 ---
-title: "{{ .Date | time.Format ":date_long" }}"
-date: "{{ .Date }}"
+title: "{{ .Date | time.Format "January 2, 2006" }}"
 draft: false
 categories: 
     - daily drop

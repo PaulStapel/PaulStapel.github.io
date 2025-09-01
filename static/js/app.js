@@ -219,29 +219,8 @@ document.addEventListener("DOMContentLoaded", async () => {
   });
 });
 
-function createRaindrop(){
-  const raindrop = document.createElement('div')
-  raindrop.classList.add('raindrop')
-
-  raindrop.style.left = Math.random() * window.innerWidth + 'px';
-
-  const duration = Math.random() * 10 + 5;
-
-  raindrop.style.animationDuration = duration + 's';
-
-  document.body.appendChild(raindrop);
-
-  setTimeout(() => {
-    raindrop.remove();
-  }, duration * 5000); 
-}
-
-if (window.location.pathname.includes('/daily-drop/')) {
-  setInterval(createRaindrop, 50);
-} 
 
 // Blocks
-
 function isMobile() {
   const regex = /Mobi|Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i;
   return regex.test(navigator.userAgent);
@@ -306,18 +285,18 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     // Vertical shift
-    const yShift = Math.random() * 3; 
+    const yShift = Math.random() * 4; 
 
     block.style.position = "absolute";
     block.style.width = `calc(${100 / columns}% - 20px)`; 
-    block.style.left = `calc(${col * 100 / columns}% + 10px + ${xShift}%)`;
-    block.style.top = `calc(${colHeights[col]}px + ${yShift}px)`;
-    block.style.transform = `rotate(${Math.random() * 3 - 1}deg)`;
+    block.style.left = `calc(${col * 100 / columns}%  + ${xShift}%)`;
+    block.style.top = `calc(${colHeights[col]}px + ${yShift}px + 4px)`;
+    block.style.transform = `rotate(${Math.random() * 4 - 1}deg)`;
     block.style.padding = "10px";
 
     container.appendChild(block);
 
-    colHeights[col] += block.offsetHeight + 40; // spacing
+    colHeights[col] += block.offsetHeight + 55; // spacing
     colCounts[col] += 1;
   });
 

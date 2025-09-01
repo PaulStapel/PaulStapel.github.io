@@ -26,11 +26,13 @@
             {{ end }} -->
                 <a href="{{.Permalink}}" class="hoverlink">{{.Title}}</a>
             </h1>
+            {{ if eq .Type "daily-drop"}} 
+            {{ else }}
             <a class="listItemDesc" href="{{.Permalink}}"> <time><em>{{ dateFormat .Site.Params.dateFormat .Date}}</em></time>  || {{.Params.description}} </a>
+            {{ end }}
         </div>
       </div>
     {{ end }} 
-    <!-- {{ template "_internal/pagination.html" . }} -->
 </div>
 {{ end }}
 {{ end }}
