@@ -1189,15 +1189,15 @@ Trial, with blocks
 }
 
 /* IS this needed?  */
-/* .block {
+.block {
   overflow: visible !important;
   position: relative;
   z-index: 2;
-} */
-/* #contentBlocks {
+} 
+#contentBlocks {
   overflow: visible !important;
   position: relative;
-} */
+}
 
 /* Pin */
 .block .pin {
