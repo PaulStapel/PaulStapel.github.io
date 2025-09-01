@@ -277,14 +277,14 @@ document.addEventListener("DOMContentLoaded", () => {
     if (columns > 1) {
       if (col === 0) {
         xShift = Math.random() * 20; // left column shift inward
-        if(isMobile()){
-          xShift = 10;
-        }
       } else if (col === columns - 1) {
         xShift = -(Math.random() * 20); // right column shift inward
       } else {
         xShift = Math.random() * 20 - 10; // middle column shift both ways
       }
+    }
+    if (isMobile()) {
+      xShift = 4;
     }
 
     // Vertical shift
