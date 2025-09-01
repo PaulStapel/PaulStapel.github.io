@@ -277,6 +277,9 @@ document.addEventListener("DOMContentLoaded", () => {
     if (columns > 1) {
       if (col === 0) {
         xShift = Math.random() * 20; // left column shift inward
+        if(isMobile()){
+          xShift = 0;
+        }
       } else if (col === columns - 1) {
         xShift = -(Math.random() * 20); // right column shift inward
       } else {
@@ -300,6 +303,21 @@ document.addEventListener("DOMContentLoaded", () => {
 
     colHeights[col] += block.offsetHeight + 60; // spacing
     colCounts[col] += 1;
+
+    const raindrop = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+    raindrop.classList.add("raindrop-svg");
+    raindrop.setAttribute("width", "30"); 
+    raindrop.setAttribute("height", "30");
+    raindrop.setAttribute("viewBox", "0 0 30 30");
+    raindrop.style.position = "absolute";
+    raindrop.style.bottom = "5px"; 
+    raindrop.style.right = "5px";  
+
+    const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+    path.setAttribute("d", "M12 2C8 8 6 12 6 16a6 6 0 0012 0c0-4-2-8-6-14z"); // example raindrop path
+
+    raindrop.appendChild(path);
+    block.appendChild(raindrop);
   });
 
   container.style.position = "relative";

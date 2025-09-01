@@ -1233,3 +1233,7 @@ Trial, with blocks
 .block:nth-child(9) p::before { background-color: #95b3c0; }
 .block:nth-child(10) p::before { background-color: #F6E1C1; }
 .block:nth-child(11) p::before { background-color: #C1E1F6; }
+
+.raindrop-svg{
+  fill: #C1E1F6;
+}
