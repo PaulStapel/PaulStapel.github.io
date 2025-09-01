@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Daily Drop on Paul&#39;s Particles</title>
-    <link>http://localhost:1313/categories/daily-drop/</link>
+    <link>https://paulstapel.com/categories/daily-drop/</link>
     <description>Recent content in Daily Drop on Paul&#39;s Particles</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/categories/daily-drop/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://paulstapel.com/categories/daily-drop/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>September 1, 2025</title>
-      <link>http://localhost:1313/daily-drop/25-09-01/</link>
+      <link>https://paulstapel.com/daily-drop/25-09-01/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/daily-drop/25-09-01/</guid>
-      <description>&lt;h2 id=&#34;today-i-learned&#34;&gt;Today I Learned&lt;/h2&gt;&#xA;&lt;p&gt;I played with randomisation in Javascript to make this template, and learned how to convert my usual lay-out to new HTML elements.&lt;/p&gt;&#xA;&lt;h2 id=&#34;thought-i-thought&#34;&gt;Thought I Thought&lt;/h2&gt;&#xA;&lt;p&gt;Umbrellas are really cool weapons&lt;/p&gt;&#xA;&lt;h2 id=&#34;todays-media&#34;&gt;Today&amp;rsquo;s Media&lt;/h2&gt;&#xA;&lt;p&gt;Watched &amp;ldquo;City the animation&amp;rdquo; by KyoAni, which I still find incredibly wholesome. Read a chapter of &amp;ldquo;Press reset&amp;rdquo; by Jason Schreier, which is more of a gut-punch in terms of what the Game industry is like.&lt;/p&gt;</description>
+      <guid>https://paulstapel.com/daily-drop/25-09-01/</guid>
+      <description>&lt;h2 id=&#34;today-i-learned&#34;&gt;Today I Learned&lt;/h2&gt;&#xA;&lt;p&gt;I played with randomisation in Javascript to make this template, and learned how to convert my usual lay-out to new HTML elements.&lt;/p&gt;&#xA;&lt;h2 id=&#34;thought-i-thought&#34;&gt;Thought I Thought&lt;/h2&gt;&#xA;&lt;p&gt;Umbrellas are really cool weapons if you hold them like a baseball bat&lt;/p&gt;&#xA;&lt;h2 id=&#34;todays-media&#34;&gt;Today&amp;rsquo;s Media&lt;/h2&gt;&#xA;&lt;p&gt;Watched &amp;ldquo;City the animation&amp;rdquo; by KyoAni, which I still find incredibly wholesome. Read a chapter of &amp;ldquo;Press reset&amp;rdquo; by Jason Schreier, which is more of a gut-punch in terms of what the Game industry is like.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

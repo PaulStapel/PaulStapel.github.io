@@ -276,27 +276,29 @@ document.addEventListener("DOMContentLoaded", () => {
     let xShift = 0;
     if (columns > 1) {
       if (col === 0) {
-        xShift = Math.random() * 3; // left column shift inward
+        xShift = Math.random() * 20; // left column shift inward
       } else if (col === columns - 1) {
-        xShift = -(Math.random() * 3); // right column shift inward
+        xShift = -(Math.random() * 20); // right column shift inward
       } else {
-        xShift = Math.random() * 2 - 1; // middle column shift both ways
+        xShift = Math.random() * 15 - 15; // middle column shift both ways
       }
     }
 
     // Vertical shift
-    const yShift = Math.random() * 4; 
+    const yShift = Math.random() * 10; 
 
     block.style.position = "absolute";
     block.style.width = `calc(${100 / columns}% - 20px)`; 
-    block.style.left = `calc(${col * 100 / columns}%  + ${xShift}%)`;
+    block.style.left = `calc(${col * 100 / columns}%  + ${xShift}px)`;
     block.style.top = `calc(${colHeights[col]}px + ${yShift}px + 4px)`;
-    block.style.transform = `rotate(${Math.random() * 4 - 1}deg)`;
+    block.style.transform = `rotate(${Math.random() * 6 - 3}deg)`;
     block.style.padding = "10px";
+    block.style.setProperty("--base-top", `calc(-1* ${yShift}px)`);
+    block.style.setProperty("--base-left", `calc(-1 * ${xShift}px)`);
 
     container.appendChild(block);
 
-    colHeights[col] += block.offsetHeight + 55; // spacing
+    colHeights[col] += block.offsetHeight + 60; // spacing
     colCounts[col] += 1;
   });
 

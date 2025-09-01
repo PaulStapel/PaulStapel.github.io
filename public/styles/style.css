@@ -1,13 +1,12 @@
 :root{
     --bg: #2d353b;
-    --bgSoft : #a7c080;
+    --bgSoft : linear-gradient(180deg, #dfffb3, #e0f7d4, #b5ead7);
     --text : #eae3d2;
     --textSoft :#E67E80;
     --Desc: #7FBBB3;
     --ToC: #2d3036;
     --header: #00A78E;
     --rain: #eae3d2; 
-    --gradient: linear-gradient(90deg, #ffb3c6, #ffe29f, #b5ead7);
 }
 
 
@@ -24,14 +23,13 @@ body{
 
 body.light{
     --bg: #f6f6f6;
-    --bgSoft : #EAA823;
+    --bgSoft : linear-gradient(180deg, #ff6b2b, #EAA823, #ffb347);
     --text: #101820FF;
     --textSoft : #7FBBB3;
     --Desc: #9A510D;
     --ToC: #eeeeee;
     --header: #303446;
-    --rain: #101820FF; 
-    --gradient: linear-gradient(90deg, #ff7e5f, #feb47b, #EAA823);
+    --rain: #101820FF;
 }
   
 
@@ -408,7 +406,7 @@ li::marker {
     padding: 5px;
     align-items: center;
     border-radius: 5px;
-    background-color: var(--bgSoft);
+    background: var(--bgSoft);
     color: #101820FF;
     font-size: 14px;
     margin: 5px 5px 5px 5px;
@@ -458,7 +456,9 @@ li::marker {
 }
 
 .singleContent h2{
-    color: var(--bgSoft);
+    background: var(--bgSoft);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
     margin-bottom: 25px;
     margin-top: 25px;
     font-size: 32px;
@@ -611,7 +611,7 @@ li::marker {
 }
 
 .light #meny{ 
-  background: var(--bgSoft)
+  background: var(--bgSoft);
 }
 
 #menyAvPaa {
@@ -1159,6 +1159,7 @@ Trial, with blocks
 
 .block {
   position: relative;
+  display: inline-block;
   padding: 1.5rem;
   border-radius: 8px;
   max-width: 300px;
@@ -1172,12 +1173,20 @@ Trial, with blocks
   /* Mario-style 3D shadow using pastel colors */
   box-shadow: 
     14px 14px 0 -4px #FFD1DC,  
-    14px 14px 0 0 black;;     
+    14px 14px 0 0 black;     
+  transition: transform 0.3s ease;
+}
+
+.block:hover {
+    transform: rotate(0deg) translate(
+        calc(var(--base-left)), 
+        calc(var(--base-top))
+    ) !important;
 }
 
 .block h2 {
   margin-top: 0;
-  background: var(--gradient);
+  background: var(--bgSoft);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   font-size: 1.8rem;
@@ -1197,3 +1206,30 @@ Trial, with blocks
 .block:nth-child(10) { box-shadow: 14px 14px 0 -4px #F6E1C1, 14px 14px 0 0 black; }   
 .block:nth-child(11) { box-shadow: 14px 14px 0 -4px #C1E1F6, 14px 14px 0 0 black; }   
 
+.block p {
+  position: relative;
+  padding-left: 12px; /* space for the vertical bar */
+  margin: 0;          /* remove default <p> margins for precise alignment */
+}
+
+.block p::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0px;
+  width: 3px;        /* thickness of the bar */
+  height: 98%;      /* exactly the height of the <p> */
+}
+
+/* Match the pastel shadow color per block */
+.block:nth-child(1) p::before { background-color: #FFD1DC; }
+.block:nth-child(2) p::before { background-color: #F6F1C1; }
+.block:nth-child(3) p::before { background-color: #C1F6D9; }
+.block:nth-child(4) p::before { background-color: #C1D4F6; }
+.block:nth-child(5) p::before { background-color: #E1C1F6; }
+.block:nth-child(6) p::before { background-color: #F6C1C1; }
+.block:nth-child(7) p::before { background-color: #ffdfba; }
+.block:nth-child(8) p::before { background-color: #eb8b68; }
+.block:nth-child(9) p::before { background-color: #95b3c0; }
+.block:nth-child(10) p::before { background-color: #F6E1C1; }
+.block:nth-child(11) p::before { background-color: #C1E1F6; }
