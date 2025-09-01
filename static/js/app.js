@@ -226,6 +226,12 @@ function isMobile() {
   return regex.test(navigator.userAgent);
 }
 
+const handleAnimationEnd = (block, classesToRemove) => {
+  block.addEventListener("animationend", () => {
+    block.classList.remove(...classesToRemove);
+  }, { once: true });
+};
+
 document.addEventListener("DOMContentLoaded", () => {
   const container = document.getElementById("contentBlocks");
   const elements = Array.from(container.children);
@@ -299,7 +305,6 @@ document.addEventListener("DOMContentLoaded", () => {
     block.style.setProperty("--base-top", `calc(-1* ${yShift}px)`);
     block.style.setProperty("--base-left", `calc(-1 * ${xShift}px)`);
 
-    // Pinning logic. 
     block.addEventListener("click", () => {
       const pin = block.querySelector(".pin");
 
@@ -314,6 +319,7 @@ document.addEventListener("DOMContentLoaded", () => {
           newPin.classList.add("pin");
           block.appendChild(newPin);
         }
+        block.classList.add("locked");
       }
     });
 
