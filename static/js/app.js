@@ -278,7 +278,7 @@ document.addEventListener("DOMContentLoaded", () => {
       if (col === 0) {
         xShift = Math.random() * 20; // left column shift inward
         if(isMobile()){
-          xShift = 0;
+          xShift = 5;
         }
       } else if (col === columns - 1) {
         xShift = -(Math.random() * 20); // right column shift inward
