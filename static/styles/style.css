@@ -6,6 +6,7 @@
     --Desc: #7FBBB3;
     --ToC: #2d3036;
     --header: #00A78E;
+    --rain: #eae3d2; 
 }
 
 
@@ -51,6 +52,7 @@ body.light{
     --Desc: #9A510D;
     --ToC: #eeeeee;
     --header: #303446;
+    --rain: #101820FF; 
 }
   
 
@@ -1171,3 +1173,50 @@ blockquote .quote-author {
   color: rgba(255,255,255,0.7);
   pointer-events: none;
 }
+
+.raindrop {
+  position: absolute;
+  width: 2px;
+  height: 15px;
+  background-color: var(--rain, #0cf);
+  top: -15px;
+  z-index: -1;
+  animation: fall linear infinite;
+}
+
+
+@keyframes fall {
+  from { transform: translateY(0); }
+  to { transform: translateY(1000vh); }
+}
+
+/* 
+Trial, with blocks
+ */
+
+.block {
+  position: relative;
+  padding: 1.5rem;
+  border-radius: 8px;
+  max-width: 300px;
+  min-width: 250px;
+  flex: 1 1 auto;
+
+  background-color: var(--ToC); 
+  color: var(--text); 
+  border: 4px solid black;  
+
+  /* Mario-style 3D shadow using pastel colors */
+  box-shadow: 
+    14px 14px 0 -4px #FFD1DC,  /* pastel pink shadow */
+    14px 14px 0 0 black;;     /* pastel blue shadow */
+}
+
+.block h2 {
+  margin-top: 0;
+  color: var(--text);
+}
+
+.block:nth-child(1) { box-shadow: 14px 14px 0 -4px #FFD1DC, 14px 14px 0 0 black; }
+.block:nth-child(2) { box-shadow: 14px 14px 0 -4px #F6F1C1, 14px 14px 0 0 black; }
+.block:nth-child(3) { box-shadow: 14px 14px 0 -4px #C1F6D9, 14px 14px 0 0 black; }

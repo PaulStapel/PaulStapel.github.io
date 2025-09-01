@@ -219,5 +219,91 @@ document.addEventListener("DOMContentLoaded", async () => {
   });
 });
 
+function createRaindrop(){
+  const raindrop = document.createElement('div')
+  raindrop.classList.add('raindrop')
+
+  raindrop.style.left = Math.random() * window.innerWidth + 'px';
+
+  const duration = Math.random() * 10 + 5;
+
+  raindrop.style.animationDuration = duration + 's';
+
+  document.body.appendChild(raindrop);
+
+  setTimeout(() => {
+    raindrop.remove();
+  }, duration * 5000); 
+}
+
+if (window.location.pathname.includes('/daily-drop/')) {
+  setInterval(createRaindrop, 50);
+} 
+
+// Blocks Needs fixes!
+
+function isMobile() {
+  const regex = /Mobi|Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i;
+  return regex.test(navigator.userAgent);
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  const container = document.getElementById("contentBlocks");
+  const elements = Array.from(container.children);
+  let blocks = [];
+  let currentBlock = null;
+
+  // Split content into blocks by H2
+  elements.forEach(el => {
+    if (el.tagName === "H2") {
+      if (currentBlock) blocks.push(currentBlock);
+      currentBlock = document.createElement("div");
+      currentBlock.classList.add("block");
+      currentBlock.appendChild(el.cloneNode(true));
+    } else if (currentBlock) {
+      currentBlock.appendChild(el.cloneNode(true));
+    }
+  });
+
+  if (currentBlock) blocks.push(currentBlock);
+
+  container.innerHTML = "";
+
+  const columns = 3; 
+  if(isMobile()){
+    columns = 1;
+  }
+
+  const colHeights = Array(columns).fill(0);
+  const colCounts = Array(columns).fill(0); // track number of blocks per column
+
+  // Shuffle blocks for random placement
+  blocks.sort(() => Math.random() - 0.5);
+
+
+  blocks.forEach(block => {
+    const minCount = Math.min(...colCounts);
+    const allowedCols = colCounts.map((count, i) => count - minCount < 2 ? i : -1).filter(i => i >= 0);
+    const col = allowedCols[Math.floor(Math.random() * allowedCols.length)];
+    const xShift = Math.random() * 5;
+    const yShift = Math.random() * 5; 
+
+    // Ensure block fits within container width
+    block.style.position = "absolute";
+    block.style.width = `calc(${100 / columns}% - 20px)`; 
+    block.style.left = `calc(${col * 33.33}% + 10px + ${xShift}%)`; 
+    block.style.top = `calc(${xShift}% + ${colHeights[col]}px)`;
+    block.style.transform = `rotate(${Math.random() * 3 - 1}deg)`;
+    block.style.padding = "10px";
+
+    container.appendChild(block);
+
+    colHeights[col] += block.offsetHeight + 40; // spacing
+    colCounts[col] += 1;
+  });
+
+  container.style.position = "relative";
+  container.style.minHeight = Math.max(...colHeights) + "px";
+});
 
 

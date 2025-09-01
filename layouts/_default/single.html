@@ -26,7 +26,11 @@
         <ul id="toc" class="toc"></ul>
       </div>
     {{ end }}
-    <div class="singleContent">{{.Content}}</div>
+    {{ if eq .Type "daily-drop"}}
+      <div class="singleContent" id="contentBlocks">{{.Content}}</div>
+    {{ else }}
+      <div class="singleContent">{{.Content}}</div>
+    {{ end}}
    </div>
 </div>
 {{ end }}
