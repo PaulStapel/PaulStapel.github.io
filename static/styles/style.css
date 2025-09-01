@@ -1174,7 +1174,6 @@ Trial, with blocks
     14px 14px 0 -4px #FFD1DC,  
     14px 14px 0 0 black;     
   transition: transform 0.3s ease;
-  cursor: pointer;
 }
 
 .block:hover {
