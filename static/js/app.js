@@ -283,7 +283,7 @@ document.addEventListener("DOMContentLoaded", () => {
       } else if (col === columns - 1) {
         xShift = -(Math.random() * 20); // right column shift inward
       } else {
-        xShift = Math.random() * 15 - 15; // middle column shift both ways
+        xShift = Math.random() * 20 - 10; // middle column shift both ways
       }
     }
 
