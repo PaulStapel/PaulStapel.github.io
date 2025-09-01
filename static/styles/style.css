@@ -1184,46 +1184,21 @@ Trial, with blocks
     ) !important;
 }
 
-/* Pickup animation */
-.block.picking-up {
-  animation: picking-up 0.4s ease;
-}
-
-@keyframes picking-up {
-  0%   { transform: translate(var(--base-left), var(--base-top)) rotate(0deg); }
-  25%  { transform: translate(calc(var(--base-left) + 2px), var(--base-top)) rotate(2deg); }
-  50%  { transform: translate(calc(var(--base-left) - 2px), var(--base-top)) rotate(-2deg); }
-  75%  { transform: translate(calc(var(--base-left) + 1px), var(--base-top)) rotate(1deg); }
-  100% { transform: translate(var(--base-left), var(--base-top)) rotate(0deg); }
-}
-
-.block.putdown-wobble-class {
-  animation: putdown-wobble 0.4s ease;
-}
-
-@keyframes putdown-wobble {
-  0%   { transform: rotate(0deg) translate(var(--base-left), var(--base-top)) scale(1.1); }
-  25%  { transform: rotate(-3deg) translate(var(--base-left), var(--base-top)) scale(0.95); }
-  50%  { transform: rotate(2deg) translate(var(--base-left), var(--base-top)) scale(1.05); }
-  75%  { transform: rotate(-1deg) translate(var(--base-left), var(--base-top)) scale(0.98); }
-  100% { transform: rotate(0deg) translate(var(--base-left), var(--base-top)) scale(1); }
-}
-
 /* State: locked */
 .block.locked {
   transform: rotate(0deg) translate(var(--base-left), var(--base-top)) !important;
 }
 
-/* Make sure content stays visible outside bounds */
-.block {
+/* IS this needed?  */
+/* .block {
   overflow: visible !important;
   position: relative;
   z-index: 2;
-}
-#contentBlocks {
+} */
+/* #contentBlocks {
   overflow: visible !important;
   position: relative;
-}
+} */
 
 /* Pin */
 .block .pin {
@@ -1238,7 +1213,6 @@ Trial, with blocks
   box-shadow: 0 2px 4px rgba(0,0,0,0.4);
   z-index: 3;
 }
-
 
 .block h2 {
   margin-top: 0;
