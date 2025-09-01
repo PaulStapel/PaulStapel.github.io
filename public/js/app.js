@@ -240,7 +240,7 @@ if (window.location.pathname.includes('/daily-drop/')) {
   setInterval(createRaindrop, 50);
 } 
 
-// Blocks Needs fixes!
+// Blocks
 
 function isMobile() {
   const regex = /Mobi|Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i;
@@ -269,39 +269,49 @@ document.addEventListener("DOMContentLoaded", () => {
 
   container.innerHTML = "";
 
-  const columns = 3; 
-  if(isMobile()){
-    columns = 1;
+  let columns = 3; 
+  if (isMobile()) {
+    columns = 1; // 1 column for mobile
   }
 
   const colHeights = Array(columns).fill(0);
-  const colCounts = Array(columns).fill(0); // track number of blocks per column
+  const colCounts = Array(columns).fill(0);
 
-  // Shuffle blocks for random placement
+  // Shuffle blocks randomly
   blocks.sort(() => Math.random() - 0.5);
 
-
   blocks.forEach(block => {
-    const minCount = Math.min(...colCounts);
-    const allowedCols = colCounts.map((count, i) => count - minCount < 2 ? i : -1).filter(i => i >= 0);
-    if(isMobile()){
-      allowedCols = [0];
+    // Determine allowed columns
+    let minCount = Math.min(...colCounts);
+    let allowedCols = colCounts
+      .map((count, i) => count - minCount < 2 ? i : -1)
+      .filter(i => i >= 0);
+
+    if (columns === 1) {
+      allowedCols = [0]; // force single column on mobile
     }
+
     const col = allowedCols[Math.floor(Math.random() * allowedCols.length)];
-    if (col === 0) {
-      xShift = Math.random() * 3; 
-    } else if (col === columns - 1) {
-      xShift = -(Math.random() * 3); 
-    } else {
-      xShift = Math.random() * 3 - 3;
+
+    // Determine xShift based on column
+    let xShift = 0;
+    if (columns > 1) {
+      if (col === 0) {
+        xShift = Math.random() * 3; // left column shift inward
+      } else if (col === columns - 1) {
+        xShift = -(Math.random() * 3); // right column shift inward
+      } else {
+        xShift = Math.random() * 2 - 1; // middle column shift both ways
+      }
     }
+
+    // Vertical shift
     const yShift = Math.random() * 3; 
 
-    // Ensure block fits within container width
     block.style.position = "absolute";
     block.style.width = `calc(${100 / columns}% - 20px)`; 
-    block.style.left = `calc(${col * 33.33}% + 10px + ${xShift}%)`; 
-    block.style.top = `calc(${yShift}% + ${colHeights[col]}px)`;
+    block.style.left = `calc(${col * 100 / columns}% + 10px + ${xShift}%)`;
+    block.style.top = `calc(${colHeights[col]}px + ${yShift}px)`;
     block.style.transform = `rotate(${Math.random() * 3 - 1}deg)`;
     block.style.padding = "10px";
 
@@ -314,5 +324,3 @@ document.addEventListener("DOMContentLoaded", () => {
   container.style.position = "relative";
   container.style.minHeight = Math.max(...colHeights) + "px";
 });
-
-
