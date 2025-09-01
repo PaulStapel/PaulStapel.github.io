@@ -284,15 +284,24 @@ document.addEventListener("DOMContentLoaded", () => {
   blocks.forEach(block => {
     const minCount = Math.min(...colCounts);
     const allowedCols = colCounts.map((count, i) => count - minCount < 2 ? i : -1).filter(i => i >= 0);
+    if(isMobile()){
+      allowedCols = [0];
+    }
     const col = allowedCols[Math.floor(Math.random() * allowedCols.length)];
-    const xShift = Math.random() * 5;
-    const yShift = Math.random() * 5; 
+    if (col === 0) {
+      xShift = Math.random() * 3; 
+    } else if (col === columns - 1) {
+      xShift = -(Math.random() * 3); 
+    } else {
+      xShift = Math.random() * 3 - 3;
+    }
+    const yShift = Math.random() * 3; 
 
     // Ensure block fits within container width
     block.style.position = "absolute";
     block.style.width = `calc(${100 / columns}% - 20px)`; 
     block.style.left = `calc(${col * 33.33}% + 10px + ${xShift}%)`; 
-    block.style.top = `calc(${xShift}% + ${colHeights[col]}px)`;
+    block.style.top = `calc(${yShift}% + ${colHeights[col]}px)`;
     block.style.transform = `rotate(${Math.random() * 3 - 1}deg)`;
     block.style.padding = "10px";
 
