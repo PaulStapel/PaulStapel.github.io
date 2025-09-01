@@ -226,6 +226,12 @@ function isMobile() {
   return regex.test(navigator.userAgent);
 }
 
+const handleAnimationEnd = (block, classesToRemove) => {
+  block.addEventListener("animationend", () => {
+    block.classList.remove(...classesToRemove);
+  }, { once: true });
+};
+
 document.addEventListener("DOMContentLoaded", () => {
   const container = document.getElementById("contentBlocks");
   const elements = Array.from(container.children);
@@ -299,6 +305,26 @@ document.addEventListener("DOMContentLoaded", () => {
     block.style.setProperty("--base-top", `calc(-1* ${yShift}px)`);
     block.style.setProperty("--base-left", `calc(-1 * ${xShift}px)`);
 
+    block.addEventListener("click", () => {
+      const pin = block.querySelector(".pin");
+
+      if (block.classList.contains("locked")) {
+        block.classList.remove("locked");
+        if (pin) {
+          pin.remove();
+        }
+      } else {
+        if (!pin) {
+          const newPin = document.createElement("div");
+          newPin.classList.add("pin");
+          block.appendChild(newPin);
+        }
+
+        block.classList.add("locked", "putdown-wobble-class", "animating");
+        handleAnimationEnd(block, ["putdown-wobble-class", "animating"]);
+      }
+    });
+
     container.appendChild(block);
 
     colHeights[col] += block.offsetHeight + 60; // spacing
@@ -323,3 +349,4 @@ document.addEventListener("DOMContentLoaded", () => {
   container.style.position = "relative";
   container.style.minHeight = Math.max(...colHeights) + "px";
 });
+

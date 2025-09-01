@@ -1170,11 +1170,11 @@ Trial, with blocks
   color: var(--text); 
   border: 4px solid black;  
 
-  /* Mario-style 3D shadow using pastel colors */
   box-shadow: 
     14px 14px 0 -4px #FFD1DC,  
     14px 14px 0 0 black;     
   transition: transform 0.3s ease;
+  cursor: pointer;
 }
 
 .block:hover {
@@ -1183,6 +1183,62 @@ Trial, with blocks
         calc(var(--base-top))
     ) !important;
 }
+
+/* Pickup animation */
+.block.picking-up {
+  animation: picking-up 0.4s ease;
+}
+
+@keyframes picking-up {
+  0%   { transform: translate(var(--base-left), var(--base-top)) rotate(0deg); }
+  25%  { transform: translate(calc(var(--base-left) + 2px), var(--base-top)) rotate(2deg); }
+  50%  { transform: translate(calc(var(--base-left) - 2px), var(--base-top)) rotate(-2deg); }
+  75%  { transform: translate(calc(var(--base-left) + 1px), var(--base-top)) rotate(1deg); }
+  100% { transform: translate(var(--base-left), var(--base-top)) rotate(0deg); }
+}
+
+.block.putdown-wobble-class {
+  animation: putdown-wobble 0.4s ease;
+}
+
+@keyframes putdown-wobble {
+  0%   { transform: rotate(0deg) translate(var(--base-left), var(--base-top)) scale(1.1); }
+  25%  { transform: rotate(-3deg) translate(var(--base-left), var(--base-top)) scale(0.95); }
+  50%  { transform: rotate(2deg) translate(var(--base-left), var(--base-top)) scale(1.05); }
+  75%  { transform: rotate(-1deg) translate(var(--base-left), var(--base-top)) scale(0.98); }
+  100% { transform: rotate(0deg) translate(var(--base-left), var(--base-top)) scale(1); }
+}
+
+/* State: locked */
+.block.locked {
+  transform: rotate(0deg) translate(var(--base-left), var(--base-top)) !important;
+}
+
+/* Make sure content stays visible outside bounds */
+.block {
+  overflow: visible !important;
+  position: relative;
+  z-index: 2;
+}
+#contentBlocks {
+  overflow: visible !important;
+  position: relative;
+}
+
+/* Pin */
+.block .pin {
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 16px;
+  height: 16px;
+  background: radial-gradient(circle at 30% 30%, #d33, #900);
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.4);
+  z-index: 3;
+}
+
 
 .block h2 {
   margin-top: 0;

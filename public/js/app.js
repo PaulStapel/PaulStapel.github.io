@@ -226,6 +226,12 @@ function isMobile() {
   return regex.test(navigator.userAgent);
 }
 
+const handleAnimationEnd = (block, classesToRemove) => {
+  block.addEventListener("animationend", () => {
+    block.classList.remove(...classesToRemove);
+  }, { once: true });
+};
+
 document.addEventListener("DOMContentLoaded", () => {
   const container = document.getElementById("contentBlocks");
   const elements = Array.from(container.children);
@@ -277,14 +283,14 @@ document.addEventListener("DOMContentLoaded", () => {
     if (columns > 1) {
       if (col === 0) {
         xShift = Math.random() * 20; // left column shift inward
-        if(isMobile()){
-          xShift = 0;
-        }
       } else if (col === columns - 1) {
         xShift = -(Math.random() * 20); // right column shift inward
       } else {
-        xShift = Math.random() * 15 - 15; // middle column shift both ways
+        xShift = Math.random() * 20 - 10; // middle column shift both ways
       }
+    }
+    if (isMobile()) {
+      xShift = 4;
     }
 
     // Vertical shift
@@ -292,12 +298,32 @@ document.addEventListener("DOMContentLoaded", () => {
 
     block.style.position = "absolute";
     block.style.width = `calc(${100 / columns}% - 20px)`; 
-    block.style.left = `calc(${col * 100 / columns}%  + ${xShift}px)`;
-    block.style.top = `calc(${colHeights[col]}px + ${yShift}px + 4px)`;
+    block.style.left = `calc(${col * 100 / columns}%  + ${xShift}px + 5px)`;
+    block.style.top = `calc(${colHeights[col]}px + ${yShift}px + 5px)`;
     block.style.transform = `rotate(${Math.random() * 6 - 3}deg)`;
     block.style.padding = "10px";
     block.style.setProperty("--base-top", `calc(-1* ${yShift}px)`);
     block.style.setProperty("--base-left", `calc(-1 * ${xShift}px)`);
+
+    block.addEventListener("click", () => {
+      const pin = block.querySelector(".pin");
+
+      if (block.classList.contains("locked")) {
+        block.classList.remove("locked");
+        if (pin) {
+          pin.remove();
+        }
+      } else {
+        if (!pin) {
+          const newPin = document.createElement("div");
+          newPin.classList.add("pin");
+          block.appendChild(newPin);
+        }
+
+        block.classList.add("locked", "putdown-wobble-class", "animating");
+        handleAnimationEnd(block, ["putdown-wobble-class", "animating"]);
+      }
+    });
 
     container.appendChild(block);
 
@@ -323,3 +349,4 @@ document.addEventListener("DOMContentLoaded", () => {
   container.style.position = "relative";
   container.style.minHeight = Math.max(...colHeights) + "px";
 });
+
