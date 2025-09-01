@@ -292,8 +292,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     block.style.position = "absolute";
     block.style.width = `calc(${100 / columns}% - 20px)`; 
-    block.style.left = `calc(${col * 100 / columns}%  + ${xShift}px) + 4px`;
-    block.style.top = `calc(${colHeights[col]}px + ${yShift}px + 4px)`;
+    block.style.left = `calc(${col * 100 / columns}%  + ${xShift}px + 5px)`;
+    block.style.top = `calc(${colHeights[col]}px + ${yShift}px + 5px)`;
     block.style.transform = `rotate(${Math.random() * 6 - 3}deg)`;
     block.style.padding = "10px";
     block.style.setProperty("--base-top", `calc(-1* ${yShift}px)`);
