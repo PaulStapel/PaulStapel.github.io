@@ -16,6 +16,13 @@
       <description>&lt;h2 id=&#34;today-i-learned&#34;&gt;Today I Learned&lt;/h2&gt;&#xA;&lt;p&gt;How to use generic structs in C# to create interfaces that don&amp;rsquo;t need an instance of a class to still store information about that class.&lt;/p&gt;&#xA;&lt;h2 id=&#34;thought-i-thought&#34;&gt;Thought I Thought&lt;/h2&gt;&#xA;&lt;p&gt;Would a monkey think my phone is a fruit? (hopefully not)&lt;/p&gt;&#xA;&lt;h2 id=&#34;todays-media&#34;&gt;Today&amp;rsquo;s Media&lt;/h2&gt;&#xA;&lt;p&gt;I started watching &amp;ldquo;The good place&amp;rdquo; on Netflix after having it recommended, and read two chapters of &amp;ldquo;Press reset&amp;rdquo; (2 more to go).&lt;/p&gt;&#xA;&lt;h2 id=&#34;song-of-the-day&#34;&gt;Song Of The Day&lt;/h2&gt;&#xA;&lt;p&gt;Again, it is &lt;a href=&#34;https://www.youtube.com/watch?v=B6W3pvmWmX0&#34;&gt;Lucky, by TOMOO&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
+      <title>September 1, 2025</title>
+      <link>https://paulstapel.com/daily-drop/25-09-01/</link>
+      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://paulstapel.com/daily-drop/25-09-01/</guid>
+      <description>&lt;h2 id=&#34;today-i-learned&#34;&gt;Today I Learned&lt;/h2&gt;&#xA;&lt;p&gt;I played with randomisation in Javascript to make this template, and learned how to convert my usual lay-out to new HTML elements.&lt;/p&gt;&#xA;&lt;h2 id=&#34;thought-i-thought&#34;&gt;Thought I Thought&lt;/h2&gt;&#xA;&lt;p&gt;Umbrellas are really cool weapons if you hold them like a baseball bat&lt;/p&gt;&#xA;&lt;h2 id=&#34;todays-media&#34;&gt;Today&amp;rsquo;s Media&lt;/h2&gt;&#xA;&lt;p&gt;Watched &amp;ldquo;City the animation&amp;rdquo; by KyoAni, which I still find incredibly wholesome. Read a chapter of &amp;ldquo;Press reset&amp;rdquo; by Jason Schreier, which is more of a gut-punch in terms of what the Game industry is like.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Sore Loser</title>
       <link>https://paulstapel.com/meditation/sore-loser/</link>
       <pubDate>Mon, 25 Aug 2025 22:20:43 +0800</pubDate>
@@ -882,13 +889,6 @@
       <pubDate>Tue, 02 Apr 2024 17:59:14 +0200</pubDate>
       <guid>https://paulstapel.com/hello-world/</guid>
       <description>&lt;p&gt;Welcome to my &lt;a href=&#34;https://paulstapel.github.io&#34;&gt;blog&lt;/a&gt;! This first post gives a basic overview of what this website is about, and why I started it.&lt;/p&gt;&#xA;&lt;h2 id=&#34;pauls-particles&#34;&gt;Paul&amp;rsquo;s Particles&lt;/h2&gt;&#xA;&lt;p&gt;This is a personal website containing everything I want to share with the world. It is my aim to break these topics down to their fundamentals. In doing so, this website can become a repository of neatly contained packages (particles, if you will) of my knowledge and experience. I try to be as honest as possible in my writing, as this is the most insightful for both me and you.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>September 1, 2025</title>
-      <link>https://paulstapel.com/daily-drop/25-09-01/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://paulstapel.com/daily-drop/25-09-01/</guid>
-      <description>&lt;h2 id=&#34;today-i-learned&#34;&gt;Today I Learned&lt;/h2&gt;&#xA;&lt;p&gt;I played with randomisation in Javascript to make this template, and learned how to convert my usual lay-out to new HTML elements.&lt;/p&gt;&#xA;&lt;h2 id=&#34;thought-i-thought&#34;&gt;Thought I Thought&lt;/h2&gt;&#xA;&lt;p&gt;Umbrellas are really cool weapons if you hold them like a baseball bat&lt;/p&gt;&#xA;&lt;h2 id=&#34;todays-media&#34;&gt;Today&amp;rsquo;s Media&lt;/h2&gt;&#xA;&lt;p&gt;Watched &amp;ldquo;City the animation&amp;rdquo; by KyoAni, which I still find incredibly wholesome. Read a chapter of &amp;ldquo;Press reset&amp;rdquo; by Jason Schreier, which is more of a gut-punch in terms of what the Game industry is like.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

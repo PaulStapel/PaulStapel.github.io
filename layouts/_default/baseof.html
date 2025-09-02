@@ -7,11 +7,74 @@
 
 <html lang="en">
 <head>
+    <title>{{ if .Title }}{{ .Title }} | {{ .Site.Title }}{{ else }}{{ .Site.Title }}{{ end }}</title>
+    <!-- Don't display breadcrumbs, just use for SEO.  -->
+    <nav aria-label="Breadcrumb" style="display:none"> 
+        <ol class="breadcrumb">
+            <li><a href="{{ .Site.BaseURL }}">Home</a></li>
+            {{ $sections := .CurrentSection.Sections }}
+            {{ with .CurrentSection }}
+            <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+            {{ end }}
+            <li aria-current="page">{{ .Title }}</li>
+        </ol>
+    </nav>
+    <meta name="description" content="{{ with .Params.description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
     <meta charset="UTF-8">
+    <meta property="og:title" content="{{ .Title }}" />
+    <meta property="og:description" content="{{ with .Params.description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="{{ .Permalink }}" />
+    <meta property="og:image" content="{{ with .Params.featuredImage }}{{ . }}{{ else }}https://paulstapel.com/favicons/favicon-196x196.png{{ end }}" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="{{ .Title }}" />
+    <meta name="twitter:description" content="{{ with .Params.description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}" />
+    <meta name="twitter:image" content="{{ with .Params.featuredImage }}{{ . }}{{ else }}https://paulstapel.com/favicons/favicon-196x196.png{{ end }}" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles/style.css">
     <link rel="stylesheet" href="/styles/syntax.css">
-    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Lato" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    </noscript>
+
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "{{ .Title }}",
+        "description": "{{ with .Params.description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}",
+        "image": "{{ with .Params.featuredImage }}{{ . }}{{ else }}https://paulstapel.com/favicons/favicon-196x196.png{{ end }}",
+        "author": {
+            "@type": "Person",
+            "name": "Paul Stapel"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "Paul Stapel",
+            "logo": {
+            "@type": "ImageObject",
+            "url": "https://paulstapel.com/favicons/favicon-196x196.png"
+            }
+        },
+        "datePublished": "{{ .Date.Format "2006-01-02" }}",
+        "dateModified": "{{ .Lastmod.Format "2006-01-02" }}",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "{{ .Permalink }}"
+        },
+        "articleSection": [
+            {{ range $i, $cat := .GetTerms "categories" }}{{ if $i }}, {{ end }}"{{ $cat.Name }}"{{ end }}
+        ]
+    }
+    </script>
+
+    <link rel="canonical" href="{{ .Permalink }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <meta name="robots" content="index, follow">
+
 
     {{ if .Params.math }}{{ partialCached "helpers/katex.html" . }}{{ end }}
 
@@ -45,7 +108,6 @@
         font-family: 'Lato';
     }
     </style>
-    <title>Paul's Particles</title>
 </head>
 <body>
     <div class="container">

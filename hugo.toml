@@ -12,8 +12,9 @@ title = "Paul's Particles"
 [taxonomies]
     category = "categories"
     
+enableRobotsTXT = true
 [outputs]
-    home = ["HTML", "RSS", "JSON"]
+  home = ["HTML", "RSS", "JSON"]
 
 [markup]
   [markup.highlight]

@@ -1271,3 +1271,14 @@ Trial, with blocks
 .raindrop-svg{
   fill: #C1E1F6;
 }
+
+.social {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem; /* space between icons/buttons */
+  margin-top: 0.5rem;
+}
+
+.social a:hover, .social button:hover {
+  transform: translateY(-2px);
+}
