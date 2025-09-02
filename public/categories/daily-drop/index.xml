@@ -6,7 +6,15 @@
     <description>Recent content in Daily Drop on Paul&#39;s Particles</description>
     <generator>Hugo</generator>
     <language>en-us</language>
+    <lastBuildDate>Tue, 02 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://paulstapel.com/categories/daily-drop/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>September 2, 2025</title>
+      <link>https://paulstapel.com/daily-drop/25-09-02/</link>
+      <pubDate>Tue, 02 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://paulstapel.com/daily-drop/25-09-02/</guid>
+      <description>&lt;h2 id=&#34;today-i-learned&#34;&gt;Today I Learned&lt;/h2&gt;&#xA;&lt;p&gt;How to use generic structs in C# to create interfaces that don&amp;rsquo;t need an instance of a class to still store information about that class.&lt;/p&gt;&#xA;&lt;h2 id=&#34;thought-i-thought&#34;&gt;Thought I Thought&lt;/h2&gt;&#xA;&lt;p&gt;Would a monkey think my phone is a fruit? (hopefully not)&lt;/p&gt;&#xA;&lt;h2 id=&#34;todays-media&#34;&gt;Today&amp;rsquo;s Media&lt;/h2&gt;&#xA;&lt;p&gt;I started watching &amp;ldquo;The good place&amp;rdquo; on Netflix after having it recommended, and read two chapters of &amp;ldquo;Press reset&amp;rdquo; (2 more to go).&lt;/p&gt;&#xA;&lt;h2 id=&#34;song-of-the-day&#34;&gt;Song Of The Day&lt;/h2&gt;&#xA;&lt;p&gt;Again, it is &lt;a href=&#34;https://www.youtube.com/watch?v=B6W3pvmWmX0&#34;&gt;Lucky, by TOMOO&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>September 1, 2025</title>
       <link>https://paulstapel.com/daily-drop/25-09-01/</link>

@@ -1174,7 +1174,6 @@ Trial, with blocks
     14px 14px 0 -4px #FFD1DC,  
     14px 14px 0 0 black;     
   transition: transform 0.3s ease;
-  cursor: pointer;
 }
 
 .block:hover {
@@ -1184,42 +1183,17 @@ Trial, with blocks
     ) !important;
 }
 
-/* Pickup animation */
-.block.picking-up {
-  animation: picking-up 0.4s ease;
-}
-
-@keyframes picking-up {
-  0%   { transform: translate(var(--base-left), var(--base-top)) rotate(0deg); }
-  25%  { transform: translate(calc(var(--base-left) + 2px), var(--base-top)) rotate(2deg); }
-  50%  { transform: translate(calc(var(--base-left) - 2px), var(--base-top)) rotate(-2deg); }
-  75%  { transform: translate(calc(var(--base-left) + 1px), var(--base-top)) rotate(1deg); }
-  100% { transform: translate(var(--base-left), var(--base-top)) rotate(0deg); }
-}
-
-.block.putdown-wobble-class {
-  animation: putdown-wobble 0.4s ease;
-}
-
-@keyframes putdown-wobble {
-  0%   { transform: rotate(0deg) translate(var(--base-left), var(--base-top)) scale(1.1); }
-  25%  { transform: rotate(-3deg) translate(var(--base-left), var(--base-top)) scale(0.95); }
-  50%  { transform: rotate(2deg) translate(var(--base-left), var(--base-top)) scale(1.05); }
-  75%  { transform: rotate(-1deg) translate(var(--base-left), var(--base-top)) scale(0.98); }
-  100% { transform: rotate(0deg) translate(var(--base-left), var(--base-top)) scale(1); }
-}
-
 /* State: locked */
 .block.locked {
   transform: rotate(0deg) translate(var(--base-left), var(--base-top)) !important;
 }
 
-/* Make sure content stays visible outside bounds */
+/* IS this needed?  */
 .block {
   overflow: visible !important;
   position: relative;
   z-index: 2;
-}
+} 
 #contentBlocks {
   overflow: visible !important;
   position: relative;
@@ -1239,7 +1213,6 @@ Trial, with blocks
   z-index: 3;
 }
 
-
 .block h2 {
   margin-top: 0;
   background: var(--bgSoft);
@@ -1249,18 +1222,6 @@ Trial, with blocks
   font-weight: 700;
   letter-spacing: 0.5px;
 }
-
-.block:nth-child(1)  { box-shadow: 14px 14px 0 -4px #FFD1DC, 14px 14px 0 0 black; }
-.block:nth-child(2)  { box-shadow: 14px 14px 0 -4px #F6F1C1, 14px 14px 0 0 black; }  
-.block:nth-child(3)  { box-shadow: 14px 14px 0 -4px #C1F6D9, 14px 14px 0 0 black; }
-.block:nth-child(4)  { box-shadow: 14px 14px 0 -4px #C1D4F6, 14px 14px 0 0 black; }   
-.block:nth-child(5)  { box-shadow: 14px 14px 0 -4px #E1C1F6, 14px 14px 0 0 black; }   
-.block:nth-child(6)  { box-shadow: 14px 14px 0 -4px #F6C1C1, 14px 14px 0 0 black; }   
-.block:nth-child(7)  { box-shadow: 14px 14px 0 -4px #ffdfba, 14px 14px 0 0 black; }   
-.block:nth-child(8)  { box-shadow: 14px 14px 0 -4px #eb8b68, 14px 14px 0 0 black; }   
-.block:nth-child(9)  { box-shadow: 14px 14px 0 -4px #95b3c0, 14px 14px 0 0 black; }   
-.block:nth-child(10) { box-shadow: 14px 14px 0 -4px #F6E1C1, 14px 14px 0 0 black; }   
-.block:nth-child(11) { box-shadow: 14px 14px 0 -4px #C1E1F6, 14px 14px 0 0 black; }   
 
 .block p {
   position: relative;
@@ -1289,6 +1250,23 @@ Trial, with blocks
 .block:nth-child(9) p::before { background-color: #95b3c0; }
 .block:nth-child(10) p::before { background-color: #F6E1C1; }
 .block:nth-child(11) p::before { background-color: #C1E1F6; }
+.block:nth-child(12) p::before { background-color: #A2AF9B; }
+.block:nth-child(13) p::before { background-color: #DCCFC0; }
+
+
+.block:nth-child(1)  { box-shadow: 14px 14px 0 -4px #FFD1DC, 14px 14px 0 0 black; }
+.block:nth-child(2)  { box-shadow: 14px 14px 0 -4px #F6F1C1, 14px 14px 0 0 black; }  
+.block:nth-child(3)  { box-shadow: 14px 14px 0 -4px #C1F6D9, 14px 14px 0 0 black; }
+.block:nth-child(4)  { box-shadow: 14px 14px 0 -4px #C1D4F6, 14px 14px 0 0 black; }   
+.block:nth-child(5)  { box-shadow: 14px 14px 0 -4px #E1C1F6, 14px 14px 0 0 black; }   
+.block:nth-child(6)  { box-shadow: 14px 14px 0 -4px #F6C1C1, 14px 14px 0 0 black; }   
+.block:nth-child(7)  { box-shadow: 14px 14px 0 -4px #ffdfba, 14px 14px 0 0 black; }   
+.block:nth-child(8)  { box-shadow: 14px 14px 0 -4px #eb8b68, 14px 14px 0 0 black; }   
+.block:nth-child(9)  { box-shadow: 14px 14px 0 -4px #95b3c0, 14px 14px 0 0 black; }   
+.block:nth-child(10) { box-shadow: 14px 14px 0 -4px #F6E1C1, 14px 14px 0 0 black; }   
+.block:nth-child(11) { box-shadow: 14px 14px 0 -4px #C1E1F6, 14px 14px 0 0 black; }   
+.block:nth-child(12) { box-shadow: 14px 14px 0 -4px #A2AF9B, 14px 14px 0 0 black; }   
+.block:nth-child(13) { box-shadow: 14px 14px 0 -4px #DCCFC0, 14px 14px 0 0 black; }   
 
 .raindrop-svg{
   fill: #C1E1F6;

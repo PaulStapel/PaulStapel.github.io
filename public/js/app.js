@@ -305,25 +305,23 @@ document.addEventListener("DOMContentLoaded", () => {
     block.style.setProperty("--base-top", `calc(-1* ${yShift}px)`);
     block.style.setProperty("--base-left", `calc(-1 * ${xShift}px)`);
 
-    block.addEventListener("click", () => {
-      const pin = block.querySelector(".pin");
+    // block.addEventListener("click", () => {
+    //   const pin = block.querySelector(".pin");
 
-      if (block.classList.contains("locked")) {
-        block.classList.remove("locked");
-        if (pin) {
-          pin.remove();
-        }
-      } else {
-        if (!pin) {
-          const newPin = document.createElement("div");
-          newPin.classList.add("pin");
-          block.appendChild(newPin);
-        }
-
-        block.classList.add("locked", "putdown-wobble-class", "animating");
-        handleAnimationEnd(block, ["putdown-wobble-class", "animating"]);
-      }
-    });
+    //   if (block.classList.contains("locked")) {
+    //     block.classList.remove("locked");
+    //     if (pin) {
+    //       pin.remove();
+    //     }
+    //   } else {
+    //     if (!pin) {
+    //       const newPin = document.createElement("div");
+    //       newPin.classList.add("pin");
+    //       block.appendChild(newPin);
+    //     }
+    //     block.classList.add("locked");
+    //   }
+    // });
 
     container.appendChild(block);
 

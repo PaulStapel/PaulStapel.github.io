@@ -8,7 +8,7 @@
 {{ end }}
 {{ else }}
 <div class="list">
-    {{ range .Pages}}
+    {{ range sort .Pages "Date" "desc"}}
       <div class="listItem">
           <div class="listItemTexts">
             <h1 class="listItemTitle">

@@ -6,8 +6,15 @@
     <description>Recent content in Categories on Paul&#39;s Particles</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 25 Aug 2025 22:20:43 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 02 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://paulstapel.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Daily Drop</title>
+      <link>https://paulstapel.com/categories/daily-drop/</link>
+      <pubDate>Tue, 02 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://paulstapel.com/categories/daily-drop/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Meditation</title>
       <link>https://paulstapel.com/categories/meditation/</link>
@@ -391,13 +398,6 @@
       <link>https://paulstapel.com/categories/general/</link>
       <pubDate>Tue, 02 Apr 2024 17:59:14 +0200</pubDate>
       <guid>https://paulstapel.com/categories/general/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Daily Drop</title>
-      <link>https://paulstapel.com/categories/daily-drop/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://paulstapel.com/categories/daily-drop/</guid>
       <description></description>
     </item>
   </channel>
