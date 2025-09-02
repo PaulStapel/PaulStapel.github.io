@@ -11,17 +11,20 @@ categories:
 
 ## Today's Media
 
-## Song of the Day
+## Song Of The Day
+
+## Today's Question
+
+## Note To Self
 
 ## A Fascinating World
 
 ## Complaining Corner
 
-## My Patch Notes
-
 ## Mental Weather
 
-## Special thanks go to 
+## Special Thanks To 
 
-## What tomorrow holds
+## What Tomorrow Holds
 
+## Sacred Snack
