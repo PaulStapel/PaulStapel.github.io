@@ -29,5 +29,3 @@ categories:
 ## What Tomorrow Holds
 
 ## Sacred Snack
-
-## Chinese Homework
