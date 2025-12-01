@@ -8,19 +8,21 @@ categories:
 
 ## Today I Learned  
 
+## Biography worthy
+
 ## Thought I Thought
 
 ## Today's Media
 
 ## Song Of The Day
 
-## Today's Question
-
 ## Note To Self
 
-## A Fascinating World
+## Game inspiration
 
-## Complaining Corner
+## Language Lounge
+
+## Complimenting Corner
 
 ## Mental Weather
 
@@ -28,4 +30,4 @@ categories:
 
 ## What Tomorrow Holds
 
-## Sacred Snack
+## Stupendous Snack

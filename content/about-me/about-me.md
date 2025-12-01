@@ -14,16 +14,17 @@ Hiya, I'm Paul! I'm a student-writer-programmer hybrid specializing in science. 
 ## Reach out
 If you want to reach out, you can currently contact me @ <contact@paulstapel.com>.
 
-Me and my brother also have an inactive wordpress site about Physics. If you want to check it out, [here's the link!](https://phyzards.com). You can also reach me there. 
-
 ## Currently working on
 I am currently following these courses at Utrecht University: 
-* None, I have summer break!
+* Functional analysis
+* Advanced Quantum Mechanics
+* Concurrency
+* Introduction to machine learning
 
 \
-On the side, I work on this blog and some personal projects.
+On the side, I work on this blog, learning Mandarin and some personal projects revolving game dev.
 
-I also work as a part-time data analyst for Simplex, a Dutch consultancy agency that specialises in AFAS-software. In this job, I design and develop dashboards with Power Bi.
+I also work as a part-time data analyst for Simplex, a Dutch consultancy agency that specialises in AFAS-software. As part of this job, I design and develop dashboards with Power Bi.
 
 ## Interests
 These are some things I really enjoy talking/writing about. I'm always up for a chat!
@@ -40,7 +41,7 @@ These are some things I really enjoy talking/writing about. I'm always up for a 
 The skills one invests their time in can tell you a lot about someone. These are things I am familiar with. I list a lot of things, but this is not meant to be a flex or part of some CV or whatever. I just like to share the things I have some knowledge of and keep track for personal reasons. In each category, skills are sorted by how comfortable I am with them. 
 
 ### Languages
-I can speak Dutch and English proficiently, and can comprehend and (poorly) speak German.
+I can speak Dutch and English proficiently, and can comprehend and (poorly) speak German and Mandarin.
 * **C#** (Basic desktop apps, algorithmic problem solving, creating simple games)
 * **Python** (data-analysis, scientific computing, algorithmic problem solving)
 * **SQL** (Querying and simple database creation)
@@ -73,9 +74,9 @@ I can speak Dutch and English proficiently, and can comprehend and (poorly) spea
 * **Asperite** ( Disclaimer: I am very bad at pixel art :/ )
 
 ### Things I'd like to learn
-* **Docker** (I've been wanting to get into containerising, so that I can run some FOSS more easily locally for example)
 * **Mandarin** (A lot of interesting culture and literature is in Mandarin, and I'm slowly learning the language) 
 * **Rust** (Rust sounds like an interesting language, and I'd love to learn it)
 * **Bevy** (Part of why I'd like to learn Rust is for the bevy framework, as I love the concepts of ECS)
+* **Godot** (For prototyping game ideas in a quick fashion)
 * **Blender** (I like being creative I suppose)
 * **Some web framework** (Not sure yet which one, but I like creating things, and webapps are a thing)
