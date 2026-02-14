@@ -348,3 +348,73 @@ document.addEventListener("DOMContentLoaded", () => {
   container.style.minHeight = Math.max(...colHeights) + "px";
 });
 
+function makeWallBlocks(containerId = "wallBlocks") {
+  const container = document.getElementById(containerId);
+  if (!container) return;
+  
+  const elements = Array.from(container.children);
+  
+  const wrapper = document.createElement("div");
+  wrapper.classList.add("timeline-wrapper");
+  
+  const sessionsList = document.createElement("ul");
+  sessionsList.classList.add("sessions");
+  
+  let currentTime = null;
+  let entries = [];
+  
+  elements.forEach(el => {
+    if (el.tagName === "H2") {
+      currentTime = el.textContent.trim();
+    } else if (currentTime && (el.tagName === "P" || el.textContent.trim())) {
+      entries.push({
+        time: currentTime,
+        content: el.innerHTML || el.textContent
+      });
+      currentTime = null;
+    }
+  });
+  
+  entries.reverse();
+  
+  entries.forEach(entry => {
+    const li = document.createElement("li");
+    
+    const timeDiv = document.createElement("div");
+    timeDiv.classList.add("time");
+    timeDiv.textContent = entry.time;
+    
+    const contentP = document.createElement("p");
+    contentP.innerHTML = entry.content;
+    
+    // Add wall SVG icon
+    const wallSvg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+    wallSvg.classList.add("wall-svg");
+    wallSvg.setAttribute("width", "24");
+    wallSvg.setAttribute("height", "24");
+    wallSvg.setAttribute("viewBox", "-1 -1 26 26"); 
+    wallSvg.setAttribute("overflow", "visible");
+
+    const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+    path.setAttribute("d", "M2 4h4v4H2V4zm6 0h4v4H8V4zm6 0h4v4h-4V4zm6 0h4v4h-4V4zM5 10h4v4H5v-4zm6 0h4v4h-4v-4zm6 0h4v4h-4v-4zM2 16h4v4H2v-4zm6 0h4v4H8v-4zm6 0h4v4h-4v-4zm6 0h4v4h-4v-4z");
+    path.setAttribute("stroke", "rgba(0, 0, 0, 0.8)");
+    path.setAttribute("stroke-width", "0.5");
+    path.setAttribute("stroke-linejoin", "miter");
+    path.setAttribute("fill-rule", "evenodd");
+
+    wallSvg.appendChild(path);
+    contentP.appendChild(wallSvg);
+    
+    li.appendChild(timeDiv);
+    li.appendChild(contentP);
+    sessionsList.appendChild(li);
+  });
+  
+  wrapper.appendChild(sessionsList);
+  container.innerHTML = "";
+  container.appendChild(wrapper);
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  makeWallBlocks("wallBlocks");
+});

@@ -4,7 +4,7 @@ date: "2025-04-13T22:07:06+02:00"
 draft: false
 description: "Ubi mens cessavit, ibi claritas"
 categories: 
-    - codex
+    - meditation
 list: "never" 
 ToC: "true"
 ---

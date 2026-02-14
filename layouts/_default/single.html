@@ -10,7 +10,7 @@
    <div class="singleHead">
       <div class="singleHeadText">
         <h1 class="singleHeadTitle">{{.Title}}</h1> 
-        {{ if eq .Type "daily-drop"}} 
+        {{ if or (eq .Type "daily-drop") (eq .Type "wall") }}
         {{ else }}
         <p class="singleHeadDesc">{{.Params.description}}</p>
         <time class="singleDate"><em>{{ dateFormat .Site.Params.dateFormat .Date }}</em></time>
@@ -30,10 +30,15 @@
       </div>
     {{ end }}
     {{ if eq .Type "daily-drop"}}
-      <div class="singleContent" id="contentBlocks">{{.Content}}</div>
+      <div class="singleContent" id="contentBlocks">{{ .Content }}</div>
+    {{ else if eq .Type "wall" }}
+      <div class="singleContent wall" id="wallBlocks">
+        {{ .Content }}
+      </div>
     {{ else }}
-      <div class="singleContent">{{.Content}}</div>
-    {{ end}}
+      <div class="singleContent">{{ .Content }}</div>
+    {{ end }}
+
    </div>
 </div>
 {{ end }}
