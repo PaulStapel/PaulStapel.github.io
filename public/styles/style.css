@@ -9,6 +9,10 @@
     --rain: #eae3d2; 
 }
 
+li::marker {
+  content: none !important;
+  display: none !important;
+}
 
 *{
     margin: 0;
@@ -1288,6 +1292,7 @@ Trial, with blocks
   padding: 0rem 0rem;
 }
 
+/* The wall */
 .timeline-wrapper {
   background: transparent;
   padding: 1rem;
@@ -1324,7 +1329,7 @@ Trial, with blocks
   border-radius: 50%;
   position: absolute;
   left: -12px; 
-  top: 0px; 
+  top: -1px;
   z-index: 3;
 }
 
@@ -1346,7 +1351,6 @@ Trial, with blocks
 /* Timestamp styling */
 .time {
   color: var(--header);
-  font-family: 'Poppins', sans-serif;
   font-weight: 600;
   font-size: 1.1rem;
   margin-bottom: 1rem;
@@ -1359,7 +1363,6 @@ Trial, with blocks
 .sessions p {
   position: relative;
   color: var(--text);
-  font-family: sans-serif;
   line-height: 1.6;
   margin: 0;
   font-size: 1.05rem;
@@ -1420,7 +1423,8 @@ Trial, with blocks
   .sessions li:before {
     width: 16px;
     height: 16px;
-    left: -14px;
+    left: -10px;
+    top: -1px;
   }
   
   .time {
