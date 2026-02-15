@@ -2,18 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Walls on Paul&#39;s Particles</title>
-    <link>https://paulstapel.com/wall/</link>
+    <link>http://localhost:1313/wall/</link>
     <description>Recent content in Walls on Paul&#39;s Particles</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 14 Feb 2026 22:59:08 +0100</lastBuildDate>
-    <atom:link href="https://paulstapel.com/wall/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 15 Feb 2026 12:39:26 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/wall/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Memristors</title>
+      <link>http://localhost:1313/wall/memristors-1771155566/</link>
+      <pubDate>Sun, 15 Feb 2026 12:39:26 +0100</pubDate>
+      <guid>http://localhost:1313/wall/memristors-1771155566/</guid>
+      <description>&lt;h2 id=&#34;1413&#34;&gt;14:13&lt;/h2&gt;&#xA;&lt;p&gt;Morning work is done, starting work on my thesis.&lt;/p&gt;&#xA;&lt;h2 id=&#34;1420&#34;&gt;14:20&lt;/h2&gt;&#xA;&lt;p&gt;Reading a paper on dynamical behaviour of iontonic memristor-capacitor networks. Need to decide on a model to use for my research. basically, we have an infinite-dimensional dynamical system based on a time-delay parameter, and a 2-dimensional system based on HP memristors.&lt;/p&gt;&#xA;&lt;h2 id=&#34;1432&#34;&gt;14:32&lt;/h2&gt;&#xA;&lt;p&gt;The trade-off that we are making is one of low dimensionality within our dynamical system and few components used in the final system.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Initial wall</title>
-      <link>https://paulstapel.com/wall/wall1/</link>
+      <link>http://localhost:1313/wall/wall1/</link>
       <pubDate>Sat, 14 Feb 2026 22:59:08 +0100</pubDate>
-      <guid>https://paulstapel.com/wall/wall1/</guid>
-      <description>&lt;h2 id=&#34;2200&#34;&gt;22:00&lt;/h2&gt;&#xA;&lt;p&gt;Start work on the wall&lt;/p&gt;&#xA;&lt;h2 id=&#34;2220&#34;&gt;22:20&lt;/h2&gt;&#xA;&lt;p&gt;Thinking up ideas and UI to borrow (steal)&lt;/p&gt;&#xA;&lt;h2 id=&#34;2240&#34;&gt;22:40&lt;/h2&gt;&#xA;&lt;p&gt;First working outline, looks like ass&lt;/p&gt;&#xA;&lt;h2 id=&#34;2320&#34;&gt;23:20&lt;/h2&gt;&#xA;&lt;p&gt;Ported javascript for drops to match this&lt;/p&gt;&#xA;&lt;h2 id=&#34;2340&#34;&gt;23:40&lt;/h2&gt;&#xA;&lt;p&gt;Used claude.ai for some small styling adjustments&lt;/p&gt;&#xA;&lt;h2 id=&#34;0000&#34;&gt;00:00&lt;/h2&gt;&#xA;&lt;p&gt;Done&lt;/p&gt;&#xA;&lt;h2 id=&#34;0014&#34;&gt;00:14&lt;/h2&gt;&#xA;&lt;p&gt;Ready to publish&lt;/p&gt;&#xA;&lt;h2 id=&#34;0022&#34;&gt;00:22&lt;/h2&gt;&#xA;&lt;p&gt;Forgot to add mobile support :/&lt;/p&gt;</description>
+      <guid>http://localhost:1313/wall/wall1/</guid>
+      <description>&lt;h2 id=&#34;2200&#34;&gt;22:00&lt;/h2&gt;&#xA;&lt;p&gt;Start work on the wall&lt;/p&gt;&#xA;&lt;h2 id=&#34;2220&#34;&gt;22:20&lt;/h2&gt;&#xA;&lt;p&gt;Thinking up ideas and UI to borrow (steal)&lt;/p&gt;&#xA;&lt;h2 id=&#34;2240&#34;&gt;22:40&lt;/h2&gt;&#xA;&lt;p&gt;First working outline, looks like ass&lt;/p&gt;&#xA;&lt;h2 id=&#34;2320&#34;&gt;23:20&lt;/h2&gt;&#xA;&lt;p&gt;Ported javascript for drops to match this&lt;/p&gt;&#xA;&lt;h2 id=&#34;2340&#34;&gt;23:40&lt;/h2&gt;&#xA;&lt;p&gt;Used claude.ai for some small styling adjustments&lt;/p&gt;&#xA;&lt;h2 id=&#34;0000&#34;&gt;00:00&lt;/h2&gt;&#xA;&lt;p&gt;Done&lt;/p&gt;&#xA;&lt;h2 id=&#34;0014&#34;&gt;00:14&lt;/h2&gt;&#xA;&lt;p&gt;Ready to publish&lt;/p&gt;&#xA;&lt;h2 id=&#34;0022&#34;&gt;00:22&lt;/h2&gt;&#xA;&lt;p&gt;Forgot to add mobile support :/&lt;/p&gt;&#xA;&lt;h2 id=&#34;0035&#34;&gt;00:35&lt;/h2&gt;&#xA;&lt;p&gt;Fixed the bug, along with the fact that different browsers display list markers when I don&amp;rsquo;t want them to. Happy I got to finish this early-ish, &amp;lsquo;cause I want to go to sleep now.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

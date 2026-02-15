@@ -2,150 +2,150 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Daily-Drops on Paul&#39;s Particles</title>
-    <link>https://paulstapel.com/daily-drop/</link>
+    <link>http://localhost:1313/daily-drop/</link>
     <description>Recent content in Daily-Drops on Paul&#39;s Particles</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 01 Dec 2025 16:45:10 +0100</lastBuildDate>
-    <atom:link href="https://paulstapel.com/daily-drop/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/daily-drop/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>December 1, 2025</title>
-      <link>https://paulstapel.com/daily-drop/25-12-01/</link>
+      <link>http://localhost:1313/daily-drop/25-12-01/</link>
       <pubDate>Mon, 01 Dec 2025 16:45:10 +0100</pubDate>
-      <guid>https://paulstapel.com/daily-drop/25-12-01/</guid>
+      <guid>http://localhost:1313/daily-drop/25-12-01/</guid>
       <description>&lt;h2 id=&#34;today-i-learned&#34;&gt;Today I Learned&lt;/h2&gt;&#xA;&lt;p&gt;How to use linear algebra in applications of Quantum Mechanics.&lt;/p&gt;&#xA;&lt;h2 id=&#34;biography-worthy&#34;&gt;Biography worthy&lt;/h2&gt;&#xA;&lt;p&gt;The time I spend slow cooking food, and how it can bring me warmth and comfort on cold and dark days such as this one.&lt;/p&gt;&#xA;&lt;h2 id=&#34;thought-i-thought&#34;&gt;Thought I Thought&lt;/h2&gt;&#xA;&lt;p&gt;I wonder if using the terminal to manage my tasks will work out to suit me better than the app on my phone.&lt;/p&gt;&#xA;&lt;h2 id=&#34;todays-media&#34;&gt;Today&amp;rsquo;s Media&lt;/h2&gt;&#xA;&lt;p&gt;I watched Yu Yu Hakusho again with my brother.&lt;/p&gt;</description>
     </item>
     <item>
       <title>November 30, 2025</title>
-      <link>https://paulstapel.com/daily-drop/25-11-30/</link>
+      <link>http://localhost:1313/daily-drop/25-11-30/</link>
       <pubDate>Sun, 30 Nov 2025 19:49:54 +0100</pubDate>
-      <guid>https://paulstapel.com/daily-drop/25-11-30/</guid>
+      <guid>http://localhost:1313/daily-drop/25-11-30/</guid>
       <description>&lt;h2 id=&#34;today-i-learned&#34;&gt;Today I Learned&lt;/h2&gt;&#xA;&lt;p&gt;The fundamental math needed for Quantum mechanics.&lt;/p&gt;&#xA;&lt;h2 id=&#34;thought-i-thought&#34;&gt;Thought I Thought&lt;/h2&gt;&#xA;&lt;p&gt;I should maybe switch up some of the prompts for the daily drop after each month&amp;hellip; We&amp;rsquo;ll see what I decide tomorrow I guess.&lt;/p&gt;&#xA;&lt;h2 id=&#34;todays-media&#34;&gt;Today&amp;rsquo;s Media&lt;/h2&gt;&#xA;&lt;p&gt;I watched some more Yu Yu Hakusho, currently at episode 84.&lt;/p&gt;&#xA;&lt;h2 id=&#34;song-of-the-day&#34;&gt;Song Of The Day&lt;/h2&gt;&#xA;&lt;p&gt;Some random Lofi music for the chill vibes.&lt;/p&gt;&#xA;&lt;h2 id=&#34;todays-question&#34;&gt;Today&amp;rsquo;s Question&lt;/h2&gt;&#xA;&lt;p&gt;Today, I ask myself how to keep the balance of things in life. The current things I tend to focus on are creativity, study, work, household, exercise and social relationships. I hope my balance is doing well at the moment (I feel so at least), but sometimes it can feel a bit much to manage. I should start looking into making this easier for myself.&lt;/p&gt;</description>
     </item>
     <item>
       <title>November 29, 2025</title>
-      <link>https://paulstapel.com/daily-drop/25-11-29/</link>
+      <link>http://localhost:1313/daily-drop/25-11-29/</link>
       <pubDate>Sun, 30 Nov 2025 19:43:38 +0100</pubDate>
-      <guid>https://paulstapel.com/daily-drop/25-11-29/</guid>
+      <guid>http://localhost:1313/daily-drop/25-11-29/</guid>
       <description>&lt;h2 id=&#34;today-i-learned&#34;&gt;Today I Learned&lt;/h2&gt;&#xA;&lt;p&gt;How to be more efficient at household tasks.&lt;/p&gt;&#xA;&lt;h2 id=&#34;thought-i-thought&#34;&gt;Thought I Thought&lt;/h2&gt;&#xA;&lt;p&gt;They should invent some term for narcissism that is a bit weaker than narcissism.&lt;/p&gt;&#xA;&lt;h2 id=&#34;todays-media&#34;&gt;Today&amp;rsquo;s Media&lt;/h2&gt;&#xA;&lt;p&gt;I watched the JJK execution special in theatres. The recap was so ass I could die.&lt;/p&gt;&#xA;&lt;h2 id=&#34;song-of-the-day&#34;&gt;Song Of The Day&lt;/h2&gt;&#xA;&lt;p&gt;Hatsune Miku, Magical Cure! Love Shot! Ironically&amp;hellip;?&lt;/p&gt;&#xA;&lt;h2 id=&#34;todays-question&#34;&gt;Today&amp;rsquo;s Question&lt;/h2&gt;&#xA;&lt;p&gt;What else should I be doing? I feel like I am forgetting something. (It was writing this article today, I did it the day after)&lt;/p&gt;</description>
     </item>
     <item>
       <title>November 28, 2025</title>
-      <link>https://paulstapel.com/daily-drop/25-11-28/</link>
+      <link>http://localhost:1313/daily-drop/25-11-28/</link>
       <pubDate>Sun, 30 Nov 2025 19:34:30 +0100</pubDate>
-      <guid>https://paulstapel.com/daily-drop/25-11-28/</guid>
+      <guid>http://localhost:1313/daily-drop/25-11-28/</guid>
       <description>&lt;h2 id=&#34;today-i-learned&#34;&gt;Today I Learned&lt;/h2&gt;&#xA;&lt;p&gt;More about how to socialise with colleagues.&lt;/p&gt;&#xA;&lt;h2 id=&#34;thought-i-thought&#34;&gt;Thought I Thought&lt;/h2&gt;&#xA;&lt;p&gt;How does a story become funny? Or in what context.&lt;/p&gt;&#xA;&lt;h2 id=&#34;todays-media&#34;&gt;Today&amp;rsquo;s Media&lt;/h2&gt;&#xA;&lt;p&gt;I played Cult of the Lamb with Levi.&lt;/p&gt;&#xA;&lt;h2 id=&#34;song-of-the-day&#34;&gt;Song Of The Day&lt;/h2&gt;&#xA;&lt;p&gt;Sinterklaas songs, because we celebrated Sinterklaas at the company&lt;/p&gt;&#xA;&lt;h2 id=&#34;todays-question&#34;&gt;Today&amp;rsquo;s Question&lt;/h2&gt;&#xA;&lt;p&gt;Am I driving safely enough, or are people on the road just stupid?&lt;/p&gt;&#xA;&lt;h2 id=&#34;note-to-self&#34;&gt;Note To Self&lt;/h2&gt;&#xA;&lt;p&gt;Don&amp;rsquo;t try to solve other people&amp;rsquo;s problems too much, as it may shift part of the blame on you.&lt;/p&gt;</description>
     </item>
     <item>
       <title>November 27, 2025</title>
-      <link>https://paulstapel.com/daily-drop/25-11-27/</link>
+      <link>http://localhost:1313/daily-drop/25-11-27/</link>
       <pubDate>Sun, 30 Nov 2025 19:27:18 +0100</pubDate>
-      <guid>https://paulstapel.com/daily-drop/25-11-27/</guid>
+      <guid>http://localhost:1313/daily-drop/25-11-27/</guid>
       <description>&lt;h2 id=&#34;today-i-learned&#34;&gt;Today I Learned&lt;/h2&gt;&#xA;&lt;p&gt;More on concurrency, and how/why gradient descent works mathematically&lt;/p&gt;&#xA;&lt;h2 id=&#34;thought-i-thought&#34;&gt;Thought I Thought&lt;/h2&gt;&#xA;&lt;p&gt;How high is the highest ceiling?&lt;/p&gt;&#xA;&lt;h2 id=&#34;todays-media&#34;&gt;Today&amp;rsquo;s Media&lt;/h2&gt;&#xA;&lt;p&gt;Watched Yu Yu Hakusho with bro&lt;/p&gt;&#xA;&lt;h2 id=&#34;song-of-the-day&#34;&gt;Song Of The Day&lt;/h2&gt;&#xA;&lt;p&gt;Color your night, probably gonna be my no. 1 on spotify wrapped this year again.&lt;/p&gt;&#xA;&lt;h2 id=&#34;todays-question&#34;&gt;Today&amp;rsquo;s Question&lt;/h2&gt;&#xA;&lt;p&gt;How can I motivate myself to do more creative work?&lt;/p&gt;&#xA;&lt;h2 id=&#34;note-to-self&#34;&gt;Note To Self&lt;/h2&gt;&#xA;&lt;p&gt;Go to bed earlier!&lt;/p&gt;&#xA;&lt;h2 id=&#34;a-fascinating-world&#34;&gt;A Fascinating World&lt;/h2&gt;&#xA;&lt;p&gt;I am really interested to write about magic that comes at some price in terms of the components used.&lt;/p&gt;</description>
     </item>
     <item>
       <title>November 26, 2025</title>
-      <link>https://paulstapel.com/daily-drop/25-11-26/</link>
+      <link>http://localhost:1313/daily-drop/25-11-26/</link>
       <pubDate>Wed, 26 Nov 2025 23:14:49 +0100</pubDate>
-      <guid>https://paulstapel.com/daily-drop/25-11-26/</guid>
+      <guid>http://localhost:1313/daily-drop/25-11-26/</guid>
       <description>&lt;h2 id=&#34;today-i-learned&#34;&gt;Today I Learned&lt;/h2&gt;&#xA;&lt;p&gt;How to use MVar to make thread safe datastructures.&lt;/p&gt;&#xA;&lt;h2 id=&#34;thought-i-thought&#34;&gt;Thought I Thought&lt;/h2&gt;&#xA;&lt;p&gt;I should find a way to write these blogs on my phone as well. Should be able to figure something out, as this is just markdown&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;todays-media&#34;&gt;Today&amp;rsquo;s Media&lt;/h2&gt;&#xA;&lt;p&gt;A twitter post saying the plural form of mutex is deadlock. Yeah, I felt that.&lt;/p&gt;&#xA;&lt;h2 id=&#34;song-of-the-day&#34;&gt;Song Of The Day&lt;/h2&gt;&#xA;&lt;p&gt;Retrogade, James Blake.&lt;/p&gt;&#xA;&lt;h2 id=&#34;todays-question&#34;&gt;Today&amp;rsquo;s Question&lt;/h2&gt;&#xA;&lt;p&gt;What do I still need to do in the next 18 days.&lt;/p&gt;</description>
     </item>
     <item>
       <title>November 25, 2025</title>
-      <link>https://paulstapel.com/daily-drop/25-11-25/</link>
+      <link>http://localhost:1313/daily-drop/25-11-25/</link>
       <pubDate>Tue, 25 Nov 2025 20:20:16 +0100</pubDate>
-      <guid>https://paulstapel.com/daily-drop/25-11-25/</guid>
+      <guid>http://localhost:1313/daily-drop/25-11-25/</guid>
       <description>&lt;h2 id=&#34;today-i-learned&#34;&gt;Today I Learned&lt;/h2&gt;&#xA;&lt;p&gt;How to use MVar and IORef to build concurrent and thread safe programmes in Haskell&lt;/p&gt;&#xA;&lt;h2 id=&#34;thought-i-thought&#34;&gt;Thought I Thought&lt;/h2&gt;&#xA;&lt;p&gt;Cleaning and drying clothes takes quite some time, but is really relaxing as well.&lt;/p&gt;&#xA;&lt;h2 id=&#34;todays-media&#34;&gt;Today&amp;rsquo;s Media&lt;/h2&gt;&#xA;&lt;p&gt;Mostly listening to lofi music.&lt;/p&gt;&#xA;&lt;h2 id=&#34;song-of-the-day&#34;&gt;Song Of The Day&lt;/h2&gt;&#xA;&lt;p&gt;Eterna City, Mikel. A lofi remix of a pokemon song.&lt;/p&gt;&#xA;&lt;h2 id=&#34;todays-question&#34;&gt;Today&amp;rsquo;s Question&lt;/h2&gt;&#xA;&lt;p&gt;What steps do I need to perform to enroll for a master&amp;rsquo;s degree?&lt;/p&gt;</description>
     </item>
     <item>
       <title>November 24, 2025</title>
-      <link>https://paulstapel.com/daily-drop/25-11-24/</link>
+      <link>http://localhost:1313/daily-drop/25-11-24/</link>
       <pubDate>Mon, 24 Nov 2025 22:16:00 +0100</pubDate>
-      <guid>https://paulstapel.com/daily-drop/25-11-24/</guid>
+      <guid>http://localhost:1313/daily-drop/25-11-24/</guid>
       <description>&lt;h2 id=&#34;today-i-learned&#34;&gt;Today I Learned&lt;/h2&gt;&#xA;&lt;p&gt;Some more things about working in the terminal of my computer.&lt;/p&gt;&#xA;&lt;h2 id=&#34;thought-i-thought&#34;&gt;Thought I Thought&lt;/h2&gt;&#xA;&lt;p&gt;I should get back to locking in, haha.&lt;/p&gt;&#xA;&lt;h2 id=&#34;todays-media&#34;&gt;Today&amp;rsquo;s Media&lt;/h2&gt;&#xA;&lt;p&gt;Watched some YuYu Hakusho again.&lt;/p&gt;&#xA;&lt;h2 id=&#34;song-of-the-day&#34;&gt;Song Of The Day&lt;/h2&gt;&#xA;&lt;p&gt;Color your night, big surprise.&lt;/p&gt;&#xA;&lt;h2 id=&#34;todays-question&#34;&gt;Today&amp;rsquo;s Question&lt;/h2&gt;&#xA;&lt;p&gt;What shall I do in the evenings after work. Play or creative work?&lt;/p&gt;&#xA;&lt;h2 id=&#34;note-to-self&#34;&gt;Note To Self&lt;/h2&gt;&#xA;&lt;p&gt;Get back to learning Chinese you fool.&lt;/p&gt;&#xA;&lt;h2 id=&#34;a-fascinating-world&#34;&gt;A Fascinating World&lt;/h2&gt;&#xA;&lt;p&gt;A world with your personal weather sphere around you would be cool. Getting climate control in a small sphere around you. I think the weather people would choose for themselves can reveal a lot about themselves. Hugging would become like a weather battle with clashing elements or some cool shit. Lightening, go!&lt;/p&gt;</description>
     </item>
     <item>
       <title>November 23, 2025</title>
-      <link>https://paulstapel.com/daily-drop/25-11-23/</link>
+      <link>http://localhost:1313/daily-drop/25-11-23/</link>
       <pubDate>Mon, 24 Nov 2025 21:55:25 +0100</pubDate>
-      <guid>https://paulstapel.com/daily-drop/25-11-23/</guid>
+      <guid>http://localhost:1313/daily-drop/25-11-23/</guid>
       <description>&lt;h2 id=&#34;today-i-learned&#34;&gt;Today I Learned&lt;/h2&gt;&#xA;&lt;p&gt;How to play brass birmingham&lt;/p&gt;&#xA;&lt;h2 id=&#34;thought-i-thought&#34;&gt;Thought I Thought&lt;/h2&gt;&#xA;&lt;p&gt;I need more sleep.&lt;/p&gt;&#xA;&lt;h2 id=&#34;todays-media&#34;&gt;Today&amp;rsquo;s Media&lt;/h2&gt;&#xA;&lt;p&gt;Playing some silksong&lt;/p&gt;&#xA;&lt;h2 id=&#34;song-of-the-day&#34;&gt;Song Of The Day&lt;/h2&gt;&#xA;&lt;p&gt;Flyday China town&lt;/p&gt;&#xA;&lt;h2 id=&#34;todays-question&#34;&gt;Today&amp;rsquo;s Question&lt;/h2&gt;&#xA;&lt;p&gt;How to plan my next week for university.&lt;/p&gt;&#xA;&lt;h2 id=&#34;note-to-self&#34;&gt;Note To Self&lt;/h2&gt;&#xA;&lt;p&gt;Make sure to make some appointments for next weeks.&lt;/p&gt;&#xA;&lt;h2 id=&#34;a-fascinating-world&#34;&gt;A Fascinating World&lt;/h2&gt;&#xA;&lt;p&gt;A lego TTRPG would go pretty hard I think. Like, lego dice, building things with friends to help solve puzzles or other obstacles thrown by the DM, stuff like that. IDK.&lt;/p&gt;</description>
     </item>
     <item>
       <title>November 22, 2025</title>
-      <link>https://paulstapel.com/daily-drop/25-11-22/</link>
+      <link>http://localhost:1313/daily-drop/25-11-22/</link>
       <pubDate>Mon, 24 Nov 2025 21:47:42 +0100</pubDate>
-      <guid>https://paulstapel.com/daily-drop/25-11-22/</guid>
+      <guid>http://localhost:1313/daily-drop/25-11-22/</guid>
       <description>&lt;h2 id=&#34;today-i-learned&#34;&gt;Today I Learned&lt;/h2&gt;&#xA;&lt;p&gt;To enjoy time with my friends, and not beat myself up for not being perfect in providing for them.&lt;/p&gt;&#xA;&lt;h2 id=&#34;thought-i-thought&#34;&gt;Thought I Thought&lt;/h2&gt;&#xA;&lt;p&gt;I am really glad to have met all of these close friends&lt;/p&gt;&#xA;&lt;h2 id=&#34;todays-media&#34;&gt;Today&amp;rsquo;s Media&lt;/h2&gt;&#xA;&lt;p&gt;The David/Collin/Levi Podcast xD&lt;/p&gt;&#xA;&lt;h2 id=&#34;song-of-the-day&#34;&gt;Song Of The Day&lt;/h2&gt;&#xA;&lt;p&gt;Red sun in the sky xD&lt;/p&gt;&#xA;&lt;h2 id=&#34;todays-question&#34;&gt;Today&amp;rsquo;s Question&lt;/h2&gt;&#xA;&lt;p&gt;What to do to surpass this year&amp;rsquo;s birthday dinner. Hmmmmm&lt;/p&gt;&#xA;&lt;h2 id=&#34;note-to-self&#34;&gt;Note To Self&lt;/h2&gt;&#xA;&lt;p&gt;Learn from a Chinese guy how to make 糖油果子&lt;/p&gt;</description>
     </item>
     <item>
       <title>November 21, 2025</title>
-      <link>https://paulstapel.com/daily-drop/25-11-21/</link>
+      <link>http://localhost:1313/daily-drop/25-11-21/</link>
       <pubDate>Mon, 24 Nov 2025 20:31:50 +0100</pubDate>
-      <guid>https://paulstapel.com/daily-drop/25-11-21/</guid>
+      <guid>http://localhost:1313/daily-drop/25-11-21/</guid>
       <description>&lt;h2 id=&#34;today-i-learned&#34;&gt;Today I Learned&lt;/h2&gt;&#xA;&lt;p&gt;How to fold dumplings&lt;/p&gt;&#xA;&lt;h2 id=&#34;thought-i-thought&#34;&gt;Thought I Thought&lt;/h2&gt;&#xA;&lt;p&gt;DotNL is actually kind of based&lt;/p&gt;&#xA;&lt;h2 id=&#34;todays-media&#34;&gt;Today&amp;rsquo;s Media&lt;/h2&gt;&#xA;&lt;p&gt;I watched another YuYu Hakusho with Hans&lt;/p&gt;&#xA;&lt;h2 id=&#34;song-of-the-day&#34;&gt;Song Of The Day&lt;/h2&gt;&#xA;&lt;p&gt;IRIS OUT, from the Chainsawman movie&lt;/p&gt;&#xA;&lt;h2 id=&#34;todays-question&#34;&gt;Today&amp;rsquo;s Question&lt;/h2&gt;&#xA;&lt;p&gt;How am I going to create enough food tomorrow.&lt;/p&gt;&#xA;&lt;h2 id=&#34;note-to-self&#34;&gt;Note To Self&lt;/h2&gt;&#xA;&lt;p&gt;Don&amp;rsquo;t forget to ask coworkers about their day sometimes&lt;/p&gt;&#xA;&lt;h2 id=&#34;a-fascinating-world&#34;&gt;A Fascinating World&lt;/h2&gt;&#xA;&lt;p&gt;Teleporting from place to place would be really cool. I wonder what the infrastructure would be like. Would we have traffick jams at the teleportation circles/stations?&lt;/p&gt;</description>
     </item>
     <item>
       <title>November 20, 2025</title>
-      <link>https://paulstapel.com/daily-drop/25-11-20/</link>
+      <link>http://localhost:1313/daily-drop/25-11-20/</link>
       <pubDate>Mon, 24 Nov 2025 20:26:15 +0100</pubDate>
-      <guid>https://paulstapel.com/daily-drop/25-11-20/</guid>
+      <guid>http://localhost:1313/daily-drop/25-11-20/</guid>
       <description>&lt;h2 id=&#34;today-i-learned&#34;&gt;Today I Learned&lt;/h2&gt;&#xA;&lt;p&gt;How to plan for a large dinner&lt;/p&gt;&#xA;&lt;h2 id=&#34;thought-i-thought&#34;&gt;Thought I Thought&lt;/h2&gt;&#xA;&lt;p&gt;At what times can I best study Mandarin&lt;/p&gt;&#xA;&lt;h2 id=&#34;todays-media&#34;&gt;Today&amp;rsquo;s Media&lt;/h2&gt;&#xA;&lt;p&gt;I watched YuYu Hakusho with my brother&lt;/p&gt;&#xA;&lt;h2 id=&#34;song-of-the-day&#34;&gt;Song Of The Day&lt;/h2&gt;&#xA;&lt;p&gt;Color your night, Persona 3 reload.&lt;/p&gt;&#xA;&lt;h2 id=&#34;todays-question&#34;&gt;Today&amp;rsquo;s Question&lt;/h2&gt;&#xA;&lt;p&gt;How can I balance pleasing friends and pleasing myself.&lt;/p&gt;&#xA;&lt;h2 id=&#34;note-to-self&#34;&gt;Note To Self&lt;/h2&gt;&#xA;&lt;p&gt;Make a shopping list before going to the toko.&lt;/p&gt;&#xA;&lt;h2 id=&#34;a-fascinating-world&#34;&gt;A Fascinating World&lt;/h2&gt;&#xA;&lt;p&gt;Food gives you actual buffs like in video games, businesses have designated cooks to get just the right buffs to increase sales and development time. Shrimps would give you +4 gaming for obvious reasons.&lt;/p&gt;</description>
     </item>
     <item>
       <title>November 19, 2025</title>
-      <link>https://paulstapel.com/daily-drop/25-11-19/</link>
+      <link>http://localhost:1313/daily-drop/25-11-19/</link>
       <pubDate>Wed, 19 Nov 2025 15:25:05 +0100</pubDate>
-      <guid>https://paulstapel.com/daily-drop/25-11-19/</guid>
+      <guid>http://localhost:1313/daily-drop/25-11-19/</guid>
       <description>&lt;h2 id=&#34;today-i-learned&#34;&gt;Today I Learned&lt;/h2&gt;&#xA;&lt;p&gt;The final parts of Chinese grammar for HSK 3&lt;/p&gt;&#xA;&lt;h2 id=&#34;thought-i-thought&#34;&gt;Thought I Thought&lt;/h2&gt;&#xA;&lt;p&gt;A clean environment really does cure dips&lt;/p&gt;&#xA;&lt;h2 id=&#34;todays-media&#34;&gt;Today&amp;rsquo;s Media&lt;/h2&gt;&#xA;&lt;p&gt;I watched an interesting video about making games in Godot.&lt;/p&gt;&#xA;&lt;h2 id=&#34;song-of-the-day&#34;&gt;Song Of The Day&lt;/h2&gt;&#xA;&lt;p&gt;Random bossa nova songs.&lt;/p&gt;&#xA;&lt;h2 id=&#34;todays-question&#34;&gt;Today&amp;rsquo;s Question&lt;/h2&gt;&#xA;&lt;p&gt;How do I manage my expectations for myself when holding social events or lessons? How can I ensure I don&amp;rsquo;t overprepare?&lt;/p&gt;&#xA;&lt;h2 id=&#34;note-to-self&#34;&gt;Note To Self&lt;/h2&gt;&#xA;&lt;p&gt;Keep practicing Chinese vocabulary ;)&lt;/p&gt;</description>
     </item>
     <item>
       <title>November 18, 2025</title>
-      <link>https://paulstapel.com/daily-drop/25-11-18/</link>
+      <link>http://localhost:1313/daily-drop/25-11-18/</link>
       <pubDate>Tue, 18 Nov 2025 21:17:53 +0100</pubDate>
-      <guid>https://paulstapel.com/daily-drop/25-11-18/</guid>
+      <guid>http://localhost:1313/daily-drop/25-11-18/</guid>
       <description>&lt;h2 id=&#34;today-i-learned&#34;&gt;Today I Learned&lt;/h2&gt;&#xA;&lt;p&gt;Today I taught myself to get back on track with my bloggin intentions. After an amazing 2.5 months in China, it is high time I get back into my regular, awesome, radical flow&lt;/p&gt;&#xA;&lt;h2 id=&#34;thought-i-thought&#34;&gt;Thought I Thought&lt;/h2&gt;&#xA;&lt;p&gt;When making a game, I really like difficulty&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;todays-media&#34;&gt;Today&amp;rsquo;s Media&lt;/h2&gt;&#xA;&lt;p&gt;I listened to a whole lot of music today, let&amp;rsquo;s see if my spotify wrapped will have increased my listing time this year :))&lt;/p&gt;</description>
     </item>
     <item>
       <title>September 28, 2025</title>
-      <link>https://paulstapel.com/daily-drop/25-09-28/</link>
+      <link>http://localhost:1313/daily-drop/25-09-28/</link>
       <pubDate>Sun, 28 Sep 2025 16:01:34 +0800</pubDate>
-      <guid>https://paulstapel.com/daily-drop/25-09-28/</guid>
+      <guid>http://localhost:1313/daily-drop/25-09-28/</guid>
       <description>&lt;h2 id=&#34;today-i-learned&#34;&gt;Today I Learned&lt;/h2&gt;&#xA;&lt;p&gt;How to use different metrics about an object to &amp;ldquo;brute force&amp;rdquo; your way into object identification. As long as you have enough metrics, there is nothing you can&amp;rsquo;t qualify really.&lt;/p&gt;&#xA;&lt;h2 id=&#34;thought-i-thought&#34;&gt;Thought I Thought&lt;/h2&gt;&#xA;&lt;p&gt;Clover Coffee&lt;/p&gt;&#xA;&lt;h2 id=&#34;todays-media&#34;&gt;Today&amp;rsquo;s Media&lt;/h2&gt;&#xA;&lt;p&gt;Nothing much, just figuring out Dianping again.&lt;/p&gt;&#xA;&lt;h2 id=&#34;song-of-the-day&#34;&gt;Song Of The Day&lt;/h2&gt;&#xA;&lt;p&gt;中间人， by Ice Paper.&lt;/p&gt;&#xA;&lt;h2 id=&#34;todays-question&#34;&gt;Today&amp;rsquo;s Question&lt;/h2&gt;&#xA;&lt;p&gt;What shall I do during Golden Week next week.&lt;/p&gt;&#xA;&lt;h2 id=&#34;note-to-self&#34;&gt;Note To Self&lt;/h2&gt;&#xA;&lt;p&gt;Don&amp;rsquo;t slip, wear better shoes during the rain or walk slowly.&lt;/p&gt;</description>
     </item>
     <item>
       <title>September 27, 2025</title>
-      <link>https://paulstapel.com/daily-drop/25-09-27/</link>
+      <link>http://localhost:1313/daily-drop/25-09-27/</link>
       <pubDate>Sun, 28 Sep 2025 15:49:43 +0800</pubDate>
-      <guid>https://paulstapel.com/daily-drop/25-09-27/</guid>
+      <guid>http://localhost:1313/daily-drop/25-09-27/</guid>
       <description>&lt;h2 id=&#34;today-i-learned&#34;&gt;Today I Learned&lt;/h2&gt;&#xA;&lt;p&gt;How to make mooncake&lt;/p&gt;&#xA;&lt;h2 id=&#34;thought-i-thought&#34;&gt;Thought I Thought&lt;/h2&gt;&#xA;&lt;p&gt;Japanese would also be quite an interesting language to learn after I&amp;rsquo;m finished with studying Chinese&lt;/p&gt;&#xA;&lt;h2 id=&#34;todays-media&#34;&gt;Today&amp;rsquo;s Media&lt;/h2&gt;&#xA;&lt;p&gt;I felt a bit sick, so I did a lot of searching on Dianping for fun things to do while in China.&lt;/p&gt;&#xA;&lt;h2 id=&#34;song-of-the-day&#34;&gt;Song Of The Day&lt;/h2&gt;&#xA;&lt;p&gt;Today&amp;rsquo;s song is 时间胶囊 by Ryan.B and 丛琳潼elf&lt;/p&gt;&#xA;&lt;h2 id=&#34;todays-question&#34;&gt;Today&amp;rsquo;s Question&lt;/h2&gt;&#xA;&lt;p&gt;How do people in China guess the pronunciation of a word they don&amp;rsquo;t know?&lt;/p&gt;</description>
     </item>
     <item>
       <title>September 4, 2025</title>
-      <link>https://paulstapel.com/daily-drop/25-09-04/</link>
+      <link>http://localhost:1313/daily-drop/25-09-04/</link>
       <pubDate>Thu, 04 Sep 2025 23:11:57 +0800</pubDate>
-      <guid>https://paulstapel.com/daily-drop/25-09-04/</guid>
+      <guid>http://localhost:1313/daily-drop/25-09-04/</guid>
       <description>&lt;h2 id=&#34;today-i-learned&#34;&gt;Today I Learned&lt;/h2&gt;&#xA;&lt;p&gt;How to better work with generics and type-casting in c# in order to make a general system for working with Components in an ECS.&lt;/p&gt;&#xA;&lt;h2 id=&#34;thought-i-thought&#34;&gt;Thought I Thought&lt;/h2&gt;&#xA;&lt;p&gt;Timo To Go Seriouso&lt;/p&gt;&#xA;&lt;h2 id=&#34;todays-media&#34;&gt;Today&amp;rsquo;s Media&lt;/h2&gt;&#xA;&lt;p&gt;Watched some more &amp;ldquo;The good place&amp;rdquo;, and tried a few episodes of Great Teacher Onizuka.&lt;/p&gt;&#xA;&lt;h2 id=&#34;song-of-the-day&#34;&gt;Song Of The Day&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.google.com/url?sa=t&amp;amp;source=web&amp;amp;rct=j&amp;amp;opi=89978449&amp;amp;url=https://www.youtube.com/watch%3Fv%3Dz01gL_ahiOQ&amp;amp;ved=2ahUKEwiu76jhs7-PAxUPnGMGHVdRGaAQ78AJegQIFBAB&amp;amp;usg=AOvVaw1u3V27qFj8uJssBT9g-Rr9&#34;&gt;Ginger, by TOMOO&lt;/a&gt;. I resonate strongly with the cat in that song.&lt;/p&gt;&#xA;&lt;h2 id=&#34;todays-question&#34;&gt;Today&amp;rsquo;s Question&lt;/h2&gt;&#xA;&lt;p&gt;Is fortune not man-made?&lt;/p&gt;</description>
     </item>
     <item>
       <title>September 3, 2025</title>
-      <link>https://paulstapel.com/daily-drop/25-09-03/</link>
+      <link>http://localhost:1313/daily-drop/25-09-03/</link>
       <pubDate>Wed, 03 Sep 2025 20:54:12 +0800</pubDate>
-      <guid>https://paulstapel.com/daily-drop/25-09-03/</guid>
+      <guid>http://localhost:1313/daily-drop/25-09-03/</guid>
       <description>&lt;h2 id=&#34;today-i-learned&#34;&gt;Today I Learned&lt;/h2&gt;&#xA;&lt;p&gt;That the Chinese Visa system can be quite the pain in the ***&lt;/p&gt;&#xA;&lt;h2 id=&#34;thought-i-thought&#34;&gt;Thought I Thought&lt;/h2&gt;&#xA;&lt;p&gt;How lucky I am to have you and I live in the same world.&lt;/p&gt;&#xA;&lt;h2 id=&#34;todays-media&#34;&gt;Today&amp;rsquo;s Media&lt;/h2&gt;&#xA;&lt;p&gt;I watched a few episodes of the good place, and finished the book &amp;ldquo;Press reset&amp;rdquo;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;song-of-the-day&#34;&gt;Song Of The Day&lt;/h2&gt;&#xA;&lt;p&gt;My favorite song: &lt;a href=&#34;https://www.youtube.com/watch?v=j9Sn1nFGQQ8&#34;&gt;Color you night, from Persona 3 reload&lt;/a&gt;. Today again, it helped me be filled with love.&lt;/p&gt;</description>
     </item>
     <item>
       <title>September 2, 2025</title>
-      <link>https://paulstapel.com/daily-drop/25-09-02/</link>
+      <link>http://localhost:1313/daily-drop/25-09-02/</link>
       <pubDate>Tue, 02 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://paulstapel.com/daily-drop/25-09-02/</guid>
+      <guid>http://localhost:1313/daily-drop/25-09-02/</guid>
       <description>&lt;h2 id=&#34;today-i-learned&#34;&gt;Today I Learned&lt;/h2&gt;&#xA;&lt;p&gt;How to use generic structs in C# to create interfaces that don&amp;rsquo;t need an instance of a class to still store information about that class.&lt;/p&gt;&#xA;&lt;h2 id=&#34;thought-i-thought&#34;&gt;Thought I Thought&lt;/h2&gt;&#xA;&lt;p&gt;Would a monkey think my phone is a fruit? (hopefully not)&lt;/p&gt;&#xA;&lt;h2 id=&#34;todays-media&#34;&gt;Today&amp;rsquo;s Media&lt;/h2&gt;&#xA;&lt;p&gt;I started watching &amp;ldquo;The good place&amp;rdquo; on Netflix after having it recommended, and read two chapters of &amp;ldquo;Press reset&amp;rdquo; (2 more to go).&lt;/p&gt;&#xA;&lt;h2 id=&#34;song-of-the-day&#34;&gt;Song Of The Day&lt;/h2&gt;&#xA;&lt;p&gt;Again, it is &lt;a href=&#34;https://www.youtube.com/watch?v=B6W3pvmWmX0&#34;&gt;Lucky, by TOMOO&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>September 1, 2025</title>
-      <link>https://paulstapel.com/daily-drop/25-09-01/</link>
+      <link>http://localhost:1313/daily-drop/25-09-01/</link>
       <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://paulstapel.com/daily-drop/25-09-01/</guid>
+      <guid>http://localhost:1313/daily-drop/25-09-01/</guid>
       <description>&lt;h2 id=&#34;today-i-learned&#34;&gt;Today I Learned&lt;/h2&gt;&#xA;&lt;p&gt;I played with randomisation in Javascript to make this template, and learned how to convert my usual lay-out to new HTML elements.&lt;/p&gt;&#xA;&lt;h2 id=&#34;thought-i-thought&#34;&gt;Thought I Thought&lt;/h2&gt;&#xA;&lt;p&gt;Umbrellas are really cool weapons if you hold them like a baseball bat&lt;/p&gt;&#xA;&lt;h2 id=&#34;todays-media&#34;&gt;Today&amp;rsquo;s Media&lt;/h2&gt;&#xA;&lt;p&gt;Watched &amp;ldquo;City the animation&amp;rdquo; by KyoAni, which I still find incredibly wholesome. Read a chapter of &amp;ldquo;Press reset&amp;rdquo; by Jason Schreier, which is more of a gut-punch in terms of what the Game industry is like.&lt;/p&gt;</description>
     </item>
   </channel>
