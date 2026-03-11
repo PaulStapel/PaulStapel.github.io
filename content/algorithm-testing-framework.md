@@ -11,21 +11,21 @@ categories:
 
 This week, I worked on writing some code to abstract out algorithms for the purpose of making continuous development of these algorithms possible, as well as the A/B testing to compare different parameters or implementations. This was quite a considerable design choice for our program, and because of this, I wanted to share my thought process and the challenges I faced when building this. 
 
-## Defining "algorithm" 
-First off, we had to create some definition of an algorithm. Usually, this could be some pure function that takes an input and handles those inputs to finally return some output. This way, you could assure algorithms were stateless and thus easy to swap without having any nasty side effects. This was thus the first idea that came to mind as to what I would abstract out of the code. 
+## Defining "algorithm" (what do we want to abstract?)
+First off, I had to create some definition of an algorithm. Usually, this could be some pure function that takes an input and handles those inputs to finally return some output. This way, you could assure algorithms were stateless and thus easy to swap without having any nasty side effects. This was thus the first idea that came to mind as to what I would abstract out of the code. 
 
-While thinking this problem through a bit more, however, I came to the realisation that abstracting out pure logic was less important than abstracting out the entire pipeline that the algorithm has to run. Some algorithms may need different preprocessing steps as they base their results on different inputs. Because of this, the entire call to do something that requires an algorithm would be the better thing to abstract, as then we can simply call some algorithm each time we need it and be done with it. 
+While thinking this problem through a bit more, however, I came to the realisation that abstracting out pure logic was less important than abstracting out side-effectless ways in which some common goal is reached. We don't have to require that an algorithm has referential transparancy, as we don't care about the how of reaching a goal, only about the goal.  
 
 **As an example**, suppose on algorithm is supposed to evaluate the user preference in shows to watch. We may want to A/B test an algorithm that looks at all watched shows and then evaluates the show that has most metrics in common with those shows. Another one might match a profile to the user (that will then be stored in the database), and match shows based on users with the same profile. 
 
 The first algorithm would need to collect all shows that have matching metrics, while the second one must collect all users with similar profiles (and from there the shows they watched).
 
-If we we were to have our algorithms be pure functions, we would need to run large conditional statements to preprocess the inputs of these algorithms in order to make A/B testing work, which makes it a clunky solution. On the other hand, if we allow each algorithm to read data from a database, we don't have this problem, and some method ```algorithm.Run()``` can be called regardless of the way it handles data. Then, the output can be used (or updated into the database) by the program that calls the algorithm, and the algorithm only concerns itself with what to calculate and how. 
+If we we were to have our algorithms be pure functions, we would need to run large conditional statements to preprocess the inputs of these algorithms in order to give the correct preprocessed data, which makes it a clunky solution. On the other hand, if we allow each algorithm to read data from a database (for example), we don't have this problem, and some method ```algorithm.Run()``` can be called regardless of the way it handles data. Then, the output can be used (or updated into the database) by the program that calls the algorithm, and the algorithm only concerns itself with what to calculate and how. 
 
-In that sense, the algorithm is still pure, as it has read-only database access. What it does lose is that algorithms are now very much dependent on state, which is more difficult to debug. This trade-off, however, facilitates the algorithm to be as generic as possible. 
+Then, an algorithm is some replacable unit of logic that owns context of a program so that it can calculate some result. 
 
 ## My requirements
-Now that we have defined the algorithms we wish to implement, let us look at what we want to be able to do with them. The simplest way to implement algorithms would be to simply inline them in the code. Then, we must have some serious gain in functionality in return for the added complexity from the way we handle these algorithms. Let's define what we require from the implementation: 
+Now that we have defined the algorithms we wish to abstract, let us look at what we want to be able to do with them. The simplest way to implement algorithms would be to simply inline them in the code. Then, we must have some serious gain in functionality in return for the added complexity from the way we handle these algorithms. Let's define what we require from the implementation: 
 
 - The program must be indifferent to different implementations of the same type of algorithm.
 - The system must be able to select an implementation at runtime.
