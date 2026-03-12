@@ -1,5 +1,8 @@
 /* Generated using: hugo gen chromastyles --style=catppuccin-frappe */
-
+.chroma {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
 /* Background */ .bg { color:#c6d0f5;background-color:#303446; }
 /* PreWrapper */ .chroma { color:#c6d0f5;background-color:#303446; }
 /* Other */ .chroma .x {  }
