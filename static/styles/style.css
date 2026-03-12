@@ -1545,3 +1545,16 @@ Trial, with blocks
     max-width: unset !important;
     height: 68px;
 }
+
+#menu-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#menyAvPaa:checked ~ #menu-overlay {
+    display: block;
+}

@@ -417,6 +417,31 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 });
 
+function preventScroll(e) {
+    e.preventDefault();
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+    const checkbox = document.getElementById("menyAvPaa");
+    if (!checkbox) return;
+
+    checkbox.addEventListener("change", () => {
+        if (checkbox.checked) {
+            makeMenuDecorations();
+            window.addEventListener("wheel", preventScroll, { passive: false });
+            window.addEventListener("touchmove", preventScroll, { passive: false });
+            window.addEventListener("keydown", (e) => {
+                if (["ArrowUp", "ArrowDown", "Space", "PageUp", "PageDown"].includes(e.code)) {
+                    e.preventDefault();
+                }
+            });
+        } else {
+            window.removeEventListener("wheel", preventScroll);
+            window.removeEventListener("touchmove", preventScroll);
+        }
+    });
+});
+
 function makeMenuDecorations() {
     const meny = document.getElementById("meny");
     if (!meny) return;
