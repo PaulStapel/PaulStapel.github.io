@@ -6,8 +6,15 @@
     <description>Recent content in C# on Paul&#39;s Particles</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 20 Jul 2025 15:33:42 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 10 Mar 2026 10:42:39 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/c%23/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Designing An Algorithm Framework for A/B testing</title>
+      <link>http://localhost:1313/algorithm-testing-framework/</link>
+      <pubDate>Tue, 10 Mar 2026 10:42:39 +0100</pubDate>
+      <guid>http://localhost:1313/algorithm-testing-framework/</guid>
+      <description>&lt;p&gt;This week, I worked on writing some code to abstract out algorithms for the purpose of making continuous development of these algorithms possible, as well as the A/B testing to compare different parameters or implementations. This was quite a considerable design choice for our program, and because of this, I wanted to share my thought process and the challenges I faced when building this.&lt;/p&gt;&#xA;&lt;h2 id=&#34;defining-algorithm-what-do-we-want-to-abstract&#34;&gt;Defining &amp;ldquo;algorithm&amp;rdquo; (what do we want to abstract?)&lt;/h2&gt;&#xA;&lt;p&gt;First off, I had to create some definition of an algorithm. Usually, this could be some pure function that takes an input and handles those inputs to finally return some output. This way, you could assure algorithms were stateless and thus easy to swap without having any nasty side effects. This was thus the first idea that came to mind as to what I would abstract out of the code.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Setting Up A (MonoGame) .NET Project</title>
       <link>http://localhost:1313/setting-up-monogame/</link>

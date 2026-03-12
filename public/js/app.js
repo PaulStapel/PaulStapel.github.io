@@ -14,8 +14,7 @@ toggle.addEventListener("click", () => {
     body.classList.add("light");
     localStorage.setItem("mode", "light");
   }
-    // Update particles background color when mode changes
-  updateParticlesBackground();
+
 });
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -62,39 +61,11 @@ function getIsLightMode() {
   return document.body.classList.contains("light");
 }
 
-async function updateParticlesBackground() {
-  await tsParticles.load({
-    id: "tsparticles",
-    options: {
-      preset: "stars",
-      background: {
-        color: getIsLightMode() ? "#9A510D" : "#395452",
-      }
-    }
-  });
-}
-
-// Initialize particles on page load
-(async () => {
-  await loadStarsPreset(tsParticles);
-  await updateParticlesBackground(); // Initial background setup
-})();
-
-// Listen for theme changes and update particles accordingly
-const observer = new MutationObserver(() => {
-  updateParticlesBackground();
-});
-
-// Observe class changes on the body element
-observer.observe(document.body, {
-  attributes: true,
-  attributeFilter: ['class']
-});
-
 
 document.addEventListener("DOMContentLoaded", function() {
   // Get headings and TOC element
   const contentArea = document.querySelector('.singleContent');
+  if (!contentArea) return;
   const headings = contentArea.querySelectorAll("h2, h3, h4, h5");
   const toc = document.getElementById("toc");
   
@@ -234,6 +205,7 @@ const handleAnimationEnd = (block, classesToRemove) => {
 
 document.addEventListener("DOMContentLoaded", () => {
   const container = document.getElementById("contentBlocks");
+  if (!container) return;
   const elements = Array.from(container.children);
   let blocks = [];
   let currentBlock = null;
@@ -433,3 +405,50 @@ function makeWallBlocks(containerId = "wallBlocks") {
 document.addEventListener("DOMContentLoaded", () => {
   makeWallBlocks("wallBlocks");
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+    const checkbox = document.getElementById("menyAvPaa");
+    if (!checkbox) return;
+
+    checkbox.addEventListener("change", () => {
+        if (checkbox.checked) {
+            makeMenuDecorations();
+        }
+    });
+});
+
+function makeMenuDecorations() {
+    const meny = document.getElementById("meny");
+    if (!meny) return;
+
+    meny.querySelectorAll(".menu-deco-block").forEach(b => b.remove());
+
+    const pastelColors = [
+        "#FFD1DC", "#F6F1C1", "#C1F6D9", "#C1D4F6",
+        "#E1C1F6", "#F6C1C1", "#ffdfba", "#eb8b68",
+        "#95b3c0", "#F6E1C1", "#C1E1F6", "#A2AF9B", "#DCCFC0"
+    ];
+
+    const links = Array.from(meny.querySelectorAll(".moblinks a"));
+
+    // Hide original links
+    meny.querySelector(".moblinks").style.display = "none";
+
+    links.forEach((link, i) => {
+        const color = pastelColors[i % pastelColors.length];
+
+        const block = document.createElement("div");
+        block.classList.add("block", "menu-deco-block");
+        block.style.boxShadow = `8px 8px 0 -3px ${color}, 8px 8px 0 0 black`;
+        block.style.transform = `rotate(${Math.random() * 10 - 5}deg)`;
+
+        const a = document.createElement("a");
+        a.href = link.href;
+        a.textContent = link.textContent;
+        a.classList.add("block", "menu-deco-block");
+        a.style.boxShadow = `8px 8px 0 -3px ${color}, 8px 8px 0 0 black`;
+        a.style.transform = `rotate(${Math.random() * 10 - 5}deg)`;
+
+        meny.appendChild(a);
+    });
+}

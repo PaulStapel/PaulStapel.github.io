@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+
+<script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><script data-goatcounter="https://paulstapel.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+
+
+<html lang="en">
+<head>
+    <title>Designing An Algorithm Framework for A/B testing | Paul&#39;s Particles</title>
+    
+    <nav aria-label="Breadcrumb" style="display:none"> 
+        <ol class="breadcrumb">
+            <li><a href="http://localhost:1313/">Home</a></li>
+            
+            
+            <li><a href="http://localhost:1313/">Paul&#39;s Particles</a></li>
+            
+            <li aria-current="page">Designing An Algorithm Framework for A/B testing</li>
+        </ol>
+    </nav>
+    <meta name="description" content="Some considerations on how to test algorithms">
+    <meta charset="UTF-8">
+    <meta property="og:title" content="Designing An Algorithm Framework for A/B testing" />
+    <meta property="og:description" content="Some considerations on how to test algorithms" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="http://localhost:1313/algorithm-testing-framework/" />
+    <meta property="og:image" content="https://paulstapel.com/favicons/favicon-196x196.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Designing An Algorithm Framework for A/B testing" />
+    <meta name="twitter:description" content="Some considerations on how to test algorithms" />
+    <meta name="twitter:image" content="https://paulstapel.com/favicons/favicon-196x196.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/syntax.css">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Lato" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    </noscript>
+
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Designing An Algorithm Framework for A\/B testing",
+        "description": "Some considerations on how to test algorithms",
+        "image": "https://paulstapel.com/favicons/favicon-196x196.png",
+        "author": {
+            "@type": "Person",
+            "name": "Paul Stapel"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "Paul Stapel",
+            "logo": {
+            "@type": "ImageObject",
+            "url": "https://paulstapel.com/favicons/favicon-196x196.png"
+            }
+        },
+        "datePublished": "2026-03-10",
+        "dateModified": "2026-03-10",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "http:\/\/localhost:1313\/algorithm-testing-framework\/"
+        },
+        "articleSection": [
+            "coding", "C#", "architecture"
+        ]
+    }
+    </script>
+
+    <link rel="canonical" href="http://localhost:1313/algorithm-testing-framework/">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <meta name="robots" content="index, follow">
+
+
+    
+
+    
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://paulstapel.com/favicons/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://paulstapel.com/favicons/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://paulstapel.com/favicons/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://paulstapel.com/favicons/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="https://paulstapel.com/favicons/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://paulstapel.com/favicons/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://paulstapel.com/favicons/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://paulstapel.com/favicons/apple-touch-icon-152x152.png" />
+
+    
+    <link rel="icon" type="image/png" href="https://paulstapel.com/favicons/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="https://paulstapel.com/favicons/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="https://paulstapel.com/favicons/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="https://paulstapel.com/favicons/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="https://paulstapel.com/favicons/favicon-128.png" sizes="128x128" />
+
+    
+    <meta name="application-name" content="Your Website Name" />
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="https://paulstapel.com/favicons/mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="https://paulstapel.com/favicons/mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="https://paulstapel.com/favicons/mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="https://paulstapel.com/favicons/mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="https://paulstapel.com/favicons/mstile-310x310.png" />
+    <style>
+    body {
+        font-family: 'Lato';
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+      <nav class="navbar">
+  <div class="logo">
+    
+    <a href="/" class="site-name hoverlink">Paul's Particles</a>
+    
+  </div class="nav-elements">
+    <div class="toggle">
+      <svg
+        width="20px"
+        height="20px"
+        viewBox="-0.14 0 20.03 20.03"
+        fill="#000000"
+      >
+        <g id="moon-alt" transform="translate(-2.25 -2)">
+          <path
+            id="secondary"
+            fill="#FFFFF0"
+            d="M21,12A9,9,0,0,1,3.25,14.13,6.9,6.9,0,0,0,8,16,7,7,0,0,0,11.61,3H12a9,9,0,0,1,9,9Z"
+          ></path>
+        </g>
+      </svg>
+      <div class="ball" ></div>
+      <svg width="20px" height="20px" viewBox="0 0 20 20" fill="#000000">
+        <g id="sun" transform="translate(-2 -2)">
+          <circle
+            id="secondary"
+            fill="#FFFFF0"
+            cx="4"
+            cy="4"
+            r="4"
+            transform="translate(8 8)"
+          ></circle>
+          <path
+            id="primary"
+            d="M12,3V4M5.64,5.64l.7.7M3,12H4m1.64,6.36.7-.7M12,21V20m6.36-1.64-.7-.7M21,12H20M18.36,5.64l-.7.7M12,8a4,4,0,1,0,4,4A4,4,0,0,0,12,8Z"
+            fill="none"
+            stroke="#ffe01b"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+          ></path>
+        </g>
+      </svg>
+    </div >
+
+
+    <div class="links">
+    <a href="/" class="hoverlink">Particles</a>
+    
+    
+    <a href="/about-me/about-me" class="hoverlink">About</a>
+    
+    <a href="/categories/meditation" class="hoverlink">Meditation</a>
+    <a href="/categories/daily-drop/" class="hoverlink">Drops</a>
+    <a href="/categories/wall/" class="hoverlink">Wall</a>
+    <a href="/categories/recipe/" class="hoverlink">Recipes</a>
+  </div>
+
+  <div class="search-container">
+      <input type="text" placeholder="Search...">
+      <div class="search"></div>
+    </div>
+
+
+  <header class="borgir"> 
+  <input type="checkbox" id="menyAvPaa">
+  <label id="burger" for="menyAvPaa">
+      <div></div>
+      <div></div>
+      <div></div>
+  </label>
+<div id="meny">
+  <div class="moblinks">
+  <a href="/" class="hoverlink">Particles</a>
+  
+  
+  <a href="/about-me/about-me" class="hoverlink">About</a>
+  
+  <a href="/categories/meditation/" class="hoverlink">Meditation</a>
+  <a href="/categories/daily-drop/" class="hoverlink">Drops</a>
+  <a href="/categories/wall/" class="hoverlink">Wall</a>
+  <a href="/categories/recipe/" class="hoverlink">Recipes</a>
+  </div>
+</div>
+
+
+</header>
+
+</nav>
+      <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
+      <script src="/js/app.js"> </script>
+      
+
+
+<div class="single">
+   <div class="singleHead">
+      <div class="singleHeadText">
+        <h1 class="singleHeadTitle">Designing An Algorithm Framework for A/B testing</h1> 
+        
+        <p class="singleHeadDesc">Some considerations on how to test algorithms</p>
+        <time class="singleDate"><em>10 Mar, 2026</em></time>
+        <div class="singleCategories">
+            
+            <a class="singleCategory" href=http://localhost:1313/categories/coding/>coding</a> 
+            
+            <a class="singleCategory" href=http://localhost:1313/categories/c%23/>C#</a> 
+            
+            <a class="singleCategory" href=http://localhost:1313/categories/architecture/>architecture</a> 
+            
+        </div>
+        
+      </div>
+   </div>
+   <div class="singleBottom">
+    
+    
+      <div class="singleContent"><p>This week, I worked on writing some code to abstract out algorithms for the purpose of making continuous development of these algorithms possible, as well as the A/B testing to compare different parameters or implementations. This was quite a considerable design choice for our program, and because of this, I wanted to share my thought process and the challenges I faced when building this.</p>
+<h2 id="defining-algorithm-what-do-we-want-to-abstract">Defining &ldquo;algorithm&rdquo; (what do we want to abstract?)</h2>
+<p>First off, I had to create some definition of an algorithm. Usually, this could be some pure function that takes an input and handles those inputs to finally return some output. This way, you could assure algorithms were stateless and thus easy to swap without having any nasty side effects. This was thus the first idea that came to mind as to what I would abstract out of the code.</p>
+<p>While thinking this problem through a bit more, however, I came to the realisation that abstracting out pure logic was less important than abstracting out side-effectless ways in which some common goal is reached. We don&rsquo;t have to require that an algorithm has referential transparancy, as we don&rsquo;t care about the how of reaching a goal, only about the goal.</p>
+<p><strong>As an example</strong>, suppose on algorithm is supposed to evaluate the user preference in shows to watch. We may want to A/B test an algorithm that looks at all watched shows and then evaluates the show that has most metrics in common with those shows. Another one might match a profile to the user (that will then be stored in the database), and match shows based on users with the same profile.</p>
+<p>The first algorithm would need to collect all shows that have matching metrics, while the second one must collect all users with similar profiles (and from there the shows they watched).</p>
+<p>If we we were to have our algorithms be pure functions, we would need to run large conditional statements to preprocess the inputs of these algorithms in order to give the correct preprocessed data, which makes it a clunky solution. On the other hand, if we allow each algorithm to read data from a database (for example), we don&rsquo;t have this problem, and some method <code>algorithm.Run()</code> can be called regardless of the way it handles data. Then, the output can be used (or updated into the database) by the program that calls the algorithm, and the algorithm only concerns itself with what to calculate and how.</p>
+<p>Then, an algorithm is some replacable unit of logic that owns context of a program so that it can calculate some result.</p>
+<h2 id="my-requirements">My requirements</h2>
+<p>Now that we have defined the algorithms we wish to abstract, let us look at what we want to be able to do with them. The simplest way to implement algorithms would be to simply inline them in the code. Then, we must have some serious gain in functionality in return for the added complexity from the way we handle these algorithms. Let&rsquo;s define what we require from the implementation:</p>
+<ul>
+<li>The program must be indifferent to different implementations of the same type of algorithm.</li>
+<li>The system must be able to select an implementation at runtime.</li>
+<li>When a new algorithm is created, it should be callable without any other changes to de codebase being necessary.</li>
+<li>Different implementations should be able to use different data to come to their results</li>
+</ul>
+<p>If we have an implementation that satisfies these 4 requirements in an efficient way, the implementation is considered sufficient. The first two requirements make it easy to swap algorithms and A/B test them. The second two requirements make development of algorithms easier and more flexible.</p>
+<h2 id="the-strategy-design-pattern">The strategy design pattern</h2>
+<p>In order to now make it easy to swap the implementation of the algorithm, we employed a strategy design pattern. The main idea is that we can design different implementations of some function, as long as the type signature is the same and only internal logic is changed. Then, we allow our program to &ldquo;select&rdquo; a strategy of implementation.</p>
+<p>The way this is implemented is using a simple interface for each &ldquo;goal&rdquo; for an algorithm. To stay with our example, we would include something like</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kd">public</span> <span class="k">interface</span> <span class="nc">IRecommendationAlgorithm</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="n">showId</span> <span class="n">RecommendShow</span><span class="p">(</span><span class="kt">int</span> <span class="n">userId</span><span class="p">);</span> 
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kd">public</span> <span class="k">class</span> <span class="nc">HistoryBasedRecommendation</span><span class="p">(</span><span class="n">Context</span> <span class="n">context</span><span class="p">)</span> <span class="p">:</span> <span class="n">IRecommendationAlgorithm</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">public</span> <span class="n">showId</span> <span class="n">RecommendShow</span><span class="p">(</span><span class="kt">int</span> <span class="n">userId</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">// Logic here</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kd">public</span> <span class="k">class</span> <span class="nc">ProfileBasedRecommendation</span><span class="p">(</span><span class="n">Context</span> <span class="n">context</span><span class="p">)</span> <span class="p">:</span> <span class="n">IRecommendationAlgorithm</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">public</span> <span class="n">showId</span> <span class="n">RecommendShow</span><span class="p">(</span><span class="kt">int</span> <span class="n">userId</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span> 
+</span></span><span class="line"><span class="cl">        <span class="c1">// Different logic here</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>Then, when a service needs an algorithm, we only need to change the algorithm we instantiate, and keep the rest of the code unchanged. Off course, this is still a bit ugly, as you need to instantiate an algorithm each time, and there is no real way for the algorithm to be selected at runtime. This marks our 1st requirement.</p>
+<h2 id="the-algorithm-registry">The algorithm registry</h2>
+<p>The way I solved the problem of run time selection of algorithms is using an AlgorithmRegistry class that saves an instance of each of the algorithms in a dictionary at compile time, so that this registry can then be queried at compile time. For each type of algorithm (remember! we&rsquo;ve given this an interface), we can create an instance of a registry to get algorithms from. Initially, the key would be some Name attribute that is defined inside of each implementation of an algorithm (a string for example). This could be implemented as follows:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">System.Reflection</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kd">public</span> <span class="k">interface</span> <span class="nc">IAlgorithmRegistry</span><span class="p">&lt;</span><span class="n">T</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="n">T</span> <span class="n">Get</span><span class="p">(</span><span class="n">String</span> <span class="n">key</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kd">public</span> <span class="k">class</span> <span class="nc">AlgorithmRegistry</span><span class="p">&lt;</span><span class="n">T</span><span class="p">&gt;</span> <span class="p">:</span> <span class="n">IAlgorithmRegistry</span><span class="p">&lt;</span><span class="n">T</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">private</span> <span class="k">readonly</span> <span class="n">IReadOnlyDictionary</span><span class="p">&lt;</span><span class="kt">string</span><span class="p">,</span> <span class="n">T</span><span class="p">&gt;</span> <span class="n">_registry</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="kd">public</span> <span class="n">AlgorithmRegistry</span><span class="p">(</span><span class="n">IEnumerable</span><span class="p">&lt;</span><span class="n">T</span><span class="p">&gt;</span> <span class="n">algorithms</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="n">_registry</span> <span class="p">=</span> <span class="n">algorithms</span>
+</span></span><span class="line"><span class="cl">            <span class="p">.</span><span class="n">Where</span><span class="p">(</span><span class="n">a</span> <span class="p">=&gt;</span> <span class="n">a</span> <span class="p">!=</span> <span class="kc">null</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="p">.</span><span class="n">ToDictionary</span><span class="p">(</span><span class="n">a</span> <span class="p">=&gt;</span> <span class="n">a</span><span class="p">.</span><span class="n">Name</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">    <span class="kd">public</span> <span class="n">T</span> <span class="n">Get</span><span class="p">(</span><span class="n">String</span> <span class="n">key</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="n">_registry</span><span class="p">.</span><span class="n">TryGetValue</span><span class="p">(</span><span class="n">key</span><span class="p">,</span> <span class="k">out</span> <span class="kt">var</span> <span class="n">algorithm</span><span class="p">)</span> <span class="c1">// TryGetValue is a safe way to query the registry</span>
+</span></span><span class="line"><span class="cl">        <span class="p">?</span> <span class="n">algorithm</span> <span class="p">:</span> <span class="k">throw</span> <span class="k">new</span> <span class="n">KeyNotFoundException</span><span class="p">(</span><span class="s">&#34;Algorithm not found&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>Where we&rsquo;d need to keep in mind to have each interface also implement some getter for the name of the algorithm. Having this, we can easily select different algorithms at runtime by selecting the key with which we read from the registry, solving our 2nd requirement.</p>
+<p>A nice way to make the name &ldquo;key&rdquo; cleaner is to use Attributes that mark each algorithm as an algorithm with some name that we then give as an argument of the attribute. This way, each algorithm class does not need to know that it is going to be stored in some registry, and it becomes easier to read what part of the code is being put into the registry. This is the approach I took in some project I implemented this in, but it is by no means necessary.</p>
+<h2 id="small-note-dependency-injection">Small Note; Dependency Injection</h2>
+<p>If you looked at the constructor of the previous class, you can see that there is still some mysterious IEnumerable<!-- raw HTML omitted --> that is passed into the registry. This is achieved by dependency injection in .NET, which is a large part of Microsoft&rsquo;s .NET ecosystem. Dependency injection is a way to instantiate objects without the using class needing to know anything about the construction. Instead of manually creating instances and passing them around, you register types with a DI container up front, and the container takes responsibility for constructing and providing them wherever they are needed.</p>
+<p>Although .NET has tools to do this, any language that supports reflection can implement this abstraction in principle. You use reflection to scan for all implementations of a known interface (our algorithm) and then instantiate each one and collect them into some container that is passed along in the entry point of your program.</p>
+<p>As dependency injection allows all implementations to be passed into the registry, this solves our 3rd requirement.</p>
+<h2 id="the-input-of-our-algorithms">The input of our algorithms</h2>
+<p>Finally, the problem of what input to give to our algorithms. As previously mentioned in the example, different algorithms that share a same goal may need a very different context to work with. In order to satisfy our first point (that we solved with the strategy pattern), we wish to make sure that each implementation has the same input signature. This means that we should give our algorithms an input that is as broad as possible. The most logical conclusion we reached is that we give it read-only access to the database where data about your program is stored. This way, any algorithm can work out what preprocessing it needs to do on its own, and different data may be used by different implementations.</p>
+<p>The only problems this may face is that querying may generally be slow and that there may be some code duplication in the preprocessing. The first should only really be solved if this becomes a noticable problem, as usually database queries are not in the same timescale as the actual calculations of an algorithm. The second problem could also easily be mitigated by using abstract classes or helper methods.</p>
+<p>Then, this solves our final 4th requirement.</p>
+<h2 id="putting-it-together-and-ab-testing">Putting it together and A/B testing</h2>
+<p>Putting things together, using algorithms becomes really simple. To use an algorithm, inject <code>IAlgorithmRegistry&lt;T&gt;</code> and call <code>registry.Get(&quot;Key Name&quot;)</code>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl"><span class="kd">public</span> <span class="k">class</span> <span class="nc">SomeService</span><span class="p">(</span><span class="n">IAlgorithmRegistry</span><span class="p">&lt;</span><span class="n">ISomeAlgorithm</span><span class="p">&gt;</span> <span class="n">registry</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">public</span> <span class="kd">async</span> <span class="n">Task</span> <span class="n">DoWork</span><span class="p">(</span><span class="n">Input</span> <span class="n">input</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kt">var</span> <span class="n">algorithm</span> <span class="p">=</span> <span class="n">registry</span><span class="p">.</span><span class="n">Get</span><span class="p">(</span><span class="s">&#34;Some Implementation&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="k">await</span> <span class="n">algorithm</span><span class="p">.</span><span class="n">DoSomething</span><span class="p">(</span><span class="n">input</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>By default, the algorithm is handled inline by the key we use in the factory, but having some key resolving service automatically makes it easy to apply A/B testing to this as well. As a simple example, consider the following:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl"><span class="kd">public</span> <span class="k">class</span> <span class="nc">AbTestingKeyResolver</span><span class="p">(</span><span class="n">IAbTestingService</span> <span class="n">abTesting</span><span class="p">)</span> 
+</span></span><span class="line"><span class="cl">    <span class="p">:</span> <span class="n">IAlgorithmKeyResolver</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">public</span> <span class="kt">string</span> <span class="n">Resolve</span><span class="p">(</span><span class="kt">int</span> <span class="n">userId</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">abTesting</span><span class="p">.</span><span class="n">GetVariant</span><span class="p">(</span><span class="n">userId</span><span class="p">,</span> <span class="s">&#34;algorithm-variant&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>The body of &ldquo;DoWork()&rdquo; would then look something like</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="kt">var</span> <span class="n">key</span> <span class="p">=</span> <span class="n">keyResolver</span><span class="p">.</span><span class="n">Resolve</span><span class="p">(</span><span class="n">userId</span><span class="p">);</span> <span class="c1">// Uses A/B testing parameters</span>
+</span></span><span class="line"><span class="cl"><span class="kt">var</span> <span class="n">algorithm</span> <span class="p">=</span> <span class="n">registry</span><span class="p">.</span><span class="n">Get</span><span class="p">(</span><span class="n">key</span><span class="p">);</span> 
+</span></span><span class="line"><span class="cl"><span class="k">await</span> <span class="n">algorithm</span><span class="p">.</span><span class="n">DoSomething</span><span class="p">(</span><span class="n">input</span><span class="p">);</span> 
+</span></span></code></pre></div><p>Thus, this system seems to easily lend itself to A/B testing as well.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>I always find it interesting to write down my considerations when designing architecture. It is often rather difficult to get the right architecture right away, and I often find myself over-engineering stuff that doesn&rsquo;t actually need to be overengineered. What I tried to do this time is to actually start with the reasons behind the abstraction and architecture, and from there backward engineer an implementation that is as simple as possible while giving me all my requirements. I find it really interesting how this topic of backward engineering has come up independently for both my research thesis as well as for this software architecture I built, and I take it as a sign to keep this approach in mind next time I start designing something.</p>
+</div>
+    
+
+   </div>
+</div>
+
+      <div class="footer">
+  <div class="footerLinks">
+    <a href="/">Particles</a> |
+    
+    <a href="/set-up/set-up">Setup</a> |
+    <a href="/about-me/about-me">About</a> |
+    <a href="/codex/codex-meae-mentis">Codex</a> |
+    <a href="/categories/meditation" >Meditation</a> |
+    <a href="/categories/daily-drop">Drops</a> | 
+    <a href="/categories/recipe/">Recipes</a>
+  </div>
+
+      <div class="social">
+    <a href="https://github.com/PaulStapel">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+      </svg>
+    </a>
+    <a href="https://www.linkedin.com/in/paul-stapel/">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+        <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+      </svg>
+  </a>
+  <a href="https://www.instagram.com/justpaulstapel/">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+  </svg>
+  </a>
+  
+  </div>
+  </div>
+  
+</div>
+
+    </div>
+</body>
+</html>

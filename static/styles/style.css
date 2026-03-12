@@ -1,6 +1,6 @@
 :root{
     --bg: #2d353b;
-    --bgSoft : linear-gradient(180deg, #dfffb3, #e0f7d4, #b5ead7);
+    --bgSoft : #dfffb3;
     --text : #eae3d2;
     --textSoft :#E67E80;
     --Desc: #7FBBB3;
@@ -27,7 +27,7 @@ body{
 
 body.light{
     --bg: #f6f6f6;
-    --bgSoft : linear-gradient(180deg, #ff6b2b, #EAA823, #ffb347);
+    --bgSoft : #EAA823;
     --text: #101820FF;
     --textSoft : #7FBBB3;
     --Desc: #9A510D;
@@ -460,9 +460,7 @@ li::marker {
 }
 
 .singleContent h2{
-    background: var(--bgSoft);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
+    color: var(--bgSoft);
     margin-bottom: 25px;
     margin-top: 25px;
     font-size: 32px;
@@ -596,9 +594,7 @@ li::marker {
     cursor: pointer;
 }
 
-/* Css from a UI library */
 #meny {
-    background:  #404040;
     width: 100%;
     height: 100vh;
     right: 0;
@@ -611,11 +607,18 @@ li::marker {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 60px; 
+    padding-top: 60px;
+
+    /* Frosted glass */
+    background: rgba(45, 53, 59, 0.45);
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
+    border-left: 1px solid rgba(255, 255, 255, 0.08);
 }
 
-.light #meny{ 
-  background: var(--bgSoft);
+.light #meny {
+    background: rgba(246, 246, 246, 0.45);
+    border-left: 1px solid rgba(0, 0, 0, 0.08);
 }
 
 #menyAvPaa {
@@ -644,12 +647,8 @@ li::marker {
     transition: 0.5s;
 }
 
-.light #burger > div{
-  background-color: var(--text);
-}
-
-#burger > div{
-  background-color: #f6f6f6;
+.light #burger > div {
+    background-color: var(--text);
 }
 
 #menyAvPaa:checked ~ #burger > div {
@@ -657,7 +656,7 @@ li::marker {
 }
 
 .light #menyAvPaa:checked ~ #burger > div {
-  background-color: var(--text);
+    background-color: var(--text);
 }
 
 #menyAvPaa:checked ~ #burger > div:nth-child(1) {
@@ -1157,6 +1156,21 @@ blockquote .quote-author {
   pointer-events: none;
 }
 
+.search-container .search {
+  transition: width 1s, height 1s, top 1s, right 1s, bottom 1s, left 1s, border-radius 1s;
+}
+
+.search-container .search::before {
+  transition: width .5s, top .5s, left .5s, transform .5s;
+}
+.search-container .search::after {
+  transition: width .5s, height .5s, top .5s, left .5s, border-radius .5s, transform .5s;
+}
+
+.search-container input {
+  transition: width 1s, opacity 1s, right 1s;
+}
+
 /* 
 Trial, with blocks
  */
@@ -1219,9 +1233,7 @@ Trial, with blocks
 
 .block h2 {
   margin-top: 0;
-  background: var(--bgSoft);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  color: var(--bgSoft);
   font-size: 1.8rem;
   font-weight: 700;
   letter-spacing: 0.5px;
@@ -1493,4 +1505,43 @@ Trial, with blocks
     stroke: rgba(0, 0, 0, 0.8);
     stroke-width: 0.6;
   }
+}
+
+.menu-deco-block {
+    position: relative !important;
+    min-width: 120px !important;
+    max-width: 160px !important;
+    padding: 0.8rem 1rem !important;
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 10px;
+    cursor: pointer;
+}
+
+
+/* Epic new sidebar */
+.menu-deco-block {
+    position: relative;
+    padding: 0.8rem 1rem;
+    text-align: center;
+    font-size: 1.8rem;
+    margin: 12px;
+    cursor: pointer;
+}
+
+#meny {
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+    padding: 40px;
+}
+
+.menu-deco-block {
+    flex: 0 0 auto ;
+    width: 175px;
+    min-width: unset !important;
+    max-width: unset !important;
+    height: 68px;
 }

@@ -6,8 +6,29 @@
     <description>Recent content in Categories on Paul&#39;s Particles</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 15 Feb 2026 12:39:26 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 10 Mar 2026 10:42:39 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Architecture</title>
+      <link>http://localhost:1313/categories/architecture/</link>
+      <pubDate>Tue, 10 Mar 2026 10:42:39 +0100</pubDate>
+      <guid>http://localhost:1313/categories/architecture/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>C#</title>
+      <link>http://localhost:1313/categories/c%23/</link>
+      <pubDate>Tue, 10 Mar 2026 10:42:39 +0100</pubDate>
+      <guid>http://localhost:1313/categories/c%23/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Coding</title>
+      <link>http://localhost:1313/categories/coding/</link>
+      <pubDate>Tue, 10 Mar 2026 10:42:39 +0100</pubDate>
+      <guid>http://localhost:1313/categories/coding/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Wall</title>
       <link>http://localhost:1313/categories/wall/</link>
@@ -111,20 +132,6 @@
       <link>http://localhost:1313/categories/indian/</link>
       <pubDate>Mon, 11 Aug 2025 10:41:20 +0200</pubDate>
       <guid>http://localhost:1313/categories/indian/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>C#</title>
-      <link>http://localhost:1313/categories/c%23/</link>
-      <pubDate>Sun, 20 Jul 2025 15:33:42 +0200</pubDate>
-      <guid>http://localhost:1313/categories/c%23/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Coding</title>
-      <link>http://localhost:1313/categories/coding/</link>
-      <pubDate>Sun, 20 Jul 2025 15:33:42 +0200</pubDate>
-      <guid>http://localhost:1313/categories/coding/</guid>
       <description></description>
     </item>
     <item>
