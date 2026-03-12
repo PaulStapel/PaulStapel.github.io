@@ -1538,15 +1538,7 @@ Trial, with blocks
     padding: 40px;
 }
 
-#meny {
-    position: fixed !important;
-    top: 0 !important;
-    left: 0 !important;
-    right: 0 !important;
-    bottom: 0 !important;
-    width: 100% !important;
-    height: 100% !important;
-}
+
 
 .menu-deco-block {
     flex: 0 0 auto ;
@@ -1554,6 +1546,7 @@ Trial, with blocks
     min-width: unset !important;
     max-width: unset !important;
     height: 68px;
+    height: 100dvh;
 }
 
 #menu-overlay {
@@ -1563,6 +1556,11 @@ Trial, with blocks
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+#meny {
+    padding-bottom: env(safe-area-inset-bottom);
+    bottom: calc(-1 * env(safe-area-inset-bottom));
 }
 
 #menyAvPaa:checked ~ #menu-overlay {
