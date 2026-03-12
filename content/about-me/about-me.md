@@ -2,7 +2,7 @@
 title = 'Paul Stapel'
 date = 2024-04-03T20:59:30+02:00
 draft = false
-description = "Recent as of 12/04/2025"
+description = "Recent as of 12/03/2026"
 categories = "meta"
 ToC = true
 [build] 
@@ -16,24 +16,23 @@ If you want to reach out, you can currently contact me @ <contact@paulstapel.com
 
 ## Currently working on
 I am currently following these courses at Utrecht University: 
-* Functional analysis
-* Advanced Quantum Mechanics
-* Concurrency
-* Introduction to machine learning
+* My bachelor Thesis on imposing edge of chaos behaviour on physical memristor based echo state networks.
+* My bachelor Project for Citolabs working on a virtual learning environment. My main role here is implementing algorithmic architecture and research features for the researchers at Citolabs. 
 
-\
-On the side, I work on this blog, learning Mandarin and some personal projects revolving game dev.
+On the side, I work on this blog, study Mandarin and do some personal projects revolving game development. I also like exercising regularly, and try to do at least 30 minutes every day. 
 
-I also work as a part-time data analyst for Simplex, a Dutch consultancy agency that specialises in AFAS-software. As part of this job, I design and develop dashboards with Power Bi.
+I also work as a part-time data analyst for Simplex, a Dutch consultancy agency that specialises in AFAS-software. As part of this job, I design and develop dashboards with Power Bi. I am now also working on some more interesting projects involving MCP servers. 
 
 ## Interests
 These are some things I really enjoy talking/writing about. I'm always up for a chat!
 * Bachelor level Physics, Maths and CompSci
 * Cooking 
-* Life-philosophy 
+* Life philosophy 
 * Books and reading
 * Dungeons & Dragons
 * (Indie) games
+* China
+* Music
 * Anything I blog about
 * Any of the skills mentioned below
 
@@ -74,7 +73,7 @@ I can speak Dutch and English proficiently, and can comprehend and (poorly) spea
 * **Asperite** ( Disclaimer: I am very bad at pixel art :/ )
 
 ### Things I'd like to learn
-* **Mandarin** (A lot of interesting culture and literature is in Mandarin, and I'm slowly learning the language) 
+* **Mandarin** (A lot of interesting culture and literature is in Mandarin, and I'm slowly learning the language. HSK 3 currently) 
 * **Rust** (Rust sounds like an interesting language, and I'd love to learn it)
 * **Bevy** (Part of why I'd like to learn Rust is for the bevy framework, as I love the concepts of ECS)
 * **Godot** (For prototyping game ideas in a quick fashion)
