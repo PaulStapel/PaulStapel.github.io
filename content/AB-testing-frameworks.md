@@ -105,5 +105,5 @@ To conclude, I'd like to recommend the following:
 - Your own solution if you don't mind investing some time into creating this and want complete freedom and flexibilty in your software. 
 - Microsoft Feature Management if you like disapointment.  
 
-## That's all for today, pasta. 
+## That's all for today, pasta out. 
 
