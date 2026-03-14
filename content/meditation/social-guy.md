@@ -5,7 +5,7 @@ draft: false
 description: "L’EFFET C’EST MOI"
 categories: 
     - meditation
-    - alina certified
+    - Alina certified
 ---
 
 > A ruler's success should be measured by the success of his commonwealth - Me
