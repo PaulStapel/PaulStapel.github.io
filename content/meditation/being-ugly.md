@@ -8,4 +8,4 @@ categories:
     - Alina certified
 ---
 
-No experience, I'm hot as fuck.
+Can't relate, I'm hot as fuck.
