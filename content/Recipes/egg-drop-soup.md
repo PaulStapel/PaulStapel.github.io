@@ -1,5 +1,5 @@
 +++
-title = 'Egg Drop Soup'
+title = 'Egg Drop Soup / 蛋花汤'
 date = 2024-05-07T21:12:21+02:00
 draft = false
 description = "A delicous and light soup to complement any dinner!"

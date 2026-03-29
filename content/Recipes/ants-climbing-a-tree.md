@@ -1,5 +1,5 @@
 ---
-title: "Ants Climbing a Tree"
+title: "Ants Climbing a Tree / 蚂蚁上树"
 date: "2024-09-17T20:38:46+02:00"
 draft: false
 description: "This classic Sichuan dish is my definition of comfort food"

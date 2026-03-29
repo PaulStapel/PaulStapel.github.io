@@ -1,5 +1,5 @@
 ---
-title: "Hong Shao Rou"
+title: "Hong Shao Rou / 红烧肉"
 date: "2025-05-28T20:20:57+02:00"
 draft: false
 description: "Shanghai braised pork belly"

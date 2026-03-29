@@ -1,5 +1,5 @@
 +++
-title = 'Orange Chicken'
+title = 'Orange Chicken / 陈皮鸡'
 date = 2024-04-20T21:28:15+02:00
 draft = false
 description = "The Chinese-American classic for the home-cook"

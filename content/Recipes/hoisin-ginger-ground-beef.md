@@ -5,6 +5,8 @@ draft: false
 description: "A refreshing and satisfying meal that is easy to make "
 categories: 
     - recipe
+    - Chinese
+    - difficulty 2｜5 
 ---
 
 I love Hoisin sauce, and a little while ago, I ate some Peking Duck with Hoisin sauce that also added some ginger to the sauce. I fell in love, and decided to adapt one of my signature recipes (Hoisin ground beef) to this amazing flavor combination. The result is this all-new recipe. 

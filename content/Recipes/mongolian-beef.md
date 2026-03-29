@@ -1,5 +1,5 @@
 +++
-title = 'Mongolian Beef'
+title = 'Mongolian Beef / 蒙古牛肉'
 date = 2024-04-06T10:01:01+02:00
 draft = false
 description = "One of my favorite recipes with beef"
