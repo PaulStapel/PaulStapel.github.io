@@ -25,12 +25,12 @@ Main ingredients
 - Bamboo shoots
 - Carrot
 - Cornstarch
-- Chinese black vinegar (else regular rice vinegar)
+- Chinkiang vinegar (else regular rice vinegar)
 - Light soy sauce
 - Dark soy sauce (for a bit of color and salinity)
 - White pepper (black pepper works, but is less suitable)
-- Sichuanese chili oil (or regular chili oil)
 - Sesame oil 
+- Sichuanese chili oil (or regular chili oil) (garnish)
 - Spring onions (garnish)
 - Cilantro (garnish)
 
@@ -42,7 +42,7 @@ Main ingredients
 - Then, add in thin strips or almost ribbens your tofu. 
 - Next, thicken the soup using a mixture of water and cornstarch. Mix until the soup gives a bit of resistance, but don't let it become too thick. It should slightly coat the back of a spoon. Be careful with stiring now, as the tofu can break easily. When the sauce is thicker, turn the heat down to low. 
 - If using eggs, whisk them into a bowl, then slowly pour the egg mixture into the pan while sting continuously. This will create thing egg ribbons inside of your soup. 
-- Next, season the soup to taste using soy sauce, sesame oil and white pepper and vinegar (vinegar should not get too hot to retain its sour notes). 
-- Garnish using thinly sliced spring onions and chopped cilantro. Stir it into the soup and serve it warm. 
+- Next, season the soup to taste using soy sauce, sesame oil, white pepper, and vinegar (vinegar should not get too hot to retain its sour notes). 
+- Garnish using thinly sliced spring onions and chopped cilantro. Stir it into the soup and serve it warm. Add a dash of chili oil on top for presentation, aroma and deeper flavors. 
 
 ## ENJOY!!
