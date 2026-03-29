@@ -2,7 +2,7 @@
 title: "Suan La Tang / 酸辣汤"
 date: "2026-03-29T22:03:22+02:00"
 draft: false
-description: "A sour, slightly spicy and wholly savory soup"
+description: "A sour, slightly spicy and wholly savoury soup"
 categories: 
     - recipe
     - Chinese
