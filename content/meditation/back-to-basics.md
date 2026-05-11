@@ -7,7 +7,7 @@ categories:
     - meditation    
 ---
 
-> "There is no complex without basic" 
+> "There is no complex without basic" - me
 
 I was interested in what forms a good basis for my day to day life. For a healthy body and a healthy mind, I'd like to know the minimal set of things to focus on to achieve them. I meditated on this, and came to the following conclusion. 
 
