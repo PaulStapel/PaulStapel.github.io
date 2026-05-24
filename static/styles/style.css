@@ -1564,6 +1564,7 @@ Trial, with blocks
 
 .disclaimer-card {
   align-self: center;
+  align-items: center;
   margin-top: 20px;
   display: flex;
   gap: 12px;
