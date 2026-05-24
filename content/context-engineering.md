@@ -6,7 +6,6 @@ description: "And the importance of context engineering"
 categories: 
     - coding
     - AI
-    - architecture
 ---
 
 AI, you may love it, you may hate it, but it's here. Just like the rest of the world, I have been exposed to Large Language Models for a few years now, but only recently have I been able to see through the hype or criticism to actually form a coherent stand on what I think AI can and can't do. Most importantly, despite initial criticism, I have come to appreciate that there is quite some craftsmanship in getting AI to actually do what you want it to, and that boils down most strongly to context engineering. 
