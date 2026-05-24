@@ -1566,7 +1566,6 @@ Trial, with blocks
   align-self: center;
   display: flex;
   gap: 12px;
-  align-items: flex-start;
   margin-top: 20px;
   padding: 12px 16px;
   border: 1px solid var(--textSoft);
