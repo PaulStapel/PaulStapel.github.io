@@ -30,7 +30,7 @@ But we humans are always forward facing, trying to work on and invent new things
 
 For my current usage, AI fits best as a mentor. I face forward, and am able to stand on the shoulder of giants, elevated further by advancements in AI that can summarize, evaluate and serve all of this knowledge in a way not possible before. Besides this, we are able to create ideas and work through difficult problems, while employing AI to do the things we don't have the time for. Finally, AI can serve as a simple mind that processes big sets of data and draws results from them. We don't need these to be groundbreaking conclusions, they just need to be good enough. Art in all forms can also be generated for ideating, prototyping and the likes, as long as we ourselves keep pushing the needle of imagination and actually create beyond this. 
 
-I believe AI will replace us like the marketing and hype-cycles are trying to convince us, and I don't think AI is useless and a bane to our existence. The truth is just that a lot of manual work that was necessary previously is now being offloaded to averages, meaning that craftsmanship and ideation becomes more and more important. And craftsmanship lies in more than just art, as good architecture for code or good methodology for science are in their own ways a craft that we can't yet (and won't still) go without. 
+I don't believe AI will replace us like the marketing and hype-cycles are trying to convince us, and I don't think AI is useless and a bane to our existence. The truth is just that a lot of manual work that was necessary previously is now being offloaded to averages, meaning that craftsmanship and ideation becomes more and more important. And craftsmanship lies in more than just art, as good architecture for code or good methodology for science are in their own ways a craft that we can't yet (and won't still) go without. 
 
 ## Case: future of AI in games
 As an example of what I think will and won't happen with the future of AI. I think vibecoded games will never take off. Coding without knowing what you are doing will at best lead to average. Code is a craft, and good code extends beyond just getting something to work. You need to be able to patch problems, extend code, have code produce something that feels good, and you need to be able to test and adjust this until it passes the bar. 
@@ -42,7 +42,7 @@ Besides this, in the codebase, AI has a number of useful places. First off all, 
 Finally, runtime AI can be something that has a lot of promise in games. Current generative AI is simply smarter and more robust (though heavier) than what is currently being used for game AI, and having access to these larger models for tasks that can not be solved algorithmically has a lot of promise in making games more adaptive. 
 
 ## Contained AI
-So the pattern I see with AI is that it is contained. It is not running free, but instead
+So the pattern I see with my view on AI is that it is contained. It is not running free, but instead
 sits inside of a neat bubble, where it uses its "intelligence" to perform tasks in a 
 predictable way to assist humans with their own tasks. This isolation can still be agentic,
 but only if we allow it a defined context wherein it is allowed to operate. 
@@ -63,7 +63,7 @@ Again, what is nice is that deterministic code can be employed to limit AI or he
 I believe that this is one of the best directions AI can take. It limits for ourselves the AI craze of using it for anything and everything by making us think more clearly about the contexts, thus making AI a smaller component (and thus variable) to deal with. On top of that, it is one of the safer ways to keep AI in control to avoid the dreaded (and maybe exaggerated) "singularity" we might be barreling towards. 
 
 ## Conclusions
-So those where some quick reflections on AI. While it is a tool I use almost daily, and it can assist us in numerous ways, we need to stop and think about what AI actually is, and how we can best employ it to our benefits. Mindlessly using AI will only limit your forward-thinkingness and ability to solve complex problems, but ignoring AI and hating on it for no reason means you will miss out on all the amazing things it does have to offer. The answer, as always, always lies somewhere in the middle. If there is one skill I think will be timeless when it comes to AI, it is that of context engineering. With AI being as variable as it is, staying in control and keeping it in the loop may be the most valuable thing you can do. 
+So those where some quick reflections on AI. While it is a tool I use almost daily, and it can assist us in numerous ways, we need to stop and think about what AI actually is, and how we can best employ it to our benefits. Mindlessly using AI will only limit your forward-thinkingness and ability to solve complex problems, but ignoring AI and hating on it for no reason means you will miss out on all the amazing things it does have to offer. The answer, as always, always lies somewhere in the middle. If there is one skill I think will be timeless when it comes to AI, it is that of context engineering. With AI being as variable as it is, staying in control and keeping it precisely informed may be the most valuable thing you can do. 
 
 ## Signing off, have a lovely day!!
 
