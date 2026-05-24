@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Breakfast on Paul&#39;s Particles</title>
-    <link>http://localhost:1313/categories/breakfast/</link>
+    <link>https://paulstapel.com/categories/breakfast/</link>
     <description>Recent content in Breakfast on Paul&#39;s Particles</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 07 Feb 2025 07:31:25 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/breakfast/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://paulstapel.com/categories/breakfast/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Kheer</title>
-      <link>http://localhost:1313/recipes/kheer/</link>
+      <link>https://paulstapel.com/recipes/kheer/</link>
       <pubDate>Fri, 07 Feb 2025 07:31:25 +0100</pubDate>
-      <guid>http://localhost:1313/recipes/kheer/</guid>
+      <guid>https://paulstapel.com/recipes/kheer/</guid>
       <description>&lt;p&gt;I have been making breakfast more of a part of my daily routine lately. I think it has something to do with the fact that a lot of SEA-countries have warm breakfast, and I felt more invigorated last time I visited. So I started experimenting with breakfast recipes, and I have now decided to make it an entire category. To start, i wanted to share this Kheer recipe, as it is easy to make and energising. If you add more sugar, it can also be a dessert.&lt;/p&gt;</description>
     </item>
   </channel>

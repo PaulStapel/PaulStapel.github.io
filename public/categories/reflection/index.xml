@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Reflection on Paul&#39;s Particles</title>
-    <link>http://localhost:1313/categories/reflection/</link>
+    <link>https://paulstapel.com/categories/reflection/</link>
     <description>Recent content in Reflection on Paul&#39;s Particles</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 27 Jun 2025 20:40:44 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/reflection/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://paulstapel.com/categories/reflection/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Academic Year 2024/2025</title>
-      <link>http://localhost:1313/end-of-2024-2025-uni/</link>
+      <link>https://paulstapel.com/end-of-2024-2025-uni/</link>
       <pubDate>Fri, 27 Jun 2025 20:40:44 +0200</pubDate>
-      <guid>http://localhost:1313/end-of-2024-2025-uni/</guid>
+      <guid>https://paulstapel.com/end-of-2024-2025-uni/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;We don&amp;rsquo;t learn from experience, we learn from reflecting on experience [John Dewey]&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Another year has passed at university. This is my third year I partook in, and my second year on paper. Three down, one to go. I have done quite a lot this year, and I wish to reflect on a few things. For this meditation, I reflect on my favorite thing I learned for each subject this year. One abstract thing, and one concrete thing. With a total of 17 subjects taken, I will go over each one only briefly. I&amp;rsquo;d also like to give a grade to each course based on how useful and interesting the course was (scale 1-5).&lt;/p&gt;</description>
     </item>
   </channel>

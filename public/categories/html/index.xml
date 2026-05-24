@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>HTML on Paul&#39;s Particles</title>
-    <link>http://localhost:1313/categories/html/</link>
+    <link>https://paulstapel.com/categories/html/</link>
     <description>Recent content in HTML on Paul&#39;s Particles</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 16 Apr 2025 15:15:55 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/html/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://paulstapel.com/categories/html/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Creating a Table of Contents</title>
-      <link>http://localhost:1313/creating-table-of-contents/</link>
+      <link>https://paulstapel.com/creating-table-of-contents/</link>
       <pubDate>Wed, 16 Apr 2025 15:15:55 +0200</pubDate>
-      <guid>http://localhost:1313/creating-table-of-contents/</guid>
+      <guid>https://paulstapel.com/creating-table-of-contents/</guid>
       <description>&lt;p&gt;Ok, so as my blog has been growing recently, I decided it was about time I started implementing some more features. One of the things I wanted to add was a little floating table of contents. From there, users would be able to more easily navigate through a given page, and as I have just recently implemented my &lt;a href=&#34;https://paulstapel.com/codex/codex-meae-mentis/&#34;&gt;codex&lt;/a&gt;, I felt it was about time to create this. As I found it rather difficult to find things about this online, I wanted to quickly share my implementation. I will be using HTML, Javascript and CSS.&lt;/p&gt;</description>
     </item>
   </channel>

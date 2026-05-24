@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Decision Making on Paul&#39;s Particles</title>
+    <link>https://paulstapel.com/categories/decision-making/</link>
+    <description>Recent content in Decision Making on Paul&#39;s Particles</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 14 Mar 2026 17:13:09 +0100</lastBuildDate>
+    <atom:link href="https://paulstapel.com/categories/decision-making/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A/B Testing Frameworks</title>
+      <link>https://paulstapel.com/ab-testing-frameworks/</link>
+      <pubDate>Sat, 14 Mar 2026 17:13:09 +0100</pubDate>
+      <guid>https://paulstapel.com/ab-testing-frameworks/</guid>
+      <description>&lt;p&gt;As I recently published an article on how A/B testing could be implemented for things like algorithms, I wanted to expand on this by also considering a few frameworks that can enable me to actually implement this in a robust way. I don&amp;rsquo;t really like reinventing the wheel, and think it is wise to first look at solutions already available to me before deciding to roll my own.&lt;/p&gt;&#xA;&lt;h2 id=&#34;requirements&#34;&gt;Requirements&lt;/h2&gt;&#xA;&lt;p&gt;To start things off, as always with good architecture design, I&amp;rsquo;d like to discuss some of the requirements I have for such a framework. This way, we have a clear way to evaluate wether a certain framework is effective for what we want it to be. I have the following requirements:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

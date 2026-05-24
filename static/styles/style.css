@@ -1561,3 +1561,30 @@ Trial, with blocks
 #menyAvPaa:checked ~ #menu-overlay {
     display: block;
 }
+
+.disclaimer-card {
+  align-self: center;
+  margin-top: 20px;
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  padding: 12px 16px;
+  border: 1px solid var(--textSoft);
+  border-left: 3px solid var(--textSoft);
+  border-radius: 8px;
+  background: var(--bg);
+  color: inherit;
+  width: fit-content;
+  max-width: 480px;
+}
+
+.disclaimer-card svg {
+  flex-shrink: 0;
+  color: var(--textSoft);
+}
+
+.disclaimer-text {
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--text);
+}
