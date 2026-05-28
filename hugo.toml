@@ -3,6 +3,7 @@ languageCode = 'en-us'
 title = "Paul's Particles"
 
 [params]
+    description = "My writing on science, coding, food, and philosophy and lifestyle"
     dateFormat = "2 Jan, 2006" 
     siteNameMain = "Paul's Particles"
     siteNameMeditation = "Paul's Garden"
