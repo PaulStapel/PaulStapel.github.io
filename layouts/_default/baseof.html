@@ -6,6 +6,9 @@
 
 <html lang="en">
 <head>
+    {{ range .AlternativeOutputFormats -}}
+    <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}" title="{{ $.Site.Title }}">
+    {{ end }}
     <title>{{ if .Title }}{{ .Title }} | {{ .Site.Title }}{{ else }}{{ .Site.Title }}{{ end }}</title>
     <!-- Don't display breadcrumbs, just use for SEO.  -->
     <nav aria-label="Breadcrumb" style="display:none"> 
