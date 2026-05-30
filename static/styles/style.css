@@ -20,7 +20,7 @@ li::marker {
 }
 
 body{ 
-    padding-top: env(60px + safe-area-inset-top);
+    padding-top: calc(60px + env(safe-area-inset-top));
     background-color: var(--bg);
     background: var(--bg);
     color: var(--text);
@@ -49,15 +49,15 @@ li::marker {
   color: hotpink;
 }
 
-.container{
+.container {
     max-width: 1366px;
     width: 80%;
     padding-left: 50px;
     padding-right: 50px;
-    margin: auto; 
+    margin: auto;
     min-height: 100vh;
     display: flex;
-    flex-direction: column ;
+    flex-direction: column;
     justify-content: space-between;
 }
 
@@ -83,9 +83,10 @@ body.light .logo-dark  { display: none; }
 }
 
 .navbar {
-    top: env(safe-area-inset-top);
-    z-index: 100;
     position: sticky;
+    top: 0;
+    margin-top: calc(-60px - env(safe-area-inset-top)); /* pull navbar back up to top */
+    z-index: 100;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -93,19 +94,19 @@ body.light .logo-dark  { display: none; }
 }
 
 .navbar-blur {
-  position: fixed;        /* fixed, not sticky */
-  top: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
-  height: calc(60px + env(safe-area-inset-top));
-  padding-top: env(safe-area-inset-top);
-  z-index: 99;
-  backdrop-filter: blur(20px) saturate(180%);
-  -webkit-backdrop-filter: blur(20px) saturate(180%);
-  background: rgba(127, 187, 179, 0.15);
-  border-bottom: 2px dashed var(--textSoft);
-  pointer-events: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: calc(60px + env(safe-area-inset-top));
+    padding-top: env(safe-area-inset-top);
+    z-index: 99;
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
+    background: var(--navbar-blur-bg);       /* ← uses the variable */
+    border-bottom: 2px dashed var(--textSoft);
+    pointer-events: none;
 }
 
 .light .navbar-blur {
@@ -742,7 +743,7 @@ body.light .logo-dark  { display: none; }
 
 @media (max-width: 768px) {
 
-    .logo {
+    .site-name {
         display: none;
       }
 
