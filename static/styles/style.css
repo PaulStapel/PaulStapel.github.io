@@ -81,15 +81,35 @@ body.light .logo-dark  { display: none; }
 }
 
 .navbar{
+    top: 0; 
+    z-index: 100;
+    position: sticky;
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 20px;
     margin-bottom: 10px;
-    height: 60px;
-    border-bottom: 1px dashed var(--textSoft); 
+    height: 60px; 
 }
 
+.navbar-blur {
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  height: 60px;
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-bottom: -100px;
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  background: rgba(127, 187, 179, 0.15); 
+  pointer-events: none;
+  border-bottom: 2px dashed var(--textSoft); 
+}
+
+.light .navbar-blur {
+  background: rgba(154, 81, 13, 0.15);
+}
 
 .site-name{
     font-size: 25px;
