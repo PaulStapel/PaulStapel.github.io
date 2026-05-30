@@ -20,6 +20,8 @@ li::marker {
 }
 
 body{ 
+    padding-top: env(safe-area-inset-top);
+    background-color: var(--bg);
     background: var(--bg);
     color: var(--text);
     font-family: lato;
