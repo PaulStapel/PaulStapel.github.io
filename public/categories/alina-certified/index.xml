@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Alina Certified on Paul&#39;s Particles</title>
-    <link>https://paulstapel.com/categories/alina-certified/</link>
+    <link>http://localhost:1313/categories/alina-certified/</link>
     <description>Recent content in Alina Certified on Paul&#39;s Particles</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 14 Mar 2026 16:44:36 +0100</lastBuildDate>
-    <atom:link href="https://paulstapel.com/categories/alina-certified/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/alina-certified/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>On Being Ugly</title>
-      <link>https://paulstapel.com/meditation/being-ugly/</link>
+      <link>http://localhost:1313/meditation/being-ugly/</link>
       <pubDate>Sat, 14 Mar 2026 16:44:36 +0100</pubDate>
-      <guid>https://paulstapel.com/meditation/being-ugly/</guid>
+      <guid>http://localhost:1313/meditation/being-ugly/</guid>
       <description>&lt;p&gt;Can&amp;rsquo;t relate, I&amp;rsquo;m hot as fuck.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Social Guy</title>
-      <link>https://paulstapel.com/meditation/social-guy/</link>
+      <link>http://localhost:1313/meditation/social-guy/</link>
       <pubDate>Sat, 14 Mar 2026 16:15:28 +0100</pubDate>
-      <guid>https://paulstapel.com/meditation/social-guy/</guid>
+      <guid>http://localhost:1313/meditation/social-guy/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;A ruler&amp;rsquo;s success should be measured by the success of his commonwealth - Me&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Once again I feel myself reaching beyond myself. Lately, I have found myself becoming more and more social, and I wanted to reflect on this.&lt;/p&gt;&#xA;&lt;p&gt;When I tell people that I usually identify myself as an introverted person, they don&amp;rsquo;t often believe me. The reason is quite apparent; I laugh, chat and bounce around all over the place with social energy not often found in your average person. In part, this is just my love for the world and all the people in it increasing over the years, but another part of it is that I have found myself to become more and more extroverted. I was thinking of why this might be, and started reflecting. The reason may be surpisingly simple, actually; I have started seeing my success, my wealth, my happiness in that of other people as well.&lt;/p&gt;</description>
     </item>
   </channel>
