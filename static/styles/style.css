@@ -68,6 +68,12 @@ li::marker {
 body.light .logo-light { display: block; }
 body.light .logo-dark  { display: none; }
 
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .logo img {
   height: 40px;
   width: auto;
