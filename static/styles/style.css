@@ -20,7 +20,7 @@ li::marker {
 }
 
 body{ 
-    padding-top: env(safe-area-inset-top);
+    padding-top: env(60px + safe-area-inset-top);
     background-color: var(--bg);
     background: var(--bg);
     color: var(--text);
@@ -741,6 +741,10 @@ body.light .logo-dark  { display: none; }
 }
 
 @media (max-width: 768px) {
+
+    .logo {
+        display: none;
+      }
 
     pre:has(code) {
       max-width: 100% !important;
