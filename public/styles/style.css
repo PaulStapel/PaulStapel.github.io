@@ -735,7 +735,7 @@ body.light .logo-dark  { display: none; }
 
 @media (max-width: 768px) {
 
-    .site-e {
+    .site-name{
         display: none;
       }
 
