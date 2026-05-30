@@ -1,12 +1,8 @@
 <nav class="navbar">
+  <a href="/" class="site-name hoverlink">Paul's Particles</a>
   <div class="logo">
-    {{ if in .RelPermalink "meditation"}}
-    <a href="/categories/meditation" class="site-name hoverlink">Paul's Garden</a>
-    {{ else if in .RelPermalink "recipe"}}
-    <a href="/categories/recipe" class="site-name hoverlink">Paul's Kitchen</a>
-    {{ else }}
-    <a href="/" class="site-name hoverlink">Paul's Particles</a>
-    {{ end }}
+      <img class="logo-dark" src="/images/dark_mode_logo.svg" alt="Paul's Particles">
+      <img class="logo-light" src="/images/light_mode_logo.svg" alt="Paul's Particles">
   </div class="nav-elements">
     <div class="toggle">
       <svg

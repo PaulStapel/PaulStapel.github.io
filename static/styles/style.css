@@ -61,6 +61,19 @@ li::marker {
 
  /* NAVBAR START */
 
+.logo-light { display: none; }
+.logo-dark  { display: block; }
+
+/* Light mode: swap them */
+body.light .logo-light { display: block; }
+body.light .logo-dark  { display: none; }
+
+.logo img {
+  height: 40px;
+  width: auto;
+  margin: 10px;
+}
+
 .navbar{
     display: flex;
     align-items: center;
