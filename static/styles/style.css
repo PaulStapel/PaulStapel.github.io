@@ -19,7 +19,6 @@ li::marker {
     box-sizing: border-box; 
 }
 
-
 body{ 
     background-color: var(--bg);
     background: var(--bg);
@@ -29,7 +28,7 @@ body{
 }
 
 
-body.light{
+html.light{
     --bg: #f6f6f6;
     --bgSoft : #EAA823;
     --text: #101820FF;

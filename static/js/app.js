@@ -1,21 +1,35 @@
 const mode = localStorage.getItem("mode") || "";
 const toggle = document.querySelector(".toggle");
-const body = document.querySelector("body");
+const root = document.documentElement; 
 
 if (mode) {
-  body.classList.add(mode);
+  root.classList.add(mode);
 }
 
 toggle.addEventListener("click", () => {
-  if (body.classList.contains("light")) {
-    body.classList.remove("light");
+  if (root.classList.contains("light")) {
+    root.classList.remove("light");
     localStorage.removeItem("mode");
+    
   } else {
-    body.classList.add("light");
+    root.classList.add("light");
     localStorage.setItem("mode", "light");
   }
-
+  updateTheme();
 });
+
+const themeColor = document.querySelector('meta[name="theme-color"]');
+
+function updateTheme() {
+    themeColor.setAttribute(
+        "content",
+        root.classList.contains("light")
+            ? "#f6f6f6"
+            : "#2d353b"
+    );
+}
+
+
 
 document.addEventListener('DOMContentLoaded', () => {
   // Find all code blocks
