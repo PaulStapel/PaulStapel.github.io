@@ -26,6 +26,24 @@ body{
     font-family: lato;
 }
 
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: env(safe-area-inset-top);
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
+    background: rgba(127, 187, 179, 0.15);
+    z-index: 999;
+    pointer-events: none;
+}
+
+.light::before {
+  background: rgba(154, 81, 13, 0.15);
+}
+
 body.light{
     --bg: #f6f6f6;
     --bgSoft : #EAA823;
