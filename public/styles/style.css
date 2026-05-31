@@ -19,9 +19,10 @@ li::marker {
     box-sizing: border-box; 
 }
 
-html, body {
+html {
     padding-top: 0;
     margin-top: 0;
+    background-color: var(--bg);
 }
 
 
@@ -30,6 +31,7 @@ body{
     background: var(--bg);
     color: var(--text);
     font-family: lato;
+    padding-top: env(safe-area-inset-top);
 }
 
 
@@ -92,8 +94,7 @@ body.light .logo-dark  { display: none; }
 .navbar {
     position: sticky;
     top: 0;
-    height: calc(60px + env(safe-area-inset-top));
-    padding-top: env(safe-area-inset-top);
+    height: 60px; /* back to simple height, no notch math needed */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -116,7 +117,7 @@ body.light .logo-dark  { display: none; }
     z-index: -1;
 }
 
-body.light .navbar::before {
+.light .navbar::before {
     background: rgba(154, 81, 13, 0.15);
 }
 
