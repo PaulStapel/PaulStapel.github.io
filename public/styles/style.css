@@ -91,7 +91,7 @@ body.light .logo-dark  { display: none; }
 
 .navbar-blur {
     position: fixed;
-    padding-top: env(safe-area-insert-top);
+    padding-top: env(safe-area-inset-top);
     top: 0;
     left: 0;
     right: 0;
@@ -112,12 +112,17 @@ body.light .logo-dark  { display: none; }
 
 .navbar {
     position: sticky;
-    top: env(safe-area-inset-top);  
-    z-index: 100;
+    top: 0;
+
+    height: calc(60px + env(safe-area-inset-top));
+    padding-top: env(safe-area-inset-top);
+
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 60px;
+
+    box-sizing: border-box;
+    z-index: 100; 
 }
 
 .site-name{
