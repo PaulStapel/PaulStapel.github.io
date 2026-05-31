@@ -674,14 +674,14 @@ body.light .logo-dark  { display: none; }
     padding-top: 60px;
 
     /* Frosted glass */
-    background: rgba(45, 53, 59, 0.5);
+    background: rgba(45, 53, 59, 0.10);
     backdrop-filter: blur(20px) saturate(180%);
     -webkit-backdrop-filter: blur(20px) saturate(180%);
     border-left: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 .light #meny {
-    background: rgba(246, 246, 246, 0.5);
+    background: rgba(246, 246, 246, 0.10);
     border-left: 1px solid rgba(0, 0, 0, 0.08);
 }
 
