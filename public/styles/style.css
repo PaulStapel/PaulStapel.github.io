@@ -26,23 +26,6 @@ body{
     font-family: lato;
 }
 
-body::before {
-    content: '';
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: env(safe-area-inset-top);
-    backdrop-filter: blur(20px) saturate(180%);
-    -webkit-backdrop-filter: blur(20px) saturate(180%);
-    background: rgba(127, 187, 179, 0.15);
-    z-index: 999;
-    pointer-events: none;
-}
-
-.light::before {
-  background: rgba(154, 81, 13, 0.15);
-}
 
 body.light{
     --bg: #f6f6f6;
@@ -67,6 +50,7 @@ li::marker {
 }
 
 .container{
+   padding-top: calc( env(safe-area-inset-top));
     max-width: 1366px;
     width: 80%;
     padding-left: 50px;
@@ -77,6 +61,7 @@ li::marker {
     flex-direction: column ;
     justify-content: space-between;
 }
+
 
  /* NAVBAR START */
 
@@ -100,19 +85,11 @@ body.light .logo-dark  { display: none; }
 }
 
 .navbar-blur {
-    position: sticky;
+    position: fixed;
     top: 0;
-    left: calc(50% - 50vw);
+    left: 0;
     width: 100vw;
-
-    /* Extend upward by the safe area so blur covers the notch region */
     height: calc(60px + env(safe-area-inset-top));
-    padding-top: env(safe-area-inset-top);
-
-    /* Pull it up so it sits above the viewport top */
-    margin-top: calc(-1 * env(safe-area-inset-top));
-    margin-bottom: calc(-60px - env(safe-area-inset-top));
-
     z-index: 99;
     backdrop-filter: blur(20px) saturate(180%);
     -webkit-backdrop-filter: blur(20px) saturate(180%);
