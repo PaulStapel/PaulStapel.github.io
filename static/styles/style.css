@@ -91,6 +91,7 @@ body.light .logo-dark  { display: none; }
 
 .navbar-blur {
     position: fixed;
+    padding-top: env(safe-area-insert-top);
     top: 0;
     left: 0;
     right: 0;
@@ -102,6 +103,7 @@ body.light .logo-dark  { display: none; }
     border-bottom: 2px dashed var(--textSoft);
     pointer-events: none;
     z-index: 99;
+    box-sizing: border-box;
 }
 
 .light .navbar-blur {
