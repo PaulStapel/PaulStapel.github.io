@@ -20,7 +20,6 @@ li::marker {
 }
 
 body{ 
-    padding-top: env(60px + safe-area-inset-top);
     background-color: var(--bg);
     background: var(--bg);
     color: var(--text);
@@ -82,28 +81,41 @@ body.light .logo-dark  { display: none; }
   margin: 10px;
 }
 
-.navbar-wrapper {
-    width: 100%;
-    box-sizing: border-box;
+.navbar-blur {
+    position: sticky;
+    top: 0;
+    left: calc(50% - 50vw);
+    width: 100vw;
+
+    /* Extend upward by the safe area so blur covers the notch region */
+    height: calc(60px + env(safe-area-inset-top));
+    padding-top: env(safe-area-inset-top);
+
+    /* Pull it up so it sits above the viewport top */
+    margin-top: calc(-1 * env(safe-area-inset-top));
+    margin-bottom: calc(-60px - env(safe-area-inset-top));
+
+    z-index: 99;
     backdrop-filter: blur(20px) saturate(180%);
     -webkit-backdrop-filter: blur(20px) saturate(180%);
     background: rgba(127, 187, 179, 0.15);
-    
+    border-bottom: 2px dashed var(--textSoft);
+    pointer-events: none;
+}
+
+.light .navbar-blur {
+    background: rgba(154, 81, 13, 0.15);
 }
 
 .navbar {
+    position: sticky;
+    top: env(safe-area-inset-top);
     z-index: 100;
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 60px;
-    border-bottom: 2px dashed var(--textSoft);
 }
-
-.light .navbar-wrapper {
-    background: rgba(154, 81, 13, 0.15);
-}
-
 
 .site-name{
     font-size: 25px;

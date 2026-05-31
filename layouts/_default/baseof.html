@@ -33,7 +33,7 @@
     <meta name="twitter:title" content="{{ .Title }}" />
     <meta name="twitter:description" content="{{ with .Params.description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}" />
     <meta name="twitter:image" content="{{ with .Params.featuredImage }}{{ . }}{{ else }}/favicons/favicon-196x196.png{{ end }}" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0", viewport-fit=cover>
+    <meta name="viewport" content="width=device-width, initial-scale=1", viewport-fit=cover>
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
     <link rel="stylesheet" href="/styles/style.css">
     <link rel="stylesheet" href="/styles/syntax.css">
@@ -115,7 +115,7 @@
     </style>
 </head>
 <body>
-    
+    <div class="navbar-blur"></div>
     <div class="container">
       {{ partial "navbar" . }}
       <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
