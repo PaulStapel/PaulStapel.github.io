@@ -112,18 +112,204 @@
     }
     </style>
 </head>
-.navbar-blur {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    height: calc(60px + env(safe-area-inset-top));
-    backdrop-filter: blur(20px) saturate(180%);
-    -webkit-backdrop-filter: blur(20px) saturate(180%);
-    background: rgba(127, 187, 179, 0.15);
-    border-bottom: 2px dashed var(--textSoft);
-    pointer-events: none;
-    z-index: 9999;
-}
+<body>
+    <div class="navbar-blur"></div>
+    <div class="container">
+      <nav class="navbar">
+  <a href="/" class="site-name hoverlink">Paul's Particles</a>
+  <div class="logo">
+      <img class="logo-dark" src="/images/dark_mode_logo.svg" alt="Paul's Particles">
+      <img class="logo-light" src="/images/light_mode_logo.svg" alt="Paul's Particles">
+  </div class="nav-elements">
+    <div class="toggle">
+      <svg
+        width="20px"
+        height="20px"
+        viewBox="-0.14 0 20.03 20.03"
+        fill="#000000"
+      >
+        <g id="moon-alt" transform="translate(-2.25 -2)">
+          <path
+            id="secondary"
+            fill="#FFFFF0"
+            d="M21,12A9,9,0,0,1,3.25,14.13,6.9,6.9,0,0,0,8,16,7,7,0,0,0,11.61,3H12a9,9,0,0,1,9,9Z"
+          ></path>
+        </g>
+      </svg>
+      <div class="ball" ></div>
+      <svg width="20px" height="20px" viewBox="0 0 20 20" fill="#000000">
+        <g id="sun" transform="translate(-2 -2)">
+          <circle
+            id="secondary"
+            fill="#FFFFF0"
+            cx="4"
+            cy="4"
+            r="4"
+            transform="translate(8 8)"
+          ></circle>
+          <path
+            id="primary"
+            d="M12,3V4M5.64,5.64l.7.7M3,12H4m1.64,6.36.7-.7M12,21V20m6.36-1.64-.7-.7M21,12H20M18.36,5.64l-.7.7M12,8a4,4,0,1,0,4,4A4,4,0,0,0,12,8Z"
+            fill="none"
+            stroke="#ffe01b"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+          ></path>
+        </g>
+      </svg>
+    </div >
+
+
+    <div class="links">
+    <a href="/" class="hoverlink">Particles</a>
+    
+    
+    <a href="/about-me/about-me" class="hoverlink">About</a>
+    
+    <a href="/categories/meditation" class="hoverlink">Meditation</a>
+    <a href="/categories/daily-drop/" class="hoverlink">Drops</a>
+    <a href="/categories/recipe/" class="hoverlink">Recipes</a>
+  </div>
+
+  <div class="search-container">
+      <input type="text" placeholder="Search...">
+      <div class="search"></div>
+    </div>
+
+
+  <header class="borgir"> 
+  <input type="checkbox" id="menyAvPaa">
+  <label id="burger" for="menyAvPaa">
+      <div></div>
+      <div></div>
+      <div></div>
+  </label>
+<div id="meny">
+  <div id="menu-overlay"></div>
+  <div class="moblinks">
+  <a href="/" class="hoverlink">Particles</a>
+  
+  
+  <a href="/about-me/about-me" class="hoverlink">About</a>
+  
+  <a href="/categories/meditation/" class="hoverlink">Meditation</a>
+  <a href="/categories/daily-drop/" class="hoverlink">Drops</a>
+  <a href="/categories/recipe/" class="hoverlink">Recipes</a>
+  </div>
+</div>
+
+
+</header>
+
+</nav>
+      <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
+      <script src="/js/app.js"> </script>
+      
+
+
+<div class="single">
+
+   <div class="singleHead">
+      <div class="singleHeadText">
+        <h1 class="singleHeadTitle">Some views on AI</h1> 
+        
+        <p class="singleHeadDesc">And the importance of context engineering</p>
+        <time class="singleDate"><em>24 May, 2026</em></time>
+        <div class="singleCategories">
+            
+            <a class="singleCategory" href=http://localhost:1313/categories/coding/>coding</a> 
+            
+            <a class="singleCategory" href=http://localhost:1313/categories/ai/>AI</a> 
+            
+        </div>
+        
+      </div>
+   </div>
+   <div class="singleBottom">
+    
+    
+      <div class="singleContent"><p>AI, you may love it, you may hate it, but it&rsquo;s here. Just like the rest of the world, I have been exposed to Large Language Models for a few years now, but only recently have I been able to see through the hype or criticism to actually form a coherent stand on what I think AI can and can&rsquo;t do. Most importantly, despite initial criticism, I have come to appreciate that there is quite some craftsmanship in getting AI to actually do what you want it to, and that boils down most strongly to context engineering.</p>
+<h2 id="my-history-with-ai">My history with AI</h2>
+<p>I have been using AI on and off for the past three years to see what it is capable of. It was a neat novelty at first, but within the first year it would already be able to assist at programming, and it only got better from there. However, as I am still a student, I decided not to use it too much. Its main use to me was as a glorified search engine when I had to look up things that I didn&rsquo;t know I didn&rsquo;t know, and I took most of the output with a grain of salt.</p>
+<p>Back then, we already had some evangelists screaming on about what capabilities these AI models would have, and how they would take over all thinking and programming. Off course, I was skeptical, not only because I experienced firsthand that these models could not even solve my bachelor level computer science problems, but also because I wanted to believe that I would stay ahead of the curve. I tried to ignore most AI because of this, trying to stay competitive, but I also did not feel much heat from it growing so quickly.</p>
+<p>Then, about a year ago, I started to notice that it could actually do some things better than me. When it came to writing SQL, Javascript or most boilerplate code, it found ways of doing things that I had not yet thought of. This was the first time I actually started understanding what the fuss was all about. Around this time, companies like Google, OpenAI and Anthropic started gaining traction with their models, and new paradigms of coding started emerging.</p>
+<p>As I started experimenting with AI, I also started seeing what it could and couldn&rsquo;t do. It was great at reducing boilerplate code and having conversations to give inspiration for my thinking about certain problems, but actually thinking out of the box itself or solving problems that were multifaceted it could not yet do. Having context was also a big problem, and usually it just didn&rsquo;t understand all of the context around the problems it was trying to solve.</p>
+<p>As of now, I use AI mainly for generating quick prototypes to see if an idea would work, finding out examples of how to use something / creating examples from bare-bones documentation and being an upgraded rubber ducky to talk to when I&rsquo;m stuck in my own head. In using AI, I have become more critical of its future, but also more accepting of its strengths.</p>
+<h2 id="so-where-do-i-stand-now">So where do I stand now?</h2>
+<p>I believe AI is a great tool, but not a fix-all. We are obsessing a bit too much over all of the possibilities of AI that we forget to look at what it is actually strong at: being average. Average is good!</p>
+<p>A lot of companies are trying to offload all thinking and work to AI. I get it, AI is this autonomous workforce that (thanks to agentic AI) can do anything on a computer that a human could (theoretically). Especially when coding, they could just write a lot of code fast, and replace human engineers, saving a bunch o&rsquo; bucks. But as I said, AI is good at being average. It computes results based on what has been seen and approved, and the more something is seen and the more something works, the more common it is and the more AI will take from that, thus becoming average. That is the entire idea on which they operate, so how can we blame those lil&rsquo; large language guys?</p>
+<p>But we humans are always forward facing, trying to work on and invent new things. Then, laying new connections, building new products, thinking up new ideas. When it comes to innovation, we are operating (per definition) beyond average. AI to me should not ever be a tool for inventing, creating complex systems or tying things together in ways that have never been done before. I think they are best put to use in the fields where they excel by being average.</p>
+<p>For my current usage, AI fits best as a mentor. I face forward, and am able to stand on the shoulder of giants, elevated further by advancements in AI that can summarize, evaluate and serve all of this knowledge in a way not possible before. Besides this, we are able to create ideas and work through difficult problems, while employing AI to do the things we don&rsquo;t have the time for. Finally, AI can serve as a simple mind that processes big sets of data and draws results from them. We don&rsquo;t need these to be groundbreaking conclusions, they just need to be good enough. Art in all forms can also be generated for ideating, prototyping and the likes, as long as we ourselves keep pushing the needle of imagination and actually create beyond this.</p>
+<p>I don&rsquo;t believe AI will replace us like the marketing and hype-cycles are trying to convince us, and I don&rsquo;t think AI is useless and a bane to our existence. The truth is just that a lot of manual work that was necessary previously is now being offloaded to averages, meaning that craftsmanship and ideation becomes more and more important. And craftsmanship lies in more than just art, as good architecture for code or good methodology for science are in their own ways a craft that we can&rsquo;t yet (and won&rsquo;t still) go without.</p>
+<h2 id="case-future-of-ai-in-games">Case: future of AI in games</h2>
+<p>As an example of what I think will and won&rsquo;t happen with the future of AI. I think vibecoded games will never take off. Coding without knowing what you are doing will at best lead to average. Code is a craft, and good code extends beyond just getting something to work. You need to be able to patch problems, extend code, have code produce something that feels good, and you need to be able to test and adjust this until it passes the bar.</p>
+<p>So then where does AI fit into the whole game creation pipeline? Well, for one, developers can use generative AI for rapid asset creation for prototyping purposes, while the artists actually develop the final assets to be used in the game. Decoupling artists and developers in this is beneficial in an obvious way, and usually developers don&rsquo;t need good art to prototype something.</p>
+<p>Besides this, in the codebase, AI has a number of useful places. First off all, having an AI be able to index a large codebase like that of a game and be able to point people into the right direction can be invaluable to larger project. Imagine if a new hire is able to chat with a bot that knows everything about a codebase and can point them in the right direction when they are working on a problem or new feature. Generating boilerplate code, learning external documentation and implementing trivial tasks is also something AI can do that speeds up development by a lot.</p>
+<p>Finally, runtime AI can be something that has a lot of promise in games. Current generative AI is simply smarter and more robust (though heavier) than what is currently being used for game AI, and having access to these larger models for tasks that can not be solved algorithmically has a lot of promise in making games more adaptive.</p>
+<h2 id="contained-ai">Contained AI</h2>
+<p>So the pattern I see with my view on AI is that it is contained. It is not running free, but instead
+sits inside of a neat bubble, where it uses its &ldquo;intelligence&rdquo; to perform tasks in a
+predictable way to assist humans with their own tasks. This isolation can still be agentic,
+but only if we allow it a defined context wherein it is allowed to operate.</p>
+<p>AI is really good at doing average things, and so we should not expect it to operate autonomously and unsupervised, lest we create things both beyond our understanding and thus beyond our control. If software by AI breaks, we have no control to fix it, if it misbehaves, we have no control to correct it, if it creates something we don&rsquo;t want, we have no control to improve it. That is exactly why we should want AI to be contained, to be understood and to make it as deterministic as possible without getting more deterministic than necessary.</p>
+<p>Because of this, it is all the more important that we focus not on prompt engineering and getting AI to do marvelous things with the prompts we give it, but on context engineering and giving the AI exactly the context and environment to do its job and nothing more. In my opinion, this is what differentiates vibe coding and AI slop from actual engineering.</p>
+<h2 id="context-engineering">Context engineering</h2>
+<p>At work, I am currently working on a context engineering task involving the MCP framework. MCP stands for Model Context Protocol, and it is a way to define tools a AI application is allowed to use. Tools here are functions or requests with deterministic outcomes, either producing extra context or performing stateful actions. With MCP, we can then standardize the way tools are called and handled, making it easy to extend and implement across a wide variety of tools and applications.</p>
+<p>The tools are handled by MCP servers, endpoints that have a set of methods that can be called. The host uses clients to communicate with these servers, all via a standardized JSON format. The nice thing is that without tools, the host is only able to generate text. The clients of our host expose it to tools that it can call, and these can all be controlled and authorized to better contain what an AI is capable of. If you want it to read the time or set a stopwatch for example, you can set up a timer MCP server and let our AI model access that.</p>
+<p>Another way of context engineering are the more recent skills.md files you may see popping up here and there. The main idea is that instead of giving AI a large system prompt, you let it know the skills it could read into, and only have it read those files when it predicts that it needs those skills. This prevents context overload, and makes an AI model in charge of the knowledge it has. This can also be combined with MCP, for example by letting an AI discover tools through the skills.md files that it reads.</p>
+<p>Again, what is nice is that deterministic code can be employed to limit AI or help make its context more robust. In this way, token usage can be limited, context can be made to be exactly what you need it to be, and results will match more closely what you need them to be. If employed well, AI becomes a tool that can elevate almost any project if you are creative enough in its usage.</p>
+<p>I believe that this is one of the best directions AI can take. It limits for ourselves the AI craze of using it for anything and everything by making us think more clearly about the contexts, thus making AI a smaller component (and thus variable) to deal with. On top of that, it is one of the safer ways to keep AI in control to avoid the dreaded (and maybe exaggerated) &ldquo;singularity&rdquo; we might be barreling towards.</p>
+<h2 id="conclusions">Conclusions</h2>
+<p>So those where some quick reflections on AI. While it is a tool I use almost daily, and it can assist us in numerous ways, we need to stop and think about what AI actually is, and how we can best employ it to our benefits. Mindlessly using AI will only limit your forward-thinkingness and ability to solve complex problems, but ignoring AI and hating on it for no reason means you will miss out on all the amazing things it does have to offer. The answer, as always, always lies somewhere in the middle. If there is one skill I think will be timeless when it comes to AI, it is that of context engineering. With AI being as variable as it is, staying in control and keeping it precisely informed may be the most valuable thing you can do.</p>
+<h2 id="signing-off-have-a-lovely-day">Signing off, have a lovely day!!</h2>
+</div>
+    
+   </div>
+   <div class="disclaimer-card">
+      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+      <p class="disclaimer-text">AI has <b>NOT</b> been used for the writing of this webpage.</p>
+      <div class="logo">
+        <img class="logo-dark" src="/images/dark_mode_logo.svg" alt="Paul's Particles">
+        <img class="logo-light" src="/images/light_mode_logo.svg" alt="Paul's Particles">
+      </div class="nav-elements">    
+   </div>
+     
+</div>
+
+      <div class="footer">
+  <div class="footerLinks">
+    <a href="/">Particles</a> |
+    
+    <a href="/set-up/set-up">Setup</a> |
+    <a href="/about-me/about-me">About</a> |
+    <a href="/categories/meditation" >Meditation</a> |
+    <a href="/categories/daily-drop">Drops</a> | 
+    <a href="/categories/recipe/">Recipes</a>
+  </div>
+
+      <div class="social">
+    <a href="https://github.com/PaulStapel">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+      </svg>
+    </a>
+    <a href="https://www.linkedin.com/in/paul-stapel/">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+        <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+      </svg>
+  </a>
+  <a href="https://www.instagram.com/justpaulstapel/">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+  </svg>
+  </a>
+  
+  </div>
+  </div>
+  
+</div>
+
+    </div>
+</body>
 </html>
