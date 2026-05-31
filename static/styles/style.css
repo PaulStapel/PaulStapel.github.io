@@ -31,7 +31,7 @@ body{
     background: var(--bg);
     color: var(--text);
     font-family: lato;
-    padding-top: env(safe-area-inset-top);
+    padding-top: 0;
 }
 
 
@@ -92,32 +92,37 @@ body.light .logo-dark  { display: none; }
 }
 
 .navbar {
-    position: sticky;
-    top: 0;
-    height: 60px; /* back to simple height, no notch math needed */
+    max-width: 1366px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 80%;
+    height: 60px;
+
+    margin: 0 auto;
+
+    padding-top: env(safe-area-inset-top);
+
     display: flex;
     align-items: center;
     justify-content: space-between;
-    box-sizing: border-box;
-    z-index: 100;
 }
 
-.navbar::before {
-    content: '';
-    position: fixed;
+.navbar-wrapper {
+    position: sticky;
     top: 0;
-    left: 0;
-    right: 0;
+
     height: calc(60px + env(safe-area-inset-top));
+
     backdrop-filter: blur(20px) saturate(180%);
     -webkit-backdrop-filter: blur(20px) saturate(180%);
     background: rgba(127, 187, 179, 0.15);
+
     border-bottom: 2px dashed var(--textSoft);
-    pointer-events: none;
-    z-index: -1;
+
+    z-index: 1000;
 }
 
-.light .navbar::before {
+.light .navbar-wrapper {
     background: rgba(154, 81, 13, 0.15);
 }
 
@@ -620,17 +625,17 @@ body.light .logo-dark  { display: none; }
 }
 
 @media (max-width:1536px) {
-    .container{
+    .container .navbar{
         max-width: 1366px;
     }
 }
 @media (max-width:1366px) {
-    .container{
+    .container .navbar{
         max-width: 1280px;
     }
 }
 @media (max-width: 1280px) {
-    .container{
+    .container .navbar{
         max-width: 1024px;
     }
 
@@ -742,7 +747,7 @@ body.light .logo-dark  { display: none; }
 
 
 @media (max-width: 1024px) {
-    .container{
+    .container .navbar{
         max-width: 768px;
         padding-left: 10px;
         padding-right: 10px;
@@ -779,7 +784,7 @@ body.light .logo-dark  { display: none; }
         margin-left: 2px;
         margin-right: 7px;
     }
-    .container{
+    .container .navbar{
         max-width: 640px;
     }
 
@@ -795,7 +800,7 @@ body.light .logo-dark  { display: none; }
 }
 @media (max-width: 640px) {
 
-    .container{
+    .container .navbar{
         max-width: 475px;
         width: 90%;
     }
