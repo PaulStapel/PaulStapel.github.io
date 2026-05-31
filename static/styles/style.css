@@ -69,8 +69,8 @@ li::marker {
 .logo-dark  { display: block; }
 
 /* Light mode: swap them */
-body.light .logo-light { display: block; }
-body.light .logo-dark  { display: none; }
+.light .logo-light { display: block; }
+.light .logo-dark  { display: none; }
 
 .logo {
   display: flex;
