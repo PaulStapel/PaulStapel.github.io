@@ -20,6 +20,8 @@
             <li aria-current="page">Game</li>
         </ol>
     </nav>
+    <meta name="theme-color" content="#f6f6f6">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
     <meta name="description" content="My writing on science, coding, food, and philosophy and lifestyle">
     <meta charset="UTF-8">
     <meta property="og:title" content="Game" />
@@ -32,7 +34,7 @@
     <meta name="twitter:title" content="Game" />
     <meta name="twitter:description" content="My writing on science, coding, food, and philosophy and lifestyle" />
     <meta name="twitter:image" content="/favicons/favicon-196x196.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0", viewport-fit=cover>
+    <meta name='viewport' content="width=device-width, initial-scale=1, viewport-fit=cover">
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
     <link rel="stylesheet" href="/styles/style.css">
     <link rel="stylesheet" href="/styles/syntax.css">
@@ -83,9 +85,7 @@
     </style>
 </head>
 <body>
-    
-    <div class="container">
-      <nav class="navbar">
+    <div class="navbar-wrapper"><nav class="navbar">
   <a href="/" class="site-name hoverlink">Paul's Particles</a>
   <div class="logo">
       <img class="logo-dark" src="/images/dark_mode_logo.svg" alt="Paul's Particles">
@@ -172,7 +172,8 @@
 
 </header>
 
-</nav>
+</nav></div>
+    <div class="container">
       <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
       <script src="/js/app.js"> </script>
       
