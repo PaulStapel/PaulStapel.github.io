@@ -114,14 +114,18 @@
     }
     </style>
 </head>
-<body>
-    <div class="navbar-blur"></div>
-    <div class="container">
-      {{ partial "navbar" . }}
-      <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
-      <script src="/js/app.js"> </script>
-      {{ block "main" .}} {{ end }}
-      {{ partial "footer" . }}
-    </div>
-</body>
+.navbar-blur {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: calc(60px + env(safe-area-inset-top));
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
+    background: rgba(127, 187, 179, 0.15);
+    border-bottom: 2px dashed var(--textSoft);
+    pointer-events: none;
+    z-index: 9999;
+}
 </html>
