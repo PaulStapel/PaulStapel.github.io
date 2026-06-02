@@ -65,13 +65,6 @@ li::marker {
 
  /* NAVBAR START */
 
-.logo-light { display: none; }
-.logo-dark  { display: block; }
-
-/* Light mode: swap them */
-.light .logo-light { display: block; }
-.light .logo-dark  { display: none; }
-
 .logo {
   display: flex;
   justify-content: center;
