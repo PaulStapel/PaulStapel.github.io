@@ -8,8 +8,6 @@ categories:
 
 ## Today I Learned  
 
-## Biography worthy
-
 ## Thought I Thought
 
 ## Today's Media
@@ -18,15 +16,19 @@ categories:
 
 ## Note To Self
 
+## Resistance Report
+
+## My Mini Manifesto
+
 ## Game inspiration
-
-## Language Lounge
-
-## Complimenting Corner
 
 ## Mental Weather
 
+## Today's top 3
+
 ## Special Thanks To 
+
+## Wiseposting
 
 ## What Tomorrow Holds
 
