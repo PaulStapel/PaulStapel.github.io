@@ -13,7 +13,7 @@
       <link>http://localhost:1313/bachelor-thesis/</link>
       <pubDate>Mon, 22 Jun 2026 22:53:40 +0200</pubDate>
       <guid>http://localhost:1313/bachelor-thesis/</guid>
-      <description>&lt;embed src=&#34;http://localhost:1313/pdf/bachelor-thesis.pdf&#34; type=&#34;application/pdf&#34; width=&#34;100%&#34; height=&#34;600px&#34; /&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/pdf/bachelor-thesis.pdf&#34;&gt;Can&amp;rsquo;t see the PDF? Download it here.&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;!-- layouts/_default/redirect.html --&gt;&#xA;&lt;!DOCTYPE html&gt;&#xA;&lt;html&gt;&#xA;&lt;head&gt;&#xA;&lt;meta charset=&#34;utf-8&#34;&gt;&#xA;&lt;meta http-equiv=&#34;refresh&#34; content=&#34;0; url={{ .Params.pdf }}&#34;&gt;&#xA;&lt;link rel=&#34;canonical&#34; href=&#34;{{ .Params.pdf }}&#34;&gt;&#xA;&lt;/head&gt;&#xA;&lt;body&gt;&#xA;Redirecting to &lt;a href=&#34;{{ .Params.pdf }}&#34;&gt;the document&lt;/a&gt;...&#xA;&lt;/body&gt;&#xA;&lt;/html&gt;</description>
     </item>
     <item>
       <title>Special Relativity From The Ground Up</title>

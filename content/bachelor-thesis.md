@@ -7,6 +7,6 @@ categories:
     - science
     - physics
     - computers
+redirect: "/pdf/bachelor-thesis.pdf"
+layout: "redirect"
 ---
-
-{{< pdf src="/pdf/bachelor-thesis.pdf" title="Memristor-based Echo State Networks at the Edge of Chaos" height="85vh" >}}
