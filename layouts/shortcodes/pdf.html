@@ -1,0 +1,7 @@
+<div class="pdf-block" style="--pdf-accent: {{ .Get "accent" | default "#7FBBB3" }};">
+  <div class="pdf-toolbar">
+    <span class="pdf-name">{{ with .Get "title" }}{{ . }}{{ else }}{{ .Get "src" }}{{ end }}</span>
+    <a class="pdf-download" href="{{ .Get "src" }}" download>Download</a>
+  </div>
+  <iframe class="pdf-frame" src="{{ .Get "src" }}" style="height: {{ .Get "height" | default "700px" }};" loading="lazy"></iframe>
+</div>

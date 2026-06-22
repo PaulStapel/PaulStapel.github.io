@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Computers on Paul&#39;s Particles</title>
+    <link>http://localhost:1313/categories/computers/</link>
+    <description>Recent content in Computers on Paul&#39;s Particles</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 22 Jun 2026 22:53:40 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/computers/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bachelor Thesis</title>
+      <link>http://localhost:1313/bachelor-thesis/</link>
+      <pubDate>Mon, 22 Jun 2026 22:53:40 +0200</pubDate>
+      <guid>http://localhost:1313/bachelor-thesis/</guid>
+      <description>&lt;div class=&#34;pdf-block&#34; style=&#34;--pdf-accent: #7FBBB3;&#34;&gt;&#xA;  &lt;div class=&#34;pdf-toolbar&#34;&gt;&#xA;    &lt;span class=&#34;pdf-name&#34;&gt;Memristor-based Echo State Networks at the Edge of Chaos&lt;/span&gt;&#xA;    &lt;a class=&#34;pdf-download&#34; href=&#34;http://localhost:1313/pdf/bachelor-thesis.pdf&#34; download&gt;Download&lt;/a&gt;&#xA;  &lt;/div&gt;&#xA;  &lt;iframe class=&#34;pdf-frame&#34; src=&#34;http://localhost:1313/pdf/bachelor-thesis.pdf&#34; style=&#34;height: 85vh;&#34; loading=&#34;lazy&#34;&gt;&lt;/iframe&gt;&#xA;&lt;/div&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1663,3 +1663,47 @@ Trial, with blocks
   color: var(--text);
   min-width: 0;
 }
+
+.pdf-block {
+  position: relative;
+  background-color: var(--ToC);
+  border: 4px solid black;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 2.5rem auto;
+  max-width: 90%;
+  box-shadow: 14px 14px 0 -4px var(--pdf-accent), 14px 14px 0 0 black;
+}
+
+.pdf-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 12px;
+  margin-bottom: 12px;
+}
+
+.pdf-name {
+  font-weight: 700;
+  color: var(--bgSoft);
+  font-size: 1.1rem;
+}
+
+.pdf-download {
+  border: 2px solid var(--bgSoft);
+  padding: 6px 14px;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.pdf-toolbar a {
+  color: var(--bgSoft);
+}
+
+.pdf-frame {
+  width: 100%;
+  border: none;
+  border-radius: 6px;
+  display: block;
+}

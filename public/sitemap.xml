@@ -2,16 +2,55 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/bachelor-thesis/</loc>
+    <lastmod>2026-06-22T22:53:40+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2026-06-22T22:53:40+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/computers/</loc>
+    <lastmod>2026-06-22T22:53:40+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-06-22T22:53:40+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/physics/</loc>
+    <lastmod>2026-06-22T22:53:40+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/science/</loc>
+    <lastmod>2026-06-22T22:53:40+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/daily-drop/</loc>
+    <lastmod>2026-06-02T23:00:24+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/daily-drop/</loc>
+    <lastmod>2026-06-02T23:00:24+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/daily-drop/26-06-02/</loc>
+    <lastmod>2026-06-02T23:00:24+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/daily-drop/26-06-01/</loc>
+    <lastmod>2026-06-02T22:46:09+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipes/creamy-chicken-thigh/</loc>
+    <lastmod>2026-06-01T19:38:08+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/difficulty-25/</loc>
+    <lastmod>2026-06-01T19:38:08+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/french/</loc>
+    <lastmod>2026-06-01T19:38:08+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/recipe/</loc>
+    <lastmod>2026-06-01T19:38:08+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipes/</loc>
+    <lastmod>2026-06-01T19:38:08+02:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/categories/ai/</loc>
     <lastmod>2026-05-24T15:21:47+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2026-05-24T15:21:47+02:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/categories/coding/</loc>
-    <lastmod>2026-05-24T15:21:47+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
     <lastmod>2026-05-24T15:21:47+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/context-engineering/</loc>
@@ -26,12 +65,6 @@
     <loc>http://localhost:1313/categories/indian/</loc>
     <lastmod>2026-05-11T22:40:32+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/recipe/</loc>
-    <lastmod>2026-05-11T22:40:32+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/recipes/</loc>
-    <lastmod>2026-05-11T22:40:32+02:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/meditation/back-to-basics/</loc>
     <lastmod>2026-04-04T14:04:55+02:00</lastmod>
   </url><url>
@@ -41,12 +74,6 @@
     <loc>http://localhost:1313/meditation/</loc>
     <lastmod>2026-04-04T14:04:55+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/daily-drop/</loc>
-    <lastmod>2026-03-31T23:04:43+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/daily-drop/</loc>
-    <lastmod>2026-03-31T23:04:43+02:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/daily-drop/26-03-31/</loc>
     <lastmod>2026-03-31T23:04:43+02:00</lastmod>
   </url><url>
@@ -54,9 +81,6 @@
     <lastmod>2026-03-30T18:05:31+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/chinese/</loc>
-    <lastmod>2026-03-29T22:03:22+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/difficulty-25/</loc>
     <lastmod>2026-03-29T22:03:22+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/recipes/suan-la-tang/</loc>
@@ -410,9 +434,6 @@
     <loc>http://localhost:1313/recipes/eel-brioche-amuse/</loc>
     <lastmod>2025-03-12T13:09:16+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/french/</loc>
-    <lastmod>2025-03-12T13:09:16+01:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/recipes/saagwala/</loc>
     <lastmod>2025-03-05T21:13:47+01:00</lastmod>
   </url><url>
@@ -429,9 +450,6 @@
     <lastmod>2025-02-23T20:52:55+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/field-theory/</loc>
-    <lastmod>2025-02-19T16:22:39+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/physics/</loc>
     <lastmod>2025-02-19T16:22:39+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/ground-up-special-relativity/</loc>

@@ -118,8 +118,7 @@
     <div class="navbar-wrapper"><nav class="navbar">
   <a href="/" class="site-name hoverlink">Paul's Particles</a>
   <div class="logo">
-      <img class="logo-dark" src="/images/dark_mode_logo.svg" alt="Paul's Particles">
-      <img class="logo-light" src="/images/light_mode_logo.svg" alt="Paul's Particles">
+      <img class="logo" src="/images/dark_mode_logo.svg" alt="Paul's Particles">
   </div class="nav-elements">
     <div class="toggle">
       <svg
@@ -300,7 +299,7 @@
 </span></span></code></pre></div><p>Where we&rsquo;d need to keep in mind to have each interface also implement some getter for the name of the algorithm. Having this, we can easily select different algorithms at runtime by selecting the key with which we read from the registry, solving our 2nd requirement.</p>
 <p>A nice way to make the name &ldquo;key&rdquo; cleaner is to use Attributes that mark each algorithm as an algorithm with some name that we then give as an argument of the attribute. This way, each algorithm class does not need to know that it is going to be stored in some registry, and it becomes easier to read what part of the code is being put into the registry. This is the approach I took in some project I implemented this in, but it is by no means necessary.</p>
 <h2 id="small-note-dependency-injection">Small Note; Dependency Injection</h2>
-<p>If you looked at the constructor of the previous class, you can see that there is still some mysterious IEnumerable<!-- raw HTML omitted --> that is passed into the registry. This is achieved by dependency injection in .NET, which is a large part of Microsoft&rsquo;s .NET ecosystem. Dependency injection is a way to instantiate objects without the using class needing to know anything about the construction. Instead of manually creating instances and passing them around, you register types with a DI container up front, and the container takes responsibility for constructing and providing them wherever they are needed.</p>
+<p>If you looked at the constructor of the previous class, you can see that there is still some mysterious IEnumerable<T> that is passed into the registry. This is achieved by dependency injection in .NET, which is a large part of Microsoft&rsquo;s .NET ecosystem. Dependency injection is a way to instantiate objects without the using class needing to know anything about the construction. Instead of manually creating instances and passing them around, you register types with a DI container up front, and the container takes responsibility for constructing and providing them wherever they are needed.</p>
 <p>Although .NET has tools to do this, any language that supports reflection can implement this abstraction in principle. You use reflection to scan for all implementations of a known interface (our algorithm) and then instantiate each one and collect them into some container that is passed along in the entry point of your program.</p>
 <p>As dependency injection allows all implementations to be passed into the registry, this solves our 3rd requirement.</p>
 <h2 id="the-input-of-our-algorithms">The input of our algorithms</h2>
@@ -338,11 +337,7 @@
    </div>
    <div class="disclaimer-card">
       <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
-      <p class="disclaimer-text">AI has <b>NOT</b> been used for the writing of this webpage.</p>
-      <div class="logo">
-        <img class="logo-dark" src="/images/dark_mode_logo.svg" alt="Paul's Particles">
-        <img class="logo-light" src="/images/light_mode_logo.svg" alt="Paul's Particles">
-      </div class="nav-elements">    
+      <p class="disclaimer-text">AI has <b>NOT</b> been used for the writing of this webpage.</p>  
    </div>
      
 </div>

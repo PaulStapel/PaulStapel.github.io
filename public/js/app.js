@@ -2,6 +2,8 @@ const mode = localStorage.getItem("mode") || "";
 const toggle = document.querySelector(".toggle");
 const root = document.documentElement; 
 
+
+
 if (mode) {
   root.classList.add(mode);
 }
