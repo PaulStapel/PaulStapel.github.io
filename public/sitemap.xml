@@ -3,15 +3,24 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2026-06-27T10:44:44+02:00</lastmod>
+    <lastmod>2026-07-12T09:51:54+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/meditation/continue/</loc>
+    <lastmod>2026-07-12T09:51:54+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/general/</loc>
+    <lastmod>2026-07-12T09:51:54+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/meditation/</loc>
+    <lastmod>2026-07-12T09:51:54+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-07-12T09:51:54+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/difficulty-25/</loc>
     <lastmod>2026-06-27T10:44:44+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/lebanese/</loc>
-    <lastmod>2026-06-27T10:44:44+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
     <lastmod>2026-06-27T10:44:44+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/recipe/</loc>
@@ -75,9 +84,6 @@
     <lastmod>2026-04-04T14:04:55+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/meditation/</loc>
-    <lastmod>2026-04-04T14:04:55+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/meditation/</loc>
     <lastmod>2026-04-04T14:04:55+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/daily-drop/26-03-31/</loc>
@@ -730,9 +736,6 @@
   </url><url>
     <loc>http://localhost:1313/recipes/garlic-beans/</loc>
     <lastmod>2024-04-02T17:59:38+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/general/</loc>
-    <lastmod>2024-04-02T17:59:14+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/hello-world/</loc>
     <lastmod>2024-04-02T17:59:14+02:00</lastmod>
