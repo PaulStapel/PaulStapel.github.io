@@ -4,7 +4,7 @@ date: "2026-07-12T09:51:54+02:00"
 draft: false
 description: "On and On and On and On and On"
 categories: 
-    - general
+    - meditation
 ---
 
 > I'm a living thing, I will die, never to be born again. That is my motivation - 100m
