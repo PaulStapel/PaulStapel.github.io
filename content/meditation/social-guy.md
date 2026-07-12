@@ -8,7 +8,7 @@ categories:
     - Alina certified
 ---
 
-> A ruler's success should be measured by the success of his commonwealth - Me
+> "A ruler's success should be measured by the success of his commonwealth"  [Me]
 
 Once again I feel myself reaching beyond myself. Lately, I have found myself becoming more and more social, and I wanted to reflect on this. 
 

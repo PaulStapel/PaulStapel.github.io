@@ -7,7 +7,7 @@ categories:
     - meditation
 ---
 
-> I'm a living thing, I will die, never to be born again. That is my motivation - 100m
+> "I'm a living thing, I will die, never to be born again. That is my motivation" [100m]
 
 For the past 3 years, I have been studying Mathematics, Physics and Computer Science at university level. Having finally completed all three, it is time for the next step. This time, I will be working on Theoretical Physics and Mathematical Science at the University of Utrecht, hoping to dive deeper into specifically the physics and mathematics behind innovative computational devices. Once again, I am getting closer to becoming the inventor I want to be. Once again, I will continue. 
 
