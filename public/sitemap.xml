@@ -8,7 +8,7 @@
     <loc>http://localhost:1313/meditation/continue/</loc>
     <lastmod>2026-07-12T09:51:54+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/general/</loc>
+    <loc>http://localhost:1313/categories/meditation/</loc>
     <lastmod>2026-07-12T09:51:54+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/meditation/</loc>
@@ -81,9 +81,6 @@
     <lastmod>2026-05-11T22:40:32+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/meditation/back-to-basics/</loc>
-    <lastmod>2026-04-04T14:04:55+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/meditation/</loc>
     <lastmod>2026-04-04T14:04:55+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/daily-drop/26-03-31/</loc>
@@ -736,6 +733,9 @@
   </url><url>
     <loc>http://localhost:1313/recipes/garlic-beans/</loc>
     <lastmod>2024-04-02T17:59:38+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/general/</loc>
+    <lastmod>2024-04-02T17:59:14+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/hello-world/</loc>
     <lastmod>2024-04-02T17:59:14+02:00</lastmod>
