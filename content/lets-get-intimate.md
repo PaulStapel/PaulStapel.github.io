@@ -9,9 +9,11 @@ categories:
     - social-media
 ---
 
+(adapted from a linkeldinkel post)
+
 ## Ok, back off, not THAT intimate!
 
-I am just trying to say that communication on this platform feels robotic and stiff and samey and [is it just me or am I falling into redundancy?]. I feel like I don't really understand any of the people that message me, be they recruitor or peers/colleagues to add to my network. This makes many people on here incredibly boring, thus making the network, its posts and 'doing a business' on it incredibly boring. 
+I am just trying to say that communication on this platform [LinkedIn, not this blog, this blog is awesome] feels robotic and stiff and samey and [is it just me or am I falling into redundancy?]. I feel like I don't really understand any of the people that message me, be they recruitor or peers/colleagues to add to my network. This makes many people on here incredibly boring, thus making the network, its posts and 'doing a business' on it incredibly boring. 
 
 "Well, uh, duh! We are on LiNkeDiN, we are meant to NeTwoRK and be PrOFesSOnal!" - Some random guy probably 
 
