@@ -27,12 +27,12 @@ Order represents not only the fact that I have plans and ways to keep my life on
 Whenever I feel like everything is going according to plan, it gives me a great feeling of power over my life, and a confidence in myself and my future. When order is achieved daily, I can flow with whatever the day demands of me without having to worry about things to be. 
 
 ## Meditation
-Where order is mostly about the present and the future, meditation is more so focused on the present and the past. This is the dealing with hardships, mentally anchoring myself to the now and becoming calm and at rest with my current situation. Having maditation gives me a mental shield to deal with doubts, and it allows for me to focus my mind at only one thing at a time. 
+Where order is mostly about the present and the future, meditation is more so focused on the present and the past. This is the dealing with hardships, mentally anchoring myself to the now and becoming calm and at rest with my current situation. Having meditation gives me a mental shield to deal with doubts, and it allows for me to focus my mind at only one thing at a time. 
 
 The feeling of meditation brings peace into my life, and helps me realise things are allowed to go at a slower pace. When I practice meditation daily, I bring calm into my day and can always realign with what makes me truly content with life.
 
 ## Care
-Care extends to all entities in my life. Be it myself, other people or even my environment and working space, everything needs care. Allowing myself to give the care to these entities both rewards me with a blossoming environment and a feeling of fulfillment. It is in simply taking care of your skin, cooking for others or cleaning up your room. All these things clean the soul and allow me to start things fresh again. 
+Care extends to all entities in my life. Be it myself, other people or even my environment and working space, everything needs care. Allowing myself to give the care to these entities both rewards me with a blossoming environment and a feeling of fulfilment. It is in simply taking care of your skin, cooking for others or cleaning up your room. All these things clean the soul and allow me to start things fresh again. 
 
 Caring for myself and others is always one of the quickest ways for me to get out of an energy slump. When I don't need to know why I am feeling things, and just want to feel love and appreciation for myself and the world, caring for things is the pillar I rely on. When this is achieved daily, I can feel like each day is a new opportunity
 

@@ -21,7 +21,7 @@ Is it not love that makes our heart beat fast and our eyes see bright? As your h
 
 Is it not gaze that makes the real real and the imaginary also real? As the gaze of the people falls over us, the world grows and grows and grows. Is it not gaze that keeps us running? 
 
-Is it not music that makes our feet tap and our hips swing? Do we not lose ourselves in the rythm as harmony and emotion and company blend into one? Is it not music that keeps us running? 
+Is it not music that makes our feet tap and our hips swing? Do we not lose ourselves in the rhythm as harmony and emotion and company blend into one? Is it not music that keeps us running? 
 
 Is it not pride that keeps our heads high and our soul higher? As we feed ourselves on pride, we fill our head and empty our stomache. Is it not pride that keeps us running? 
 

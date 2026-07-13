@@ -6,8 +6,29 @@
     <description>Recent content in Categories on Paul&#39;s Particles</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 12 Jul 2026 09:51:54 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 13 Jul 2026 22:41:18 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Business</title>
+      <link>http://localhost:1313/categories/business/</link>
+      <pubDate>Mon, 13 Jul 2026 22:41:18 +0200</pubDate>
+      <guid>http://localhost:1313/categories/business/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cross-Post</title>
+      <link>http://localhost:1313/categories/cross-post/</link>
+      <pubDate>Mon, 13 Jul 2026 22:41:18 +0200</pubDate>
+      <guid>http://localhost:1313/categories/cross-post/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Social-Media</title>
+      <link>http://localhost:1313/categories/social-media/</link>
+      <pubDate>Mon, 13 Jul 2026 22:41:18 +0200</pubDate>
+      <guid>http://localhost:1313/categories/social-media/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Meditation</title>
       <link>http://localhost:1313/categories/meditation/</link>
