@@ -1,8 +1,8 @@
 ---
-title: "Uhmm..."
+title: "I would like to get intimate with you 😳"
 date: "2026-07-13T22:41:18+02:00"
 draft: false
-description: "I would like to get intimate with you 😳"
+description: "Uhmm..."
 categories: 
     - business
     - Cross-post
