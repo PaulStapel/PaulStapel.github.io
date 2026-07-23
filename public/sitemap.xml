@@ -2,31 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/categories/business/</loc>
-    <lastmod>2026-07-13T22:41:18+02:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2026-07-23T22:02:19+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/meditation/echo-of-an-echo-of-an-echo/</loc>
+    <lastmod>2026-07-23T22:02:19+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/meditation/</loc>
+    <lastmod>2026-07-23T22:02:19+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/meditation/</loc>
+    <lastmod>2026-07-23T22:02:19+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-07-23T22:02:19+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/meditation/boredom/</loc>
+    <lastmod>2026-07-23T21:17:09+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/business/</loc>
     <lastmod>2026-07-13T22:41:18+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/cross-post/</loc>
     <lastmod>2026-07-13T22:41:18+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost:1313/lets-get-intimate/</loc>
     <lastmod>2026-07-13T22:41:18+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/social-media/</loc>
     <lastmod>2026-07-13T22:41:18+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/lets-get-intimate/</loc>
-    <lastmod>2026-07-13T22:41:18+02:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/meditation/continue/</loc>
-    <lastmod>2026-07-12T09:51:54+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/meditation/</loc>
-    <lastmod>2026-07-12T09:51:54+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/meditation/</loc>
     <lastmod>2026-07-12T09:51:54+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/difficulty-25/</loc>
