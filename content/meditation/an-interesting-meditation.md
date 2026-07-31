@@ -17,6 +17,6 @@ And in every interest that lasts, yet still do they go up and down and up and do
 
 How interesting still, that I do not wish to further define these interests into some deeper truth, some deeper origin. Do we not in defining interest lose all that makes interest interesting? Does not interest go from a verb to a noun? Oh how I fear for interest to go from a verb to a noun!
 
-No, I have decided I will simply let interesting be. There must be a trust that what we consume naturally interests the mind. Let us either fully digest everything interesting this world has to offer, or throw it back up trying. How interesting but simple, that the quality of our excretion entirely dependens on the quality of our consumption! Let us turn gourmands and fine diners and gluttons and may everything we taste taste of ambrosia and nectar! 
+No, I have decided I will simply let interesting be. There must be a trust that what we consume naturally interests the mind. Let us either fully digest everything interesting this world has to offer, or throw it back up trying. How interesting but simple, that the quality of our excretion entirely dependens on the quality of our consumption! Let us turn gourmands and fine diners and gluttons and may everything interesting we taste taste of ambrosia and nectar! 
 
-In the words of Steve Jobs: "Stay hungry, stay foolish". 
+In the words of the ever-interesting Steve Jobs: "Stay hungry, stay foolish". 
