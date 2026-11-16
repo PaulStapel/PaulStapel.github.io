@@ -42,11 +42,18 @@ jobs:
       - name: Install Dart Sass
         run: |
           DART_SASS_VERSION=1.108.2
+
           curl -fsSL -o dart-sass.tar.gz \
             "https://github.com/sass/dart-sass/releases/download/${DART_SASS_VERSION}/dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz"
+
           tar -xzf dart-sass.tar.gz
+
+          sudo mkdir -p /opt
+          sudo rm -rf /opt/dart-sass
           sudo mv dart-sass /opt/dart-sass
+
           echo "/opt/dart-sass" >> "$GITHUB_PATH"
+
           sass --version
 
       - name: Checkout
