@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cross-Post on Paul&#39;s Particles</title>
-    <link>https://paulstapel.com/categories/cross-post/</link>
+    <link>http://localhost:1313/categories/cross-post/</link>
     <description>Recent content in Cross-Post on Paul&#39;s Particles</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 13 Jul 2026 22:41:18 +0200</lastBuildDate>
-    <atom:link href="https://paulstapel.com/categories/cross-post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/cross-post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>I would like to get intimate with you 😳</title>
-      <link>https://paulstapel.com/lets-get-intimate/</link>
+      <link>http://localhost:1313/lets-get-intimate/</link>
       <pubDate>Mon, 13 Jul 2026 22:41:18 +0200</pubDate>
-      <guid>https://paulstapel.com/lets-get-intimate/</guid>
+      <guid>http://localhost:1313/lets-get-intimate/</guid>
       <description>&lt;p&gt;(adapted from a linkeldinkel post)&lt;/p&gt;&#xA;&lt;h2 id=&#34;ok-back-off-not-that-intimate&#34;&gt;Ok, back off, not THAT intimate!&lt;/h2&gt;&#xA;&lt;p&gt;I am just trying to say that communication on this platform [LinkedIn, not this blog, this blog is awesome] feels robotic and stiff and samey and [is it just me or am I falling into redundancy?]. I feel like I don&amp;rsquo;t really understand any of the people that message me, be they recruitor or peers/colleagues to add to my network. This makes many people on here incredibly boring, thus making the network, its posts and &amp;lsquo;doing a business&amp;rsquo; on it incredibly boring.&lt;/p&gt;</description>
     </item>
   </channel>

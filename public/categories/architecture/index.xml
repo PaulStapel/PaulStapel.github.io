@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Architecture on Paul&#39;s Particles</title>
-    <link>https://paulstapel.com/categories/architecture/</link>
+    <link>http://localhost:1313/categories/architecture/</link>
     <description>Recent content in Architecture on Paul&#39;s Particles</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 14 Mar 2026 17:13:09 +0100</lastBuildDate>
-    <atom:link href="https://paulstapel.com/categories/architecture/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/architecture/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A/B Testing Frameworks</title>
-      <link>https://paulstapel.com/ab-testing-frameworks/</link>
+      <link>http://localhost:1313/ab-testing-frameworks/</link>
       <pubDate>Sat, 14 Mar 2026 17:13:09 +0100</pubDate>
-      <guid>https://paulstapel.com/ab-testing-frameworks/</guid>
+      <guid>http://localhost:1313/ab-testing-frameworks/</guid>
       <description>&lt;p&gt;As I recently published an article on how A/B testing could be implemented for things like algorithms, I wanted to expand on this by also considering a few frameworks that can enable me to actually implement this in a robust way. I don&amp;rsquo;t really like reinventing the wheel, and think it is wise to first look at solutions already available to me before deciding to roll my own.&lt;/p&gt;&#xA;&lt;h2 id=&#34;requirements&#34;&gt;Requirements&lt;/h2&gt;&#xA;&lt;p&gt;To start things off, as always with good architecture design, I&amp;rsquo;d like to discuss some of the requirements I have for such a framework. This way, we have a clear way to evaluate wether a certain framework is effective for what we want it to be. I have the following requirements:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Designing An Algorithm Framework for A/B testing</title>
-      <link>https://paulstapel.com/algorithm-testing-framework/</link>
+      <link>http://localhost:1313/algorithm-testing-framework/</link>
       <pubDate>Tue, 10 Mar 2026 10:42:39 +0100</pubDate>
-      <guid>https://paulstapel.com/algorithm-testing-framework/</guid>
+      <guid>http://localhost:1313/algorithm-testing-framework/</guid>
       <description>&lt;p&gt;This week, I worked on writing some code to abstract out algorithms for the purpose of making continuous development of these algorithms possible, as well as the A/B testing to compare different parameters or implementations. This was quite a considerable design choice for our program, and because of this, I wanted to share my thought process and the challenges I faced when building this.&lt;/p&gt;&#xA;&lt;h2 id=&#34;defining-algorithm-what-do-we-want-to-abstract&#34;&gt;Defining &amp;ldquo;algorithm&amp;rdquo; (what do we want to abstract?)&lt;/h2&gt;&#xA;&lt;p&gt;First off, I had to create some definition of an algorithm. Usually, this could be some pure function that takes an input and handles those inputs to finally return some output. This way, you could assure algorithms were stateless and thus easy to swap without having any nasty side effects. This was thus the first idea that came to mind as to what I would abstract out of the code.&lt;/p&gt;</description>
     </item>
   </channel>

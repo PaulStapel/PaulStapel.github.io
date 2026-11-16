@@ -65,7 +65,7 @@ It was you, and it was I.
 
 Perhaps the daybreak of tomorrow. \
 Brings an end to death her sorrow. \
-And engulfed in new flames doth a new life also lie. \ 
+And engulfed in new flames doth a new life also lie. \
 A brighter morning in the soul we'll christen - You and I.
 
 

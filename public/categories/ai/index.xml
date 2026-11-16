@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AI on Paul&#39;s Particles</title>
-    <link>https://paulstapel.com/categories/ai/</link>
+    <link>http://localhost:1313/categories/ai/</link>
     <description>Recent content in AI on Paul&#39;s Particles</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 24 May 2026 15:21:47 +0200</lastBuildDate>
-    <atom:link href="https://paulstapel.com/categories/ai/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/ai/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Some views on AI</title>
-      <link>https://paulstapel.com/context-engineering/</link>
+      <link>http://localhost:1313/context-engineering/</link>
       <pubDate>Sun, 24 May 2026 15:21:47 +0200</pubDate>
-      <guid>https://paulstapel.com/context-engineering/</guid>
+      <guid>http://localhost:1313/context-engineering/</guid>
       <description>&lt;p&gt;AI, you may love it, you may hate it, but it&amp;rsquo;s here. Just like the rest of the world, I have been exposed to Large Language Models for a few years now, but only recently have I been able to see through the hype or criticism to actually form a coherent stand on what I think AI can and can&amp;rsquo;t do. Most importantly, despite initial criticism, I have come to appreciate that there is quite some craftsmanship in getting AI to actually do what you want it to, and that boils down most strongly to context engineering.&lt;/p&gt;</description>
     </item>
   </channel>
